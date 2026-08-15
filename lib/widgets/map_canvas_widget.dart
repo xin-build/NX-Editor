@@ -565,32 +565,23 @@ class _MapCanvasPainter extends CustomPainter {
     final gpuRenderer = GpuTileRenderer();
     final tilePaint = Paint()..filterQuality = viewport.scale < 0.5 ? FilterQuality.low : FilterQuality.none;
 
-    // 3. 绘制 GPU 纹理瓦片 (含主世界未加载区块上的史莱姆区块渲染)
-    if (minCx <= maxCx && minCz <= maxCz) {
-      for (int cx = minCx; cx <= maxCx; cx++) {
-        for (int cz = minCz; cz <= maxCz; cz++) {
-          final tl = viewport.worldToScreen(Offset(cx * 16.0, cz * 16.0));
-          final br = viewport.worldToScreen(Offset((cx + 1) * 16.0, (cz + 1) * 16.0));
+    // 3. 绘制 Region 区域大单面 GPU 纹理瓦片 (1 Region = 16×16 区块 = 256×256 像素，每屏仅需十几个 Draw Call)
+    int minRx = (minCx / 16.0).floor();
+    int maxRx = (maxCx / 16.0).floor();
+    int minRz = (minCz / 16.0).floor();
+    int maxRz = (maxCz / 16.0).floor();
+
+    if (minRx <= maxRx && minRz <= maxRz) {
+      for (int rx = minRx; rx <= maxRx; rx++) {
+        for (int rz = minRz; rz <= maxRz; rz++) {
+          final tl = viewport.worldToScreen(Offset(rx * 256.0, rz * 256.0));
+          final br = viewport.worldToScreen(Offset((rx + 1) * 256.0, (rz + 1) * 256.0));
           final destRect = Rect.fromPoints(tl, br);
 
-          if (!dataManager.hasChunk(cx, cz, dimension)) {
-            // 仅主世界 (dimension == 0) 存在史莱姆区块，下界与末地不渲染
-            if (layerMode == MapLayerMode.slimeChunk && dimension == 0 && GpuTileRenderer.isSlimeChunk(cx, cz)) {
-              final slimeFillPaint = Paint()..color = const Color(0x444CAF50);
-              canvas.drawRect(destRect, slimeFillPaint);
-              final slimeBorderPaint = Paint()
-                ..color = const Color(0xCC4CAF50)
-                ..strokeWidth = 1.0
-                ..style = PaintingStyle.stroke;
-              canvas.drawRect(destRect, slimeBorderPaint);
-            }
-            continue;
-          }
-
-          gpuRenderer.drawChunkTile(
+          gpuRenderer.drawRegionTile(
             canvas: canvas,
-            chunkX: cx,
-            chunkZ: cz,
+            regionX: rx,
+            regionZ: rz,
             dimension: dimension,
             layerMode: layerMode,
             destRect: destRect,
@@ -598,6 +589,27 @@ class _MapCanvasPainter extends CustomPainter {
             paint: tilePaint,
             onTileReady: onRepaintRequest,
           );
+        }
+      }
+    }
+
+    // 史莱姆图层特化高亮叠加
+    if (layerMode == MapLayerMode.slimeChunk && dimension == 0 && viewport.scale >= 0.25 && minCx <= maxCx && minCz <= maxCz) {
+      for (int cx = minCx; cx <= maxCx; cx++) {
+        for (int cz = minCz; cz <= maxCz; cz++) {
+          if (GpuTileRenderer.isSlimeChunk(cx, cz)) {
+            final tl = viewport.worldToScreen(Offset(cx * 16.0, cz * 16.0));
+            final br = viewport.worldToScreen(Offset((cx + 1) * 16.0, (cz + 1) * 16.0));
+            final destRect = Rect.fromPoints(tl, br);
+
+            final slimeFillPaint = Paint()..color = const Color(0x444CAF50);
+            canvas.drawRect(destRect, slimeFillPaint);
+            final slimeBorderPaint = Paint()
+              ..color = const Color(0xCC4CAF50)
+              ..strokeWidth = 1.0
+              ..style = PaintingStyle.stroke;
+            canvas.drawRect(destRect, slimeBorderPaint);
+          }
         }
       }
     }

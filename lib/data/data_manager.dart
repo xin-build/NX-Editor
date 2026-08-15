@@ -13,6 +13,7 @@ import '../nbt/nbt_tags.dart';
 import '../services/backup_service.dart';
 import '../services/entity_service.dart';
 import '../services/storage_service.dart';
+import '../render/gpu_tile_renderer.dart';
 import 'chunk_cache_manager.dart';
 
 /// 存档事务基类 (Undo/Redo)
@@ -319,6 +320,10 @@ class DataManager extends ChangeNotifier {
 
       _isLoading = false;
       notifyListeners();
+
+      // 异步触发玩家周围 Region 大单面瓦片预加载 (实现零延迟开图)
+      GpuTileRenderer().preloadNearbyRegions(this, _playerX, _playerZ, _playerDimension);
+
       return true;
     } catch (e) {
       _error = '加载存档失败: $e';

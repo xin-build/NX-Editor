@@ -47,7 +47,7 @@ class HighResExporter {
 
         final destRect = Rect.fromLTWH(destLeft, destTop, destSize, destSize);
 
-        renderer.drawChunkTile(
+        await renderer.drawChunkTileDirect(
           canvas: canvas,
           chunkX: cx,
           chunkZ: cz,

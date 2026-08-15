@@ -21,7 +21,7 @@ class GpuTileRenderer {
 
   final Set<String> _pendingGenerations = {};
   int _inFlightCount = 0;
-  static const int _maxInFlight = 16;
+  static const int _maxInFlight = 8;
   Timer? _batchNotifyTimer;
   final Set<VoidCallback> _pendingCallbacks = {};
 
@@ -41,8 +41,32 @@ class GpuTileRenderer {
     }
   }
 
-  /// 绘制单个区块的 GPU 纹理瓦片 (含 LOD 极速宏观降级)
-  void drawChunkTile({
+  /// 后台智能预加载玩家周围的 3×3 Region 大单面 (覆盖 48×48=2304 个区块)
+  void preloadNearbyRegions(DataManager dm, double playerX, double playerZ, int dimension, [MapLayerMode? layer]) {
+    final mode = layer ?? AppSettings().defaultLayer;
+    final rx = (playerX / 256.0).floor();
+    final rz = (playerZ / 256.0).floor();
+
+    for (int dx = -1; dx <= 1; dx++) {
+      for (int dz = -1; dz <= 1; dz++) {
+        final targetRx = rx + dx;
+        final targetRz = rz + dz;
+        final cached = ChunkCacheManager().getGpuRegionTile(targetRx, targetRz, dimension, mode);
+        if (cached == null) {
+          _scheduleRegionGeneration(
+            regionX: targetRx,
+            regionZ: targetRz,
+            dimension: dimension,
+            layerMode: mode,
+            dataManager: dm,
+          );
+        }
+      }
+    }
+  }
+
+  /// 绘制单个区块的像素 (用于高清图片导出等精确区块场景)
+  Future<void> drawChunkTileDirect({
     required Canvas canvas,
     required int chunkX,
     required int chunkZ,
@@ -51,32 +75,65 @@ class GpuTileRenderer {
     required Rect destRect,
     required DataManager dataManager,
     required Paint paint,
+  }) async {
+    if (!dataManager.hasChunk(chunkX, chunkZ, dimension)) return;
+    final pixels = await _generateChunkPixels(chunkX, chunkZ, dimension, layerMode, dataManager);
+    final completer = Completer<ui.Image>();
+    ui.decodeImageFromPixels(
+      pixels,
+      16,
+      16,
+      ui.PixelFormat.rgba8888,
+      completer.complete,
+    );
+    final img = await completer.future;
+    const srcRect = Rect.fromLTWH(0, 0, 16, 16);
+    canvas.drawImageRect(img, srcRect, destRect, paint);
+    img.dispose();
+  }
+
+  /// 绘制单个 Region 区域大单面 (1 Region = 16×16 区块 = 256×256 像素，含 150ms 平滑淡入过渡)
+  void drawRegionTile({
+    required Canvas canvas,
+    required int regionX,
+    required int regionZ,
+    required int dimension,
+    required MapLayerMode layerMode,
+    required Rect destRect,
+    required DataManager dataManager,
+    required Paint paint,
     VoidCallback? onTileReady,
   }) {
-    // 关键：未在数据库中生成的区块，坚决不进行渲染或占位
-    if (!dataManager.hasChunk(chunkX, chunkZ, dimension)) {
-      return;
-    }
-
     final cache = ChunkCacheManager();
-    final tile = cache.getGpuTile(chunkX, chunkZ, dimension, layerMode);
+    final tile = cache.getGpuRegionTile(regionX, regionZ, dimension, layerMode);
 
     if (tile != null) {
-      // GPU 纹理硬件直绘
-      const srcRect = Rect.fromLTWH(0, 0, 16, 16);
-      canvas.drawImageRect(tile.gpuImage, srcRect, destRect, paint);
+      // 150ms 优雅淡入过渡
+      final now = DateTime.now().millisecondsSinceEpoch;
+      final elapsed = now - tile.loadedTimestamp;
+      double alpha = 1.0;
+      if (elapsed < 150) {
+        alpha = (elapsed / 150.0).clamp(0.05, 1.0);
+        Timer.run(() => onTileReady?.call());
+      }
+
+      final drawPaint = Paint()
+        ..filterQuality = paint.filterQuality
+        ..color = Color.fromRGBO(255, 255, 255, alpha);
+
+      const srcRect = Rect.fromLTWH(0, 0, 256, 256);
+      canvas.drawImageRect(tile.gpuImage, srcRect, destRect, drawPaint);
     } else {
-      // LOD 宏观远景 (单区块屏幕尺寸 < 4px): 直接使用维度基础地形色直绘，杜绝远景瞬间并发创建数万个微型纹理卡死
-      final isMacroView = destRect.width < 4.0;
+      // 底部双缓冲宏观基色，确保瓦片生成中不露黑底
       final fallbackColor = dimension == 1
-          ? const Color(0xFF6B1D1D)
-          : (dimension == 2 ? const Color(0xFFD6C896) : const Color(0xFF3B7A38));
+          ? const Color(0xFF5A1616)
+          : (dimension == 2 ? const Color(0xFFC7B882) : const Color(0xFF2E6B2C));
       canvas.drawRect(destRect, Paint()..color = fallbackColor);
 
-      if (!isMacroView && _inFlightCount < _maxInFlight && _pendingGenerations.length < 256) {
-        _scheduleTileGeneration(
-          chunkX: chunkX,
-          chunkZ: chunkZ,
+      if (_inFlightCount < _maxInFlight && _pendingGenerations.length < 64) {
+        _scheduleRegionGeneration(
+          regionX: regionX,
+          regionZ: regionZ,
           dimension: dimension,
           layerMode: layerMode,
           dataManager: dataManager,
@@ -86,34 +143,32 @@ class GpuTileRenderer {
     }
   }
 
-  void _scheduleTileGeneration({
-    required int chunkX,
-    required int chunkZ,
+  void _scheduleRegionGeneration({
+    required int regionX,
+    required int regionZ,
     required int dimension,
     required MapLayerMode layerMode,
     required DataManager dataManager,
     VoidCallback? onTileReady,
   }) {
-    if (!dataManager.hasChunk(chunkX, chunkZ, dimension)) return;
-
-    final key = '$dimension:${layerMode.name}:$chunkX,$chunkZ';
+    final key = '$dimension:${layerMode.name}:$regionX,$regionZ';
     if (_pendingGenerations.contains(key)) return;
     _pendingGenerations.add(key);
     _inFlightCount++;
 
     Future(() async {
       try {
-        final pixels = await _generateChunkPixels(chunkX, chunkZ, dimension, layerMode, dataManager);
+        final pixels = await _generateRegionPixels(regionX, regionZ, dimension, layerMode, dataManager);
         final completer = Completer<ui.Image>();
         ui.decodeImageFromPixels(
           pixels,
-          16,
-          16,
+          256,
+          256,
           ui.PixelFormat.rgba8888,
           completer.complete,
         );
         final gpuImage = await completer.future;
-        ChunkCacheManager().putGpuTile(chunkX, chunkZ, dimension, layerMode, gpuImage);
+        ChunkCacheManager().putGpuRegionTile(regionX, regionZ, dimension, layerMode, gpuImage);
         _dispatchTileReady(onTileReady);
       } catch (_) {
       } finally {
@@ -121,6 +176,73 @@ class GpuTileRenderer {
         _inFlightCount = (_inFlightCount - 1).clamp(0, 999);
       }
     });
+  }
+
+  /// 生成整个 Region (256×256 像素) 的 RGBA 图像缓冲区
+  Future<Uint8List> _generateRegionPixels(
+    int rx,
+    int rz,
+    int dim,
+    MapLayerMode layer,
+    DataManager dm,
+  ) async {
+    final regionPixels = Uint8List(256 * 256 * 4);
+    final fallbackColor = dim == 1
+        ? const Color(0xFF5A1616)
+        : (dim == 2 ? const Color(0xFFC7B882) : const Color(0xFF2E6B2C));
+
+    final defaultR = (fallbackColor.r * 255).round();
+    final defaultG = (fallbackColor.g * 255).round();
+    final defaultB = (fallbackColor.b * 255).round();
+
+    for (int blockZ = 0; blockZ < 256; blockZ++) {
+      final cz = rz * 16 + (blockZ >> 4);
+
+      for (int blockX = 0; blockX < 256; blockX++) {
+        final cx = rx * 16 + (blockX >> 4);
+        final outIdx = (blockZ * 256 + blockX) * 4;
+
+        if (!dm.hasChunk(cx, cz, dim)) {
+          regionPixels[outIdx] = 0;
+          regionPixels[outIdx + 1] = 0;
+          regionPixels[outIdx + 2] = 0;
+          regionPixels[outIdx + 3] = 0;
+          continue;
+        }
+
+        regionPixels[outIdx] = defaultR;
+        regionPixels[outIdx + 1] = defaultG;
+        regionPixels[outIdx + 2] = defaultB;
+        regionPixels[outIdx + 3] = 255;
+      }
+    }
+
+    // 针对 Region 内部实际存在的区块，批量快速解析其 16×16 地形像素并写入对应位置
+    for (int cz = rz * 16; cz < rz * 16 + 16; cz++) {
+      for (int cx = rx * 16; cx < rx * 16 + 16; cx++) {
+        if (!dm.hasChunk(cx, cz, dim)) continue;
+
+        final chunkPixels = await _generateChunkPixels(cx, cz, dim, layer, dm);
+        final baseBlockX = (cx - rx * 16) * 16;
+        final baseBlockZ = (cz - rz * 16) * 16;
+
+        for (int lz = 0; lz < 16; lz++) {
+          final targetZ = baseBlockZ + lz;
+          for (int lx = 0; lx < 16; lx++) {
+            final targetX = baseBlockX + lx;
+            final srcIdx = (lz * 16 + lx) * 4;
+            final dstIdx = (targetZ * 256 + targetX) * 4;
+
+            regionPixels[dstIdx] = chunkPixels[srcIdx];
+            regionPixels[dstIdx + 1] = chunkPixels[srcIdx + 1];
+            regionPixels[dstIdx + 2] = chunkPixels[srcIdx + 2];
+            regionPixels[dstIdx + 3] = chunkPixels[srcIdx + 3];
+          }
+        }
+      }
+    }
+
+    return regionPixels;
   }
 
   /// 生成 16×16 RGBA 像素数据 (1024 字节)
