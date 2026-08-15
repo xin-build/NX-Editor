@@ -1,0 +1,6932 @@
+[
+    {
+        "id": "stone",
+        "name": "石头",
+        "color": "#626262",
+        "rgb": [
+            98,
+            98,
+            98
+        ]
+    },
+    {
+        "id": "dirt",
+        "name": "泥土",
+        "color": "#694b34",
+        "rgb": [
+            105,
+            75,
+            52
+        ]
+    },
+    {
+        "id": "cobblestone",
+        "name": "圆石",
+        "color": "#676666",
+        "rgb": [
+            103,
+            102,
+            102
+        ]
+    },
+    {
+        "id": "oak_planks",
+        "name": "橡木木板",
+        "color": "#7e653d",
+        "rgb": [
+            126,
+            101,
+            61
+        ]
+    },
+    {
+        "id": "bedrock",
+        "name": "基岩",
+        "color": "#424242",
+        "rgb": [
+            66,
+            66,
+            66
+        ]
+    },
+    {
+        "id": "flowing_water",
+        "name": "水",
+        "color": "#1b5072",
+        "rgb": [
+            27,
+            80,
+            114
+        ]
+    },
+    {
+        "id": "water",
+        "name": "静态水",
+        "color": "#1b5072",
+        "rgb": [
+            27,
+            80,
+            114
+        ]
+    },
+    {
+        "id": "flowing_lava",
+        "name": "熔岩",
+        "color": "#cc5813",
+        "rgb": [
+            204,
+            88,
+            19
+        ]
+    },
+    {
+        "id": "lava",
+        "name": "静态熔岩",
+        "color": "#cc5813",
+        "rgb": [
+            204,
+            88,
+            19
+        ]
+    },
+    {
+        "id": "sand",
+        "name": "沙子",
+        "color": "#aba27f",
+        "rgb": [
+            171,
+            162,
+            127
+        ]
+    },
+    {
+        "id": "gravel",
+        "name": "沙砾",
+        "color": "#676363",
+        "rgb": [
+            103,
+            99,
+            99
+        ]
+    },
+    {
+        "id": "gold_ore",
+        "name": "金矿石",
+        "color": "#706854",
+        "rgb": [
+            112,
+            104,
+            84
+        ]
+    },
+    {
+        "id": "iron_ore",
+        "name": "铁矿石",
+        "color": "#6a6560",
+        "rgb": [
+            106,
+            101,
+            96
+        ]
+    },
+    {
+        "id": "coal_ore",
+        "name": "煤矿石",
+        "color": "#525352",
+        "rgb": [
+            82,
+            83,
+            82
+        ]
+    },
+    {
+        "id": "oak_log",
+        "name": "橡木原木",
+        "color": "#604c2d",
+        "rgb": [
+            96,
+            76,
+            45
+        ]
+    },
+    {
+        "id": "sponge",
+        "name": "海绵",
+        "color": "#99963a",
+        "rgb": [
+            153,
+            150,
+            58
+        ]
+    },
+    {
+        "id": "glass",
+        "name": "玻璃",
+        "color": "#8ca8ab",
+        "rgb": [
+            140,
+            168,
+            171
+        ]
+    },
+    {
+        "id": "lapis_ore",
+        "name": "青金石矿石",
+        "color": "#555c6e",
+        "rgb": [
+            85,
+            92,
+            110
+        ]
+    },
+    {
+        "id": "lapis_block",
+        "name": "青金石块",
+        "color": "#17356e",
+        "rgb": [
+            23,
+            53,
+            110
+        ]
+    },
+    {
+        "id": "dispenser",
+        "name": "发射器",
+        "color": "#595959",
+        "rgb": [
+            89,
+            89,
+            89
+        ]
+    },
+    {
+        "id": "sandstone",
+        "name": "砂岩",
+        "color": "#aba27e",
+        "rgb": [
+            171,
+            162,
+            126
+        ]
+    },
+    {
+        "id": "noteblock",
+        "name": "音符盒",
+        "color": "#432d1f",
+        "rgb": [
+            67,
+            45,
+            31
+        ]
+    },
+    {
+        "id": "bed",
+        "name": "床",
+        "color": "#afaca5",
+        "rgb": [
+            175,
+            172,
+            165
+        ]
+    },
+    {
+        "id": "sticky_piston",
+        "name": "黏性活塞",
+        "color": "#575c49",
+        "rgb": [
+            87,
+            92,
+            73
+        ]
+    },
+    {
+        "id": "piston",
+        "name": "活塞",
+        "color": "#5f5647",
+        "rgb": [
+            95,
+            86,
+            71
+        ]
+    },
+    {
+        "id": "white_wool",
+        "name": "白色羊毛",
+        "color": "#b7b9b9",
+        "rgb": [
+            183,
+            185,
+            185
+        ]
+    },
+    {
+        "id": "element_0",
+        "name": "未知元素（???）",
+        "color": "#4d454e",
+        "rgb": [
+            77,
+            69,
+            78
+        ]
+    },
+    {
+        "id": "poppy",
+        "name": "虞美人",
+        "color": "#784327",
+        "rgb": [
+            120,
+            67,
+            39
+        ]
+    },
+    {
+        "id": "gold_block",
+        "name": "金块",
+        "color": "#c0a12f",
+        "rgb": [
+            192,
+            161,
+            47
+        ]
+    },
+    {
+        "id": "iron_block",
+        "name": "铁块",
+        "color": "#ababab",
+        "rgb": [
+            171,
+            171,
+            171
+        ]
+    },
+    {
+        "id": "smooth_stone_double_slab",
+        "name": "平滑石头双层台阶",
+        "color": "#848484",
+        "rgb": [
+            132,
+            132,
+            132
+        ]
+    },
+    {
+        "id": "brick_block",
+        "name": "红砖块",
+        "color": "#764d41",
+        "rgb": [
+            118,
+            77,
+            65
+        ]
+    },
+    {
+        "id": "tnt",
+        "name": "TNT",
+        "color": "#853b37",
+        "rgb": [
+            133,
+            59,
+            55
+        ]
+    },
+    {
+        "id": "mossy_cobblestone",
+        "name": "苔石",
+        "color": "#565c4a",
+        "rgb": [
+            86,
+            92,
+            74
+        ]
+    },
+    {
+        "id": "obsidian",
+        "name": "黑曜石",
+        "color": "#0b0813",
+        "rgb": [
+            11,
+            8,
+            19
+        ]
+    },
+    {
+        "id": "diamond_ore",
+        "name": "钻石矿石",
+        "color": "#5f6e6d",
+        "rgb": [
+            95,
+            110,
+            109
+        ]
+    },
+    {
+        "id": "diamond_block",
+        "name": "钻石块",
+        "color": "#4ab8b2",
+        "rgb": [
+            74,
+            184,
+            178
+        ]
+    },
+    {
+        "id": "crafting_table",
+        "name": "工作台",
+        "color": "#5e462b",
+        "rgb": [
+            94,
+            70,
+            43
+        ]
+    },
+    {
+        "id": "furnace",
+        "name": "熔炉",
+        "color": "#515050",
+        "rgb": [
+            81,
+            80,
+            80
+        ]
+    },
+    {
+        "id": "lit_furnace",
+        "name": "燃烧中的熔炉",
+        "color": "#595651",
+        "rgb": [
+            89,
+            86,
+            81
+        ]
+    },
+    {
+        "id": "ladder",
+        "name": "梯子",
+        "color": "#775c34",
+        "rgb": [
+            119,
+            92,
+            52
+        ]
+    },
+    {
+        "id": "lever",
+        "name": "拉杆",
+        "color": "#5e5c5a",
+        "rgb": [
+            94,
+            92,
+            90
+        ]
+    },
+    {
+        "id": "redstone_ore",
+        "name": "红石矿石",
+        "color": "#715959",
+        "rgb": [
+            113,
+            89,
+            89
+        ]
+    },
+    {
+        "id": "lit_redstone_ore",
+        "name": "红石矿石",
+        "color": "#715959",
+        "rgb": [
+            113,
+            89,
+            89
+        ]
+    },
+    {
+        "id": "snow_layer",
+        "name": "雪",
+        "color": "#e5e9eb",
+        "rgb": [
+            229,
+            233,
+            235
+        ]
+    },
+    {
+        "id": "ice",
+        "name": "冰",
+        "color": "#728fc6",
+        "rgb": [
+            114,
+            143,
+            198
+        ]
+    },
+    {
+        "id": "snow",
+        "name": "雪块",
+        "color": "#c3c7c7",
+        "rgb": [
+            195,
+            199,
+            199
+        ]
+    },
+    {
+        "id": "cactus",
+        "name": "仙人掌",
+        "color": "#426221",
+        "rgb": [
+            66,
+            98,
+            33
+        ]
+    },
+    {
+        "id": "clay",
+        "name": "黏土",
+        "color": "#7e828c",
+        "rgb": [
+            126,
+            130,
+            140
+        ]
+    },
+    {
+        "id": "jukebox",
+        "name": "唱片机",
+        "color": "#442e21",
+        "rgb": [
+            68,
+            46,
+            33
+        ]
+    },
+    {
+        "id": "pumpkin",
+        "name": "南瓜",
+        "color": "#9a5b13",
+        "rgb": [
+            154,
+            91,
+            19
+        ]
+    },
+    {
+        "id": "netherrack",
+        "name": "下界岩",
+        "color": "#4c1d1d",
+        "rgb": [
+            76,
+            29,
+            29
+        ]
+    },
+    {
+        "id": "glowstone",
+        "name": "荧石",
+        "color": "#876742",
+        "rgb": [
+            135,
+            103,
+            66
+        ]
+    },
+    {
+        "id": "portal",
+        "name": "下界传送门",
+        "color": "#954beb",
+        "rgb": [
+            149,
+            75,
+            235
+        ]
+    },
+    {
+        "id": "lit_pumpkin",
+        "name": "南瓜灯",
+        "color": "#9f651b",
+        "rgb": [
+            159,
+            101,
+            27
+        ]
+    },
+    {
+        "id": "invisible_bedrock",
+        "name": "隐形基岩",
+        "color": "#000000",
+        "rgb": [
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "id": "trapdoor",
+        "name": "橡木活板门",
+        "color": "#6d5731",
+        "rgb": [
+            109,
+            87,
+            49
+        ]
+    },
+    {
+        "id": "infested_stone",
+        "name": "虫蚀石头",
+        "color": "#626262",
+        "rgb": [
+            98,
+            98,
+            98
+        ]
+    },
+    {
+        "id": "stone_bricks",
+        "name": "石砖",
+        "color": "#5f5f5f",
+        "rgb": [
+            95,
+            95,
+            95
+        ]
+    },
+    {
+        "id": "brown_mushroom_block",
+        "name": "棕色蘑菇方块",
+        "color": "#795a41",
+        "rgb": [
+            121,
+            90,
+            65
+        ]
+    },
+    {
+        "id": "red_mushroom_block",
+        "name": "红色蘑菇方块",
+        "color": "#a32422",
+        "rgb": [
+            163,
+            36,
+            34
+        ]
+    },
+    {
+        "id": "melon_block",
+        "name": "西瓜",
+        "color": "#74761d",
+        "rgb": [
+            116,
+            118,
+            29
+        ]
+    },
+    {
+        "id": "pumpkin_stem",
+        "name": "南瓜茎",
+        "color": "#6a5e0c",
+        "rgb": [
+            106,
+            94,
+            12
+        ]
+    },
+    {
+        "id": "melon_stem",
+        "name": "西瓜茎",
+        "color": "#6a5e0c",
+        "rgb": [
+            106,
+            94,
+            12
+        ]
+    },
+    {
+        "id": "mycelium",
+        "name": "菌丝体",
+        "color": "#57463f",
+        "rgb": [
+            87,
+            70,
+            63
+        ]
+    },
+    {
+        "id": "waterlily",
+        "name": "睡莲",
+        "color": "#103f18",
+        "rgb": [
+            16,
+            63,
+            24
+        ]
+    },
+    {
+        "id": "nether_brick",
+        "name": "下界砖",
+        "color": "#221013",
+        "rgb": [
+            34,
+            16,
+            19
+        ]
+    },
+    {
+        "id": "nether_wart",
+        "name": "下界疣",
+        "color": "#711111",
+        "rgb": [
+            113,
+            17,
+            17
+        ]
+    },
+    {
+        "id": "end_portal",
+        "name": "末地传送门",
+        "color": "#070f19",
+        "rgb": [
+            7,
+            15,
+            25
+        ]
+    },
+    {
+        "id": "end_stone",
+        "name": "末地石",
+        "color": "#acae7b",
+        "rgb": [
+            172,
+            174,
+            123
+        ]
+    },
+    {
+        "id": "redstone_lamp",
+        "name": "红石灯",
+        "color": "#482916",
+        "rgb": [
+            72,
+            41,
+            22
+        ]
+    },
+    {
+        "id": "lit_redstone_lamp",
+        "name": "点亮的红石灯",
+        "color": "#6d4d2e",
+        "rgb": [
+            109,
+            77,
+            46
+        ]
+    },
+    {
+        "id": "dropper",
+        "name": "投掷器",
+        "color": "#595959",
+        "rgb": [
+            89,
+            89,
+            89
+        ]
+    },
+    {
+        "id": "emerald_ore",
+        "name": "绿宝石矿石",
+        "color": "#566b5c",
+        "rgb": [
+            86,
+            107,
+            92
+        ]
+    },
+    {
+        "id": "tripwire_hook",
+        "name": "绊线钩",
+        "color": "#7c6c51",
+        "rgb": [
+            124,
+            108,
+            81
+        ]
+    },
+    {
+        "id": "trip_wire",
+        "name": "绊线",
+        "color": "#909090",
+        "rgb": [
+            144,
+            144,
+            144
+        ]
+    },
+    {
+        "id": "emerald_block",
+        "name": "绿宝石块",
+        "color": "#21a044",
+        "rgb": [
+            33,
+            160,
+            68
+        ]
+    },
+    {
+        "id": "command_block",
+        "name": "脉冲型命令方块",
+        "color": "#8c6852",
+        "rgb": [
+            140,
+            104,
+            82
+        ]
+    },
+    {
+        "id": "beacon",
+        "name": "信标",
+        "color": "#6b9b9b",
+        "rgb": [
+            107,
+            155,
+            155
+        ]
+    },
+    {
+        "id": "anvil",
+        "name": "铁砧",
+        "color": "#383839",
+        "rgb": [
+            56,
+            56,
+            57
+        ]
+    },
+    {
+        "id": "redstone_block",
+        "name": "红石块",
+        "color": "#8c1304",
+        "rgb": [
+            140,
+            19,
+            4
+        ]
+    },
+    {
+        "id": "quartz_ore",
+        "name": "下界石英矿石",
+        "color": "#5b322f",
+        "rgb": [
+            91,
+            50,
+            47
+        ]
+    },
+    {
+        "id": "quartz_block",
+        "name": "石英块",
+        "color": "#b9b5af",
+        "rgb": [
+            185,
+            181,
+            175
+        ]
+    },
+    {
+        "id": "oak_double_slab",
+        "name": "橡木双层台阶",
+        "color": "#7e653d",
+        "rgb": [
+            126,
+            101,
+            61
+        ]
+    },
+    {
+        "id": "white_terracotta",
+        "name": "白色陶瓦",
+        "color": "#a48b7e",
+        "rgb": [
+            164,
+            139,
+            126
+        ]
+    },
+    {
+        "id": "acacia_log",
+        "name": "金合欢原木",
+        "color": "#5d493b",
+        "rgb": [
+            93,
+            73,
+            59
+        ]
+    },
+    {
+        "id": "slime",
+        "name": "黏液块",
+        "color": "#589849",
+        "rgb": [
+            88,
+            152,
+            73
+        ]
+    },
+    {
+        "id": "glow_stick",
+        "name": "荧光棒",
+        "color": "#b33231",
+        "rgb": [
+            179,
+            50,
+            49
+        ]
+    },
+    {
+        "id": "prismarine",
+        "name": "海晶石",
+        "color": "#4e8075",
+        "rgb": [
+            78,
+            128,
+            117
+        ]
+    },
+    {
+        "id": "hay_block",
+        "name": "干草捆",
+        "color": "#836d17",
+        "rgb": [
+            131,
+            109,
+            23
+        ]
+    },
+    {
+        "id": "hardened_clay",
+        "name": "陶瓦",
+        "color": "#784a36",
+        "rgb": [
+            120,
+            74,
+            54
+        ]
+    },
+    {
+        "id": "coal_block",
+        "name": "煤炭块",
+        "color": "#0c0c0c",
+        "rgb": [
+            12,
+            12,
+            12
+        ]
+    },
+    {
+        "id": "packed_ice",
+        "name": "浮冰",
+        "color": "#6f8ec6",
+        "rgb": [
+            111,
+            142,
+            198
+        ]
+    },
+    {
+        "id": "red_sandstone",
+        "name": "红砂岩",
+        "color": "#904d17",
+        "rgb": [
+            144,
+            77,
+            23
+        ]
+    },
+    {
+        "id": "red_sandstone_double_slab",
+        "name": "红砂岩双层台阶",
+        "color": "#904d17",
+        "rgb": [
+            144,
+            77,
+            23
+        ]
+    },
+    {
+        "id": "repeating_command_block",
+        "name": "循环型命令方块",
+        "color": "#635588",
+        "rgb": [
+            99,
+            85,
+            136
+        ]
+    },
+    {
+        "id": "chemical_heat",
+        "name": "加热块",
+        "color": "#3d2b27",
+        "rgb": [
+            61,
+            43,
+            39
+        ]
+    },
+    {
+        "id": "grass_path",
+        "name": "土径",
+        "color": "#735937",
+        "rgb": [
+            115,
+            89,
+            55
+        ]
+    },
+    {
+        "id": "purpur_block",
+        "name": "紫珀块",
+        "color": "#856284",
+        "rgb": [
+            133,
+            98,
+            132
+        ]
+    },
+    {
+        "id": "end_bricks",
+        "name": "末地石砖",
+        "color": "#aaae7e",
+        "rgb": [
+            170,
+            174,
+            126
+        ]
+    },
+    {
+        "id": "frosted_ice",
+        "name": "霜冰",
+        "color": "#6f91cc",
+        "rgb": [
+            111,
+            145,
+            204
+        ]
+    },
+    {
+        "id": "end_gateway",
+        "name": "末地折跃门",
+        "color": "#071019",
+        "rgb": [
+            7,
+            16,
+            25
+        ]
+    },
+    {
+        "id": "allow",
+        "name": "允许方块",
+        "color": "#6b5b43",
+        "rgb": [
+            107,
+            91,
+            67
+        ]
+    },
+    {
+        "id": "deny",
+        "name": "拒绝方块",
+        "color": "#585858",
+        "rgb": [
+            88,
+            88,
+            88
+        ]
+    },
+    {
+        "id": "border_block",
+        "name": "边界",
+        "color": "#8c2a22",
+        "rgb": [
+            140,
+            42,
+            34
+        ]
+    },
+    {
+        "id": "magma",
+        "name": "岩浆块",
+        "color": "#703118",
+        "rgb": [
+            112,
+            49,
+            24
+        ]
+    },
+    {
+        "id": "nether_wart_block",
+        "name": "下界疣块",
+        "color": "#5a0202",
+        "rgb": [
+            90,
+            2,
+            2
+        ]
+    },
+    {
+        "id": "red_nether_brick",
+        "name": "红色下界砖块",
+        "color": "#370607",
+        "rgb": [
+            55,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "bone_block",
+        "name": "骨块",
+        "color": "#b0ad9c",
+        "rgb": [
+            176,
+            173,
+            156
+        ]
+    },
+    {
+        "id": "purple_glazed_terracotta",
+        "name": "紫色带釉陶瓦",
+        "color": "#542376",
+        "rgb": [
+            84,
+            35,
+            118
+        ]
+    },
+    {
+        "id": "white_glazed_terracotta",
+        "name": "白色带釉陶瓦",
+        "color": "#96a8a0",
+        "rgb": [
+            150,
+            168,
+            160
+        ]
+    },
+    {
+        "id": "orange_glazed_terracotta",
+        "name": "橙色带釉陶瓦",
+        "color": "#7c754a",
+        "rgb": [
+            124,
+            117,
+            74
+        ]
+    },
+    {
+        "id": "magenta_glazed_terracotta",
+        "name": "品红色带釉陶瓦",
+        "color": "#a54f99",
+        "rgb": [
+            165,
+            79,
+            153
+        ]
+    },
+    {
+        "id": "light_blue_glazed_terracotta",
+        "name": "淡蓝色带釉陶瓦",
+        "color": "#4a81a7",
+        "rgb": [
+            74,
+            129,
+            167
+        ]
+    },
+    {
+        "id": "yellow_glazed_terracotta",
+        "name": "黄色带釉陶瓦",
+        "color": "#b99847",
+        "rgb": [
+            185,
+            152,
+            71
+        ]
+    },
+    {
+        "id": "lime_glazed_terracotta",
+        "name": "黄绿色带釉陶瓦",
+        "color": "#7f9c2b",
+        "rgb": [
+            127,
+            156,
+            43
+        ]
+    },
+    {
+        "id": "pink_glazed_terracotta",
+        "name": "粉红色带釉陶瓦",
+        "color": "#b97a90",
+        "rgb": [
+            185,
+            122,
+            144
+        ]
+    },
+    {
+        "id": "gray_glazed_terracotta",
+        "name": "灰色带釉陶瓦",
+        "color": "#41474a",
+        "rgb": [
+            65,
+            71,
+            74
+        ]
+    },
+    {
+        "id": "silver_glazed_terracotta",
+        "name": "淡灰色带釉陶瓦",
+        "color": "#718386",
+        "rgb": [
+            113,
+            131,
+            134
+        ]
+    },
+    {
+        "id": "cyan_glazed_terracotta",
+        "name": "青色带釉陶瓦",
+        "color": "#2a5e64",
+        "rgb": [
+            42,
+            94,
+            100
+        ]
+    },
+    {
+        "id": "chalkboard",
+        "name": "黑板",
+        "color": "#232116",
+        "rgb": [
+            35,
+            33,
+            22
+        ]
+    },
+    {
+        "id": "blue_glazed_terracotta",
+        "name": "蓝色带釉陶瓦",
+        "color": "#25326e",
+        "rgb": [
+            37,
+            50,
+            110
+        ]
+    },
+    {
+        "id": "brown_glazed_terracotta",
+        "name": "棕色带釉陶瓦",
+        "color": "#5f5445",
+        "rgb": [
+            95,
+            84,
+            69
+        ]
+    },
+    {
+        "id": "green_glazed_terracotta",
+        "name": "绿色带釉陶瓦",
+        "color": "#5d7137",
+        "rgb": [
+            93,
+            113,
+            55
+        ]
+    },
+    {
+        "id": "red_glazed_terracotta",
+        "name": "红色带釉陶瓦",
+        "color": "#8f2e29",
+        "rgb": [
+            143,
+            46,
+            41
+        ]
+    },
+    {
+        "id": "black_glazed_terracotta",
+        "name": "黑色带釉陶瓦",
+        "color": "#351719",
+        "rgb": [
+            53,
+            23,
+            25
+        ]
+    },
+    {
+        "id": "white_concrete",
+        "name": "白色混凝土",
+        "color": "#a2a7a7",
+        "rgb": [
+            162,
+            167,
+            167
+        ]
+    },
+    {
+        "id": "white_concrete_powder",
+        "name": "白色混凝土粉末",
+        "color": "#b0b2b2",
+        "rgb": [
+            176,
+            178,
+            178
+        ]
+    },
+    {
+        "id": "compound_creator",
+        "name": "化合物创建器",
+        "color": "#6f6758",
+        "rgb": [
+            111,
+            103,
+            88
+        ]
+    },
+    {
+        "id": "chorus_plant",
+        "name": "紫颂植株",
+        "color": "#482c49",
+        "rgb": [
+            72,
+            44,
+            73
+        ]
+    },
+    {
+        "id": "white_stained_glass",
+        "name": "白色染色玻璃",
+        "color": "#c8c8c8",
+        "rgb": [
+            200,
+            200,
+            200
+        ]
+    },
+    {
+        "id": "camera",
+        "name": "摄像机",
+        "color": "#403422",
+        "rgb": [
+            64,
+            52,
+            34
+        ]
+    },
+    {
+        "id": "podzol",
+        "name": "灰化土",
+        "color": "#573d23",
+        "rgb": [
+            87,
+            61,
+            35
+        ]
+    },
+    {
+        "id": "stonecutter",
+        "name": "切石机（旧版）",
+        "color": "#474847",
+        "rgb": [
+            71,
+            72,
+            71
+        ]
+    },
+    {
+        "id": "glowingobsidian",
+        "name": "发光的黑曜石",
+        "color": "#48030c",
+        "rgb": [
+            72,
+            3,
+            12
+        ]
+    },
+    {
+        "id": "netherreactor",
+        "name": "下界反应核",
+        "color": "#5e858c",
+        "rgb": [
+            94,
+            133,
+            140
+        ]
+    },
+    {
+        "id": "info_update",
+        "name": "数据更新方块（update!）",
+        "color": "#634631",
+        "rgb": [
+            99,
+            70,
+            49
+        ]
+    },
+    {
+        "id": "info_update2",
+        "name": "数据更新方块2（ate!upd）",
+        "color": "#634631",
+        "rgb": [
+            99,
+            70,
+            49
+        ]
+    },
+    {
+        "id": "moving_block",
+        "name": "移动的方块/移动的活塞",
+        "color": "#7c583d",
+        "rgb": [
+            124,
+            88,
+            61
+        ]
+    },
+    {
+        "id": "observer",
+        "name": "侦测器",
+        "color": "#454444",
+        "rgb": [
+            69,
+            68,
+            68
+        ]
+    },
+    {
+        "id": "structure_block",
+        "name": "结构方块",
+        "color": "#433844",
+        "rgb": [
+            67,
+            56,
+            68
+        ]
+    },
+    {
+        "id": "hard_glass",
+        "name": "强化玻璃",
+        "color": "#a3c0b7",
+        "rgb": [
+            163,
+            192,
+            183
+        ]
+    },
+    {
+        "id": "hard_white_stained_glass",
+        "name": "白色强化玻璃",
+        "color": "#c2c2c2",
+        "rgb": [
+            194,
+            194,
+            194
+        ]
+    },
+    {
+        "id": "reserved6",
+        "name": "reserved6",
+        "color": "#634631",
+        "rgb": [
+            99,
+            70,
+            49
+        ]
+    },
+    {
+        "id": "stripped_spruce_log",
+        "name": "去皮云杉原木",
+        "color": "#564225",
+        "rgb": [
+            86,
+            66,
+            37
+        ]
+    },
+    {
+        "id": "stripped_birch_log",
+        "name": "去皮白桦原木",
+        "color": "#9a895c",
+        "rgb": [
+            154,
+            137,
+            92
+        ]
+    },
+    {
+        "id": "stripped_jungle_log",
+        "name": "去皮丛林原木",
+        "color": "#866642",
+        "rgb": [
+            134,
+            102,
+            66
+        ]
+    },
+    {
+        "id": "stripped_acacia_log",
+        "name": "去皮金合欢原木",
+        "color": "#87492d",
+        "rgb": [
+            135,
+            73,
+            45
+        ]
+    },
+    {
+        "id": "stripped_dark_oak_log",
+        "name": "去皮深色橡木原木",
+        "color": "#352716",
+        "rgb": [
+            53,
+            39,
+            22
+        ]
+    },
+    {
+        "id": "stripped_oak_log",
+        "name": "去皮橡木原木",
+        "color": "#866d41",
+        "rgb": [
+            134,
+            109,
+            65
+        ]
+    },
+    {
+        "id": "blue_ice",
+        "name": "蓝冰",
+        "color": "#5a83c7",
+        "rgb": [
+            90,
+            131,
+            199
+        ]
+    },
+    {
+        "id": "element_1",
+        "name": "氢",
+        "color": "#79945c",
+        "rgb": [
+            121,
+            148,
+            92
+        ]
+    },
+    {
+        "id": "element_2",
+        "name": "氦",
+        "color": "#9e78b8",
+        "rgb": [
+            158,
+            120,
+            184
+        ]
+    },
+    {
+        "id": "element_3",
+        "name": "锂",
+        "color": "#697eb7",
+        "rgb": [
+            105,
+            126,
+            183
+        ]
+    },
+    {
+        "id": "element_4",
+        "name": "铍",
+        "color": "#6097a5",
+        "rgb": [
+            96,
+            151,
+            165
+        ]
+    },
+    {
+        "id": "element_5",
+        "name": "硼",
+        "color": "#a08584",
+        "rgb": [
+            160,
+            133,
+            132
+        ]
+    },
+    {
+        "id": "element_6",
+        "name": "碳",
+        "color": "#78935a",
+        "rgb": [
+            120,
+            147,
+            90
+        ]
+    },
+    {
+        "id": "element_7",
+        "name": "氮",
+        "color": "#79945c",
+        "rgb": [
+            121,
+            148,
+            92
+        ]
+    },
+    {
+        "id": "element_8",
+        "name": "氧",
+        "color": "#78945b",
+        "rgb": [
+            120,
+            148,
+            91
+        ]
+    },
+    {
+        "id": "element_9",
+        "name": "氟",
+        "color": "#bb8c5b",
+        "rgb": [
+            187,
+            140,
+            91
+        ]
+    },
+    {
+        "id": "element_10",
+        "name": "氖",
+        "color": "#9e78b8",
+        "rgb": [
+            158,
+            120,
+            184
+        ]
+    },
+    {
+        "id": "element_11",
+        "name": "钠",
+        "color": "#6f82b8",
+        "rgb": [
+            111,
+            130,
+            184
+        ]
+    },
+    {
+        "id": "element_12",
+        "name": "镁",
+        "color": "#6398a5",
+        "rgb": [
+            99,
+            152,
+            165
+        ]
+    },
+    {
+        "id": "element_13",
+        "name": "铝",
+        "color": "#9d998a",
+        "rgb": [
+            157,
+            153,
+            138
+        ]
+    },
+    {
+        "id": "element_14",
+        "name": "硅",
+        "color": "#a18684",
+        "rgb": [
+            161,
+            134,
+            132
+        ]
+    },
+    {
+        "id": "element_15",
+        "name": "磷",
+        "color": "#79945c",
+        "rgb": [
+            121,
+            148,
+            92
+        ]
+    },
+    {
+        "id": "element_16",
+        "name": "硫",
+        "color": "#79945c",
+        "rgb": [
+            121,
+            148,
+            92
+        ]
+    },
+    {
+        "id": "element_17",
+        "name": "氯",
+        "color": "#b98b5c",
+        "rgb": [
+            185,
+            139,
+            92
+        ]
+    },
+    {
+        "id": "element_18",
+        "name": "氩",
+        "color": "#9d76b8",
+        "rgb": [
+            157,
+            118,
+            184
+        ]
+    },
+    {
+        "id": "element_19",
+        "name": "钾",
+        "color": "#697eb7",
+        "rgb": [
+            105,
+            126,
+            183
+        ]
+    },
+    {
+        "id": "element_20",
+        "name": "钙",
+        "color": "#5f97a4",
+        "rgb": [
+            95,
+            151,
+            164
+        ]
+    },
+    {
+        "id": "element_21",
+        "name": "钪",
+        "color": "#828282",
+        "rgb": [
+            130,
+            130,
+            130
+        ]
+    },
+    {
+        "id": "element_22",
+        "name": "钛",
+        "color": "#828282",
+        "rgb": [
+            130,
+            130,
+            130
+        ]
+    },
+    {
+        "id": "element_23",
+        "name": "钒",
+        "color": "#818181",
+        "rgb": [
+            129,
+            129,
+            129
+        ]
+    },
+    {
+        "id": "element_24",
+        "name": "铬",
+        "color": "#838383",
+        "rgb": [
+            131,
+            131,
+            131
+        ]
+    },
+    {
+        "id": "element_25",
+        "name": "锰",
+        "color": "#858585",
+        "rgb": [
+            133,
+            133,
+            133
+        ]
+    },
+    {
+        "id": "element_26",
+        "name": "铁",
+        "color": "#858585",
+        "rgb": [
+            133,
+            133,
+            133
+        ]
+    },
+    {
+        "id": "element_27",
+        "name": "钴",
+        "color": "#838383",
+        "rgb": [
+            131,
+            131,
+            131
+        ]
+    },
+    {
+        "id": "element_28",
+        "name": "镍",
+        "color": "#848484",
+        "rgb": [
+            132,
+            132,
+            132
+        ]
+    },
+    {
+        "id": "element_29",
+        "name": "铜",
+        "color": "#848484",
+        "rgb": [
+            132,
+            132,
+            132
+        ]
+    },
+    {
+        "id": "element_30",
+        "name": "锌",
+        "color": "#848484",
+        "rgb": [
+            132,
+            132,
+            132
+        ]
+    },
+    {
+        "id": "element_31",
+        "name": "镓",
+        "color": "#9e9a8b",
+        "rgb": [
+            158,
+            154,
+            139
+        ]
+    },
+    {
+        "id": "element_32",
+        "name": "锗",
+        "color": "#a38988",
+        "rgb": [
+            163,
+            137,
+            136
+        ]
+    },
+    {
+        "id": "element_33",
+        "name": "砷",
+        "color": "#a28887",
+        "rgb": [
+            162,
+            136,
+            135
+        ]
+    },
+    {
+        "id": "element_34",
+        "name": "硒",
+        "color": "#7d9763",
+        "rgb": [
+            125,
+            151,
+            99
+        ]
+    },
+    {
+        "id": "element_35",
+        "name": "溴",
+        "color": "#ba8d61",
+        "rgb": [
+            186,
+            141,
+            97
+        ]
+    },
+    {
+        "id": "element_36",
+        "name": "氪",
+        "color": "#9d76b8",
+        "rgb": [
+            157,
+            118,
+            184
+        ]
+    },
+    {
+        "id": "element_37",
+        "name": "铷",
+        "color": "#7083b8",
+        "rgb": [
+            112,
+            131,
+            184
+        ]
+    },
+    {
+        "id": "element_38",
+        "name": "锶",
+        "color": "#5d96a3",
+        "rgb": [
+            93,
+            150,
+            163
+        ]
+    },
+    {
+        "id": "element_39",
+        "name": "钇",
+        "color": "#808080",
+        "rgb": [
+            128,
+            128,
+            128
+        ]
+    },
+    {
+        "id": "element_40",
+        "name": "锆",
+        "color": "#848484",
+        "rgb": [
+            132,
+            132,
+            132
+        ]
+    },
+    {
+        "id": "element_41",
+        "name": "铌",
+        "color": "#868686",
+        "rgb": [
+            134,
+            134,
+            134
+        ]
+    },
+    {
+        "id": "element_42",
+        "name": "钼",
+        "color": "#858585",
+        "rgb": [
+            133,
+            133,
+            133
+        ]
+    },
+    {
+        "id": "element_43",
+        "name": "锝",
+        "color": "#838383",
+        "rgb": [
+            131,
+            131,
+            131
+        ]
+    },
+    {
+        "id": "element_44",
+        "name": "钌",
+        "color": "#858585",
+        "rgb": [
+            133,
+            133,
+            133
+        ]
+    },
+    {
+        "id": "element_45",
+        "name": "铑",
+        "color": "#868686",
+        "rgb": [
+            134,
+            134,
+            134
+        ]
+    },
+    {
+        "id": "element_46",
+        "name": "钯",
+        "color": "#858585",
+        "rgb": [
+            133,
+            133,
+            133
+        ]
+    },
+    {
+        "id": "element_47",
+        "name": "银",
+        "color": "#868686",
+        "rgb": [
+            134,
+            134,
+            134
+        ]
+    },
+    {
+        "id": "element_48",
+        "name": "镉",
+        "color": "#858585",
+        "rgb": [
+            133,
+            133,
+            133
+        ]
+    },
+    {
+        "id": "element_49",
+        "name": "铟",
+        "color": "#9d998a",
+        "rgb": [
+            157,
+            153,
+            138
+        ]
+    },
+    {
+        "id": "element_50",
+        "name": "锡",
+        "color": "#9d998b",
+        "rgb": [
+            157,
+            153,
+            139
+        ]
+    },
+    {
+        "id": "element_51",
+        "name": "锑",
+        "color": "#a28886",
+        "rgb": [
+            162,
+            136,
+            134
+        ]
+    },
+    {
+        "id": "element_52",
+        "name": "碲",
+        "color": "#a28887",
+        "rgb": [
+            162,
+            136,
+            135
+        ]
+    },
+    {
+        "id": "element_53",
+        "name": "碘",
+        "color": "#b98a5a",
+        "rgb": [
+            185,
+            138,
+            90
+        ]
+    },
+    {
+        "id": "element_54",
+        "name": "氙",
+        "color": "#9e78b8",
+        "rgb": [
+            158,
+            120,
+            184
+        ]
+    },
+    {
+        "id": "element_55",
+        "name": "铯",
+        "color": "#6e81b7",
+        "rgb": [
+            110,
+            129,
+            183
+        ]
+    },
+    {
+        "id": "element_56",
+        "name": "钡",
+        "color": "#6298a5",
+        "rgb": [
+            98,
+            152,
+            165
+        ]
+    },
+    {
+        "id": "element_57",
+        "name": "镧",
+        "color": "#b78db1",
+        "rgb": [
+            183,
+            141,
+            177
+        ]
+    },
+    {
+        "id": "element_58",
+        "name": "铈",
+        "color": "#b78eb1",
+        "rgb": [
+            183,
+            142,
+            177
+        ]
+    },
+    {
+        "id": "element_59",
+        "name": "镨",
+        "color": "#b78db1",
+        "rgb": [
+            183,
+            141,
+            177
+        ]
+    },
+    {
+        "id": "element_60",
+        "name": "钕",
+        "color": "#b78fb2",
+        "rgb": [
+            183,
+            143,
+            178
+        ]
+    },
+    {
+        "id": "element_61",
+        "name": "钷",
+        "color": "#b78eb1",
+        "rgb": [
+            183,
+            142,
+            177
+        ]
+    },
+    {
+        "id": "element_62",
+        "name": "钐",
+        "color": "#b78eb1",
+        "rgb": [
+            183,
+            142,
+            177
+        ]
+    },
+    {
+        "id": "element_63",
+        "name": "铕",
+        "color": "#b78eb1",
+        "rgb": [
+            183,
+            142,
+            177
+        ]
+    },
+    {
+        "id": "element_64",
+        "name": "钆",
+        "color": "#b78fb1",
+        "rgb": [
+            183,
+            143,
+            177
+        ]
+    },
+    {
+        "id": "element_65",
+        "name": "铽",
+        "color": "#b78eb1",
+        "rgb": [
+            183,
+            142,
+            177
+        ]
+    },
+    {
+        "id": "element_66",
+        "name": "镝",
+        "color": "#b78fb2",
+        "rgb": [
+            183,
+            143,
+            178
+        ]
+    },
+    {
+        "id": "element_67",
+        "name": "钬",
+        "color": "#b78eb1",
+        "rgb": [
+            183,
+            142,
+            177
+        ]
+    },
+    {
+        "id": "element_68",
+        "name": "铒",
+        "color": "#b78eb1",
+        "rgb": [
+            183,
+            142,
+            177
+        ]
+    },
+    {
+        "id": "element_69",
+        "name": "铥",
+        "color": "#b78eb1",
+        "rgb": [
+            183,
+            142,
+            177
+        ]
+    },
+    {
+        "id": "element_70",
+        "name": "镱",
+        "color": "#b78db1",
+        "rgb": [
+            183,
+            141,
+            177
+        ]
+    },
+    {
+        "id": "element_71",
+        "name": "镥",
+        "color": "#b78cb1",
+        "rgb": [
+            183,
+            140,
+            177
+        ]
+    },
+    {
+        "id": "element_72",
+        "name": "铪",
+        "color": "#848484",
+        "rgb": [
+            132,
+            132,
+            132
+        ]
+    },
+    {
+        "id": "element_73",
+        "name": "钽",
+        "color": "#848484",
+        "rgb": [
+            132,
+            132,
+            132
+        ]
+    },
+    {
+        "id": "element_74",
+        "name": "钨",
+        "color": "#828282",
+        "rgb": [
+            130,
+            130,
+            130
+        ]
+    },
+    {
+        "id": "element_75",
+        "name": "铼",
+        "color": "#868686",
+        "rgb": [
+            134,
+            134,
+            134
+        ]
+    },
+    {
+        "id": "element_76",
+        "name": "锇",
+        "color": "#848484",
+        "rgb": [
+            132,
+            132,
+            132
+        ]
+    },
+    {
+        "id": "element_77",
+        "name": "铱",
+        "color": "#828282",
+        "rgb": [
+            130,
+            130,
+            130
+        ]
+    },
+    {
+        "id": "element_78",
+        "name": "铂",
+        "color": "#838383",
+        "rgb": [
+            131,
+            131,
+            131
+        ]
+    },
+    {
+        "id": "element_79",
+        "name": "金",
+        "color": "#858585",
+        "rgb": [
+            133,
+            133,
+            133
+        ]
+    },
+    {
+        "id": "element_80",
+        "name": "汞",
+        "color": "#878787",
+        "rgb": [
+            135,
+            135,
+            135
+        ]
+    },
+    {
+        "id": "element_81",
+        "name": "铊",
+        "color": "#9d9889",
+        "rgb": [
+            157,
+            152,
+            137
+        ]
+    },
+    {
+        "id": "element_82",
+        "name": "铅",
+        "color": "#9e9a8c",
+        "rgb": [
+            158,
+            154,
+            140
+        ]
+    },
+    {
+        "id": "element_83",
+        "name": "铋",
+        "color": "#9d998b",
+        "rgb": [
+            157,
+            153,
+            139
+        ]
+    },
+    {
+        "id": "element_84",
+        "name": "钋",
+        "color": "#a28786",
+        "rgb": [
+            162,
+            135,
+            134
+        ]
+    },
+    {
+        "id": "element_85",
+        "name": "砹",
+        "color": "#b98d61",
+        "rgb": [
+            185,
+            141,
+            97
+        ]
+    },
+    {
+        "id": "element_86",
+        "name": "氡",
+        "color": "#9e78b8",
+        "rgb": [
+            158,
+            120,
+            184
+        ]
+    },
+    {
+        "id": "element_87",
+        "name": "钫",
+        "color": "#6c80b7",
+        "rgb": [
+            108,
+            128,
+            183
+        ]
+    },
+    {
+        "id": "element_88",
+        "name": "镭",
+        "color": "#6198a5",
+        "rgb": [
+            97,
+            152,
+            165
+        ]
+    },
+    {
+        "id": "element_89",
+        "name": "锕",
+        "color": "#765d9e",
+        "rgb": [
+            118,
+            93,
+            158
+        ]
+    },
+    {
+        "id": "element_90",
+        "name": "钍",
+        "color": "#775e9f",
+        "rgb": [
+            119,
+            94,
+            159
+        ]
+    },
+    {
+        "id": "element_91",
+        "name": "镤",
+        "color": "#775e9f",
+        "rgb": [
+            119,
+            94,
+            159
+        ]
+    },
+    {
+        "id": "element_92",
+        "name": "铀",
+        "color": "#73599d",
+        "rgb": [
+            115,
+            89,
+            157
+        ]
+    },
+    {
+        "id": "element_93",
+        "name": "镎",
+        "color": "#7961a0",
+        "rgb": [
+            121,
+            97,
+            160
+        ]
+    },
+    {
+        "id": "element_94",
+        "name": "钚",
+        "color": "#765d9f",
+        "rgb": [
+            118,
+            93,
+            159
+        ]
+    },
+    {
+        "id": "element_95",
+        "name": "镅",
+        "color": "#78619f",
+        "rgb": [
+            120,
+            97,
+            159
+        ]
+    },
+    {
+        "id": "element_96",
+        "name": "锔",
+        "color": "#775e9f",
+        "rgb": [
+            119,
+            94,
+            159
+        ]
+    },
+    {
+        "id": "element_97",
+        "name": "锫",
+        "color": "#78609f",
+        "rgb": [
+            120,
+            96,
+            159
+        ]
+    },
+    {
+        "id": "element_98",
+        "name": "锎",
+        "color": "#765d9e",
+        "rgb": [
+            118,
+            93,
+            158
+        ]
+    },
+    {
+        "id": "element_99",
+        "name": "锿",
+        "color": "#78609f",
+        "rgb": [
+            120,
+            96,
+            159
+        ]
+    },
+    {
+        "id": "element_100",
+        "name": "镄",
+        "color": "#78609f",
+        "rgb": [
+            120,
+            96,
+            159
+        ]
+    },
+    {
+        "id": "element_101",
+        "name": "钔",
+        "color": "#7962a0",
+        "rgb": [
+            121,
+            98,
+            160
+        ]
+    },
+    {
+        "id": "element_102",
+        "name": "锘",
+        "color": "#78609f",
+        "rgb": [
+            120,
+            96,
+            159
+        ]
+    },
+    {
+        "id": "element_103",
+        "name": "铹",
+        "color": "#765d9e",
+        "rgb": [
+            118,
+            93,
+            158
+        ]
+    },
+    {
+        "id": "element_104",
+        "name": "𬬻",
+        "color": "#858585",
+        "rgb": [
+            133,
+            133,
+            133
+        ]
+    },
+    {
+        "id": "element_105",
+        "name": "𬭊",
+        "color": "#878787",
+        "rgb": [
+            135,
+            135,
+            135
+        ]
+    },
+    {
+        "id": "element_106",
+        "name": "𬭳",
+        "color": "#868686",
+        "rgb": [
+            134,
+            134,
+            134
+        ]
+    },
+    {
+        "id": "element_107",
+        "name": "𬭛",
+        "color": "#868686",
+        "rgb": [
+            134,
+            134,
+            134
+        ]
+    },
+    {
+        "id": "element_108",
+        "name": "𬭶",
+        "color": "#868686",
+        "rgb": [
+            134,
+            134,
+            134
+        ]
+    },
+    {
+        "id": "element_109",
+        "name": "鿏",
+        "color": "#858585",
+        "rgb": [
+            133,
+            133,
+            133
+        ]
+    },
+    {
+        "id": "element_110",
+        "name": "𫟼",
+        "color": "#858585",
+        "rgb": [
+            133,
+            133,
+            133
+        ]
+    },
+    {
+        "id": "element_111",
+        "name": "𬬭",
+        "color": "#868686",
+        "rgb": [
+            134,
+            134,
+            134
+        ]
+    },
+    {
+        "id": "element_112",
+        "name": "鿔",
+        "color": "#848484",
+        "rgb": [
+            132,
+            132,
+            132
+        ]
+    },
+    {
+        "id": "element_113",
+        "name": "鿭",
+        "color": "#9f9b8c",
+        "rgb": [
+            159,
+            155,
+            140
+        ]
+    },
+    {
+        "id": "element_114",
+        "name": "𫓧",
+        "color": "#9d998a",
+        "rgb": [
+            157,
+            153,
+            138
+        ]
+    },
+    {
+        "id": "element_115",
+        "name": "镆",
+        "color": "#9e9a8b",
+        "rgb": [
+            158,
+            154,
+            139
+        ]
+    },
+    {
+        "id": "element_116",
+        "name": "𫟷",
+        "color": "#9d998a",
+        "rgb": [
+            157,
+            153,
+            138
+        ]
+    },
+    {
+        "id": "element_117",
+        "name": "鿬",
+        "color": "#b98d5f",
+        "rgb": [
+            185,
+            141,
+            95
+        ]
+    },
+    {
+        "id": "element_118",
+        "name": "鿫",
+        "color": "#9f79b8",
+        "rgb": [
+            159,
+            121,
+            184
+        ]
+    },
+    {
+        "id": "tube_coral_block",
+        "name": "管珊瑚块",
+        "color": "#2644a2",
+        "rgb": [
+            38,
+            68,
+            162
+        ]
+    },
+    {
+        "id": "dried_kelp_block",
+        "name": "干海带块",
+        "color": "#212819",
+        "rgb": [
+            33,
+            40,
+            25
+        ]
+    },
+    {
+        "id": "carved_pumpkin",
+        "name": "雕刻南瓜",
+        "color": "#8d510f",
+        "rgb": [
+            141,
+            81,
+            15
+        ]
+    },
+    {
+        "id": "end_stone_brick_double_slab",
+        "name": "末地石砖双层台阶",
+        "color": "#aaae7e",
+        "rgb": [
+            170,
+            174,
+            126
+        ]
+    },
+    {
+        "id": "mossy_stone_brick_double_slab",
+        "name": "苔石砖双层台阶",
+        "color": "#5a5e52",
+        "rgb": [
+            90,
+            94,
+            82
+        ]
+    },
+    {
+        "id": "smooth_stone",
+        "name": "平滑石头",
+        "color": "#7a7a7a",
+        "rgb": [
+            122,
+            122,
+            122
+        ]
+    },
+    {
+        "id": "blast_furnace",
+        "name": "高炉",
+        "color": "#4d4c4c",
+        "rgb": [
+            77,
+            76,
+            76
+        ]
+    },
+    {
+        "id": "stonecutter_block",
+        "name": "切石机",
+        "color": "#686059",
+        "rgb": [
+            104,
+            96,
+            89
+        ]
+    },
+    {
+        "id": "smoker",
+        "name": "烟熏炉",
+        "color": "#474037",
+        "rgb": [
+            71,
+            64,
+            55
+        ]
+    },
+    {
+        "id": "lit_smoker",
+        "name": "燃烧中的烟熏炉",
+        "color": "#4f4639",
+        "rgb": [
+            79,
+            70,
+            57
+        ]
+    },
+    {
+        "id": "cartography_table",
+        "name": "制图台",
+        "color": "#3e2f20",
+        "rgb": [
+            62,
+            47,
+            32
+        ]
+    },
+    {
+        "id": "fletching_table",
+        "name": "制箭台",
+        "color": "#928361",
+        "rgb": [
+            146,
+            131,
+            97
+        ]
+    },
+    {
+        "id": "smithing_table",
+        "name": "锻造台",
+        "color": "#2c2327",
+        "rgb": [
+            44,
+            35,
+            39
+        ]
+    },
+    {
+        "id": "barrel",
+        "name": "木桶",
+        "color": "#5b4428",
+        "rgb": [
+            91,
+            68,
+            40
+        ]
+    },
+    {
+        "id": "loom",
+        "name": "织布机",
+        "color": "#725a40",
+        "rgb": [
+            114,
+            90,
+            64
+        ]
+    },
+    {
+        "id": "jigsaw",
+        "name": "拼图方块",
+        "color": "#302a32",
+        "rgb": [
+            48,
+            42,
+            50
+        ]
+    },
+    {
+        "id": "oak_wood",
+        "name": "橡木",
+        "color": "#554327",
+        "rgb": [
+            85,
+            67,
+            39
+        ]
+    },
+    {
+        "id": "lit_blast_furnace",
+        "name": "燃烧中的高炉",
+        "color": "#4f4d4c",
+        "rgb": [
+            79,
+            77,
+            76
+        ]
+    },
+    {
+        "id": "bee_nest",
+        "name": "蜂巢",
+        "color": "#97753b",
+        "rgb": [
+            151,
+            117,
+            59
+        ]
+    },
+    {
+        "id": "beehive",
+        "name": "蜂箱",
+        "color": "#846a41",
+        "rgb": [
+            132,
+            106,
+            65
+        ]
+    },
+    {
+        "id": "honey_block",
+        "name": "蜂蜜块",
+        "color": "#be7d19",
+        "rgb": [
+            190,
+            125,
+            25
+        ]
+    },
+    {
+        "id": "honeycomb_block",
+        "name": "蜜脾块",
+        "color": "#b57517",
+        "rgb": [
+            181,
+            117,
+            23
+        ]
+    },
+    {
+        "id": "lodestone",
+        "name": "磁石",
+        "color": "#656669",
+        "rgb": [
+            101,
+            102,
+            105
+        ]
+    },
+    {
+        "id": "crimson_stem",
+        "name": "绯红菌柄",
+        "color": "#4c1b24",
+        "rgb": [
+            76,
+            27,
+            36
+        ]
+    },
+    {
+        "id": "warped_stem",
+        "name": "诡异菌柄",
+        "color": "#2d3a43",
+        "rgb": [
+            45,
+            58,
+            67
+        ]
+    },
+    {
+        "id": "warped_wart_block",
+        "name": "诡异疣块",
+        "color": "#0f5d5e",
+        "rgb": [
+            15,
+            93,
+            94
+        ]
+    },
+    {
+        "id": "shroomlight",
+        "name": "菌光体",
+        "color": "#bc7034",
+        "rgb": [
+            188,
+            112,
+            52
+        ]
+    },
+    {
+        "id": "crimson_nylium",
+        "name": "绯红菌岩",
+        "color": "#591414",
+        "rgb": [
+            89,
+            20,
+            20
+        ]
+    },
+    {
+        "id": "warped_nylium",
+        "name": "诡异菌岩",
+        "color": "#2e3d38",
+        "rgb": [
+            46,
+            61,
+            56
+        ]
+    },
+    {
+        "id": "basalt",
+        "name": "玄武岩",
+        "color": "#3a3a3e",
+        "rgb": [
+            58,
+            58,
+            62
+        ]
+    },
+    {
+        "id": "polished_basalt",
+        "name": "磨制玄武岩",
+        "color": "#48474a",
+        "rgb": [
+            72,
+            71,
+            74
+        ]
+    },
+    {
+        "id": "soul_soil",
+        "name": "灵魂土",
+        "color": "#392b22",
+        "rgb": [
+            57,
+            43,
+            34
+        ]
+    },
+    {
+        "id": "target",
+        "name": "标靶",
+        "color": "#b48b83",
+        "rgb": [
+            180,
+            139,
+            131
+        ]
+    },
+    {
+        "id": "stripped_crimson_stem",
+        "name": "去皮绯红菌柄",
+        "color": "#662b43",
+        "rgb": [
+            102,
+            43,
+            67
+        ]
+    },
+    {
+        "id": "stripped_warped_stem",
+        "name": "去皮诡异菌柄",
+        "color": "#296f6c",
+        "rgb": [
+            41,
+            111,
+            108
+        ]
+    },
+    {
+        "id": "crimson_planks",
+        "name": "绯红木板",
+        "color": "#4e2637",
+        "rgb": [
+            78,
+            38,
+            55
+        ]
+    },
+    {
+        "id": "warped_planks",
+        "name": "诡异木板",
+        "color": "#21514d",
+        "rgb": [
+            33,
+            81,
+            77
+        ]
+    },
+    {
+        "id": "crimson_double_slab",
+        "name": "绯红木双层台阶",
+        "color": "#4e2637",
+        "rgb": [
+            78,
+            38,
+            55
+        ]
+    },
+    {
+        "id": "warped_double_slab",
+        "name": "诡异木双层台阶",
+        "color": "#21514d",
+        "rgb": [
+            33,
+            81,
+            77
+        ]
+    },
+    {
+        "id": "netherite_block",
+        "name": "下界合金块",
+        "color": "#332f31",
+        "rgb": [
+            51,
+            47,
+            49
+        ]
+    },
+    {
+        "id": "ancient_debris",
+        "name": "远古残骸",
+        "color": "#4c332d",
+        "rgb": [
+            76,
+            51,
+            45
+        ]
+    },
+    {
+        "id": "blackstone",
+        "name": "黑石",
+        "color": "#211c20",
+        "rgb": [
+            33,
+            28,
+            32
+        ]
+    },
+    {
+        "id": "polished_blackstone_bricks",
+        "name": "磨制黑石砖",
+        "color": "#252126",
+        "rgb": [
+            37,
+            33,
+            38
+        ]
+    },
+    {
+        "id": "chiseled_polished_blackstone",
+        "name": "雕纹磨制黑石",
+        "color": "#272329",
+        "rgb": [
+            39,
+            35,
+            41
+        ]
+    },
+    {
+        "id": "cracked_polished_blackstone_bricks",
+        "name": "裂纹磨制黑石砖",
+        "color": "#221d22",
+        "rgb": [
+            34,
+            29,
+            34
+        ]
+    },
+    {
+        "id": "gilded_blackstone",
+        "name": "镶金黑石",
+        "color": "#2b211e",
+        "rgb": [
+            43,
+            33,
+            30
+        ]
+    },
+    {
+        "id": "blackstone_double_slab",
+        "name": "黑石双层台阶",
+        "color": "#211c20",
+        "rgb": [
+            33,
+            28,
+            32
+        ]
+    },
+    {
+        "id": "polished_blackstone_brick_double_slab",
+        "name": "磨制黑石砖双层台阶",
+        "color": "#252126",
+        "rgb": [
+            37,
+            33,
+            38
+        ]
+    },
+    {
+        "id": "nether_gold_ore",
+        "name": "下界金矿石",
+        "color": "#58281e",
+        "rgb": [
+            88,
+            40,
+            30
+        ]
+    },
+    {
+        "id": "crying_obsidian",
+        "name": "哭泣的黑曜石",
+        "color": "#1d0937",
+        "rgb": [
+            29,
+            9,
+            55
+        ]
+    },
+    {
+        "id": "polished_blackstone",
+        "name": "磨制黑石",
+        "color": "#272329",
+        "rgb": [
+            39,
+            35,
+            41
+        ]
+    },
+    {
+        "id": "polished_blackstone_double_slab",
+        "name": "磨制黑石双层台阶",
+        "color": "#272329",
+        "rgb": [
+            39,
+            35,
+            41
+        ]
+    },
+    {
+        "id": "warped_hyphae",
+        "name": "诡异菌核",
+        "color": "#2d2d3c",
+        "rgb": [
+            45,
+            45,
+            60
+        ]
+    },
+    {
+        "id": "crimson_hyphae",
+        "name": "绯红菌核",
+        "color": "#481317",
+        "rgb": [
+            72,
+            19,
+            23
+        ]
+    },
+    {
+        "id": "stripped_crimson_hyphae",
+        "name": "去皮绯红菌核",
+        "color": "#6c2d47",
+        "rgb": [
+            108,
+            45,
+            71
+        ]
+    },
+    {
+        "id": "stripped_warped_hyphae",
+        "name": "去皮诡异菌核",
+        "color": "#2d7775",
+        "rgb": [
+            45,
+            119,
+            117
+        ]
+    },
+    {
+        "id": "chiseled_nether_bricks",
+        "name": "雕纹下界砖块",
+        "color": "#231215",
+        "rgb": [
+            35,
+            18,
+            21
+        ]
+    },
+    {
+        "id": "cracked_nether_bricks",
+        "name": "裂纹下界砖块",
+        "color": "#201013",
+        "rgb": [
+            32,
+            16,
+            19
+        ]
+    },
+    {
+        "id": "quartz_bricks",
+        "name": "石英砖",
+        "color": "#b7b3ad",
+        "rgb": [
+            183,
+            179,
+            173
+        ]
+    },
+    {
+        "id": "unknown",
+        "name": "未知",
+        "color": "#634631",
+        "rgb": [
+            99,
+            70,
+            49
+        ]
+    },
+    {
+        "id": "powder_snow",
+        "name": "细雪",
+        "color": "#c3c7c7",
+        "rgb": [
+            195,
+            199,
+            199
+        ]
+    },
+    {
+        "id": "copper_ore",
+        "name": "铜矿石",
+        "color": "#61625e",
+        "rgb": [
+            97,
+            98,
+            94
+        ]
+    },
+    {
+        "id": "crafter",
+        "name": "合成器",
+        "color": "#5a524c",
+        "rgb": [
+            90,
+            82,
+            76
+        ]
+    },
+    {
+        "id": "vault",
+        "name": "宝库",
+        "color": "#2e3539",
+        "rgb": [
+            46,
+            53,
+            57
+        ]
+    },
+    {
+        "id": "dripstone_block",
+        "name": "滴水石块",
+        "color": "#6a5549",
+        "rgb": [
+            106,
+            85,
+            73
+        ]
+    },
+    {
+        "id": "moss_block",
+        "name": "苔藓块",
+        "color": "#455523",
+        "rgb": [
+            69,
+            85,
+            35
+        ]
+    },
+    {
+        "id": "spore_blossom",
+        "name": "孢子花",
+        "color": "#ae7878",
+        "rgb": [
+            174,
+            120,
+            120
+        ]
+    },
+    {
+        "id": "big_dripleaf",
+        "name": "大型垂滴叶",
+        "color": "#647f32",
+        "rgb": [
+            100,
+            127,
+            50
+        ]
+    },
+    {
+        "id": "calcite",
+        "name": "方解石",
+        "color": "#b1b2b0",
+        "rgb": [
+            177,
+            178,
+            176
+        ]
+    },
+    {
+        "id": "amethyst_block",
+        "name": "紫水晶块",
+        "color": "#684c95",
+        "rgb": [
+            104,
+            76,
+            149
+        ]
+    },
+    {
+        "id": "budding_amethyst",
+        "name": "紫水晶母岩",
+        "color": "#684c95",
+        "rgb": [
+            104,
+            76,
+            149
+        ]
+    },
+    {
+        "id": "amethyst_cluster",
+        "name": "紫水晶簇",
+        "color": "#b38bda",
+        "rgb": [
+            179,
+            139,
+            218
+        ]
+    },
+    {
+        "id": "large_amethyst_bud",
+        "name": "大型紫晶芽",
+        "color": "#ac8ad1",
+        "rgb": [
+            172,
+            138,
+            209
+        ]
+    },
+    {
+        "id": "medium_amethyst_bud",
+        "name": "中型紫晶芽",
+        "color": "#a780d2",
+        "rgb": [
+            167,
+            128,
+            210
+        ]
+    },
+    {
+        "id": "small_amethyst_bud",
+        "name": "小型紫晶芽",
+        "color": "#8a68c8",
+        "rgb": [
+            138,
+            104,
+            200
+        ]
+    },
+    {
+        "id": "tuff",
+        "name": "凝灰岩",
+        "color": "#52534e",
+        "rgb": [
+            82,
+            83,
+            78
+        ]
+    },
+    {
+        "id": "tinted_glass",
+        "name": "遮光玻璃",
+        "color": "#221e24",
+        "rgb": [
+            34,
+            30,
+            36
+        ]
+    },
+    {
+        "id": "small_dripleaf",
+        "name": "小型垂滴叶",
+        "color": "#637d2e",
+        "rgb": [
+            99,
+            125,
+            46
+        ]
+    },
+    {
+        "id": "azalea",
+        "name": "杜鹃花丛",
+        "color": "#4e6124",
+        "rgb": [
+            78,
+            97,
+            36
+        ]
+    },
+    {
+        "id": "copper_block",
+        "name": "铜块",
+        "color": "#96543e",
+        "rgb": [
+            150,
+            84,
+            62
+        ]
+    },
+    {
+        "id": "exposed_copper",
+        "name": "斑驳的铜块",
+        "color": "#7e6251",
+        "rgb": [
+            126,
+            98,
+            81
+        ]
+    },
+    {
+        "id": "weathered_copper",
+        "name": "锈蚀的铜块",
+        "color": "#557756",
+        "rgb": [
+            85,
+            119,
+            86
+        ]
+    },
+    {
+        "id": "oxidized_copper",
+        "name": "氧化的铜块",
+        "color": "#407f67",
+        "rgb": [
+            64,
+            127,
+            103
+        ]
+    },
+    {
+        "id": "waxed_copper",
+        "name": "涂蜡的铜块",
+        "color": "#96543e",
+        "rgb": [
+            150,
+            84,
+            62
+        ]
+    },
+    {
+        "id": "waxed_exposed_copper",
+        "name": "涂蜡的斑驳铜块",
+        "color": "#7e6251",
+        "rgb": [
+            126,
+            98,
+            81
+        ]
+    },
+    {
+        "id": "waxed_weathered_copper",
+        "name": "涂蜡的锈蚀铜块",
+        "color": "#557756",
+        "rgb": [
+            85,
+            119,
+            86
+        ]
+    },
+    {
+        "id": "cut_copper",
+        "name": "切制铜块",
+        "color": "#995541",
+        "rgb": [
+            153,
+            85,
+            65
+        ]
+    },
+    {
+        "id": "exposed_cut_copper",
+        "name": "斑驳的切制铜块",
+        "color": "#7b6152",
+        "rgb": [
+            123,
+            97,
+            82
+        ]
+    },
+    {
+        "id": "weathered_cut_copper",
+        "name": "锈蚀的切制铜块",
+        "color": "#577457",
+        "rgb": [
+            87,
+            116,
+            87
+        ]
+    },
+    {
+        "id": "oxidized_cut_copper",
+        "name": "氧化的切制铜块",
+        "color": "#3f7a66",
+        "rgb": [
+            63,
+            122,
+            102
+        ]
+    },
+    {
+        "id": "waxed_cut_copper",
+        "name": "涂蜡的切制铜块",
+        "color": "#995541",
+        "rgb": [
+            153,
+            85,
+            65
+        ]
+    },
+    {
+        "id": "waxed_exposed_cut_copper",
+        "name": "涂蜡的斑驳切制铜块",
+        "color": "#7b6152",
+        "rgb": [
+            123,
+            97,
+            82
+        ]
+    },
+    {
+        "id": "waxed_weathered_cut_copper",
+        "name": "涂蜡的锈蚀切制铜块",
+        "color": "#577457",
+        "rgb": [
+            87,
+            116,
+            87
+        ]
+    },
+    {
+        "id": "double_cut_copper_slab",
+        "name": "切制铜双层台阶",
+        "color": "#995541",
+        "rgb": [
+            153,
+            85,
+            65
+        ]
+    },
+    {
+        "id": "exposed_double_cut_copper_slab",
+        "name": "斑驳的切制铜双层台阶",
+        "color": "#7b6152",
+        "rgb": [
+            123,
+            97,
+            82
+        ]
+    },
+    {
+        "id": "weathered_double_cut_copper_slab",
+        "name": "锈蚀的切制铜双层台阶",
+        "color": "#577457",
+        "rgb": [
+            87,
+            116,
+            87
+        ]
+    },
+    {
+        "id": "oxidized_double_cut_copper_slab",
+        "name": "氧化的切制铜双层台阶",
+        "color": "#3f7a66",
+        "rgb": [
+            63,
+            122,
+            102
+        ]
+    },
+    {
+        "id": "waxed_double_cut_copper_slab",
+        "name": "涂蜡的切制铜双层台阶",
+        "color": "#995541",
+        "rgb": [
+            153,
+            85,
+            65
+        ]
+    },
+    {
+        "id": "waxed_exposed_double_cut_copper_slab",
+        "name": "涂蜡的斑驳切制铜双层台阶",
+        "color": "#7b6152",
+        "rgb": [
+            123,
+            97,
+            82
+        ]
+    },
+    {
+        "id": "waxed_weathered_double_cut_copper_slab",
+        "name": "涂蜡的锈蚀切制铜双层台阶",
+        "color": "#577457",
+        "rgb": [
+            87,
+            116,
+            87
+        ]
+    },
+    {
+        "id": "smooth_basalt",
+        "name": "平滑玄武岩",
+        "color": "#38383d",
+        "rgb": [
+            56,
+            56,
+            61
+        ]
+    },
+    {
+        "id": "deepslate",
+        "name": "深板岩",
+        "color": "#414143",
+        "rgb": [
+            65,
+            65,
+            67
+        ]
+    },
+    {
+        "id": "cobbled_deepslate",
+        "name": "深板岩圆石",
+        "color": "#3c3c3f",
+        "rgb": [
+            60,
+            60,
+            63
+        ]
+    },
+    {
+        "id": "polished_deepslate",
+        "name": "磨制深板岩",
+        "color": "#383839",
+        "rgb": [
+            56,
+            56,
+            57
+        ]
+    },
+    {
+        "id": "deepslate_tiles",
+        "name": "深板岩瓦",
+        "color": "#2a2a2a",
+        "rgb": [
+            42,
+            42,
+            42
+        ]
+    },
+    {
+        "id": "deepslate_bricks",
+        "name": "深板岩砖",
+        "color": "#373737",
+        "rgb": [
+            55,
+            55,
+            55
+        ]
+    },
+    {
+        "id": "chiseled_deepslate",
+        "name": "雕纹深板岩",
+        "color": "#29292a",
+        "rgb": [
+            41,
+            41,
+            42
+        ]
+    },
+    {
+        "id": "cobbled_deepslate_double_slab",
+        "name": "深板岩圆石双层台阶",
+        "color": "#3c3c3f",
+        "rgb": [
+            60,
+            60,
+            63
+        ]
+    },
+    {
+        "id": "polished_deepslate_double_slab",
+        "name": "磨制深板岩双层台阶",
+        "color": "#383839",
+        "rgb": [
+            56,
+            56,
+            57
+        ]
+    },
+    {
+        "id": "deepslate_tile_double_slab",
+        "name": "深板岩瓦双层台阶",
+        "color": "#2a2a2a",
+        "rgb": [
+            42,
+            42,
+            42
+        ]
+    },
+    {
+        "id": "deepslate_brick_double_slab",
+        "name": "深板岩砖双层台阶",
+        "color": "#373737",
+        "rgb": [
+            55,
+            55,
+            55
+        ]
+    },
+    {
+        "id": "deepslate_lapis_ore",
+        "name": "深层青金石矿石",
+        "color": "#3f4759",
+        "rgb": [
+            63,
+            71,
+            89
+        ]
+    },
+    {
+        "id": "deepslate_iron_ore",
+        "name": "深层铁矿石",
+        "color": "#534d4a",
+        "rgb": [
+            83,
+            77,
+            74
+        ]
+    },
+    {
+        "id": "deepslate_gold_ore",
+        "name": "深层金矿石",
+        "color": "#59503e",
+        "rgb": [
+            89,
+            80,
+            62
+        ]
+    },
+    {
+        "id": "deepslate_redstone_ore",
+        "name": "深层红石矿石",
+        "color": "#533b3c",
+        "rgb": [
+            83,
+            59,
+            60
+        ]
+    },
+    {
+        "id": "lit_deepslate_redstone_ore",
+        "name": "发光的深层红石矿石",
+        "color": "#533b3c",
+        "rgb": [
+            83,
+            59,
+            60
+        ]
+    },
+    {
+        "id": "deepslate_diamond_ore",
+        "name": "深层钻石矿石",
+        "color": "#415253",
+        "rgb": [
+            65,
+            82,
+            83
+        ]
+    },
+    {
+        "id": "deepslate_coal_ore",
+        "name": "深层煤矿石",
+        "color": "#3b3b3c",
+        "rgb": [
+            59,
+            59,
+            60
+        ]
+    },
+    {
+        "id": "deepslate_emerald_ore",
+        "name": "深层绿宝石矿石",
+        "color": "#3e5144",
+        "rgb": [
+            62,
+            81,
+            68
+        ]
+    },
+    {
+        "id": "deepslate_copper_ore",
+        "name": "深层铜矿石",
+        "color": "#484846",
+        "rgb": [
+            72,
+            72,
+            70
+        ]
+    },
+    {
+        "id": "cracked_deepslate_tiles",
+        "name": "裂纹深板岩瓦",
+        "color": "#282829",
+        "rgb": [
+            40,
+            40,
+            41
+        ]
+    },
+    {
+        "id": "cracked_deepslate_bricks",
+        "name": "裂纹深板岩砖",
+        "color": "#323233",
+        "rgb": [
+            50,
+            50,
+            51
+        ]
+    },
+    {
+        "id": "waxed_oxidized_copper",
+        "name": "涂蜡的氧化铜块",
+        "color": "#407f67",
+        "rgb": [
+            64,
+            127,
+            103
+        ]
+    },
+    {
+        "id": "waxed_oxidized_cut_copper",
+        "name": "涂蜡的氧化切制铜块",
+        "color": "#3f7a66",
+        "rgb": [
+            63,
+            122,
+            102
+        ]
+    },
+    {
+        "id": "waxed_oxidized_double_cut_copper_slab",
+        "name": "涂蜡的氧化切制铜双层台阶",
+        "color": "#3f7a66",
+        "rgb": [
+            63,
+            122,
+            102
+        ]
+    },
+    {
+        "id": "raw_iron_block",
+        "name": "粗铁块",
+        "color": "#826a54",
+        "rgb": [
+            130,
+            106,
+            84
+        ]
+    },
+    {
+        "id": "raw_copper_block",
+        "name": "粗铜块",
+        "color": "#78523d",
+        "rgb": [
+            120,
+            82,
+            61
+        ]
+    },
+    {
+        "id": "raw_gold_block",
+        "name": "粗金块",
+        "color": "#ad8424",
+        "rgb": [
+            173,
+            132,
+            36
+        ]
+    },
+    {
+        "id": "infested_deepslate",
+        "name": "虫蚀深板岩",
+        "color": "#414143",
+        "rgb": [
+            65,
+            65,
+            67
+        ]
+    },
+    {
+        "id": "sculk",
+        "name": "幽匿块",
+        "color": "#0a161b",
+        "rgb": [
+            10,
+            22,
+            27
+        ]
+    },
+    {
+        "id": "sculk_vein",
+        "name": "幽匿脉络",
+        "color": "#06323c",
+        "rgb": [
+            6,
+            50,
+            60
+        ]
+    },
+    {
+        "id": "sculk_catalyst",
+        "name": "幽匿催发体",
+        "color": "#293636",
+        "rgb": [
+            41,
+            54,
+            54
+        ]
+    },
+    {
+        "id": "client_request_placeholder_block",
+        "name": "客户端请求占位符方块",
+        "color": "#7c583d",
+        "rgb": [
+            124,
+            88,
+            61
+        ]
+    },
+    {
+        "id": "reinforced_deepslate",
+        "name": "强化深板岩",
+        "color": "#484c47",
+        "rgb": [
+            72,
+            76,
+            71
+        ]
+    },
+    {
+        "id": "pearlescent_froglight",
+        "name": "珠光蛙明灯",
+        "color": "#ece2e5",
+        "rgb": [
+            236,
+            226,
+            229
+        ]
+    },
+    {
+        "id": "verdant_froglight",
+        "name": "青翠蛙明灯",
+        "color": "#d4ebd2",
+        "rgb": [
+            212,
+            235,
+            210
+        ]
+    },
+    {
+        "id": "ochre_froglight",
+        "name": "赭黄蛙明灯",
+        "color": "#f5eab9",
+        "rgb": [
+            245,
+            234,
+            185
+        ]
+    },
+    {
+        "id": "mangrove_propagule",
+        "name": "红树胎生苗",
+        "color": "#63b459",
+        "rgb": [
+            99,
+            180,
+            89
+        ]
+    },
+    {
+        "id": "mud_bricks",
+        "name": "泥砖",
+        "color": "#6c513f",
+        "rgb": [
+            108,
+            81,
+            63
+        ]
+    },
+    {
+        "id": "mangrove_propagule_hanging",
+        "name": "悬挂的红树胎生苗 （已移除）",
+        "color": "#6f8747",
+        "rgb": [
+            111,
+            135,
+            71
+        ]
+    },
+    {
+        "id": "packed_mud",
+        "name": "泥坯",
+        "color": "#71543f",
+        "rgb": [
+            113,
+            84,
+            63
+        ]
+    },
+    {
+        "id": "mud_brick_double_slab",
+        "name": "泥砖双层台阶",
+        "color": "#6c513f",
+        "rgb": [
+            108,
+            81,
+            63
+        ]
+    },
+    {
+        "id": "mangrove_log",
+        "name": "红树原木",
+        "color": "#473021",
+        "rgb": [
+            71,
+            48,
+            33
+        ]
+    },
+    {
+        "id": "stripped_mangrove_log",
+        "name": "去皮红树原木",
+        "color": "#5b2725",
+        "rgb": [
+            91,
+            39,
+            37
+        ]
+    },
+    {
+        "id": "mangrove_planks",
+        "name": "红树木板",
+        "color": "#562723",
+        "rgb": [
+            86,
+            39,
+            35
+        ]
+    },
+    {
+        "id": "mangrove_wood",
+        "name": "红树木",
+        "color": "#3d301e",
+        "rgb": [
+            61,
+            48,
+            30
+        ]
+    },
+    {
+        "id": "stripped_mangrove_wood",
+        "name": "去皮红树木",
+        "color": "#572722",
+        "rgb": [
+            87,
+            39,
+            34
+        ]
+    },
+    {
+        "id": "mangrove_double_slab",
+        "name": "红树木双层台阶",
+        "color": "#562723",
+        "rgb": [
+            86,
+            39,
+            35
+        ]
+    },
+    {
+        "id": "bamboo_mosaic",
+        "name": "竹马赛克",
+        "color": "#94843c",
+        "rgb": [
+            148,
+            132,
+            60
+        ]
+    },
+    {
+        "id": "bamboo_planks",
+        "name": "竹板",
+        "color": "#96873e",
+        "rgb": [
+            150,
+            135,
+            62
+        ]
+    },
+    {
+        "id": "bamboo_standing_sign",
+        "name": "竹告示牌",
+        "color": "#988940",
+        "rgb": [
+            152,
+            137,
+            64
+        ]
+    },
+    {
+        "id": "bamboo_double_slab",
+        "name": "竹双层台阶",
+        "color": "#96873e",
+        "rgb": [
+            150,
+            135,
+            62
+        ]
+    },
+    {
+        "id": "bamboo_hanging_sign",
+        "name": "悬挂式竹告示牌",
+        "color": "#857a3e",
+        "rgb": [
+            133,
+            122,
+            62
+        ]
+    },
+    {
+        "id": "bamboo_mosaic_double_slab",
+        "name": "竹马赛克双层台阶",
+        "color": "#94843c",
+        "rgb": [
+            148,
+            132,
+            60
+        ]
+    },
+    {
+        "id": "bamboo_block",
+        "name": "竹块",
+        "color": "#656e2b",
+        "rgb": [
+            101,
+            110,
+            43
+        ]
+    },
+    {
+        "id": "stripped_bamboo_block",
+        "name": "去皮竹块",
+        "color": "#93833b",
+        "rgb": [
+            147,
+            131,
+            59
+        ]
+    },
+    {
+        "id": "suspicious_sand",
+        "name": "可疑的沙子",
+        "color": "#9f9674",
+        "rgb": [
+            159,
+            150,
+            116
+        ]
+    },
+    {
+        "id": "stripped_cherry_log",
+        "name": "去皮樱花原木",
+        "color": "#a87474",
+        "rgb": [
+            168,
+            116,
+            116
+        ]
+    },
+    {
+        "id": "cherry_log",
+        "name": "樱花原木",
+        "color": "#4b3338",
+        "rgb": [
+            75,
+            51,
+            56
+        ]
+    },
+    {
+        "id": "cherry_planks",
+        "name": "樱花木板",
+        "color": "#a5827e",
+        "rgb": [
+            165,
+            130,
+            126
+        ]
+    },
+    {
+        "id": "cherry_double_slab",
+        "name": "樱花木双层台阶",
+        "color": "#a5827e",
+        "rgb": [
+            165,
+            130,
+            126
+        ]
+    },
+    {
+        "id": "stripped_cherry_wood",
+        "name": "去皮樱花木",
+        "color": "#a66f72",
+        "rgb": [
+            166,
+            111,
+            114
+        ]
+    },
+    {
+        "id": "cherry_wood",
+        "name": "樱花木",
+        "color": "#281620",
+        "rgb": [
+            40,
+            22,
+            32
+        ]
+    },
+    {
+        "id": "decorated_pot",
+        "name": "饰纹陶罐",
+        "color": "#65372c",
+        "rgb": [
+            101,
+            55,
+            44
+        ]
+    },
+    {
+        "id": "light_gray_wool",
+        "name": "淡灰色羊毛",
+        "color": "#6f6f69",
+        "rgb": [
+            111,
+            111,
+            105
+        ]
+    },
+    {
+        "id": "gray_wool",
+        "name": "灰色羊毛",
+        "color": "#313538",
+        "rgb": [
+            49,
+            53,
+            56
+        ]
+    },
+    {
+        "id": "black_wool",
+        "name": "黑色羊毛",
+        "color": "#101014",
+        "rgb": [
+            16,
+            16,
+            20
+        ]
+    },
+    {
+        "id": "brown_wool",
+        "name": "棕色羊毛",
+        "color": "#59381f",
+        "rgb": [
+            89,
+            56,
+            31
+        ]
+    },
+    {
+        "id": "red_wool",
+        "name": "红色羊毛",
+        "color": "#7e1e1a",
+        "rgb": [
+            126,
+            30,
+            26
+        ]
+    },
+    {
+        "id": "orange_wool",
+        "name": "橙色羊毛",
+        "color": "#bc5c0f",
+        "rgb": [
+            188,
+            92,
+            15
+        ]
+    },
+    {
+        "id": "yellow_wool",
+        "name": "黄色羊毛",
+        "color": "#c29b1e",
+        "rgb": [
+            194,
+            155,
+            30
+        ]
+    },
+    {
+        "id": "lime_wool",
+        "name": "黄绿色羊毛",
+        "color": "#579114",
+        "rgb": [
+            87,
+            145,
+            20
+        ]
+    },
+    {
+        "id": "green_wool",
+        "name": "绿色羊毛",
+        "color": "#425515",
+        "rgb": [
+            66,
+            85,
+            21
+        ]
+    },
+    {
+        "id": "cyan_wool",
+        "name": "青色羊毛",
+        "color": "#106b71",
+        "rgb": [
+            16,
+            107,
+            113
+        ]
+    },
+    {
+        "id": "light_blue_wool",
+        "name": "淡蓝色羊毛",
+        "color": "#2d89aa",
+        "rgb": [
+            45,
+            137,
+            170
+        ]
+    },
+    {
+        "id": "blue_wool",
+        "name": "蓝色羊毛",
+        "color": "#292c7b",
+        "rgb": [
+            41,
+            44,
+            123
+        ]
+    },
+    {
+        "id": "purple_wool",
+        "name": "紫色羊毛",
+        "color": "#5f2087",
+        "rgb": [
+            95,
+            32,
+            135
+        ]
+    },
+    {
+        "id": "magenta_wool",
+        "name": "品红色羊毛",
+        "color": "#94358c",
+        "rgb": [
+            148,
+            53,
+            140
+        ]
+    },
+    {
+        "id": "pink_wool",
+        "name": "粉红色羊毛",
+        "color": "#ba6e86",
+        "rgb": [
+            186,
+            110,
+            134
+        ]
+    },
+    {
+        "id": "spruce_log",
+        "name": "云杉原木",
+        "color": "#3b2915",
+        "rgb": [
+            59,
+            41,
+            21
+        ]
+    },
+    {
+        "id": "birch_log",
+        "name": "白桦原木",
+        "color": "#a29e90",
+        "rgb": [
+            162,
+            158,
+            144
+        ]
+    },
+    {
+        "id": "jungle_log",
+        "name": "丛林原木",
+        "color": "#54401f",
+        "rgb": [
+            84,
+            64,
+            31
+        ]
+    },
+    {
+        "id": "dark_oak_log",
+        "name": "深色橡木原木",
+        "color": "#322414",
+        "rgb": [
+            50,
+            36,
+            20
+        ]
+    },
+    {
+        "id": "suspicious_gravel",
+        "name": "可疑的沙砾",
+        "color": "#656261",
+        "rgb": [
+            101,
+            98,
+            97
+        ]
+    },
+    {
+        "id": "granite",
+        "name": "花岗岩",
+        "color": "#755143",
+        "rgb": [
+            117,
+            81,
+            67
+        ]
+    },
+    {
+        "id": "polished_granite",
+        "name": "磨制花岗岩",
+        "color": "#785345",
+        "rgb": [
+            120,
+            83,
+            69
+        ]
+    },
+    {
+        "id": "diorite",
+        "name": "闪长岩",
+        "color": "#949394",
+        "rgb": [
+            148,
+            147,
+            148
+        ]
+    },
+    {
+        "id": "polished_diorite",
+        "name": "磨制闪长岩",
+        "color": "#969697",
+        "rgb": [
+            150,
+            150,
+            151
+        ]
+    },
+    {
+        "id": "andesite",
+        "name": "安山岩",
+        "color": "#6a6a6b",
+        "rgb": [
+            106,
+            106,
+            107
+        ]
+    },
+    {
+        "id": "polished_andesite",
+        "name": "磨制安山岩",
+        "color": "#676969",
+        "rgb": [
+            103,
+            105,
+            105
+        ]
+    },
+    {
+        "id": "pitcher_plant",
+        "name": "瓶子草",
+        "color": "#748a8f",
+        "rgb": [
+            116,
+            138,
+            143
+        ]
+    },
+    {
+        "id": "orange_concrete",
+        "name": "橙色混凝土",
+        "color": "#b24d01",
+        "rgb": [
+            178,
+            77,
+            1
+        ]
+    },
+    {
+        "id": "magenta_concrete",
+        "name": "品红色混凝土",
+        "color": "#86267e",
+        "rgb": [
+            134,
+            38,
+            126
+        ]
+    },
+    {
+        "id": "light_blue_concrete",
+        "name": "淡蓝色混凝土",
+        "color": "#1c6c9d",
+        "rgb": [
+            28,
+            108,
+            157
+        ]
+    },
+    {
+        "id": "yellow_concrete",
+        "name": "黄色混凝土",
+        "color": "#be8b11",
+        "rgb": [
+            190,
+            139,
+            17
+        ]
+    },
+    {
+        "id": "lime_concrete",
+        "name": "黄绿色混凝土",
+        "color": "#4a8513",
+        "rgb": [
+            74,
+            133,
+            19
+        ]
+    },
+    {
+        "id": "pink_concrete",
+        "name": "粉红色混凝土",
+        "color": "#a95071",
+        "rgb": [
+            169,
+            80,
+            113
+        ]
+    },
+    {
+        "id": "gray_concrete",
+        "name": "灰色混凝土",
+        "color": "#2b2e31",
+        "rgb": [
+            43,
+            46,
+            49
+        ]
+    },
+    {
+        "id": "light_gray_concrete",
+        "name": "淡灰色混凝土",
+        "color": "#63635b",
+        "rgb": [
+            99,
+            99,
+            91
+        ]
+    },
+    {
+        "id": "cyan_concrete",
+        "name": "青色混凝土",
+        "color": "#115e6c",
+        "rgb": [
+            17,
+            94,
+            108
+        ]
+    },
+    {
+        "id": "purple_concrete",
+        "name": "紫色混凝土",
+        "color": "#4f197c",
+        "rgb": [
+            79,
+            25,
+            124
+        ]
+    },
+    {
+        "id": "blue_concrete",
+        "name": "蓝色混凝土",
+        "color": "#232571",
+        "rgb": [
+            35,
+            37,
+            113
+        ]
+    },
+    {
+        "id": "brown_concrete",
+        "name": "棕色混凝土",
+        "color": "#4c2f19",
+        "rgb": [
+            76,
+            47,
+            25
+        ]
+    },
+    {
+        "id": "green_concrete",
+        "name": "绿色混凝土",
+        "color": "#3a481d",
+        "rgb": [
+            58,
+            72,
+            29
+        ]
+    },
+    {
+        "id": "red_concrete",
+        "name": "红色混凝土",
+        "color": "#711a1a",
+        "rgb": [
+            113,
+            26,
+            26
+        ]
+    },
+    {
+        "id": "black_concrete",
+        "name": "黑色混凝土",
+        "color": "#07080c",
+        "rgb": [
+            7,
+            8,
+            12
+        ]
+    },
+    {
+        "id": "orange_stained_glass",
+        "name": "橙色染色玻璃",
+        "color": "#a86227",
+        "rgb": [
+            168,
+            98,
+            39
+        ]
+    },
+    {
+        "id": "magenta_stained_glass",
+        "name": "品红色染色玻璃",
+        "color": "#8a3aa8",
+        "rgb": [
+            138,
+            58,
+            168
+        ]
+    },
+    {
+        "id": "light_blue_stained_glass",
+        "name": "淡蓝色染色玻璃",
+        "color": "#4f77a8",
+        "rgb": [
+            79,
+            119,
+            168
+        ]
+    },
+    {
+        "id": "yellow_stained_glass",
+        "name": "黄色染色玻璃",
+        "color": "#b2b227",
+        "rgb": [
+            178,
+            178,
+            39
+        ]
+    },
+    {
+        "id": "lime_stained_glass",
+        "name": "黄绿色染色玻璃",
+        "color": "#629f13",
+        "rgb": [
+            98,
+            159,
+            19
+        ]
+    },
+    {
+        "id": "pink_stained_glass",
+        "name": "粉红色染色玻璃",
+        "color": "#bc6280",
+        "rgb": [
+            188,
+            98,
+            128
+        ]
+    },
+    {
+        "id": "gray_stained_glass",
+        "name": "灰色染色玻璃",
+        "color": "#3a3a3a",
+        "rgb": [
+            58,
+            58,
+            58
+        ]
+    },
+    {
+        "id": "light_gray_stained_glass",
+        "name": "淡灰色染色玻璃",
+        "color": "#777777",
+        "rgb": [
+            119,
+            119,
+            119
+        ]
+    },
+    {
+        "id": "cyan_stained_glass",
+        "name": "青色染色玻璃",
+        "color": "#3a6277",
+        "rgb": [
+            58,
+            98,
+            119
+        ]
+    },
+    {
+        "id": "purple_stained_glass",
+        "name": "紫色染色玻璃",
+        "color": "#62308a",
+        "rgb": [
+            98,
+            48,
+            138
+        ]
+    },
+    {
+        "id": "blue_stained_glass",
+        "name": "蓝色染色玻璃",
+        "color": "#273a8a",
+        "rgb": [
+            39,
+            58,
+            138
+        ]
+    },
+    {
+        "id": "brown_stained_glass",
+        "name": "棕色染色玻璃",
+        "color": "#4f3a27",
+        "rgb": [
+            79,
+            58,
+            39
+        ]
+    },
+    {
+        "id": "green_stained_glass",
+        "name": "绿色染色玻璃",
+        "color": "#4f6227",
+        "rgb": [
+            79,
+            98,
+            39
+        ]
+    },
+    {
+        "id": "red_stained_glass",
+        "name": "红色染色玻璃",
+        "color": "#772727",
+        "rgb": [
+            119,
+            39,
+            39
+        ]
+    },
+    {
+        "id": "black_stained_glass",
+        "name": "黑色染色玻璃",
+        "color": "#131313",
+        "rgb": [
+            19,
+            19,
+            19
+        ]
+    },
+    {
+        "id": "hard_orange_stained_glass",
+        "name": "橙色强化玻璃",
+        "color": "#b76c0e",
+        "rgb": [
+            183,
+            108,
+            14
+        ]
+    },
+    {
+        "id": "hard_magenta_stained_glass",
+        "name": "品红色强化玻璃",
+        "color": "#a85ea4",
+        "rgb": [
+            168,
+            94,
+            164
+        ]
+    },
+    {
+        "id": "hard_light_blue_stained_glass",
+        "name": "淡蓝色强化玻璃",
+        "color": "#6e8eba",
+        "rgb": [
+            110,
+            142,
+            186
+        ]
+    },
+    {
+        "id": "hard_yellow_stained_glass",
+        "name": "黄色强化玻璃",
+        "color": "#b9b402",
+        "rgb": [
+            185,
+            180,
+            2
+        ]
+    },
+    {
+        "id": "hard_lime_stained_glass",
+        "name": "黄绿色强化玻璃",
+        "color": "#65a315",
+        "rgb": [
+            101,
+            163,
+            21
+        ]
+    },
+    {
+        "id": "hard_pink_stained_glass",
+        "name": "粉红色强化玻璃",
+        "color": "#c2799f",
+        "rgb": [
+            194,
+            121,
+            159
+        ]
+    },
+    {
+        "id": "hard_gray_stained_glass",
+        "name": "灰色强化玻璃",
+        "color": "#464646",
+        "rgb": [
+            70,
+            70,
+            70
+        ]
+    },
+    {
+        "id": "hard_light_gray_stained_glass",
+        "name": "淡灰色强化玻璃",
+        "color": "#949494",
+        "rgb": [
+            148,
+            148,
+            148
+        ]
+    },
+    {
+        "id": "hard_cyan_stained_glass",
+        "name": "青色强化玻璃",
+        "color": "#2e6e88",
+        "rgb": [
+            46,
+            110,
+            136
+        ]
+    },
+    {
+        "id": "hard_purple_stained_glass",
+        "name": "紫色强化玻璃",
+        "color": "#874ca6",
+        "rgb": [
+            135,
+            76,
+            166
+        ]
+    },
+    {
+        "id": "hard_blue_stained_glass",
+        "name": "蓝色强化玻璃",
+        "color": "#0f2287",
+        "rgb": [
+            15,
+            34,
+            135
+        ]
+    },
+    {
+        "id": "hard_brown_stained_glass",
+        "name": "棕色强化玻璃",
+        "color": "#694329",
+        "rgb": [
+            105,
+            67,
+            41
+        ]
+    },
+    {
+        "id": "hard_green_stained_glass",
+        "name": "绿色强化玻璃",
+        "color": "#4c6722",
+        "rgb": [
+            76,
+            103,
+            34
+        ]
+    },
+    {
+        "id": "hard_red_stained_glass",
+        "name": "红色强化玻璃",
+        "color": "#922424",
+        "rgb": [
+            146,
+            36,
+            36
+        ]
+    },
+    {
+        "id": "hard_black_stained_glass",
+        "name": "黑色强化玻璃",
+        "color": "#1b1b1b",
+        "rgb": [
+            27,
+            27,
+            27
+        ]
+    },
+    {
+        "id": "orange_concrete_powder",
+        "name": "橙色混凝土粉末",
+        "color": "#b46819",
+        "rgb": [
+            180,
+            104,
+            25
+        ]
+    },
+    {
+        "id": "magenta_concrete_powder",
+        "name": "品红色混凝土粉末",
+        "color": "#984292",
+        "rgb": [
+            152,
+            66,
+            146
+        ]
+    },
+    {
+        "id": "light_blue_concrete_powder",
+        "name": "淡蓝色混凝土粉末",
+        "color": "#3b8fa9",
+        "rgb": [
+            59,
+            143,
+            169
+        ]
+    },
+    {
+        "id": "yellow_concrete_powder",
+        "name": "黄色混凝土粉末",
+        "color": "#b89d2b",
+        "rgb": [
+            184,
+            157,
+            43
+        ]
+    },
+    {
+        "id": "lime_concrete_powder",
+        "name": "黄绿色混凝土粉末",
+        "color": "#639521",
+        "rgb": [
+            99,
+            149,
+            33
+        ]
+    },
+    {
+        "id": "pink_concrete_powder",
+        "name": "粉红色混凝土粉末",
+        "color": "#b5798f",
+        "rgb": [
+            181,
+            121,
+            143
+        ]
+    },
+    {
+        "id": "gray_concrete_powder",
+        "name": "灰色混凝土粉末",
+        "color": "#3d4043",
+        "rgb": [
+            61,
+            64,
+            67
+        ]
+    },
+    {
+        "id": "light_gray_concrete_powder",
+        "name": "淡灰色混凝土粉末",
+        "color": "#7a7a75",
+        "rgb": [
+            122,
+            122,
+            117
+        ]
+    },
+    {
+        "id": "cyan_concrete_powder",
+        "name": "青色混凝土粉末",
+        "color": "#1d757c",
+        "rgb": [
+            29,
+            117,
+            124
+        ]
+    },
+    {
+        "id": "purple_concrete_powder",
+        "name": "紫色混凝土粉末",
+        "color": "#682c8c",
+        "rgb": [
+            104,
+            44,
+            140
+        ]
+    },
+    {
+        "id": "blue_concrete_powder",
+        "name": "蓝色混凝土粉末",
+        "color": "#383a84",
+        "rgb": [
+            56,
+            58,
+            132
+        ]
+    },
+    {
+        "id": "brown_concrete_powder",
+        "name": "棕色混凝土粉末",
+        "color": "#63432b",
+        "rgb": [
+            99,
+            67,
+            43
+        ]
+    },
+    {
+        "id": "green_concrete_powder",
+        "name": "绿色混凝土粉末",
+        "color": "#4d5e23",
+        "rgb": [
+            77,
+            94,
+            35
+        ]
+    },
+    {
+        "id": "red_concrete_powder",
+        "name": "红色混凝土粉末",
+        "color": "#852b28",
+        "rgb": [
+            133,
+            43,
+            40
+        ]
+    },
+    {
+        "id": "black_concrete_powder",
+        "name": "黑色混凝土粉末",
+        "color": "#141519",
+        "rgb": [
+            20,
+            21,
+            25
+        ]
+    },
+    {
+        "id": "orange_terracotta",
+        "name": "橙色陶瓦",
+        "color": "#80421e",
+        "rgb": [
+            128,
+            66,
+            30
+        ]
+    },
+    {
+        "id": "magenta_terracotta",
+        "name": "品红色陶瓦",
+        "color": "#764656",
+        "rgb": [
+            118,
+            70,
+            86
+        ]
+    },
+    {
+        "id": "light_blue_terracotta",
+        "name": "淡蓝色陶瓦",
+        "color": "#5a566d",
+        "rgb": [
+            90,
+            86,
+            109
+        ]
+    },
+    {
+        "id": "yellow_terracotta",
+        "name": "黄色陶瓦",
+        "color": "#93691c",
+        "rgb": [
+            147,
+            105,
+            28
+        ]
+    },
+    {
+        "id": "lime_terracotta",
+        "name": "黄绿色陶瓦",
+        "color": "#525d2a",
+        "rgb": [
+            82,
+            93,
+            42
+        ]
+    },
+    {
+        "id": "pink_terracotta",
+        "name": "粉红色陶瓦",
+        "color": "#803e3e",
+        "rgb": [
+            128,
+            62,
+            62
+        ]
+    },
+    {
+        "id": "gray_terracotta",
+        "name": "灰色陶瓦",
+        "color": "#2e221c",
+        "rgb": [
+            46,
+            34,
+            28
+        ]
+    },
+    {
+        "id": "light_gray_terracotta",
+        "name": "淡灰色陶瓦",
+        "color": "#6b554d",
+        "rgb": [
+            107,
+            85,
+            77
+        ]
+    },
+    {
+        "id": "cyan_terracotta",
+        "name": "青色陶瓦",
+        "color": "#444848",
+        "rgb": [
+            68,
+            72,
+            72
+        ]
+    },
+    {
+        "id": "purple_terracotta",
+        "name": "紫色陶瓦",
+        "color": "#5e3844",
+        "rgb": [
+            94,
+            56,
+            68
+        ]
+    },
+    {
+        "id": "blue_terracotta",
+        "name": "蓝色陶瓦",
+        "color": "#3b2f48",
+        "rgb": [
+            59,
+            47,
+            72
+        ]
+    },
+    {
+        "id": "brown_terracotta",
+        "name": "棕色陶瓦",
+        "color": "#3d281c",
+        "rgb": [
+            61,
+            40,
+            28
+        ]
+    },
+    {
+        "id": "green_terracotta",
+        "name": "绿色陶瓦",
+        "color": "#3c4221",
+        "rgb": [
+            60,
+            66,
+            33
+        ]
+    },
+    {
+        "id": "red_terracotta",
+        "name": "红色陶瓦",
+        "color": "#713025",
+        "rgb": [
+            113,
+            48,
+            37
+        ]
+    },
+    {
+        "id": "black_terracotta",
+        "name": "黑色陶瓦",
+        "color": "#1d120d",
+        "rgb": [
+            29,
+            18,
+            13
+        ]
+    },
+    {
+        "id": "spruce_planks",
+        "name": "云杉木板",
+        "color": "#594024",
+        "rgb": [
+            89,
+            64,
+            36
+        ]
+    },
+    {
+        "id": "birch_planks",
+        "name": "白桦木板",
+        "color": "#988a60",
+        "rgb": [
+            152,
+            138,
+            96
+        ]
+    },
+    {
+        "id": "jungle_planks",
+        "name": "丛林木板",
+        "color": "#7d593f",
+        "rgb": [
+            125,
+            89,
+            63
+        ]
+    },
+    {
+        "id": "acacia_planks",
+        "name": "金合欢木板",
+        "color": "#834627",
+        "rgb": [
+            131,
+            70,
+            39
+        ]
+    },
+    {
+        "id": "dark_oak_planks",
+        "name": "深色橡木木板",
+        "color": "#33210f",
+        "rgb": [
+            51,
+            33,
+            15
+        ]
+    },
+    {
+        "id": "tuff_double_slab",
+        "name": "凝灰岩双层台阶",
+        "color": "#52534e",
+        "rgb": [
+            82,
+            83,
+            78
+        ]
+    },
+    {
+        "id": "polished_tuff",
+        "name": "磨制凝灰岩",
+        "color": "#484d4a",
+        "rgb": [
+            72,
+            77,
+            74
+        ]
+    },
+    {
+        "id": "polished_tuff_double_slab",
+        "name": "磨制凝灰岩双层台阶",
+        "color": "#484d4a",
+        "rgb": [
+            72,
+            77,
+            74
+        ]
+    },
+    {
+        "id": "chiseled_tuff",
+        "name": "雕纹凝灰岩",
+        "color": "#434741",
+        "rgb": [
+            67,
+            71,
+            65
+        ]
+    },
+    {
+        "id": "tuff_bricks",
+        "name": "凝灰岩砖",
+        "color": "#4b4e48",
+        "rgb": [
+            75,
+            78,
+            72
+        ]
+    },
+    {
+        "id": "tuff_brick_double_slab",
+        "name": "凝灰岩砖双层台阶",
+        "color": "#4b4e48",
+        "rgb": [
+            75,
+            78,
+            72
+        ]
+    },
+    {
+        "id": "chiseled_tuff_bricks",
+        "name": "雕纹凝灰岩砖",
+        "color": "#4c4f49",
+        "rgb": [
+            76,
+            79,
+            73
+        ]
+    },
+    {
+        "id": "chiseled_copper",
+        "name": "雕纹铜块",
+        "color": "#884b37",
+        "rgb": [
+            136,
+            75,
+            55
+        ]
+    },
+    {
+        "id": "exposed_chiseled_copper",
+        "name": "斑驳的雕纹铜块",
+        "color": "#73584b",
+        "rgb": [
+            115,
+            88,
+            75
+        ]
+    },
+    {
+        "id": "weathered_chiseled_copper",
+        "name": "锈蚀的雕纹铜块",
+        "color": "#4e7052",
+        "rgb": [
+            78,
+            112,
+            82
+        ]
+    },
+    {
+        "id": "oxidized_chiseled_copper",
+        "name": "氧化的雕纹铜块",
+        "color": "#3e7862",
+        "rgb": [
+            62,
+            120,
+            98
+        ]
+    },
+    {
+        "id": "waxed_chiseled_copper",
+        "name": "涂蜡的雕纹铜块",
+        "color": "#884b37",
+        "rgb": [
+            136,
+            75,
+            55
+        ]
+    },
+    {
+        "id": "waxed_exposed_chiseled_copper",
+        "name": "涂蜡的斑驳雕纹铜块",
+        "color": "#73584b",
+        "rgb": [
+            115,
+            88,
+            75
+        ]
+    },
+    {
+        "id": "waxed_weathered_chiseled_copper",
+        "name": "涂蜡的锈蚀雕纹铜块",
+        "color": "#4e7052",
+        "rgb": [
+            78,
+            112,
+            82
+        ]
+    },
+    {
+        "id": "waxed_oxidized_chiseled_copper",
+        "name": "涂蜡的氧化雕纹铜块",
+        "color": "#3e7862",
+        "rgb": [
+            62,
+            120,
+            98
+        ]
+    },
+    {
+        "id": "copper_grate",
+        "name": "铜格栅",
+        "color": "#97543d",
+        "rgb": [
+            151,
+            84,
+            61
+        ]
+    },
+    {
+        "id": "exposed_copper_grate",
+        "name": "斑驳的铜格栅",
+        "color": "#7f6251",
+        "rgb": [
+            127,
+            98,
+            81
+        ]
+    },
+    {
+        "id": "weathered_copper_grate",
+        "name": "锈蚀的铜格栅",
+        "color": "#527856",
+        "rgb": [
+            82,
+            120,
+            86
+        ]
+    },
+    {
+        "id": "oxidized_copper_grate",
+        "name": "氧化的铜格栅",
+        "color": "#3f7f67",
+        "rgb": [
+            63,
+            127,
+            103
+        ]
+    },
+    {
+        "id": "waxed_copper_grate",
+        "name": "涂蜡的铜格栅",
+        "color": "#97543d",
+        "rgb": [
+            151,
+            84,
+            61
+        ]
+    },
+    {
+        "id": "waxed_exposed_copper_grate",
+        "name": "涂蜡的斑驳铜格栅",
+        "color": "#7f6251",
+        "rgb": [
+            127,
+            98,
+            81
+        ]
+    },
+    {
+        "id": "waxed_weathered_copper_grate",
+        "name": "涂蜡的锈蚀铜格栅",
+        "color": "#527856",
+        "rgb": [
+            82,
+            120,
+            86
+        ]
+    },
+    {
+        "id": "waxed_oxidized_copper_grate",
+        "name": "涂蜡的氧化铜格栅",
+        "color": "#3f7f67",
+        "rgb": [
+            63,
+            127,
+            103
+        ]
+    },
+    {
+        "id": "copper_bulb",
+        "name": "铜灯",
+        "color": "#7b432c",
+        "rgb": [
+            123,
+            67,
+            44
+        ]
+    },
+    {
+        "id": "exposed_copper_bulb",
+        "name": "斑驳的铜灯",
+        "color": "#6a5445",
+        "rgb": [
+            106,
+            84,
+            69
+        ]
+    },
+    {
+        "id": "weathered_copper_bulb",
+        "name": "锈蚀的铜灯",
+        "color": "#47634d",
+        "rgb": [
+            71,
+            99,
+            77
+        ]
+    },
+    {
+        "id": "oxidized_copper_bulb",
+        "name": "氧化的铜灯",
+        "color": "#356855",
+        "rgb": [
+            53,
+            104,
+            85
+        ]
+    },
+    {
+        "id": "waxed_copper_bulb",
+        "name": "涂蜡的铜灯",
+        "color": "#7b432c",
+        "rgb": [
+            123,
+            67,
+            44
+        ]
+    },
+    {
+        "id": "waxed_exposed_copper_bulb",
+        "name": "涂蜡的斑驳铜灯",
+        "color": "#6a5445",
+        "rgb": [
+            106,
+            84,
+            69
+        ]
+    },
+    {
+        "id": "waxed_weathered_copper_bulb",
+        "name": "涂蜡的锈蚀铜灯",
+        "color": "#47634d",
+        "rgb": [
+            71,
+            99,
+            77
+        ]
+    },
+    {
+        "id": "waxed_oxidized_copper_bulb",
+        "name": "涂蜡的氧化铜灯",
+        "color": "#356855",
+        "rgb": [
+            53,
+            104,
+            85
+        ]
+    },
+    {
+        "id": "spruce_double_slab",
+        "name": "云杉木双层台阶",
+        "color": "#594024",
+        "rgb": [
+            89,
+            64,
+            36
+        ]
+    },
+    {
+        "id": "birch_double_slab",
+        "name": "白桦木双层台阶",
+        "color": "#988a60",
+        "rgb": [
+            152,
+            138,
+            96
+        ]
+    },
+    {
+        "id": "jungle_double_slab",
+        "name": "丛林木双层台阶",
+        "color": "#7d593f",
+        "rgb": [
+            125,
+            89,
+            63
+        ]
+    },
+    {
+        "id": "acacia_double_slab",
+        "name": "金合欢木双层台阶",
+        "color": "#834627",
+        "rgb": [
+            131,
+            70,
+            39
+        ]
+    },
+    {
+        "id": "dark_oak_double_slab",
+        "name": "深色橡木双层台阶",
+        "color": "#33210f",
+        "rgb": [
+            51,
+            33,
+            15
+        ]
+    },
+    {
+        "id": "spruce_wood",
+        "name": "云杉木",
+        "color": "#2e1d0d",
+        "rgb": [
+            46,
+            29,
+            13
+        ]
+    },
+    {
+        "id": "birch_wood",
+        "name": "白桦木",
+        "color": "#abaaa6",
+        "rgb": [
+            171,
+            170,
+            166
+        ]
+    },
+    {
+        "id": "jungle_wood",
+        "name": "丛林木",
+        "color": "#423513",
+        "rgb": [
+            66,
+            53,
+            19
+        ]
+    },
+    {
+        "id": "acacia_wood",
+        "name": "金合欢木",
+        "color": "#514b44",
+        "rgb": [
+            81,
+            75,
+            68
+        ]
+    },
+    {
+        "id": "dark_oak_wood",
+        "name": "深色橡木",
+        "color": "#2f2414",
+        "rgb": [
+            47,
+            36,
+            20
+        ]
+    },
+    {
+        "id": "stripped_oak_wood",
+        "name": "去皮橡木",
+        "color": "#8c7143",
+        "rgb": [
+            140,
+            113,
+            67
+        ]
+    },
+    {
+        "id": "stripped_spruce_wood",
+        "name": "去皮云杉木",
+        "color": "#5b4729",
+        "rgb": [
+            91,
+            71,
+            41
+        ]
+    },
+    {
+        "id": "stripped_birch_wood",
+        "name": "去皮白桦木",
+        "color": "#9b8b5d",
+        "rgb": [
+            155,
+            139,
+            93
+        ]
+    },
+    {
+        "id": "stripped_jungle_wood",
+        "name": "去皮丛林木",
+        "color": "#876943",
+        "rgb": [
+            135,
+            105,
+            67
+        ]
+    },
+    {
+        "id": "stripped_acacia_wood",
+        "name": "去皮金合欢木",
+        "color": "#8a492f",
+        "rgb": [
+            138,
+            73,
+            47
+        ]
+    },
+    {
+        "id": "stripped_dark_oak_wood",
+        "name": "去皮深色橡木",
+        "color": "#392d1c",
+        "rgb": [
+            57,
+            45,
+            28
+        ]
+    },
+    {
+        "id": "brain_coral_block",
+        "name": "脑纹珊瑚块",
+        "color": "#a4487e",
+        "rgb": [
+            164,
+            72,
+            126
+        ]
+    },
+    {
+        "id": "bubble_coral_block",
+        "name": "气泡珊瑚块",
+        "color": "#821580",
+        "rgb": [
+            130,
+            21,
+            128
+        ]
+    },
+    {
+        "id": "fire_coral_block",
+        "name": "火珊瑚块",
+        "color": "#821c25",
+        "rgb": [
+            130,
+            28,
+            37
+        ]
+    },
+    {
+        "id": "horn_coral_block",
+        "name": "鹿角珊瑚块",
+        "color": "#ab9e34",
+        "rgb": [
+            171,
+            158,
+            52
+        ]
+    },
+    {
+        "id": "dead_tube_coral_block",
+        "name": "失活的管珊瑚块",
+        "color": "#67615e",
+        "rgb": [
+            103,
+            97,
+            94
+        ]
+    },
+    {
+        "id": "dead_brain_coral_block",
+        "name": "失活的脑纹珊瑚块",
+        "color": "#625d5a",
+        "rgb": [
+            98,
+            93,
+            90
+        ]
+    },
+    {
+        "id": "dead_bubble_coral_block",
+        "name": "失活的气泡珊瑚块",
+        "color": "#68615e",
+        "rgb": [
+            104,
+            97,
+            94
+        ]
+    },
+    {
+        "id": "dead_fire_coral_block",
+        "name": "失活的火珊瑚块",
+        "color": "#68625f",
+        "rgb": [
+            104,
+            98,
+            95
+        ]
+    },
+    {
+        "id": "dead_horn_coral_block",
+        "name": "失活的鹿角珊瑚块",
+        "color": "#696361",
+        "rgb": [
+            105,
+            99,
+            97
+        ]
+    },
+    {
+        "id": "infested_cobblestone",
+        "name": "虫蚀圆石",
+        "color": "#676666",
+        "rgb": [
+            103,
+            102,
+            102
+        ]
+    },
+    {
+        "id": "infested_stone_bricks",
+        "name": "虫蚀石砖",
+        "color": "#5f5f5f",
+        "rgb": [
+            95,
+            95,
+            95
+        ]
+    },
+    {
+        "id": "infested_mossy_stone_bricks",
+        "name": "虫蚀苔石砖",
+        "color": "#5a5e52",
+        "rgb": [
+            90,
+            94,
+            82
+        ]
+    },
+    {
+        "id": "infested_cracked_stone_bricks",
+        "name": "虫蚀裂纹石砖",
+        "color": "#5d5d5d",
+        "rgb": [
+            93,
+            93,
+            93
+        ]
+    },
+    {
+        "id": "infested_chiseled_stone_bricks",
+        "name": "虫蚀雕纹石砖",
+        "color": "#5f5e5f",
+        "rgb": [
+            95,
+            94,
+            95
+        ]
+    },
+    {
+        "id": "lilac",
+        "name": "丁香",
+        "color": "#9f7d98",
+        "rgb": [
+            159,
+            125,
+            152
+        ]
+    },
+    {
+        "id": "peony",
+        "name": "牡丹",
+        "color": "#77797d",
+        "rgb": [
+            119,
+            121,
+            125
+        ]
+    },
+    {
+        "id": "mossy_stone_bricks",
+        "name": "苔石砖",
+        "color": "#5a5e52",
+        "rgb": [
+            90,
+            94,
+            82
+        ]
+    },
+    {
+        "id": "cracked_stone_bricks",
+        "name": "裂纹石砖",
+        "color": "#5d5d5d",
+        "rgb": [
+            93,
+            93,
+            93
+        ]
+    },
+    {
+        "id": "chiseled_stone_bricks",
+        "name": "雕纹石砖",
+        "color": "#5f5e5f",
+        "rgb": [
+            95,
+            94,
+            95
+        ]
+    },
+    {
+        "id": "sandstone_double_slab",
+        "name": "砂岩双层台阶",
+        "color": "#aba27e",
+        "rgb": [
+            171,
+            162,
+            126
+        ]
+    },
+    {
+        "id": "cobblestone_double_slab",
+        "name": "圆石双层台阶",
+        "color": "#676666",
+        "rgb": [
+            103,
+            102,
+            102
+        ]
+    },
+    {
+        "id": "brick_double_slab",
+        "name": "红砖双层台阶",
+        "color": "#764d41",
+        "rgb": [
+            118,
+            77,
+            65
+        ]
+    },
+    {
+        "id": "stone_brick_double_slab",
+        "name": "石砖双层台阶",
+        "color": "#5f5f5f",
+        "rgb": [
+            95,
+            95,
+            95
+        ]
+    },
+    {
+        "id": "quartz_double_slab",
+        "name": "石英双层台阶",
+        "color": "#b9b5af",
+        "rgb": [
+            185,
+            181,
+            175
+        ]
+    },
+    {
+        "id": "nether_brick_double_slab",
+        "name": "下界砖双层台阶",
+        "color": "#221013",
+        "rgb": [
+            34,
+            16,
+            19
+        ]
+    },
+    {
+        "id": "petrified_double_slab",
+        "name": "石化橡木双层台阶",
+        "color": "#7e653d",
+        "rgb": [
+            126,
+            101,
+            61
+        ]
+    },
+    {
+        "id": "purpur_double_slab",
+        "name": "紫珀双层台阶",
+        "color": "#856284",
+        "rgb": [
+            133,
+            98,
+            132
+        ]
+    },
+    {
+        "id": "prismarine_double_slab",
+        "name": "海晶石双层台阶",
+        "color": "#4e8075",
+        "rgb": [
+            78,
+            128,
+            117
+        ]
+    },
+    {
+        "id": "dark_prismarine_double_slab",
+        "name": "暗海晶石双层台阶",
+        "color": "#29483c",
+        "rgb": [
+            41,
+            72,
+            60
+        ]
+    },
+    {
+        "id": "prismarine_brick_double_slab",
+        "name": "海晶石砖双层台阶",
+        "color": "#4e877d",
+        "rgb": [
+            78,
+            135,
+            125
+        ]
+    },
+    {
+        "id": "mossy_cobblestone_double_slab",
+        "name": "苔石双层台阶",
+        "color": "#565c4a",
+        "rgb": [
+            86,
+            92,
+            74
+        ]
+    },
+    {
+        "id": "smooth_sandstone_double_slab",
+        "name": "平滑砂岩双层台阶",
+        "color": "#b3ab89",
+        "rgb": [
+            179,
+            171,
+            137
+        ]
+    },
+    {
+        "id": "red_nether_brick_double_slab",
+        "name": "红色下界砖双层台阶",
+        "color": "#370607",
+        "rgb": [
+            55,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "smooth_red_sandstone_double_slab",
+        "name": "平滑红砂岩双层台阶",
+        "color": "#914e19",
+        "rgb": [
+            145,
+            78,
+            25
+        ]
+    },
+    {
+        "id": "polished_andesite_double_slab",
+        "name": "磨制安山岩双层台阶",
+        "color": "#676969",
+        "rgb": [
+            103,
+            105,
+            105
+        ]
+    },
+    {
+        "id": "andesite_double_slab",
+        "name": "安山岩双层台阶",
+        "color": "#6a6a6b",
+        "rgb": [
+            106,
+            106,
+            107
+        ]
+    },
+    {
+        "id": "diorite_double_slab",
+        "name": "闪长岩双层台阶",
+        "color": "#949394",
+        "rgb": [
+            148,
+            147,
+            148
+        ]
+    },
+    {
+        "id": "polished_diorite_double_slab",
+        "name": "磨制闪长岩双层台阶",
+        "color": "#969697",
+        "rgb": [
+            150,
+            150,
+            151
+        ]
+    },
+    {
+        "id": "granite_double_slab",
+        "name": "花岗岩双层台阶",
+        "color": "#755143",
+        "rgb": [
+            117,
+            81,
+            67
+        ]
+    },
+    {
+        "id": "polished_granite_double_slab",
+        "name": "磨制花岗岩双层台阶",
+        "color": "#785345",
+        "rgb": [
+            120,
+            83,
+            69
+        ]
+    },
+    {
+        "id": "smooth_quartz_double_slab",
+        "name": "平滑石英双层台阶",
+        "color": "#bbb6b1",
+        "rgb": [
+            187,
+            182,
+            177
+        ]
+    },
+    {
+        "id": "normal_stone_double_slab",
+        "name": "石头双层台阶",
+        "color": "#626262",
+        "rgb": [
+            98,
+            98,
+            98
+        ]
+    },
+    {
+        "id": "cut_sandstone_double_slab",
+        "name": "切制砂岩双层台阶",
+        "color": "#aca37f",
+        "rgb": [
+            172,
+            163,
+            127
+        ]
+    },
+    {
+        "id": "cut_red_sandstone_double_slab",
+        "name": "切制红砂岩双层台阶",
+        "color": "#934f19",
+        "rgb": [
+            147,
+            79,
+            25
+        ]
+    },
+    {
+        "id": "chiseled_sandstone",
+        "name": "雕纹砂岩",
+        "color": "#aba27d",
+        "rgb": [
+            171,
+            162,
+            125
+        ]
+    },
+    {
+        "id": "cut_sandstone",
+        "name": "切制砂岩",
+        "color": "#aca37f",
+        "rgb": [
+            172,
+            163,
+            127
+        ]
+    },
+    {
+        "id": "smooth_sandstone",
+        "name": "平滑砂岩",
+        "color": "#b3ab89",
+        "rgb": [
+            179,
+            171,
+            137
+        ]
+    },
+    {
+        "id": "dark_prismarine",
+        "name": "暗海晶石",
+        "color": "#29483c",
+        "rgb": [
+            41,
+            72,
+            60
+        ]
+    },
+    {
+        "id": "prismarine_bricks",
+        "name": "海晶石砖",
+        "color": "#4e877d",
+        "rgb": [
+            78,
+            135,
+            125
+        ]
+    },
+    {
+        "id": "red_sand",
+        "name": "红沙",
+        "color": "#955019",
+        "rgb": [
+            149,
+            80,
+            25
+        ]
+    },
+    {
+        "id": "deprecated_purpur_block_1",
+        "name": "雕纹紫珀块",
+        "color": "#856284",
+        "rgb": [
+            133,
+            98,
+            132
+        ]
+    },
+    {
+        "id": "purpur_pillar",
+        "name": "紫珀柱",
+        "color": "#8a688b",
+        "rgb": [
+            138,
+            104,
+            139
+        ]
+    },
+    {
+        "id": "deprecated_purpur_block_2",
+        "name": "平滑紫珀块",
+        "color": "#856284",
+        "rgb": [
+            133,
+            98,
+            132
+        ]
+    },
+    {
+        "id": "chiseled_quartz_block",
+        "name": "雕纹石英块",
+        "color": "#b7b3ac",
+        "rgb": [
+            183,
+            179,
+            172
+        ]
+    },
+    {
+        "id": "quartz_pillar",
+        "name": "石英柱",
+        "color": "#bcb8b4",
+        "rgb": [
+            188,
+            184,
+            180
+        ]
+    },
+    {
+        "id": "smooth_quartz_block",
+        "name": "平滑石英块",
+        "color": "#bbb6b1",
+        "rgb": [
+            187,
+            182,
+            177
+        ]
+    },
+    {
+        "id": "chiseled_red_sandstone",
+        "name": "雕纹红砂岩",
+        "color": "#904d17",
+        "rgb": [
+            144,
+            77,
+            23
+        ]
+    },
+    {
+        "id": "cut_red_sandstone",
+        "name": "切制红砂岩",
+        "color": "#934f19",
+        "rgb": [
+            147,
+            79,
+            25
+        ]
+    },
+    {
+        "id": "smooth_red_sandstone",
+        "name": "平滑红砂岩",
+        "color": "#914e19",
+        "rgb": [
+            145,
+            78,
+            25
+        ]
+    },
+    {
+        "id": "chipped_anvil",
+        "name": "开裂的铁砧",
+        "color": "#39393a",
+        "rgb": [
+            57,
+            57,
+            58
+        ]
+    },
+    {
+        "id": "damaged_anvil",
+        "name": "损坏的铁砧",
+        "color": "#39393a",
+        "rgb": [
+            57,
+            57,
+            58
+        ]
+    },
+    {
+        "id": "deprecated_anvil",
+        "name": "破碎的铁砧",
+        "color": "#393939",
+        "rgb": [
+            57,
+            57,
+            57
+        ]
+    },
+    {
+        "id": "coarse_dirt",
+        "name": "砂土",
+        "color": "#5e432e",
+        "rgb": [
+            94,
+            67,
+            46
+        ]
+    },
+    {
+        "id": "wet_sponge",
+        "name": "湿海绵",
+        "color": "#868e37",
+        "rgb": [
+            134,
+            142,
+            55
+        ]
+    },
+    {
+        "id": "underwater_tnt",
+        "name": "水下TNT",
+        "color": "#3d887e",
+        "rgb": [
+            61,
+            136,
+            126
+        ]
+    },
+    {
+        "id": "material_reducer",
+        "name": "材料分解器",
+        "color": "#6d6c69",
+        "rgb": [
+            109,
+            108,
+            105
+        ]
+    },
+    {
+        "id": "element_constructor",
+        "name": "元素构造器",
+        "color": "#625d54",
+        "rgb": [
+            98,
+            93,
+            84
+        ]
+    },
+    {
+        "id": "lab_table",
+        "name": "实验台",
+        "color": "#6f695f",
+        "rgb": [
+            111,
+            105,
+            95
+        ]
+    },
+    {
+        "id": "stripped_pale_oak_log",
+        "name": "去皮苍白橡木原木",
+        "color": "#beb8b7",
+        "rgb": [
+            190,
+            184,
+            183
+        ]
+    },
+    {
+        "id": "pale_oak_log",
+        "name": "苍白橡木原木",
+        "color": "#625a58",
+        "rgb": [
+            98,
+            90,
+            88
+        ]
+    },
+    {
+        "id": "pale_oak_planks",
+        "name": "苍白橡木木板",
+        "color": "#b4acab",
+        "rgb": [
+            180,
+            172,
+            171
+        ]
+    },
+    {
+        "id": "pale_oak_double_slab",
+        "name": "苍白橡木双层台阶",
+        "color": "#b4acab",
+        "rgb": [
+            180,
+            172,
+            171
+        ]
+    },
+    {
+        "id": "stripped_pale_oak_wood",
+        "name": "去皮苍白橡木",
+        "color": "#c1bbba",
+        "rgb": [
+            193,
+            187,
+            186
+        ]
+    },
+    {
+        "id": "pale_oak_wood",
+        "name": "苍白橡木",
+        "color": "#433b39",
+        "rgb": [
+            67,
+            59,
+            57
+        ]
+    },
+    {
+        "id": "pale_moss_block",
+        "name": "苍白苔藓块",
+        "color": "#545953",
+        "rgb": [
+            84,
+            89,
+            83
+        ]
+    },
+    {
+        "id": "pale_hanging_moss",
+        "name": "苍白垂须",
+        "color": "#646963",
+        "rgb": [
+            100,
+            105,
+            99
+        ]
+    },
+    {
+        "id": "creaking_heart",
+        "name": "嘎枝之心",
+        "color": "#3f3430",
+        "rgb": [
+            63,
+            52,
+            48
+        ]
+    },
+    {
+        "id": "resin_bricks",
+        "name": "树脂砖块",
+        "color": "#a24613",
+        "rgb": [
+            162,
+            70,
+            19
+        ]
+    },
+    {
+        "id": "resin_brick_double_slab",
+        "name": "树脂砖双层台阶",
+        "color": "#a24613",
+        "rgb": [
+            162,
+            70,
+            19
+        ]
+    },
+    {
+        "id": "chiseled_resin_bricks",
+        "name": "雕纹树脂砖块",
+        "color": "#9f4314",
+        "rgb": [
+            159,
+            67,
+            20
+        ]
+    },
+    {
+        "id": "resin_block",
+        "name": "树脂块",
+        "color": "#ac4f14",
+        "rgb": [
+            172,
+            79,
+            20
+        ]
+    },
+    {
+        "id": "resin_clump",
+        "name": "树脂团",
+        "color": "#d56419",
+        "rgb": [
+            213,
+            100,
+            25
+        ]
+    },
+    {
+        "id": "leaf_litter",
+        "name": "枯叶堆",
+        "color": "#6f502f",
+        "rgb": [
+            111,
+            80,
+            47
+        ]
+    },
+    {
+        "id": "dried_ghast",
+        "name": "失水恶魂",
+        "color": "#7a7171",
+        "rgb": [
+            122,
+            113,
+            113
+        ]
+    },
+    {
+        "id": "copper_golem_statue",
+        "name": "铜傀儡像",
+        "color": "#9e5743",
+        "rgb": [
+            158,
+            87,
+            67
+        ]
+    },
+    {
+        "id": "exposed_copper_golem_statue",
+        "name": "斑驳的铜傀儡像",
+        "color": "#886356",
+        "rgb": [
+            136,
+            99,
+            86
+        ]
+    },
+    {
+        "id": "weathered_copper_golem_statue",
+        "name": "锈蚀的铜傀儡像",
+        "color": "#557b5d",
+        "rgb": [
+            85,
+            123,
+            93
+        ]
+    },
+    {
+        "id": "oxidized_copper_golem_statue",
+        "name": "氧化的铜傀儡像",
+        "color": "#46876d",
+        "rgb": [
+            70,
+            135,
+            109
+        ]
+    },
+    {
+        "id": "waxed_copper_golem_statue",
+        "name": "涂蜡的铜傀儡像",
+        "color": "#9e5743",
+        "rgb": [
+            158,
+            87,
+            67
+        ]
+    },
+    {
+        "id": "waxed_exposed_copper_golem_statue",
+        "name": "涂蜡的斑驳铜傀儡像",
+        "color": "#886356",
+        "rgb": [
+            136,
+            99,
+            86
+        ]
+    },
+    {
+        "id": "waxed_weathered_copper_golem_statue",
+        "name": "涂蜡的锈蚀铜傀儡像",
+        "color": "#557b5d",
+        "rgb": [
+            85,
+            123,
+            93
+        ]
+    },
+    {
+        "id": "waxed_oxidized_copper_golem_statue",
+        "name": "涂蜡的氧化铜傀儡像",
+        "color": "#46876d",
+        "rgb": [
+            70,
+            135,
+            109
+        ]
+    },
+    {
+        "id": "sulfur",
+        "name": "硫黄",
+        "color": "#9d9153",
+        "rgb": [
+            157,
+            145,
+            83
+        ]
+    },
+    {
+        "id": "sulfur_double_slab",
+        "name": "硫黄双层台阶",
+        "color": "#9d9153",
+        "rgb": [
+            157,
+            145,
+            83
+        ]
+    },
+    {
+        "id": "polished_sulfur",
+        "name": "磨制硫黄",
+        "color": "#938546",
+        "rgb": [
+            147,
+            133,
+            70
+        ]
+    },
+    {
+        "id": "polished_sulfur_double_slab",
+        "name": "磨制硫黄双层台阶",
+        "color": "#938546",
+        "rgb": [
+            147,
+            133,
+            70
+        ]
+    },
+    {
+        "id": "sulfur_bricks",
+        "name": "硫黄砖",
+        "color": "#928246",
+        "rgb": [
+            146,
+            130,
+            70
+        ]
+    },
+    {
+        "id": "sulfur_brick_double_slab",
+        "name": "硫黄砖双层台阶",
+        "color": "#928246",
+        "rgb": [
+            146,
+            130,
+            70
+        ]
+    },
+    {
+        "id": "chiseled_sulfur",
+        "name": "雕纹硫黄",
+        "color": "#928546",
+        "rgb": [
+            146,
+            133,
+            70
+        ]
+    },
+    {
+        "id": "potent_sulfur",
+        "name": "烈性硫黄",
+        "color": "#a6a34b",
+        "rgb": [
+            166,
+            163,
+            75
+        ]
+    },
+    {
+        "id": "cinnabar",
+        "name": "朱砂",
+        "color": "#763f3c",
+        "rgb": [
+            118,
+            63,
+            60
+        ]
+    },
+    {
+        "id": "cinnabar_double_slab",
+        "name": "朱砂双层台阶",
+        "color": "#763f3c",
+        "rgb": [
+            118,
+            63,
+            60
+        ]
+    },
+    {
+        "id": "polished_cinnabar",
+        "name": "磨制朱砂",
+        "color": "#772b29",
+        "rgb": [
+            119,
+            43,
+            41
+        ]
+    },
+    {
+        "id": "polished_cinnabar_double_slab",
+        "name": "磨制朱砂双层台阶",
+        "color": "#772b29",
+        "rgb": [
+            119,
+            43,
+            41
+        ]
+    },
+    {
+        "id": "cinnabar_bricks",
+        "name": "朱砂砖",
+        "color": "#732928",
+        "rgb": [
+            115,
+            41,
+            40
+        ]
+    },
+    {
+        "id": "cinnabar_brick_double_slab",
+        "name": "朱砂砖双层台阶",
+        "color": "#732928",
+        "rgb": [
+            115,
+            41,
+            40
+        ]
+    }
+]

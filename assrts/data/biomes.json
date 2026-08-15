@@ -1,0 +1,442 @@
+[
+    {
+        "name": "海洋",
+        "id": "ocean",
+        "numId": "0"
+    },
+    {
+        "name": "平原",
+        "id": "plains",
+        "numId": "1"
+    },
+    {
+        "name": "沙漠",
+        "id": "desert",
+        "numId": "2"
+    },
+    {
+        "name": "风袭丘陵",
+        "id": "extreme_hills",
+        "numId": "3"
+    },
+    {
+        "name": "森林",
+        "id": "forest",
+        "numId": "4"
+    },
+    {
+        "name": "针叶林",
+        "id": "taiga",
+        "numId": "5"
+    },
+    {
+        "name": "沼泽",
+        "id": "swampland",
+        "numId": "6"
+    },
+    {
+        "name": "河流",
+        "id": "river",
+        "numId": "7"
+    },
+    {
+        "name": "下界荒地",
+        "id": "hell",
+        "numId": "8"
+    },
+    {
+        "name": "末地",
+        "id": "the_end",
+        "numId": "9"
+    },
+    {
+        "name": "冻洋（旧版）",
+        "id": "legacy_frozen_ocean",
+        "numId": "10"
+    },
+    {
+        "name": "冻河",
+        "id": "frozen_river",
+        "numId": "11"
+    },
+    {
+        "name": "雪原",
+        "id": "ice_plains",
+        "numId": "12"
+    },
+    {
+        "name": "雪山",
+        "id": "ice_mountains",
+        "numId": "13"
+    },
+    {
+        "name": "蘑菇岛",
+        "id": "mushroom_island",
+        "numId": "14"
+    },
+    {
+        "name": "蘑菇岛岸",
+        "id": "mushroom_island_shore",
+        "numId": "15"
+    },
+    {
+        "name": "沙滩",
+        "id": "beach",
+        "numId": "16"
+    },
+    {
+        "name": "沙漠丘陵",
+        "id": "desert_hills",
+        "numId": "17"
+    },
+    {
+        "name": "繁茂的丘陵",
+        "id": "forest_hills",
+        "numId": "18"
+    },
+    {
+        "name": "针叶林丘陵",
+        "id": "taiga_hills",
+        "numId": "19"
+    },
+    {
+        "name": "山地边缘",
+        "id": "extreme_hills_edge",
+        "numId": "20"
+    },
+    {
+        "name": "丛林",
+        "id": "jungle",
+        "numId": "21"
+    },
+    {
+        "name": "丛林丘陵",
+        "id": "jungle_hills",
+        "numId": "22"
+    },
+    {
+        "name": "稀疏丛林",
+        "id": "jungle_edge",
+        "numId": "23"
+    },
+    {
+        "name": "深海",
+        "id": "deep_ocean",
+        "numId": "24"
+    },
+    {
+        "name": "石岸",
+        "id": "stone_beach",
+        "numId": "25"
+    },
+    {
+        "name": "积雪沙滩",
+        "id": "cold_beach",
+        "numId": "26"
+    },
+    {
+        "name": "桦木森林",
+        "id": "birch_forest",
+        "numId": "27"
+    },
+    {
+        "name": "桦木森林丘陵",
+        "id": "birch_forest_hills",
+        "numId": "28"
+    },
+    {
+        "name": "黑森林",
+        "id": "roofed_forest",
+        "numId": "29"
+    },
+    {
+        "name": "积雪针叶林",
+        "id": "cold_taiga",
+        "numId": "30"
+    },
+    {
+        "name": "积雪的针叶林丘陵",
+        "id": "cold_taiga_hills",
+        "numId": "31"
+    },
+    {
+        "name": "原始松木针叶林",
+        "id": "mega_taiga",
+        "numId": "32"
+    },
+    {
+        "name": "巨型针叶林丘陵",
+        "id": "mega_taiga_hills",
+        "numId": "33"
+    },
+    {
+        "name": "风袭森林",
+        "id": "extreme_hills_plus_trees",
+        "numId": "34"
+    },
+    {
+        "name": "热带草原",
+        "id": "savanna",
+        "numId": "35"
+    },
+    {
+        "name": "热带高原",
+        "id": "savanna_plateau",
+        "numId": "36"
+    },
+    {
+        "name": "恶地",
+        "id": "mesa",
+        "numId": "37"
+    },
+    {
+        "name": "繁茂的恶地高原",
+        "id": "mesa_plateau_stone",
+        "numId": "38"
+    },
+    {
+        "name": "恶地高原",
+        "id": "mesa_plateau",
+        "numId": "39"
+    },
+    {
+        "name": "暖水海洋",
+        "id": "warm_ocean",
+        "numId": "40"
+    },
+    {
+        "name": "暖水深海",
+        "id": "deep_warm_ocean",
+        "numId": "41"
+    },
+    {
+        "name": "温水海洋",
+        "id": "lukewarm_ocean",
+        "numId": "42"
+    },
+    {
+        "name": "温水深海",
+        "id": "deep_lukewarm_ocean",
+        "numId": "43"
+    },
+    {
+        "name": "冷水海洋",
+        "id": "cold_ocean",
+        "numId": "44"
+    },
+    {
+        "name": "冷水深海",
+        "id": "deep_cold_ocean",
+        "numId": "45"
+    },
+    {
+        "name": "冻洋",
+        "id": "frozen_ocean",
+        "numId": "46"
+    },
+    {
+        "name": "冰冻深海",
+        "id": "deep_frozen_ocean",
+        "numId": "47"
+    },
+    {
+        "name": "竹林",
+        "id": "bamboo_jungle",
+        "numId": "48"
+    },
+    {
+        "name": "竹林丘陵",
+        "id": "bamboo_jungle_hills",
+        "numId": "49"
+    },
+    {
+        "name": "向日葵平原",
+        "id": "sunflower_plains",
+        "numId": "129"
+    },
+    {
+        "name": "沙漠湖泊",
+        "id": "desert_mutated",
+        "numId": "130"
+    },
+    {
+        "name": "风袭沙砾丘陵",
+        "id": "extreme_hills_mutated",
+        "numId": "131"
+    },
+    {
+        "name": "繁花森林",
+        "id": "flower_forest",
+        "numId": "132"
+    },
+    {
+        "name": "针叶林山地",
+        "id": "taiga_mutated",
+        "numId": "133"
+    },
+    {
+        "name": "沼泽丘陵",
+        "id": "swampland_mutated",
+        "numId": "134"
+    },
+    {
+        "name": "冰刺之地",
+        "id": "ice_plains_spikes",
+        "numId": "140"
+    },
+    {
+        "name": "丛林变种",
+        "id": "jungle_mutated",
+        "numId": "149"
+    },
+    {
+        "name": "丛林边缘变种",
+        "id": "jungle_edge_mutated",
+        "numId": "151"
+    },
+    {
+        "name": "原始桦木森林",
+        "id": "birch_forest_mutated",
+        "numId": "155"
+    },
+    {
+        "name": "高大桦木丘陵",
+        "id": "birch_forest_hills_mutated",
+        "numId": "156"
+    },
+    {
+        "name": "黑森林丘陵",
+        "id": "roofed_forest_mutated",
+        "numId": "157"
+    },
+    {
+        "name": "积雪的针叶林山地",
+        "id": "cold_taiga_mutated",
+        "numId": "158"
+    },
+    {
+        "name": "原始云杉针叶林",
+        "id": "redwood_taiga_mutated",
+        "numId": "160"
+    },
+    {
+        "name": "巨型云杉针叶林丘陵",
+        "id": "redwood_taiga_hills_mutated",
+        "numId": "161"
+    },
+    {
+        "name": "沙砾山地+",
+        "id": "extreme_hills_plus_trees_mutated",
+        "numId": "162"
+    },
+    {
+        "name": "风袭热带草原",
+        "id": "savanna_mutated",
+        "numId": "163"
+    },
+    {
+        "name": "破碎的热带高原",
+        "id": "savanna_plateau_mutated",
+        "numId": "164"
+    },
+    {
+        "name": "风蚀恶地",
+        "id": "mesa_bryce",
+        "numId": "165"
+    },
+    {
+        "name": "繁茂的恶地高原变种",
+        "id": "mesa_plateau_stone_mutated",
+        "numId": "166"
+    },
+    {
+        "name": "恶地高原变种",
+        "id": "mesa_plateau_mutated",
+        "numId": "167"
+    },
+    {
+        "name": "灵魂沙峡谷",
+        "id": "soulsand_valley",
+        "numId": "178"
+    },
+    {
+        "name": "绯红森林",
+        "id": "crimson_forest",
+        "numId": "179"
+    },
+    {
+        "name": "诡异森林",
+        "id": "warped_forest",
+        "numId": "180"
+    },
+    {
+        "name": "玄武岩三角洲",
+        "id": "basalt_deltas",
+        "numId": "181"
+    },
+    {
+        "name": "尖峭山峰",
+        "id": "jagged_peaks",
+        "numId": "182"
+    },
+    {
+        "name": "冰封山峰",
+        "id": "frozen_peaks",
+        "numId": "183"
+    },
+    {
+        "name": "积雪山坡",
+        "id": "snowy_slopes",
+        "numId": "184"
+    },
+    {
+        "name": "雪林",
+        "id": "grove",
+        "numId": "185"
+    },
+    {
+        "name": "草甸",
+        "id": "meadow",
+        "numId": "186"
+    },
+    {
+        "name": "繁茂洞穴",
+        "id": "lush_caves",
+        "numId": "187"
+    },
+    {
+        "name": "溶洞",
+        "id": "dripstone_caves",
+        "numId": "188"
+    },
+    {
+        "name": "裸岩山峰",
+        "id": "stony_peaks",
+        "numId": "189"
+    },
+    {
+        "name": "深暗之域",
+        "id": "deep_dark",
+        "numId": "190"
+    },
+    {
+        "name": "红树林沼泽",
+        "id": "mangrove_swamp",
+        "numId": "191"
+    },
+    {
+        "name": "樱花树林",
+        "id": "cherry_grove",
+        "numId": "192"
+    },
+    {
+        "name": "苍白之园",
+        "id": "pale_garden",
+        "numId": "193"
+    },
+    {
+        "name": "硫黄洞穴[实验性玩法“2026 年第 2 次更新”新增]",
+        "id": "sulfur_caves",
+        "numId": "194"
+    }
+]

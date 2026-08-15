@@ -1,0 +1,22 @@
+[
+    {
+        "name": "尖峭山峰(旧版)",
+        "id": "lofty_peaks",
+        "numId": "182"
+    },
+    {
+        "name": "冰封山峰(旧版)",
+        "id": "snow_capped_peaks",
+        "numId": "183"
+    },
+    {
+        "name": "雪林(旧版)",
+        "id": "mountain_grove",
+        "numId": "185"
+    },
+    {
+        "name": "草甸(旧版)",
+        "id": "mountain_meadow",
+        "numId": "186"
+    }
+]

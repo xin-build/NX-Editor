@@ -1,0 +1,187 @@
+[
+    {
+        "name": "迅捷",
+        "id": "1",
+        "numId": "speed"
+    },
+    {
+        "name": "缓慢",
+        "id": "2",
+        "numId": "slowness"
+    },
+    {
+        "name": "急迫",
+        "id": "3",
+        "numId": "haste"
+    },
+    {
+        "name": "挖掘疲劳",
+        "id": "4",
+        "numId": "mining_fatigue"
+    },
+    {
+        "name": "力量",
+        "id": "5",
+        "numId": "strength"
+    },
+    {
+        "name": "瞬间治疗",
+        "id": "6",
+        "numId": "instant_health"
+    },
+    {
+        "name": "瞬间伤害",
+        "id": "7",
+        "numId": "instant_damage"
+    },
+    {
+        "name": "跳跃提升",
+        "id": "8",
+        "numId": "jump_boost"
+    },
+    {
+        "name": "反胃",
+        "id": "9",
+        "numId": "nausea"
+    },
+    {
+        "name": "生命恢复",
+        "id": "10",
+        "numId": "regeneration"
+    },
+    {
+        "name": "抗性提升",
+        "id": "11",
+        "numId": "resistance"
+    },
+    {
+        "name": "抗火",
+        "id": "12",
+        "numId": "fire_resistance"
+    },
+    {
+        "name": "水下呼吸",
+        "id": "13",
+        "numId": "water_breathing"
+    },
+    {
+        "name": "隐身",
+        "id": "14",
+        "numId": "invisibility"
+    },
+    {
+        "name": "失明",
+        "id": "15",
+        "numId": "blindness"
+    },
+    {
+        "name": "夜视",
+        "id": "16",
+        "numId": "night_vision"
+    },
+    {
+        "name": "饥饿",
+        "id": "17",
+        "numId": "hunger"
+    },
+    {
+        "name": "虚弱",
+        "id": "18",
+        "numId": "weakness"
+    },
+    {
+        "name": "中毒",
+        "id": "19",
+        "numId": "poison"
+    },
+    {
+        "name": "凋零",
+        "id": "20",
+        "numId": "wither"
+    },
+    {
+        "name": "生命提升",
+        "id": "21",
+        "numId": "health_boost"
+    },
+    {
+        "name": "伤害吸收",
+        "id": "22",
+        "numId": "absorption"
+    },
+    {
+        "name": "饱和",
+        "id": "23",
+        "numId": "saturation"
+    },
+    {
+        "name": "飘浮",
+        "id": "24",
+        "numId": "levitation"
+    },
+    {
+        "name": "中毒（致命）",
+        "id": "25",
+        "numId": "fatal_poison"
+    },
+    {
+        "name": "潮涌能量",
+        "id": "26",
+        "numId": "conduit_power"
+    },
+    {
+        "name": "缓降",
+        "id": "27",
+        "numId": "slow_falling"
+    },
+    {
+        "name": "不祥之兆",
+        "id": "28",
+        "numId": "bad_omen"
+    },
+    {
+        "name": "村庄英雄",
+        "id": "29",
+        "numId": "village_hero"
+    },
+    {
+        "name": "黑暗",
+        "id": "30",
+        "numId": "darkness"
+    },
+    {
+        "name": "试炼之兆",
+        "id": "31",
+        "numId": "trial_omen"
+    },
+    {
+        "name": "蓄风",
+        "id": "32",
+        "numId": "wind_charged"
+    },
+    {
+        "name": "盘丝",
+        "id": "33",
+        "numId": "weaving"
+    },
+    {
+        "name": "渗浆",
+        "id": "34",
+        "numId": "oozing"
+    },
+    {
+        "name": "寄生",
+        "id": "35",
+        "numId": "infested"
+    },
+    {
+        "name": "袭击之兆",
+        "id": "36",
+        "numId": "raid_omen"
+    },
+    {
+        "name": "鹦鹉螺之息",
+        "id": "37",
+        "numId": "breath_of_the_nautilus"
+    }
+]

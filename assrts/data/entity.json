@@ -1,0 +1,848 @@
+[
+    {
+        "name": "Undefined Test Only",
+        "id": "undefined_test_only",
+        "numId": "1",
+        "hexId": "1"
+    },
+    {
+        "name": "鸡",
+        "id": "chicken",
+        "numId": "10",
+        "hexId": "A"
+    },
+    {
+        "name": "牛",
+        "id": "cow",
+        "numId": "11",
+        "hexId": "B"
+    },
+    {
+        "name": "猪",
+        "id": "pig",
+        "numId": "12",
+        "hexId": "C"
+    },
+    {
+        "name": "绵羊",
+        "id": "sheep",
+        "numId": "13",
+        "hexId": "D"
+    },
+    {
+        "name": "狼",
+        "id": "wolf",
+        "numId": "14",
+        "hexId": "E"
+    },
+    {
+        "name": "旧版村民",
+        "id": "villager",
+        "numId": "15",
+        "hexId": "F"
+    },
+    {
+        "name": "哞菇",
+        "id": "mooshroom",
+        "numId": "16",
+        "hexId": "10"
+    },
+    {
+        "name": "鱿鱼",
+        "id": "squid",
+        "numId": "17",
+        "hexId": "11"
+    },
+    {
+        "name": "兔子",
+        "id": "rabbit",
+        "numId": "18",
+        "hexId": "12"
+    },
+    {
+        "name": "蝙蝠",
+        "id": "bat",
+        "numId": "19",
+        "hexId": "13"
+    },
+    {
+        "name": "铁傀儡",
+        "id": "iron_golem",
+        "numId": "20",
+        "hexId": "14"
+    },
+    {
+        "name": "雪傀儡",
+        "id": "snow_golem",
+        "numId": "21",
+        "hexId": "15"
+    },
+    {
+        "name": "豹猫",
+        "id": "ocelot",
+        "numId": "22",
+        "hexId": "16"
+    },
+    {
+        "name": "马",
+        "id": "horse",
+        "numId": "23",
+        "hexId": "17"
+    },
+    {
+        "name": "驴",
+        "id": "donkey",
+        "numId": "24",
+        "hexId": "18"
+    },
+    {
+        "name": "骡",
+        "id": "mule",
+        "numId": "25",
+        "hexId": "19"
+    },
+    {
+        "name": "骷髅马",
+        "id": "skeleton_horse",
+        "numId": "26",
+        "hexId": "1A"
+    },
+    {
+        "name": "僵尸马",
+        "id": "zombie_horse",
+        "numId": "27",
+        "hexId": "1B"
+    },
+    {
+        "name": "北极熊",
+        "id": "polar_bear",
+        "numId": "28",
+        "hexId": "1C"
+    },
+    {
+        "name": "羊驼",
+        "id": "llama",
+        "numId": "29",
+        "hexId": "1D"
+    },
+    {
+        "name": "鹦鹉",
+        "id": "parrot",
+        "numId": "30",
+        "hexId": "1E"
+    },
+    {
+        "name": "海豚",
+        "id": "dolphin",
+        "numId": "31",
+        "hexId": "1F"
+    },
+    {
+        "name": "僵尸",
+        "id": "zombie",
+        "numId": "32",
+        "hexId": "20"
+    },
+    {
+        "name": "苦力怕",
+        "id": "creeper",
+        "numId": "33",
+        "hexId": "21"
+    },
+    {
+        "name": "骷髅",
+        "id": "skeleton",
+        "numId": "34",
+        "hexId": "22"
+    },
+    {
+        "name": "蜘蛛",
+        "id": "spider",
+        "numId": "35",
+        "hexId": "23"
+    },
+    {
+        "name": "僵尸猪灵",
+        "id": "zombie_pigman",
+        "numId": "36",
+        "hexId": "24"
+    },
+    {
+        "name": "史莱姆",
+        "id": "slime",
+        "numId": "37",
+        "hexId": "25"
+    },
+    {
+        "name": "末影人",
+        "id": "enderman",
+        "numId": "38",
+        "hexId": "26"
+    },
+    {
+        "name": "蠹虫",
+        "id": "silverfish",
+        "numId": "39",
+        "hexId": "27"
+    },
+    {
+        "name": "洞穴蜘蛛",
+        "id": "cave_spider",
+        "numId": "40",
+        "hexId": "28"
+    },
+    {
+        "name": "恶魂",
+        "id": "ghast",
+        "numId": "41",
+        "hexId": "29"
+    },
+    {
+        "name": "岩浆怪",
+        "id": "magma_cube",
+        "numId": "42",
+        "hexId": "2A"
+    },
+    {
+        "name": "烈焰人",
+        "id": "blaze",
+        "numId": "43",
+        "hexId": "2B"
+    },
+    {
+        "name": "旧版僵尸村民",
+        "id": "zombie_villager",
+        "numId": "44",
+        "hexId": "2C"
+    },
+    {
+        "name": "女巫",
+        "id": "witch",
+        "numId": "45",
+        "hexId": "2D"
+    },
+    {
+        "name": "流浪者",
+        "id": "stray",
+        "numId": "46",
+        "hexId": "2E"
+    },
+    {
+        "name": "尸壳",
+        "id": "husk",
+        "numId": "47",
+        "hexId": "2F"
+    },
+    {
+        "name": "凋灵骷髅",
+        "id": "wither_skeleton",
+        "numId": "48",
+        "hexId": "30"
+    },
+    {
+        "name": "守卫者",
+        "id": "guardian",
+        "numId": "49",
+        "hexId": "31"
+    },
+    {
+        "name": "远古守卫者",
+        "id": "elder_guardian",
+        "numId": "50",
+        "hexId": "32"
+    },
+    {
+        "name": "NPC",
+        "id": "npc",
+        "numId": "51",
+        "hexId": "33"
+    },
+    {
+        "name": "凋灵",
+        "id": "wither",
+        "numId": "52",
+        "hexId": "34"
+    },
+    {
+        "name": "末影龙",
+        "id": "ender_dragon",
+        "numId": "53",
+        "hexId": "35"
+    },
+    {
+        "name": "潜影贝",
+        "id": "shulker",
+        "numId": "54",
+        "hexId": "36"
+    },
+    {
+        "name": "末影螨",
+        "id": "endermite",
+        "numId": "55",
+        "hexId": "37"
+    },
+    {
+        "name": "智能体",
+        "id": "agent",
+        "numId": "56",
+        "hexId": "38"
+    },
+    {
+        "name": "卫道士",
+        "id": "vindicator",
+        "numId": "57",
+        "hexId": "39"
+    },
+    {
+        "name": "幻翼",
+        "id": "phantom",
+        "numId": "58",
+        "hexId": "3A"
+    },
+    {
+        "name": "劫掠兽",
+        "id": "ravager",
+        "numId": "59",
+        "hexId": "3B"
+    },
+    {
+        "name": "盔甲架",
+        "id": "armor_stand",
+        "numId": "61",
+        "hexId": "3D"
+    },
+    {
+        "name": "摄像机",
+        "id": "tripod_camera",
+        "numId": "62",
+        "hexId": "3E"
+    },
+    {
+        "name": "玩家",
+        "id": "player",
+        "numId": "63",
+        "hexId": "3F"
+    },
+    {
+        "name": "掉落物",
+        "id": "item",
+        "numId": "64",
+        "hexId": "40"
+    },
+    {
+        "name": "点燃的TNT",
+        "id": "tnt",
+        "numId": "65",
+        "hexId": "41"
+    },
+    {
+        "name": "下落的方块",
+        "id": "falling_block",
+        "numId": "66",
+        "hexId": "42"
+    },
+    {
+        "name": "移动的活塞",
+        "id": "moving_block",
+        "numId": "67",
+        "hexId": "43"
+    },
+    {
+        "name": "扔出的附魔之瓶",
+        "id": "xp_bottle",
+        "numId": "68",
+        "hexId": "44"
+    },
+    {
+        "name": "经验球",
+        "id": "xp_orb",
+        "numId": "69",
+        "hexId": "45"
+    },
+    {
+        "name": "扔出的末影之眼",
+        "id": "eye_of_ender_signal",
+        "numId": "70",
+        "hexId": "46"
+    },
+    {
+        "name": "末地水晶",
+        "id": "ender_crystal",
+        "numId": "71",
+        "hexId": "47"
+    },
+    {
+        "name": "烟花火箭",
+        "id": "fireworks_rocket",
+        "numId": "72",
+        "hexId": "48"
+    },
+    {
+        "name": "三叉戟",
+        "id": "thrown_trident",
+        "numId": "73",
+        "hexId": "49"
+    },
+    {
+        "name": "海龟",
+        "id": "turtle",
+        "numId": "74",
+        "hexId": "4A"
+    },
+    {
+        "name": "流浪猫",
+        "id": "cat",
+        "numId": "75",
+        "hexId": "4B"
+    },
+    {
+        "name": "潜影弹",
+        "id": "shulker_bullet",
+        "numId": "76",
+        "hexId": "4C"
+    },
+    {
+        "name": "浮漂",
+        "id": "fishing_hook",
+        "numId": "77",
+        "hexId": "4D"
+    },
+    {
+        "name": "黑板",
+        "id": "chalkboard",
+        "numId": "78",
+        "hexId": "4E"
+    },
+    {
+        "name": "末影龙火球",
+        "id": "dragon_fireball",
+        "numId": "79",
+        "hexId": "4F"
+    },
+    {
+        "name": "射出的箭",
+        "id": "arrow",
+        "numId": "80",
+        "hexId": "50"
+    },
+    {
+        "name": "扔出的雪球",
+        "id": "snowball",
+        "numId": "81",
+        "hexId": "51"
+    },
+    {
+        "name": "扔出的鸡蛋",
+        "id": "egg",
+        "numId": "82",
+        "hexId": "52"
+    },
+    {
+        "name": "画",
+        "id": "painting",
+        "numId": "83",
+        "hexId": "53"
+    },
+    {
+        "name": "矿车",
+        "id": "minecart",
+        "numId": "84",
+        "hexId": "54"
+    },
+    {
+        "name": "恶魂火球",
+        "id": "fireball",
+        "numId": "85",
+        "hexId": "55"
+    },
+    {
+        "name": "扔出的喷溅药水",
+        "id": "splash_potion",
+        "numId": "86",
+        "hexId": "56"
+    },
+    {
+        "name": "扔出的末影珍珠",
+        "id": "ender_pearl",
+        "numId": "87",
+        "hexId": "57"
+    },
+    {
+        "name": "拴绳结",
+        "id": "leash_knot",
+        "numId": "88",
+        "hexId": "58"
+    },
+    {
+        "name": "凋灵之首",
+        "id": "wither_skull",
+        "numId": "89",
+        "hexId": "59"
+    },
+    {
+        "name": "船",
+        "id": "boat",
+        "numId": "90",
+        "hexId": "5A"
+    },
+    {
+        "name": "蓝色凋灵之首",
+        "id": "wither_skull_dangerous",
+        "numId": "91",
+        "hexId": "5B"
+    },
+    {
+        "name": "闪电",
+        "id": "lightning_bolt",
+        "numId": "93",
+        "hexId": "5D"
+    },
+    {
+        "name": "小火球",
+        "id": "small_fireball",
+        "numId": "94",
+        "hexId": "5E"
+    },
+    {
+        "name": "区域效果云",
+        "id": "area_effect_cloud",
+        "numId": "95",
+        "hexId": "5F"
+    },
+    {
+        "name": "漏斗矿车",
+        "id": "hopper_minecart",
+        "numId": "96",
+        "hexId": "60"
+    },
+    {
+        "name": "TNT矿车",
+        "id": "tnt_minecart",
+        "numId": "97",
+        "hexId": "61"
+    },
+    {
+        "name": "运输矿车",
+        "id": "chest_minecart",
+        "numId": "98",
+        "hexId": "62"
+    },
+    {
+        "name": "命令方块矿车",
+        "id": "command_block_minecart",
+        "numId": "100",
+        "hexId": "64"
+    },
+    {
+        "name": "扔出的滞留药水",
+        "id": "lingering_potion",
+        "numId": "101",
+        "hexId": "65"
+    },
+    {
+        "name": "羊驼唾沫",
+        "id": "llama_spit",
+        "numId": "102",
+        "hexId": "66"
+    },
+    {
+        "name": "尖牙",
+        "id": "evocation_fang",
+        "numId": "103",
+        "hexId": "67"
+    },
+    {
+        "name": "唤魔者",
+        "id": "evocation_illager",
+        "numId": "104",
+        "hexId": "68"
+    },
+    {
+        "name": "恼鬼",
+        "id": "vex",
+        "numId": "105",
+        "hexId": "69"
+    },
+    {
+        "name": "冰弹",
+        "id": "ice_bomb",
+        "numId": "106",
+        "hexId": "6A"
+    },
+    {
+        "name": "气球",
+        "id": "balloon",
+        "numId": "107",
+        "hexId": "6B"
+    },
+    {
+        "name": "河豚",
+        "id": "pufferfish",
+        "numId": "108",
+        "hexId": "6C"
+    },
+    {
+        "name": "鲑鱼",
+        "id": "salmon",
+        "numId": "109",
+        "hexId": "6D"
+    },
+    {
+        "name": "溺尸",
+        "id": "drowned",
+        "numId": "110",
+        "hexId": "6E"
+    },
+    {
+        "name": "热带鱼",
+        "id": "tropicalfish",
+        "numId": "111",
+        "hexId": "6F"
+    },
+    {
+        "name": "鳕鱼",
+        "id": "cod",
+        "numId": "112",
+        "hexId": "70"
+    },
+    {
+        "name": "熊猫",
+        "id": "panda",
+        "numId": "113",
+        "hexId": "71"
+    },
+    {
+        "name": "掠夺者",
+        "id": "pillager",
+        "numId": "114",
+        "hexId": "72"
+    },
+    {
+        "name": "村民",
+        "id": "villager_v2",
+        "numId": "115",
+        "hexId": "73"
+    },
+    {
+        "name": "僵尸村民",
+        "id": "zombie_villager_v2",
+        "numId": "116",
+        "hexId": "74"
+    },
+    {
+        "name": "盾牌",
+        "id": "shield",
+        "numId": "117",
+        "hexId": "75"
+    },
+    {
+        "name": "流浪商人",
+        "id": "wandering_trader",
+        "numId": "118",
+        "hexId": "76"
+    },
+    {
+        "name": "远古守卫者幽灵",
+        "id": "elder_guardian_ghost",
+        "numId": "120",
+        "hexId": "78"
+    },
+    {
+        "name": "狐狸",
+        "id": "fox",
+        "numId": "121",
+        "hexId": "79"
+    },
+    {
+        "name": "蜜蜂",
+        "id": "bee",
+        "numId": "122",
+        "hexId": "7A"
+    },
+    {
+        "name": "猪灵",
+        "id": "piglin",
+        "numId": "123",
+        "hexId": "7B"
+    },
+    {
+        "name": "疣猪兽",
+        "id": "hoglin",
+        "numId": "124",
+        "hexId": "7C"
+    },
+    {
+        "name": "炽足兽",
+        "id": "strider",
+        "numId": "125",
+        "hexId": "7D"
+    },
+    {
+        "name": "僵尸疣猪兽",
+        "id": "zoglin",
+        "numId": "126",
+        "hexId": "7E"
+    },
+    {
+        "name": "猪灵蛮兵",
+        "id": "piglin_brute",
+        "numId": "127",
+        "hexId": "7F"
+    },
+    {
+        "name": "山羊",
+        "id": "goat",
+        "numId": "128",
+        "hexId": "80"
+    },
+    {
+        "name": "发光鱿鱼",
+        "id": "glow_squid",
+        "numId": "129",
+        "hexId": "81"
+    },
+    {
+        "name": "美西螈",
+        "id": "axolotl",
+        "numId": "130",
+        "hexId": "82"
+    },
+    {
+        "name": "监守者",
+        "id": "warden",
+        "numId": "131",
+        "hexId": "83"
+    },
+    {
+        "name": "青蛙",
+        "id": "frog",
+        "numId": "132",
+        "hexId": "84"
+    },
+    {
+        "name": "蝌蚪",
+        "id": "tadpole",
+        "numId": "133",
+        "hexId": "85"
+    },
+    {
+        "name": "悦灵",
+        "id": "allay",
+        "numId": "134",
+        "hexId": "86"
+    },
+    {
+        "name": "萤火虫（已移除）",
+        "id": "firefly",
+        "numId": "135",
+        "hexId": "87"
+    },
+    {
+        "name": "骆驼",
+        "id": "camel",
+        "numId": "138",
+        "hexId": "8A"
+    },
+    {
+        "name": "嗅探兽",
+        "id": "sniffer",
+        "numId": "139",
+        "hexId": "8B"
+    },
+    {
+        "name": "旋风人",
+        "id": "breeze",
+        "numId": "140",
+        "hexId": "8C"
+    },
+    {
+        "name": "旋风人风弹",
+        "id": "breeze_wind_charge_projectile",
+        "numId": "141",
+        "hexId": "8D"
+    },
+    {
+        "name": "犰狳",
+        "id": "armadillo",
+        "numId": "142",
+        "hexId": "8E"
+    },
+    {
+        "name": "风弹物品风弹",
+        "id": "wind_charge_projectile",
+        "numId": "143",
+        "hexId": "8F"
+    },
+    {
+        "name": "沼骸",
+        "id": "bogged",
+        "numId": "144",
+        "hexId": "90"
+    },
+    {
+        "name": "不祥之物生成器",
+        "id": "ominous_item_spawner",
+        "numId": "145",
+        "hexId": "91"
+    },
+    {
+        "name": "嘎枝",
+        "id": "creaking",
+        "numId": "146",
+        "hexId": "92"
+    },
+    {
+        "name": "快乐恶魂",
+        "id": "happy_ghast",
+        "numId": "147",
+        "hexId": "93"
+    },
+    {
+        "name": "铜傀儡",
+        "id": "copper_golem",
+        "numId": "148",
+        "hexId": "94"
+    },
+    {
+        "name": "鹦鹉螺",
+        "id": "nautilus",
+        "numId": "149",
+        "hexId": "95"
+    },
+    {
+        "name": "僵尸鹦鹉螺",
+        "id": "zombie_nautilus",
+        "numId": "150",
+        "hexId": "96"
+    },
+    {
+        "name": "焦骸",
+        "id": "parched",
+        "numId": "151",
+        "hexId": "97"
+    },
+    {
+        "name": "骆驼尸壳",
+        "id": "camel_husk",
+        "numId": "152",
+        "hexId": "98"
+    },
+    {
+        "name": "硫方怪",
+        "id": "sulfur_cube",
+        "numId": "153",
+        "hexId": "99"
+    },
+    {
+        "name": "行商羊驼",
+        "id": "trader_llama",
+        "numId": "157",
+        "hexId": "9D"
+    },
+    {
+        "name": "运输船",
+        "id": "chest_boat",
+        "numId": "218",
+        "hexId": "DA"
+    }
+]

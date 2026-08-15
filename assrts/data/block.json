@@ -1,0 +1,8162 @@
+[
+    {
+        "name": "石头",
+        "id": "stone",
+        "numId": "1",
+        "hexId": "1"
+    },
+    {
+        "name": "草方块",
+        "id": "grass_block",
+        "numId": "2",
+        "hexId": "2"
+    },
+    {
+        "name": "泥土",
+        "id": "dirt",
+        "numId": "3",
+        "hexId": "3"
+    },
+    {
+        "name": "圆石",
+        "id": "cobblestone",
+        "numId": "4",
+        "hexId": "4"
+    },
+    {
+        "name": "橡木木板",
+        "id": "oak_planks",
+        "numId": "5",
+        "hexId": "5"
+    },
+    {
+        "name": "橡树树苗",
+        "id": "oak_sapling",
+        "numId": "6",
+        "hexId": "6"
+    },
+    {
+        "name": "基岩",
+        "id": "bedrock",
+        "numId": "7",
+        "hexId": "7"
+    },
+    {
+        "name": "水",
+        "id": "flowing_water",
+        "numId": "8",
+        "hexId": "8"
+    },
+    {
+        "name": "静态水",
+        "id": "water",
+        "numId": "9",
+        "hexId": "9"
+    },
+    {
+        "name": "熔岩",
+        "id": "flowing_lava",
+        "numId": "10",
+        "hexId": "A"
+    },
+    {
+        "name": "静态熔岩",
+        "id": "lava",
+        "numId": "11",
+        "hexId": "B"
+    },
+    {
+        "name": "沙子",
+        "id": "sand",
+        "numId": "12",
+        "hexId": "C"
+    },
+    {
+        "name": "沙砾",
+        "id": "gravel",
+        "numId": "13",
+        "hexId": "D"
+    },
+    {
+        "name": "金矿石",
+        "id": "gold_ore",
+        "numId": "14",
+        "hexId": "E"
+    },
+    {
+        "name": "铁矿石",
+        "id": "iron_ore",
+        "numId": "15",
+        "hexId": "F"
+    },
+    {
+        "name": "煤矿石",
+        "id": "coal_ore",
+        "numId": "16",
+        "hexId": "10"
+    },
+    {
+        "name": "橡木原木",
+        "id": "oak_log",
+        "numId": "17",
+        "hexId": "11"
+    },
+    {
+        "name": "橡树树叶",
+        "id": "oak_leaves",
+        "numId": "18",
+        "hexId": "12"
+    },
+    {
+        "name": "海绵",
+        "id": "sponge",
+        "numId": "19",
+        "hexId": "13"
+    },
+    {
+        "name": "玻璃",
+        "id": "glass",
+        "numId": "20",
+        "hexId": "14"
+    },
+    {
+        "name": "青金石矿石",
+        "id": "lapis_ore",
+        "numId": "21",
+        "hexId": "15"
+    },
+    {
+        "name": "青金石块",
+        "id": "lapis_block",
+        "numId": "22",
+        "hexId": "16"
+    },
+    {
+        "name": "发射器",
+        "id": "dispenser",
+        "numId": "23",
+        "hexId": "17"
+    },
+    {
+        "name": "砂岩",
+        "id": "sandstone",
+        "numId": "24",
+        "hexId": "18"
+    },
+    {
+        "name": "音符盒",
+        "id": "noteblock",
+        "numId": "25",
+        "hexId": "19"
+    },
+    {
+        "name": "床",
+        "id": "bed",
+        "numId": "26",
+        "hexId": "1A"
+    },
+    {
+        "name": "动力铁轨",
+        "id": "golden_rail",
+        "numId": "27",
+        "hexId": "1B"
+    },
+    {
+        "name": "探测铁轨",
+        "id": "detector_rail",
+        "numId": "28",
+        "hexId": "1C"
+    },
+    {
+        "name": "黏性活塞",
+        "id": "sticky_piston",
+        "numId": "29",
+        "hexId": "1D"
+    },
+    {
+        "name": "蜘蛛网",
+        "id": "web",
+        "numId": "30",
+        "hexId": "1E"
+    },
+    {
+        "name": "矮草丛",
+        "id": "short_grass",
+        "numId": "31",
+        "hexId": "1F"
+    },
+    {
+        "name": "枯萎的灌木",
+        "id": "deadbush",
+        "numId": "32",
+        "hexId": "20"
+    },
+    {
+        "name": "活塞",
+        "id": "piston",
+        "numId": "33",
+        "hexId": "21"
+    },
+    {
+        "name": "活塞臂",
+        "id": "piston_arm_collision",
+        "numId": "34",
+        "hexId": "22"
+    },
+    {
+        "name": "白色羊毛",
+        "id": "white_wool",
+        "numId": "35",
+        "hexId": "23"
+    },
+    {
+        "name": "未知元素（???）",
+        "id": "element_0",
+        "numId": "36",
+        "hexId": "24"
+    },
+    {
+        "name": "蒲公英",
+        "id": "dandelion",
+        "numId": "37",
+        "hexId": "25"
+    },
+    {
+        "name": "虞美人",
+        "id": "poppy",
+        "numId": "38",
+        "hexId": "26"
+    },
+    {
+        "name": "棕色蘑菇",
+        "id": "brown_mushroom",
+        "numId": "39",
+        "hexId": "27"
+    },
+    {
+        "name": "红色蘑菇",
+        "id": "red_mushroom",
+        "numId": "40",
+        "hexId": "28"
+    },
+    {
+        "name": "金块",
+        "id": "gold_block",
+        "numId": "41",
+        "hexId": "29"
+    },
+    {
+        "name": "铁块",
+        "id": "iron_block",
+        "numId": "42",
+        "hexId": "2A"
+    },
+    {
+        "name": "平滑石头双层台阶",
+        "id": "smooth_stone_double_slab",
+        "numId": "43",
+        "hexId": "2B"
+    },
+    {
+        "name": "平滑石头台阶",
+        "id": "smooth_stone_slab",
+        "numId": "44",
+        "hexId": "2C"
+    },
+    {
+        "name": "红砖块",
+        "id": "brick_block",
+        "numId": "45",
+        "hexId": "2D"
+    },
+    {
+        "name": "TNT",
+        "id": "tnt",
+        "numId": "46",
+        "hexId": "2E"
+    },
+    {
+        "name": "书架",
+        "id": "bookshelf",
+        "numId": "47",
+        "hexId": "2F"
+    },
+    {
+        "name": "苔石",
+        "id": "mossy_cobblestone",
+        "numId": "48",
+        "hexId": "30"
+    },
+    {
+        "name": "黑曜石",
+        "id": "obsidian",
+        "numId": "49",
+        "hexId": "31"
+    },
+    {
+        "name": "火把",
+        "id": "torch",
+        "numId": "50",
+        "hexId": "32"
+    },
+    {
+        "name": "火",
+        "id": "fire",
+        "numId": "51",
+        "hexId": "33"
+    },
+    {
+        "name": "刷怪笼",
+        "id": "mob_spawner",
+        "numId": "52",
+        "hexId": "34"
+    },
+    {
+        "name": "橡木楼梯",
+        "id": "oak_stairs",
+        "numId": "53",
+        "hexId": "35"
+    },
+    {
+        "name": "箱子",
+        "id": "chest",
+        "numId": "54",
+        "hexId": "36"
+    },
+    {
+        "name": "红石线",
+        "id": "redstone_wire",
+        "numId": "55",
+        "hexId": "37"
+    },
+    {
+        "name": "钻石矿石",
+        "id": "diamond_ore",
+        "numId": "56",
+        "hexId": "38"
+    },
+    {
+        "name": "钻石块",
+        "id": "diamond_block",
+        "numId": "57",
+        "hexId": "39"
+    },
+    {
+        "name": "工作台",
+        "id": "crafting_table",
+        "numId": "58",
+        "hexId": "3A"
+    },
+    {
+        "name": "小麦",
+        "id": "wheat",
+        "numId": "59",
+        "hexId": "3B"
+    },
+    {
+        "name": "耕地",
+        "id": "farmland",
+        "numId": "60",
+        "hexId": "3C"
+    },
+    {
+        "name": "熔炉",
+        "id": "furnace",
+        "numId": "61",
+        "hexId": "3D"
+    },
+    {
+        "name": "燃烧中的熔炉",
+        "id": "lit_furnace",
+        "numId": "62",
+        "hexId": "3E"
+    },
+    {
+        "name": "橡木告示牌",
+        "id": "standing_sign",
+        "numId": "63",
+        "hexId": "3F"
+    },
+    {
+        "name": "橡木门",
+        "id": "wooden_door",
+        "numId": "64",
+        "hexId": "40"
+    },
+    {
+        "name": "梯子",
+        "id": "ladder",
+        "numId": "65",
+        "hexId": "41"
+    },
+    {
+        "name": "铁轨",
+        "id": "rail",
+        "numId": "66",
+        "hexId": "42"
+    },
+    {
+        "name": "圆石楼梯",
+        "id": "stone_stairs",
+        "numId": "67",
+        "hexId": "43"
+    },
+    {
+        "name": "墙上的橡木告示牌",
+        "id": "wall_sign",
+        "numId": "68",
+        "hexId": "44"
+    },
+    {
+        "name": "拉杆",
+        "id": "lever",
+        "numId": "69",
+        "hexId": "45"
+    },
+    {
+        "name": "石头压力板",
+        "id": "stone_pressure_plate",
+        "numId": "70",
+        "hexId": "46"
+    },
+    {
+        "name": "铁门",
+        "id": "iron_door",
+        "numId": "71",
+        "hexId": "47"
+    },
+    {
+        "name": "木质压力板",
+        "id": "wooden_pressure_plate",
+        "numId": "72",
+        "hexId": "48"
+    },
+    {
+        "name": "红石矿石",
+        "id": "redstone_ore",
+        "numId": "73",
+        "hexId": "49"
+    },
+    {
+        "name": "红石矿石",
+        "id": "lit_redstone_ore",
+        "numId": "74",
+        "hexId": "4A"
+    },
+    {
+        "name": "熄灭的红石火把",
+        "id": "unlit_redstone_torch",
+        "numId": "75",
+        "hexId": "4B"
+    },
+    {
+        "name": "红石火把",
+        "id": "redstone_torch",
+        "numId": "76",
+        "hexId": "4C"
+    },
+    {
+        "name": "石头按钮",
+        "id": "stone_button",
+        "numId": "77",
+        "hexId": "4D"
+    },
+    {
+        "name": "雪",
+        "id": "snow_layer",
+        "numId": "78",
+        "hexId": "4E"
+    },
+    {
+        "name": "冰",
+        "id": "ice",
+        "numId": "79",
+        "hexId": "4F"
+    },
+    {
+        "name": "雪块",
+        "id": "snow",
+        "numId": "80",
+        "hexId": "50"
+    },
+    {
+        "name": "仙人掌",
+        "id": "cactus",
+        "numId": "81",
+        "hexId": "51"
+    },
+    {
+        "name": "黏土",
+        "id": "clay",
+        "numId": "82",
+        "hexId": "52"
+    },
+    {
+        "name": "甘蔗",
+        "id": "sugar_cane",
+        "numId": "83",
+        "hexId": "53"
+    },
+    {
+        "name": "唱片机",
+        "id": "jukebox",
+        "numId": "84",
+        "hexId": "54"
+    },
+    {
+        "name": "橡木栅栏",
+        "id": "oak_fence",
+        "numId": "85",
+        "hexId": "55"
+    },
+    {
+        "name": "南瓜",
+        "id": "pumpkin",
+        "numId": "86",
+        "hexId": "56"
+    },
+    {
+        "name": "下界岩",
+        "id": "netherrack",
+        "numId": "87",
+        "hexId": "57"
+    },
+    {
+        "name": "灵魂沙",
+        "id": "soul_sand",
+        "numId": "88",
+        "hexId": "58"
+    },
+    {
+        "name": "荧石",
+        "id": "glowstone",
+        "numId": "89",
+        "hexId": "59"
+    },
+    {
+        "name": "下界传送门",
+        "id": "portal",
+        "numId": "90",
+        "hexId": "5A"
+    },
+    {
+        "name": "南瓜灯",
+        "id": "lit_pumpkin",
+        "numId": "91",
+        "hexId": "5B"
+    },
+    {
+        "name": "蛋糕",
+        "id": "cake",
+        "numId": "92",
+        "hexId": "5C"
+    },
+    {
+        "name": "未激活的中继器",
+        "id": "unpowered_repeater",
+        "numId": "93",
+        "hexId": "5D"
+    },
+    {
+        "name": "激活的中继器",
+        "id": "powered_repeater",
+        "numId": "94",
+        "hexId": "5E"
+    },
+    {
+        "name": "隐形基岩",
+        "id": "invisible_bedrock",
+        "numId": "95",
+        "hexId": "5F"
+    },
+    {
+        "name": "橡木活板门",
+        "id": "trapdoor",
+        "numId": "96",
+        "hexId": "60"
+    },
+    {
+        "name": "虫蚀石头",
+        "id": "infested_stone",
+        "numId": "97",
+        "hexId": "61"
+    },
+    {
+        "name": "石砖",
+        "id": "stone_bricks",
+        "numId": "98",
+        "hexId": "62"
+    },
+    {
+        "name": "棕色蘑菇方块",
+        "id": "brown_mushroom_block",
+        "numId": "99",
+        "hexId": "63"
+    },
+    {
+        "name": "红色蘑菇方块",
+        "id": "red_mushroom_block",
+        "numId": "100",
+        "hexId": "64"
+    },
+    {
+        "name": "铁栏杆",
+        "id": "iron_bars",
+        "numId": "101",
+        "hexId": "65"
+    },
+    {
+        "name": "玻璃板",
+        "id": "glass_pane",
+        "numId": "102",
+        "hexId": "66"
+    },
+    {
+        "name": "西瓜",
+        "id": "melon_block",
+        "numId": "103",
+        "hexId": "67"
+    },
+    {
+        "name": "南瓜茎",
+        "id": "pumpkin_stem",
+        "numId": "104",
+        "hexId": "68"
+    },
+    {
+        "name": "西瓜茎",
+        "id": "melon_stem",
+        "numId": "105",
+        "hexId": "69"
+    },
+    {
+        "name": "藤蔓",
+        "id": "vine",
+        "numId": "106",
+        "hexId": "6A"
+    },
+    {
+        "name": "橡木栅栏门",
+        "id": "oak_fence_gate",
+        "numId": "107",
+        "hexId": "6B"
+    },
+    {
+        "name": "红砖楼梯",
+        "id": "brick_stairs",
+        "numId": "108",
+        "hexId": "6C"
+    },
+    {
+        "name": "石砖楼梯",
+        "id": "stone_brick_stairs",
+        "numId": "109",
+        "hexId": "6D"
+    },
+    {
+        "name": "菌丝体",
+        "id": "mycelium",
+        "numId": "110",
+        "hexId": "6E"
+    },
+    {
+        "name": "睡莲",
+        "id": "waterlily",
+        "numId": "111",
+        "hexId": "6F"
+    },
+    {
+        "name": "下界砖",
+        "id": "nether_brick",
+        "numId": "112",
+        "hexId": "70"
+    },
+    {
+        "name": "下界砖栅栏",
+        "id": "nether_brick_fence",
+        "numId": "113",
+        "hexId": "71"
+    },
+    {
+        "name": "下界砖楼梯",
+        "id": "nether_brick_stairs",
+        "numId": "114",
+        "hexId": "72"
+    },
+    {
+        "name": "下界疣",
+        "id": "nether_wart",
+        "numId": "115",
+        "hexId": "73"
+    },
+    {
+        "name": "附魔台",
+        "id": "enchanting_table",
+        "numId": "116",
+        "hexId": "74"
+    },
+    {
+        "name": "酿造台",
+        "id": "brewing_stand",
+        "numId": "117",
+        "hexId": "75"
+    },
+    {
+        "name": "炼药锅",
+        "id": "cauldron",
+        "numId": "118",
+        "hexId": "76"
+    },
+    {
+        "name": "末地传送门",
+        "id": "end_portal",
+        "numId": "119",
+        "hexId": "77"
+    },
+    {
+        "name": "末地传送门框架",
+        "id": "end_portal_frame",
+        "numId": "120",
+        "hexId": "78"
+    },
+    {
+        "name": "末地石",
+        "id": "end_stone",
+        "numId": "121",
+        "hexId": "79"
+    },
+    {
+        "name": "龙蛋",
+        "id": "dragon_egg",
+        "numId": "122",
+        "hexId": "7A"
+    },
+    {
+        "name": "红石灯",
+        "id": "redstone_lamp",
+        "numId": "123",
+        "hexId": "7B"
+    },
+    {
+        "name": "点亮的红石灯",
+        "id": "lit_redstone_lamp",
+        "numId": "124",
+        "hexId": "7C"
+    },
+    {
+        "name": "投掷器",
+        "id": "dropper",
+        "numId": "125",
+        "hexId": "7D"
+    },
+    {
+        "name": "激活铁轨",
+        "id": "activator_rail",
+        "numId": "126",
+        "hexId": "7E"
+    },
+    {
+        "name": "可可果",
+        "id": "cocoa",
+        "numId": "127",
+        "hexId": "7F"
+    },
+    {
+        "name": "砂岩楼梯",
+        "id": "sandstone_stairs",
+        "numId": "128",
+        "hexId": "80"
+    },
+    {
+        "name": "绿宝石矿石",
+        "id": "emerald_ore",
+        "numId": "129",
+        "hexId": "81"
+    },
+    {
+        "name": "末影箱",
+        "id": "ender_chest",
+        "numId": "130",
+        "hexId": "82"
+    },
+    {
+        "name": "绊线钩",
+        "id": "tripwire_hook",
+        "numId": "131",
+        "hexId": "83"
+    },
+    {
+        "name": "绊线",
+        "id": "trip_wire",
+        "numId": "132",
+        "hexId": "84"
+    },
+    {
+        "name": "绿宝石块",
+        "id": "emerald_block",
+        "numId": "133",
+        "hexId": "85"
+    },
+    {
+        "name": "云杉木楼梯",
+        "id": "spruce_stairs",
+        "numId": "134",
+        "hexId": "86"
+    },
+    {
+        "name": "白桦木楼梯",
+        "id": "birch_stairs",
+        "numId": "135",
+        "hexId": "87"
+    },
+    {
+        "name": "丛林木楼梯",
+        "id": "jungle_stairs",
+        "numId": "136",
+        "hexId": "88"
+    },
+    {
+        "name": "脉冲型命令方块",
+        "id": "command_block",
+        "numId": "137",
+        "hexId": "89"
+    },
+    {
+        "name": "信标",
+        "id": "beacon",
+        "numId": "138",
+        "hexId": "8A"
+    },
+    {
+        "name": "圆石墙",
+        "id": "cobblestone_wall",
+        "numId": "139",
+        "hexId": "8B"
+    },
+    {
+        "name": "花盆",
+        "id": "flower_pot",
+        "numId": "140",
+        "hexId": "8C"
+    },
+    {
+        "name": "胡萝卜",
+        "id": "carrots",
+        "numId": "141",
+        "hexId": "8D"
+    },
+    {
+        "name": "马铃薯",
+        "id": "potatoes",
+        "numId": "142",
+        "hexId": "8E"
+    },
+    {
+        "name": "橡木按钮",
+        "id": "wooden_button",
+        "numId": "143",
+        "hexId": "8F"
+    },
+    {
+        "name": "骷髅头颅",
+        "id": "skeleton_skull",
+        "numId": "144",
+        "hexId": "90"
+    },
+    {
+        "name": "铁砧",
+        "id": "anvil",
+        "numId": "145",
+        "hexId": "91"
+    },
+    {
+        "name": "陷阱箱",
+        "id": "trapped_chest",
+        "numId": "146",
+        "hexId": "92"
+    },
+    {
+        "name": "轻质测重压力板",
+        "id": "light_weighted_pressure_plate",
+        "numId": "147",
+        "hexId": "93"
+    },
+    {
+        "name": "重质测重压力板",
+        "id": "heavy_weighted_pressure_plate",
+        "numId": "148",
+        "hexId": "94"
+    },
+    {
+        "name": "未激活的比较器",
+        "id": "unpowered_comparator",
+        "numId": "149",
+        "hexId": "95"
+    },
+    {
+        "name": "激活的比较器",
+        "id": "powered_comparator",
+        "numId": "150",
+        "hexId": "96"
+    },
+    {
+        "name": "阳光探测器",
+        "id": "daylight_detector",
+        "numId": "151",
+        "hexId": "97"
+    },
+    {
+        "name": "红石块",
+        "id": "redstone_block",
+        "numId": "152",
+        "hexId": "98"
+    },
+    {
+        "name": "下界石英矿石",
+        "id": "quartz_ore",
+        "numId": "153",
+        "hexId": "99"
+    },
+    {
+        "name": "漏斗",
+        "id": "hopper",
+        "numId": "154",
+        "hexId": "9A"
+    },
+    {
+        "name": "石英块",
+        "id": "quartz_block",
+        "numId": "155",
+        "hexId": "9B"
+    },
+    {
+        "name": "石英楼梯",
+        "id": "quartz_stairs",
+        "numId": "156",
+        "hexId": "9C"
+    },
+    {
+        "name": "橡木双层台阶",
+        "id": "oak_double_slab",
+        "numId": "157",
+        "hexId": "9D"
+    },
+    {
+        "name": "橡木台阶",
+        "id": "oak_slab",
+        "numId": "158",
+        "hexId": "9E"
+    },
+    {
+        "name": "白色陶瓦",
+        "id": "white_terracotta",
+        "numId": "159",
+        "hexId": "9F"
+    },
+    {
+        "name": "白色染色玻璃板",
+        "id": "white_stained_glass_pane",
+        "numId": "160",
+        "hexId": "A0"
+    },
+    {
+        "name": "金合欢树叶",
+        "id": "acacia_leaves",
+        "numId": "161",
+        "hexId": "A1"
+    },
+    {
+        "name": "金合欢原木",
+        "id": "acacia_log",
+        "numId": "162",
+        "hexId": "A2"
+    },
+    {
+        "name": "金合欢木楼梯",
+        "id": "acacia_stairs",
+        "numId": "163",
+        "hexId": "A3"
+    },
+    {
+        "name": "深色橡木楼梯",
+        "id": "dark_oak_stairs",
+        "numId": "164",
+        "hexId": "A4"
+    },
+    {
+        "name": "黏液块",
+        "id": "slime",
+        "numId": "165",
+        "hexId": "A5"
+    },
+    {
+        "name": "荧光棒",
+        "id": "glow_stick",
+        "numId": "166",
+        "hexId": "A6"
+    },
+    {
+        "name": "铁活板门",
+        "id": "iron_trapdoor",
+        "numId": "167",
+        "hexId": "A7"
+    },
+    {
+        "name": "海晶石",
+        "id": "prismarine",
+        "numId": "168",
+        "hexId": "A8"
+    },
+    {
+        "name": "海晶灯",
+        "id": "sea_lantern",
+        "numId": "169",
+        "hexId": "A9"
+    },
+    {
+        "name": "干草捆",
+        "id": "hay_block",
+        "numId": "170",
+        "hexId": "AA"
+    },
+    {
+        "name": "白色地毯",
+        "id": "white_carpet",
+        "numId": "171",
+        "hexId": "AB"
+    },
+    {
+        "name": "陶瓦",
+        "id": "hardened_clay",
+        "numId": "172",
+        "hexId": "AC"
+    },
+    {
+        "name": "煤炭块",
+        "id": "coal_block",
+        "numId": "173",
+        "hexId": "AD"
+    },
+    {
+        "name": "浮冰",
+        "id": "packed_ice",
+        "numId": "174",
+        "hexId": "AE"
+    },
+    {
+        "name": "向日葵",
+        "id": "sunflower",
+        "numId": "175",
+        "hexId": "AF"
+    },
+    {
+        "name": "站立的旗帜",
+        "id": "standing_banner",
+        "numId": "176",
+        "hexId": "B0"
+    },
+    {
+        "name": "墙上的旗帜",
+        "id": "wall_banner",
+        "numId": "177",
+        "hexId": "B1"
+    },
+    {
+        "name": "反向阳光探测器",
+        "id": "daylight_detector_inverted",
+        "numId": "178",
+        "hexId": "B2"
+    },
+    {
+        "name": "红砂岩",
+        "id": "red_sandstone",
+        "numId": "179",
+        "hexId": "B3"
+    },
+    {
+        "name": "红砂岩楼梯",
+        "id": "red_sandstone_stairs",
+        "numId": "180",
+        "hexId": "B4"
+    },
+    {
+        "name": "红砂岩双层台阶",
+        "id": "red_sandstone_double_slab",
+        "numId": "181",
+        "hexId": "B5"
+    },
+    {
+        "name": "红砂岩台阶",
+        "id": "red_sandstone_slab",
+        "numId": "182",
+        "hexId": "B6"
+    },
+    {
+        "name": "云杉木栅栏门",
+        "id": "spruce_fence_gate",
+        "numId": "183",
+        "hexId": "B7"
+    },
+    {
+        "name": "白桦木栅栏门",
+        "id": "birch_fence_gate",
+        "numId": "184",
+        "hexId": "B8"
+    },
+    {
+        "name": "丛林木栅栏门",
+        "id": "jungle_fence_gate",
+        "numId": "185",
+        "hexId": "B9"
+    },
+    {
+        "name": "深色橡木栅栏门",
+        "id": "dark_oak_fence_gate",
+        "numId": "186",
+        "hexId": "BA"
+    },
+    {
+        "name": "金合欢木栅栏门",
+        "id": "acacia_fence_gate",
+        "numId": "187",
+        "hexId": "BB"
+    },
+    {
+        "name": "循环型命令方块",
+        "id": "repeating_command_block",
+        "numId": "188",
+        "hexId": "BC"
+    },
+    {
+        "name": "连锁型命令方块",
+        "id": "chain_command_block",
+        "numId": "189",
+        "hexId": "BD"
+    },
+    {
+        "name": "强化玻璃板",
+        "id": "hard_glass_pane",
+        "numId": "190",
+        "hexId": "BE"
+    },
+    {
+        "name": "白色强化玻璃板",
+        "id": "hard_white_stained_glass_pane",
+        "numId": "191",
+        "hexId": "BF"
+    },
+    {
+        "name": "加热块",
+        "id": "chemical_heat",
+        "numId": "192",
+        "hexId": "C0"
+    },
+    {
+        "name": "云杉木门",
+        "id": "spruce_door",
+        "numId": "193",
+        "hexId": "C1"
+    },
+    {
+        "name": "白桦木门",
+        "id": "birch_door",
+        "numId": "194",
+        "hexId": "C2"
+    },
+    {
+        "name": "丛林木门",
+        "id": "jungle_door",
+        "numId": "195",
+        "hexId": "C3"
+    },
+    {
+        "name": "金合欢木门",
+        "id": "acacia_door",
+        "numId": "196",
+        "hexId": "C4"
+    },
+    {
+        "name": "深色橡木门",
+        "id": "dark_oak_door",
+        "numId": "197",
+        "hexId": "C5"
+    },
+    {
+        "name": "土径",
+        "id": "grass_path",
+        "numId": "198",
+        "hexId": "C6"
+    },
+    {
+        "name": "物品展示框",
+        "id": "frame",
+        "numId": "199",
+        "hexId": "C7"
+    },
+    {
+        "name": "紫颂花",
+        "id": "chorus_flower",
+        "numId": "200",
+        "hexId": "C8"
+    },
+    {
+        "name": "紫珀块",
+        "id": "purpur_block",
+        "numId": "201",
+        "hexId": "C9"
+    },
+    {
+        "name": "红色火把",
+        "id": "colored_torch_red",
+        "numId": "202",
+        "hexId": "CA"
+    },
+    {
+        "name": "紫珀楼梯",
+        "id": "purpur_stairs",
+        "numId": "203",
+        "hexId": "CB"
+    },
+    {
+        "name": "蓝色火把",
+        "id": "colored_torch_blue",
+        "numId": "204",
+        "hexId": "CC"
+    },
+    {
+        "name": "未染色的潜影盒",
+        "id": "undyed_shulker_box",
+        "numId": "205",
+        "hexId": "CD"
+    },
+    {
+        "name": "末地石砖",
+        "id": "end_bricks",
+        "numId": "206",
+        "hexId": "CE"
+    },
+    {
+        "name": "霜冰",
+        "id": "frosted_ice",
+        "numId": "207",
+        "hexId": "CF"
+    },
+    {
+        "name": "末地烛",
+        "id": "end_rod",
+        "numId": "208",
+        "hexId": "D0"
+    },
+    {
+        "name": "末地折跃门",
+        "id": "end_gateway",
+        "numId": "209",
+        "hexId": "D1"
+    },
+    {
+        "name": "允许方块",
+        "id": "allow",
+        "numId": "210",
+        "hexId": "D2"
+    },
+    {
+        "name": "拒绝方块",
+        "id": "deny",
+        "numId": "211",
+        "hexId": "D3"
+    },
+    {
+        "name": "边界",
+        "id": "border_block",
+        "numId": "212",
+        "hexId": "D4"
+    },
+    {
+        "name": "岩浆块",
+        "id": "magma",
+        "numId": "213",
+        "hexId": "D5"
+    },
+    {
+        "name": "下界疣块",
+        "id": "nether_wart_block",
+        "numId": "214",
+        "hexId": "D6"
+    },
+    {
+        "name": "红色下界砖块",
+        "id": "red_nether_brick",
+        "numId": "215",
+        "hexId": "D7"
+    },
+    {
+        "name": "骨块",
+        "id": "bone_block",
+        "numId": "216",
+        "hexId": "D8"
+    },
+    {
+        "name": "结构空位",
+        "id": "structure_void",
+        "numId": "217",
+        "hexId": "D9"
+    },
+    {
+        "name": "白色潜影盒",
+        "id": "white_shulker_box",
+        "numId": "218",
+        "hexId": "DA"
+    },
+    {
+        "name": "紫色带釉陶瓦",
+        "id": "purple_glazed_terracotta",
+        "numId": "219",
+        "hexId": "DB"
+    },
+    {
+        "name": "白色带釉陶瓦",
+        "id": "white_glazed_terracotta",
+        "numId": "220",
+        "hexId": "DC"
+    },
+    {
+        "name": "橙色带釉陶瓦",
+        "id": "orange_glazed_terracotta",
+        "numId": "221",
+        "hexId": "DD"
+    },
+    {
+        "name": "品红色带釉陶瓦",
+        "id": "magenta_glazed_terracotta",
+        "numId": "222",
+        "hexId": "DE"
+    },
+    {
+        "name": "淡蓝色带釉陶瓦",
+        "id": "light_blue_glazed_terracotta",
+        "numId": "223",
+        "hexId": "DF"
+    },
+    {
+        "name": "黄色带釉陶瓦",
+        "id": "yellow_glazed_terracotta",
+        "numId": "224",
+        "hexId": "E0"
+    },
+    {
+        "name": "黄绿色带釉陶瓦",
+        "id": "lime_glazed_terracotta",
+        "numId": "225",
+        "hexId": "E1"
+    },
+    {
+        "name": "粉红色带釉陶瓦",
+        "id": "pink_glazed_terracotta",
+        "numId": "226",
+        "hexId": "E2"
+    },
+    {
+        "name": "灰色带釉陶瓦",
+        "id": "gray_glazed_terracotta",
+        "numId": "227",
+        "hexId": "E3"
+    },
+    {
+        "name": "淡灰色带釉陶瓦",
+        "id": "silver_glazed_terracotta",
+        "numId": "228",
+        "hexId": "E4"
+    },
+    {
+        "name": "青色带釉陶瓦",
+        "id": "cyan_glazed_terracotta",
+        "numId": "229",
+        "hexId": "E5"
+    },
+    {
+        "name": "黑板",
+        "id": "chalkboard",
+        "numId": "230",
+        "hexId": "E6"
+    },
+    {
+        "name": "蓝色带釉陶瓦",
+        "id": "blue_glazed_terracotta",
+        "numId": "231",
+        "hexId": "E7"
+    },
+    {
+        "name": "棕色带釉陶瓦",
+        "id": "brown_glazed_terracotta",
+        "numId": "232",
+        "hexId": "E8"
+    },
+    {
+        "name": "绿色带釉陶瓦",
+        "id": "green_glazed_terracotta",
+        "numId": "233",
+        "hexId": "E9"
+    },
+    {
+        "name": "红色带釉陶瓦",
+        "id": "red_glazed_terracotta",
+        "numId": "234",
+        "hexId": "EA"
+    },
+    {
+        "name": "黑色带釉陶瓦",
+        "id": "black_glazed_terracotta",
+        "numId": "235",
+        "hexId": "EB"
+    },
+    {
+        "name": "白色混凝土",
+        "id": "white_concrete",
+        "numId": "236",
+        "hexId": "EC"
+    },
+    {
+        "name": "白色混凝土粉末",
+        "id": "white_concrete_powder",
+        "numId": "237",
+        "hexId": "ED"
+    },
+    {
+        "name": "化合物创建器",
+        "id": "compound_creator",
+        "numId": "238",
+        "hexId": "EE"
+    },
+    {
+        "name": "水下火把",
+        "id": "underwater_torch",
+        "numId": "239",
+        "hexId": "EF"
+    },
+    {
+        "name": "紫颂植株",
+        "id": "chorus_plant",
+        "numId": "240",
+        "hexId": "F0"
+    },
+    {
+        "name": "白色染色玻璃",
+        "id": "white_stained_glass",
+        "numId": "241",
+        "hexId": "F1"
+    },
+    {
+        "name": "摄像机",
+        "id": "camera",
+        "numId": "242",
+        "hexId": "F2"
+    },
+    {
+        "name": "灰化土",
+        "id": "podzol",
+        "numId": "243",
+        "hexId": "F3"
+    },
+    {
+        "name": "甜菜根",
+        "id": "beetroot",
+        "numId": "244",
+        "hexId": "F4"
+    },
+    {
+        "name": "切石机（旧版）",
+        "id": "stonecutter",
+        "numId": "245",
+        "hexId": "F5"
+    },
+    {
+        "name": "发光的黑曜石",
+        "id": "glowingobsidian",
+        "numId": "246",
+        "hexId": "F6"
+    },
+    {
+        "name": "下界反应核",
+        "id": "netherreactor",
+        "numId": "247",
+        "hexId": "F7"
+    },
+    {
+        "name": "数据更新方块（update!）",
+        "id": "info_update",
+        "numId": "248",
+        "hexId": "F8"
+    },
+    {
+        "name": "数据更新方块2（ate!upd）",
+        "id": "info_update2",
+        "numId": "249",
+        "hexId": "F9"
+    },
+    {
+        "name": "移动的方块/移动的活塞",
+        "id": "moving_block",
+        "numId": "250",
+        "hexId": "FA"
+    },
+    {
+        "name": "侦测器",
+        "id": "observer",
+        "numId": "251",
+        "hexId": "FB"
+    },
+    {
+        "name": "结构方块",
+        "id": "structure_block",
+        "numId": "252",
+        "hexId": "FC"
+    },
+    {
+        "name": "强化玻璃",
+        "id": "hard_glass",
+        "numId": "253",
+        "hexId": "FD"
+    },
+    {
+        "name": "白色强化玻璃",
+        "id": "hard_white_stained_glass",
+        "numId": "254",
+        "hexId": "FE"
+    },
+    {
+        "name": "reserved6",
+        "id": "reserved6",
+        "numId": "255",
+        "hexId": "FF"
+    },
+    {
+        "name": "海晶石楼梯",
+        "id": "prismarine_stairs",
+        "numId": "-2",
+        "hexId": "FFFFFFFFFFFFFFFE"
+    },
+    {
+        "name": "暗海晶石楼梯",
+        "id": "dark_prismarine_stairs",
+        "numId": "-3",
+        "hexId": "FFFFFFFFFFFFFFFD"
+    },
+    {
+        "name": "海晶石砖楼梯",
+        "id": "prismarine_bricks_stairs",
+        "numId": "-4",
+        "hexId": "FFFFFFFFFFFFFFFC"
+    },
+    {
+        "name": "去皮云杉原木",
+        "id": "stripped_spruce_log",
+        "numId": "-5",
+        "hexId": "FFFFFFFFFFFFFFFB"
+    },
+    {
+        "name": "去皮白桦原木",
+        "id": "stripped_birch_log",
+        "numId": "-6",
+        "hexId": "FFFFFFFFFFFFFFFA"
+    },
+    {
+        "name": "去皮丛林原木",
+        "id": "stripped_jungle_log",
+        "numId": "-7",
+        "hexId": "FFFFFFFFFFFFFFF9"
+    },
+    {
+        "name": "去皮金合欢原木",
+        "id": "stripped_acacia_log",
+        "numId": "-8",
+        "hexId": "FFFFFFFFFFFFFFF8"
+    },
+    {
+        "name": "去皮深色橡木原木",
+        "id": "stripped_dark_oak_log",
+        "numId": "-9",
+        "hexId": "FFFFFFFFFFFFFFF7"
+    },
+    {
+        "name": "去皮橡木原木",
+        "id": "stripped_oak_log",
+        "numId": "-10",
+        "hexId": "FFFFFFFFFFFFFFF6"
+    },
+    {
+        "name": "蓝冰",
+        "id": "blue_ice",
+        "numId": "-11",
+        "hexId": "FFFFFFFFFFFFFFF5"
+    },
+    {
+        "name": "氢",
+        "id": "element_1",
+        "numId": "-12",
+        "hexId": "FFFFFFFFFFFFFFF4"
+    },
+    {
+        "name": "氦",
+        "id": "element_2",
+        "numId": "-13",
+        "hexId": "FFFFFFFFFFFFFFF3"
+    },
+    {
+        "name": "锂",
+        "id": "element_3",
+        "numId": "-14",
+        "hexId": "FFFFFFFFFFFFFFF2"
+    },
+    {
+        "name": "铍",
+        "id": "element_4",
+        "numId": "-15",
+        "hexId": "FFFFFFFFFFFFFFF1"
+    },
+    {
+        "name": "硼",
+        "id": "element_5",
+        "numId": "-16",
+        "hexId": "FFFFFFFFFFFFFFF0"
+    },
+    {
+        "name": "碳",
+        "id": "element_6",
+        "numId": "-17",
+        "hexId": "FFFFFFFFFFFFFFEF"
+    },
+    {
+        "name": "氮",
+        "id": "element_7",
+        "numId": "-18",
+        "hexId": "FFFFFFFFFFFFFFEE"
+    },
+    {
+        "name": "氧",
+        "id": "element_8",
+        "numId": "-19",
+        "hexId": "FFFFFFFFFFFFFFED"
+    },
+    {
+        "name": "氟",
+        "id": "element_9",
+        "numId": "-20",
+        "hexId": "FFFFFFFFFFFFFFEC"
+    },
+    {
+        "name": "氖",
+        "id": "element_10",
+        "numId": "-21",
+        "hexId": "FFFFFFFFFFFFFFEB"
+    },
+    {
+        "name": "钠",
+        "id": "element_11",
+        "numId": "-22",
+        "hexId": "FFFFFFFFFFFFFFEA"
+    },
+    {
+        "name": "镁",
+        "id": "element_12",
+        "numId": "-23",
+        "hexId": "FFFFFFFFFFFFFFE9"
+    },
+    {
+        "name": "铝",
+        "id": "element_13",
+        "numId": "-24",
+        "hexId": "FFFFFFFFFFFFFFE8"
+    },
+    {
+        "name": "硅",
+        "id": "element_14",
+        "numId": "-25",
+        "hexId": "FFFFFFFFFFFFFFE7"
+    },
+    {
+        "name": "磷",
+        "id": "element_15",
+        "numId": "-26",
+        "hexId": "FFFFFFFFFFFFFFE6"
+    },
+    {
+        "name": "硫",
+        "id": "element_16",
+        "numId": "-27",
+        "hexId": "FFFFFFFFFFFFFFE5"
+    },
+    {
+        "name": "氯",
+        "id": "element_17",
+        "numId": "-28",
+        "hexId": "FFFFFFFFFFFFFFE4"
+    },
+    {
+        "name": "氩",
+        "id": "element_18",
+        "numId": "-29",
+        "hexId": "FFFFFFFFFFFFFFE3"
+    },
+    {
+        "name": "钾",
+        "id": "element_19",
+        "numId": "-30",
+        "hexId": "FFFFFFFFFFFFFFE2"
+    },
+    {
+        "name": "钙",
+        "id": "element_20",
+        "numId": "-31",
+        "hexId": "FFFFFFFFFFFFFFE1"
+    },
+    {
+        "name": "钪",
+        "id": "element_21",
+        "numId": "-32",
+        "hexId": "FFFFFFFFFFFFFFE0"
+    },
+    {
+        "name": "钛",
+        "id": "element_22",
+        "numId": "-33",
+        "hexId": "FFFFFFFFFFFFFFDF"
+    },
+    {
+        "name": "钒",
+        "id": "element_23",
+        "numId": "-34",
+        "hexId": "FFFFFFFFFFFFFFDE"
+    },
+    {
+        "name": "铬",
+        "id": "element_24",
+        "numId": "-35",
+        "hexId": "FFFFFFFFFFFFFFDD"
+    },
+    {
+        "name": "锰",
+        "id": "element_25",
+        "numId": "-36",
+        "hexId": "FFFFFFFFFFFFFFDC"
+    },
+    {
+        "name": "铁",
+        "id": "element_26",
+        "numId": "-37",
+        "hexId": "FFFFFFFFFFFFFFDB"
+    },
+    {
+        "name": "钴",
+        "id": "element_27",
+        "numId": "-38",
+        "hexId": "FFFFFFFFFFFFFFDA"
+    },
+    {
+        "name": "镍",
+        "id": "element_28",
+        "numId": "-39",
+        "hexId": "FFFFFFFFFFFFFFD9"
+    },
+    {
+        "name": "铜",
+        "id": "element_29",
+        "numId": "-40",
+        "hexId": "FFFFFFFFFFFFFFD8"
+    },
+    {
+        "name": "锌",
+        "id": "element_30",
+        "numId": "-41",
+        "hexId": "FFFFFFFFFFFFFFD7"
+    },
+    {
+        "name": "镓",
+        "id": "element_31",
+        "numId": "-42",
+        "hexId": "FFFFFFFFFFFFFFD6"
+    },
+    {
+        "name": "锗",
+        "id": "element_32",
+        "numId": "-43",
+        "hexId": "FFFFFFFFFFFFFFD5"
+    },
+    {
+        "name": "砷",
+        "id": "element_33",
+        "numId": "-44",
+        "hexId": "FFFFFFFFFFFFFFD4"
+    },
+    {
+        "name": "硒",
+        "id": "element_34",
+        "numId": "-45",
+        "hexId": "FFFFFFFFFFFFFFD3"
+    },
+    {
+        "name": "溴",
+        "id": "element_35",
+        "numId": "-46",
+        "hexId": "FFFFFFFFFFFFFFD2"
+    },
+    {
+        "name": "氪",
+        "id": "element_36",
+        "numId": "-47",
+        "hexId": "FFFFFFFFFFFFFFD1"
+    },
+    {
+        "name": "铷",
+        "id": "element_37",
+        "numId": "-48",
+        "hexId": "FFFFFFFFFFFFFFD0"
+    },
+    {
+        "name": "锶",
+        "id": "element_38",
+        "numId": "-49",
+        "hexId": "FFFFFFFFFFFFFFCF"
+    },
+    {
+        "name": "钇",
+        "id": "element_39",
+        "numId": "-50",
+        "hexId": "FFFFFFFFFFFFFFCE"
+    },
+    {
+        "name": "锆",
+        "id": "element_40",
+        "numId": "-51",
+        "hexId": "FFFFFFFFFFFFFFCD"
+    },
+    {
+        "name": "铌",
+        "id": "element_41",
+        "numId": "-52",
+        "hexId": "FFFFFFFFFFFFFFCC"
+    },
+    {
+        "name": "钼",
+        "id": "element_42",
+        "numId": "-53",
+        "hexId": "FFFFFFFFFFFFFFCB"
+    },
+    {
+        "name": "锝",
+        "id": "element_43",
+        "numId": "-54",
+        "hexId": "FFFFFFFFFFFFFFCA"
+    },
+    {
+        "name": "钌",
+        "id": "element_44",
+        "numId": "-55",
+        "hexId": "FFFFFFFFFFFFFFC9"
+    },
+    {
+        "name": "铑",
+        "id": "element_45",
+        "numId": "-56",
+        "hexId": "FFFFFFFFFFFFFFC8"
+    },
+    {
+        "name": "钯",
+        "id": "element_46",
+        "numId": "-57",
+        "hexId": "FFFFFFFFFFFFFFC7"
+    },
+    {
+        "name": "银",
+        "id": "element_47",
+        "numId": "-58",
+        "hexId": "FFFFFFFFFFFFFFC6"
+    },
+    {
+        "name": "镉",
+        "id": "element_48",
+        "numId": "-59",
+        "hexId": "FFFFFFFFFFFFFFC5"
+    },
+    {
+        "name": "铟",
+        "id": "element_49",
+        "numId": "-60",
+        "hexId": "FFFFFFFFFFFFFFC4"
+    },
+    {
+        "name": "锡",
+        "id": "element_50",
+        "numId": "-61",
+        "hexId": "FFFFFFFFFFFFFFC3"
+    },
+    {
+        "name": "锑",
+        "id": "element_51",
+        "numId": "-62",
+        "hexId": "FFFFFFFFFFFFFFC2"
+    },
+    {
+        "name": "碲",
+        "id": "element_52",
+        "numId": "-63",
+        "hexId": "FFFFFFFFFFFFFFC1"
+    },
+    {
+        "name": "碘",
+        "id": "element_53",
+        "numId": "-64",
+        "hexId": "FFFFFFFFFFFFFFC0"
+    },
+    {
+        "name": "氙",
+        "id": "element_54",
+        "numId": "-65",
+        "hexId": "FFFFFFFFFFFFFFBF"
+    },
+    {
+        "name": "铯",
+        "id": "element_55",
+        "numId": "-66",
+        "hexId": "FFFFFFFFFFFFFFBE"
+    },
+    {
+        "name": "钡",
+        "id": "element_56",
+        "numId": "-67",
+        "hexId": "FFFFFFFFFFFFFFBD"
+    },
+    {
+        "name": "镧",
+        "id": "element_57",
+        "numId": "-68",
+        "hexId": "FFFFFFFFFFFFFFBC"
+    },
+    {
+        "name": "铈",
+        "id": "element_58",
+        "numId": "-69",
+        "hexId": "FFFFFFFFFFFFFFBB"
+    },
+    {
+        "name": "镨",
+        "id": "element_59",
+        "numId": "-70",
+        "hexId": "FFFFFFFFFFFFFFBA"
+    },
+    {
+        "name": "钕",
+        "id": "element_60",
+        "numId": "-71",
+        "hexId": "FFFFFFFFFFFFFFB9"
+    },
+    {
+        "name": "钷",
+        "id": "element_61",
+        "numId": "-72",
+        "hexId": "FFFFFFFFFFFFFFB8"
+    },
+    {
+        "name": "钐",
+        "id": "element_62",
+        "numId": "-73",
+        "hexId": "FFFFFFFFFFFFFFB7"
+    },
+    {
+        "name": "铕",
+        "id": "element_63",
+        "numId": "-74",
+        "hexId": "FFFFFFFFFFFFFFB6"
+    },
+    {
+        "name": "钆",
+        "id": "element_64",
+        "numId": "-75",
+        "hexId": "FFFFFFFFFFFFFFB5"
+    },
+    {
+        "name": "铽",
+        "id": "element_65",
+        "numId": "-76",
+        "hexId": "FFFFFFFFFFFFFFB4"
+    },
+    {
+        "name": "镝",
+        "id": "element_66",
+        "numId": "-77",
+        "hexId": "FFFFFFFFFFFFFFB3"
+    },
+    {
+        "name": "钬",
+        "id": "element_67",
+        "numId": "-78",
+        "hexId": "FFFFFFFFFFFFFFB2"
+    },
+    {
+        "name": "铒",
+        "id": "element_68",
+        "numId": "-79",
+        "hexId": "FFFFFFFFFFFFFFB1"
+    },
+    {
+        "name": "铥",
+        "id": "element_69",
+        "numId": "-80",
+        "hexId": "FFFFFFFFFFFFFFB0"
+    },
+    {
+        "name": "镱",
+        "id": "element_70",
+        "numId": "-81",
+        "hexId": "FFFFFFFFFFFFFFAF"
+    },
+    {
+        "name": "镥",
+        "id": "element_71",
+        "numId": "-82",
+        "hexId": "FFFFFFFFFFFFFFAE"
+    },
+    {
+        "name": "铪",
+        "id": "element_72",
+        "numId": "-83",
+        "hexId": "FFFFFFFFFFFFFFAD"
+    },
+    {
+        "name": "钽",
+        "id": "element_73",
+        "numId": "-84",
+        "hexId": "FFFFFFFFFFFFFFAC"
+    },
+    {
+        "name": "钨",
+        "id": "element_74",
+        "numId": "-85",
+        "hexId": "FFFFFFFFFFFFFFAB"
+    },
+    {
+        "name": "铼",
+        "id": "element_75",
+        "numId": "-86",
+        "hexId": "FFFFFFFFFFFFFFAA"
+    },
+    {
+        "name": "锇",
+        "id": "element_76",
+        "numId": "-87",
+        "hexId": "FFFFFFFFFFFFFFA9"
+    },
+    {
+        "name": "铱",
+        "id": "element_77",
+        "numId": "-88",
+        "hexId": "FFFFFFFFFFFFFFA8"
+    },
+    {
+        "name": "铂",
+        "id": "element_78",
+        "numId": "-89",
+        "hexId": "FFFFFFFFFFFFFFA7"
+    },
+    {
+        "name": "金",
+        "id": "element_79",
+        "numId": "-90",
+        "hexId": "FFFFFFFFFFFFFFA6"
+    },
+    {
+        "name": "汞",
+        "id": "element_80",
+        "numId": "-91",
+        "hexId": "FFFFFFFFFFFFFFA5"
+    },
+    {
+        "name": "铊",
+        "id": "element_81",
+        "numId": "-92",
+        "hexId": "FFFFFFFFFFFFFFA4"
+    },
+    {
+        "name": "铅",
+        "id": "element_82",
+        "numId": "-93",
+        "hexId": "FFFFFFFFFFFFFFA3"
+    },
+    {
+        "name": "铋",
+        "id": "element_83",
+        "numId": "-94",
+        "hexId": "FFFFFFFFFFFFFFA2"
+    },
+    {
+        "name": "钋",
+        "id": "element_84",
+        "numId": "-95",
+        "hexId": "FFFFFFFFFFFFFFA1"
+    },
+    {
+        "name": "砹",
+        "id": "element_85",
+        "numId": "-96",
+        "hexId": "FFFFFFFFFFFFFFA0"
+    },
+    {
+        "name": "氡",
+        "id": "element_86",
+        "numId": "-97",
+        "hexId": "FFFFFFFFFFFFFF9F"
+    },
+    {
+        "name": "钫",
+        "id": "element_87",
+        "numId": "-98",
+        "hexId": "FFFFFFFFFFFFFF9E"
+    },
+    {
+        "name": "镭",
+        "id": "element_88",
+        "numId": "-99",
+        "hexId": "FFFFFFFFFFFFFF9D"
+    },
+    {
+        "name": "锕",
+        "id": "element_89",
+        "numId": "-100",
+        "hexId": "FFFFFFFFFFFFFF9C"
+    },
+    {
+        "name": "钍",
+        "id": "element_90",
+        "numId": "-101",
+        "hexId": "FFFFFFFFFFFFFF9B"
+    },
+    {
+        "name": "镤",
+        "id": "element_91",
+        "numId": "-102",
+        "hexId": "FFFFFFFFFFFFFF9A"
+    },
+    {
+        "name": "铀",
+        "id": "element_92",
+        "numId": "-103",
+        "hexId": "FFFFFFFFFFFFFF99"
+    },
+    {
+        "name": "镎",
+        "id": "element_93",
+        "numId": "-104",
+        "hexId": "FFFFFFFFFFFFFF98"
+    },
+    {
+        "name": "钚",
+        "id": "element_94",
+        "numId": "-105",
+        "hexId": "FFFFFFFFFFFFFF97"
+    },
+    {
+        "name": "镅",
+        "id": "element_95",
+        "numId": "-106",
+        "hexId": "FFFFFFFFFFFFFF96"
+    },
+    {
+        "name": "锔",
+        "id": "element_96",
+        "numId": "-107",
+        "hexId": "FFFFFFFFFFFFFF95"
+    },
+    {
+        "name": "锫",
+        "id": "element_97",
+        "numId": "-108",
+        "hexId": "FFFFFFFFFFFFFF94"
+    },
+    {
+        "name": "锎",
+        "id": "element_98",
+        "numId": "-109",
+        "hexId": "FFFFFFFFFFFFFF93"
+    },
+    {
+        "name": "锿",
+        "id": "element_99",
+        "numId": "-110",
+        "hexId": "FFFFFFFFFFFFFF92"
+    },
+    {
+        "name": "镄",
+        "id": "element_100",
+        "numId": "-111",
+        "hexId": "FFFFFFFFFFFFFF91"
+    },
+    {
+        "name": "钔",
+        "id": "element_101",
+        "numId": "-112",
+        "hexId": "FFFFFFFFFFFFFF90"
+    },
+    {
+        "name": "锘",
+        "id": "element_102",
+        "numId": "-113",
+        "hexId": "FFFFFFFFFFFFFF8F"
+    },
+    {
+        "name": "铹",
+        "id": "element_103",
+        "numId": "-114",
+        "hexId": "FFFFFFFFFFFFFF8E"
+    },
+    {
+        "name": "𬬻",
+        "id": "element_104",
+        "numId": "-115",
+        "hexId": "FFFFFFFFFFFFFF8D"
+    },
+    {
+        "name": "𬭊",
+        "id": "element_105",
+        "numId": "-116",
+        "hexId": "FFFFFFFFFFFFFF8C"
+    },
+    {
+        "name": "𬭳",
+        "id": "element_106",
+        "numId": "-117",
+        "hexId": "FFFFFFFFFFFFFF8B"
+    },
+    {
+        "name": "𬭛",
+        "id": "element_107",
+        "numId": "-118",
+        "hexId": "FFFFFFFFFFFFFF8A"
+    },
+    {
+        "name": "𬭶",
+        "id": "element_108",
+        "numId": "-119",
+        "hexId": "FFFFFFFFFFFFFF89"
+    },
+    {
+        "name": "鿏",
+        "id": "element_109",
+        "numId": "-120",
+        "hexId": "FFFFFFFFFFFFFF88"
+    },
+    {
+        "name": "𫟼",
+        "id": "element_110",
+        "numId": "-121",
+        "hexId": "FFFFFFFFFFFFFF87"
+    },
+    {
+        "name": "𬬭",
+        "id": "element_111",
+        "numId": "-122",
+        "hexId": "FFFFFFFFFFFFFF86"
+    },
+    {
+        "name": "鿔",
+        "id": "element_112",
+        "numId": "-123",
+        "hexId": "FFFFFFFFFFFFFF85"
+    },
+    {
+        "name": "鿭",
+        "id": "element_113",
+        "numId": "-124",
+        "hexId": "FFFFFFFFFFFFFF84"
+    },
+    {
+        "name": "𫓧",
+        "id": "element_114",
+        "numId": "-125",
+        "hexId": "FFFFFFFFFFFFFF83"
+    },
+    {
+        "name": "镆",
+        "id": "element_115",
+        "numId": "-126",
+        "hexId": "FFFFFFFFFFFFFF82"
+    },
+    {
+        "name": "𫟷",
+        "id": "element_116",
+        "numId": "-127",
+        "hexId": "FFFFFFFFFFFFFF81"
+    },
+    {
+        "name": "鿬",
+        "id": "element_117",
+        "numId": "-128",
+        "hexId": "FFFFFFFFFFFFFF80"
+    },
+    {
+        "name": "鿫",
+        "id": "element_118",
+        "numId": "-129",
+        "hexId": "FFFFFFFFFFFFFF7F"
+    },
+    {
+        "name": "海草",
+        "id": "seagrass",
+        "numId": "-130",
+        "hexId": "FFFFFFFFFFFFFF7E"
+    },
+    {
+        "name": "管珊瑚",
+        "id": "tube_coral",
+        "numId": "-131",
+        "hexId": "FFFFFFFFFFFFFF7D"
+    },
+    {
+        "name": "管珊瑚块",
+        "id": "tube_coral_block",
+        "numId": "-132",
+        "hexId": "FFFFFFFFFFFFFF7C"
+    },
+    {
+        "name": "管珊瑚扇",
+        "id": "tube_coral_fan",
+        "numId": "-133",
+        "hexId": "FFFFFFFFFFFFFF7B"
+    },
+    {
+        "name": "失活的管珊瑚扇",
+        "id": "dead_tube_coral_fan",
+        "numId": "-134",
+        "hexId": "FFFFFFFFFFFFFF7A"
+    },
+    {
+        "name": "墙上的管珊瑚扇",
+        "id": "tube_coral_wall_fan",
+        "numId": "-135",
+        "hexId": "FFFFFFFFFFFFFF79"
+    },
+    {
+        "name": "墙上的气泡珊瑚扇",
+        "id": "bubble_coral_wall_fan",
+        "numId": "-136",
+        "hexId": "FFFFFFFFFFFFFF78"
+    },
+    {
+        "name": "墙上的鹿角珊瑚扇",
+        "id": "horn_coral_wall_fan",
+        "numId": "-137",
+        "hexId": "FFFFFFFFFFFFFF77"
+    },
+    {
+        "name": "海带",
+        "id": "kelp",
+        "numId": "-138",
+        "hexId": "FFFFFFFFFFFFFF76"
+    },
+    {
+        "name": "干海带块",
+        "id": "dried_kelp_block",
+        "numId": "-139",
+        "hexId": "FFFFFFFFFFFFFF75"
+    },
+    {
+        "name": "金合欢木按钮",
+        "id": "acacia_button",
+        "numId": "-140",
+        "hexId": "FFFFFFFFFFFFFF74"
+    },
+    {
+        "name": "白桦木按钮",
+        "id": "birch_button",
+        "numId": "-141",
+        "hexId": "FFFFFFFFFFFFFF73"
+    },
+    {
+        "name": "深色橡木按钮",
+        "id": "dark_oak_button",
+        "numId": "-142",
+        "hexId": "FFFFFFFFFFFFFF72"
+    },
+    {
+        "name": "丛林木按钮",
+        "id": "jungle_button",
+        "numId": "-143",
+        "hexId": "FFFFFFFFFFFFFF71"
+    },
+    {
+        "name": "云杉木按钮",
+        "id": "spruce_button",
+        "numId": "-144",
+        "hexId": "FFFFFFFFFFFFFF70"
+    },
+    {
+        "name": "金合欢木活板门",
+        "id": "acacia_trapdoor",
+        "numId": "-145",
+        "hexId": "FFFFFFFFFFFFFF6F"
+    },
+    {
+        "name": "白桦木活板门",
+        "id": "birch_trapdoor",
+        "numId": "-146",
+        "hexId": "FFFFFFFFFFFFFF6E"
+    },
+    {
+        "name": "深色橡木活板门",
+        "id": "dark_oak_trapdoor",
+        "numId": "-147",
+        "hexId": "FFFFFFFFFFFFFF6D"
+    },
+    {
+        "name": "丛林木活板门",
+        "id": "jungle_trapdoor",
+        "numId": "-148",
+        "hexId": "FFFFFFFFFFFFFF6C"
+    },
+    {
+        "name": "云杉木活板门",
+        "id": "spruce_trapdoor",
+        "numId": "-149",
+        "hexId": "FFFFFFFFFFFFFF6B"
+    },
+    {
+        "name": "金合欢木压力板",
+        "id": "acacia_pressure_plate",
+        "numId": "-150",
+        "hexId": "FFFFFFFFFFFFFF6A"
+    },
+    {
+        "name": "白桦木压力板",
+        "id": "birch_pressure_plate",
+        "numId": "-151",
+        "hexId": "FFFFFFFFFFFFFF69"
+    },
+    {
+        "name": "深色橡木压力板",
+        "id": "dark_oak_pressure_plate",
+        "numId": "-152",
+        "hexId": "FFFFFFFFFFFFFF68"
+    },
+    {
+        "name": "丛林木压力板",
+        "id": "jungle_pressure_plate",
+        "numId": "-153",
+        "hexId": "FFFFFFFFFFFFFF67"
+    },
+    {
+        "name": "云杉木压力板",
+        "id": "spruce_pressure_plate",
+        "numId": "-154",
+        "hexId": "FFFFFFFFFFFFFF66"
+    },
+    {
+        "name": "雕刻南瓜",
+        "id": "carved_pumpkin",
+        "numId": "-155",
+        "hexId": "FFFFFFFFFFFFFF65"
+    },
+    {
+        "name": "海泡菜",
+        "id": "sea_pickle",
+        "numId": "-156",
+        "hexId": "FFFFFFFFFFFFFF64"
+    },
+    {
+        "name": "潮涌核心",
+        "id": "conduit",
+        "numId": "-157",
+        "hexId": "FFFFFFFFFFFFFF63"
+    },
+    {
+        "name": "空气",
+        "id": "air",
+        "numId": "-158",
+        "hexId": "FFFFFFFFFFFFFF62"
+    },
+    {
+        "name": "海龟蛋",
+        "id": "turtle_egg",
+        "numId": "-159",
+        "hexId": "FFFFFFFFFFFFFF61"
+    },
+    {
+        "name": "气泡柱",
+        "id": "bubble_column",
+        "numId": "-160",
+        "hexId": "FFFFFFFFFFFFFF60"
+    },
+    {
+        "name": "屏障",
+        "id": "barrier",
+        "numId": "-161",
+        "hexId": "FFFFFFFFFFFFFF5F"
+    },
+    {
+        "name": "末地石砖台阶",
+        "id": "end_stone_brick_slab",
+        "numId": "-162",
+        "hexId": "FFFFFFFFFFFFFF5E"
+    },
+    {
+        "name": "竹子",
+        "id": "bamboo",
+        "numId": "-163",
+        "hexId": "FFFFFFFFFFFFFF5D"
+    },
+    {
+        "name": "竹笋",
+        "id": "bamboo_sapling",
+        "numId": "-164",
+        "hexId": "FFFFFFFFFFFFFF5C"
+    },
+    {
+        "name": "脚手架",
+        "id": "scaffolding",
+        "numId": "-165",
+        "hexId": "FFFFFFFFFFFFFF5B"
+    },
+    {
+        "name": "苔石砖台阶",
+        "id": "mossy_stone_brick_slab",
+        "numId": "-166",
+        "hexId": "FFFFFFFFFFFFFF5A"
+    },
+    {
+        "name": "末地石砖双层台阶",
+        "id": "end_stone_brick_double_slab",
+        "numId": "-167",
+        "hexId": "FFFFFFFFFFFFFF59"
+    },
+    {
+        "name": "苔石砖双层台阶",
+        "id": "mossy_stone_brick_double_slab",
+        "numId": "-168",
+        "hexId": "FFFFFFFFFFFFFF58"
+    },
+    {
+        "name": "花岗岩楼梯",
+        "id": "granite_stairs",
+        "numId": "-169",
+        "hexId": "FFFFFFFFFFFFFF57"
+    },
+    {
+        "name": "闪长岩楼梯",
+        "id": "diorite_stairs",
+        "numId": "-170",
+        "hexId": "FFFFFFFFFFFFFF56"
+    },
+    {
+        "name": "安山岩楼梯",
+        "id": "andesite_stairs",
+        "numId": "-171",
+        "hexId": "FFFFFFFFFFFFFF55"
+    },
+    {
+        "name": "磨制花岗岩楼梯",
+        "id": "polished_granite_stairs",
+        "numId": "-172",
+        "hexId": "FFFFFFFFFFFFFF54"
+    },
+    {
+        "name": "磨制闪长岩楼梯",
+        "id": "polished_diorite_stairs",
+        "numId": "-173",
+        "hexId": "FFFFFFFFFFFFFF53"
+    },
+    {
+        "name": "磨制安山岩楼梯",
+        "id": "polished_andesite_stairs",
+        "numId": "-174",
+        "hexId": "FFFFFFFFFFFFFF52"
+    },
+    {
+        "name": "苔石砖楼梯",
+        "id": "mossy_stone_brick_stairs",
+        "numId": "-175",
+        "hexId": "FFFFFFFFFFFFFF51"
+    },
+    {
+        "name": "平滑红砂岩楼梯",
+        "id": "smooth_red_sandstone_stairs",
+        "numId": "-176",
+        "hexId": "FFFFFFFFFFFFFF50"
+    },
+    {
+        "name": "平滑砂岩楼梯",
+        "id": "smooth_sandstone_stairs",
+        "numId": "-177",
+        "hexId": "FFFFFFFFFFFFFF4F"
+    },
+    {
+        "name": "末地石砖楼梯",
+        "id": "end_brick_stairs",
+        "numId": "-178",
+        "hexId": "FFFFFFFFFFFFFF4E"
+    },
+    {
+        "name": "苔石楼梯",
+        "id": "mossy_cobblestone_stairs",
+        "numId": "-179",
+        "hexId": "FFFFFFFFFFFFFF4D"
+    },
+    {
+        "name": "石头楼梯",
+        "id": "normal_stone_stairs",
+        "numId": "-180",
+        "hexId": "FFFFFFFFFFFFFF4C"
+    },
+    {
+        "name": "云杉木告示牌",
+        "id": "spruce_standing_sign",
+        "numId": "-181",
+        "hexId": "FFFFFFFFFFFFFF4B"
+    },
+    {
+        "name": "墙上的云杉木告示牌",
+        "id": "spruce_wall_sign",
+        "numId": "-182",
+        "hexId": "FFFFFFFFFFFFFF4A"
+    },
+    {
+        "name": "平滑石头",
+        "id": "smooth_stone",
+        "numId": "-183",
+        "hexId": "FFFFFFFFFFFFFF49"
+    },
+    {
+        "name": "红色下界砖楼梯",
+        "id": "red_nether_brick_stairs",
+        "numId": "-184",
+        "hexId": "FFFFFFFFFFFFFF48"
+    },
+    {
+        "name": "平滑石英楼梯",
+        "id": "smooth_quartz_stairs",
+        "numId": "-185",
+        "hexId": "FFFFFFFFFFFFFF47"
+    },
+    {
+        "name": "白桦木告示牌",
+        "id": "birch_standing_sign",
+        "numId": "-186",
+        "hexId": "FFFFFFFFFFFFFF46"
+    },
+    {
+        "name": "墙上的白桦木告示牌",
+        "id": "birch_wall_sign",
+        "numId": "-187",
+        "hexId": "FFFFFFFFFFFFFF45"
+    },
+    {
+        "name": "丛林木告示牌",
+        "id": "jungle_standing_sign",
+        "numId": "-188",
+        "hexId": "FFFFFFFFFFFFFF44"
+    },
+    {
+        "name": "墙上的丛林木告示牌",
+        "id": "jungle_wall_sign",
+        "numId": "-189",
+        "hexId": "FFFFFFFFFFFFFF43"
+    },
+    {
+        "name": "金合欢木告示牌",
+        "id": "acacia_standing_sign",
+        "numId": "-190",
+        "hexId": "FFFFFFFFFFFFFF42"
+    },
+    {
+        "name": "墙上的金合欢木告示牌",
+        "id": "acacia_wall_sign",
+        "numId": "-191",
+        "hexId": "FFFFFFFFFFFFFF41"
+    },
+    {
+        "name": "深色橡木告示牌",
+        "id": "darkoak_standing_sign",
+        "numId": "-192",
+        "hexId": "FFFFFFFFFFFFFF40"
+    },
+    {
+        "name": "墙上的深色橡木告示牌",
+        "id": "darkoak_wall_sign",
+        "numId": "-193",
+        "hexId": "FFFFFFFFFFFFFF3F"
+    },
+    {
+        "name": "讲台",
+        "id": "lectern",
+        "numId": "-194",
+        "hexId": "FFFFFFFFFFFFFF3E"
+    },
+    {
+        "name": "砂轮",
+        "id": "grindstone",
+        "numId": "-195",
+        "hexId": "FFFFFFFFFFFFFF3D"
+    },
+    {
+        "name": "高炉",
+        "id": "blast_furnace",
+        "numId": "-196",
+        "hexId": "FFFFFFFFFFFFFF3C"
+    },
+    {
+        "name": "切石机",
+        "id": "stonecutter_block",
+        "numId": "-197",
+        "hexId": "FFFFFFFFFFFFFF3B"
+    },
+    {
+        "name": "烟熏炉",
+        "id": "smoker",
+        "numId": "-198",
+        "hexId": "FFFFFFFFFFFFFF3A"
+    },
+    {
+        "name": "燃烧中的烟熏炉",
+        "id": "lit_smoker",
+        "numId": "-199",
+        "hexId": "FFFFFFFFFFFFFF39"
+    },
+    {
+        "name": "制图台",
+        "id": "cartography_table",
+        "numId": "-200",
+        "hexId": "FFFFFFFFFFFFFF38"
+    },
+    {
+        "name": "制箭台",
+        "id": "fletching_table",
+        "numId": "-201",
+        "hexId": "FFFFFFFFFFFFFF37"
+    },
+    {
+        "name": "锻造台",
+        "id": "smithing_table",
+        "numId": "-202",
+        "hexId": "FFFFFFFFFFFFFF36"
+    },
+    {
+        "name": "木桶",
+        "id": "barrel",
+        "numId": "-203",
+        "hexId": "FFFFFFFFFFFFFF35"
+    },
+    {
+        "name": "织布机",
+        "id": "loom",
+        "numId": "-204",
+        "hexId": "FFFFFFFFFFFFFF34"
+    },
+    {
+        "name": "钟",
+        "id": "bell",
+        "numId": "-206",
+        "hexId": "FFFFFFFFFFFFFF32"
+    },
+    {
+        "name": "甜浆果丛",
+        "id": "sweet_berry_bush",
+        "numId": "-207",
+        "hexId": "FFFFFFFFFFFFFF31"
+    },
+    {
+        "name": "灯笼",
+        "id": "lantern",
+        "numId": "-208",
+        "hexId": "FFFFFFFFFFFFFF30"
+    },
+    {
+        "name": "营火",
+        "id": "campfire",
+        "numId": "-209",
+        "hexId": "FFFFFFFFFFFFFF2F"
+    },
+    {
+        "name": "装有熔岩的炼药锅（已移除）",
+        "id": "lava_cauldron",
+        "numId": "-210",
+        "hexId": "FFFFFFFFFFFFFF2E"
+    },
+    {
+        "name": "拼图方块",
+        "id": "jigsaw",
+        "numId": "-211",
+        "hexId": "FFFFFFFFFFFFFF2D"
+    },
+    {
+        "name": "橡木",
+        "id": "oak_wood",
+        "numId": "-212",
+        "hexId": "FFFFFFFFFFFFFF2C"
+    },
+    {
+        "name": "堆肥桶",
+        "id": "composter",
+        "numId": "-213",
+        "hexId": "FFFFFFFFFFFFFF2B"
+    },
+    {
+        "name": "燃烧中的高炉",
+        "id": "lit_blast_furnace",
+        "numId": "-214",
+        "hexId": "FFFFFFFFFFFFFF2A"
+    },
+    {
+        "name": "光源方块 （亮度0）",
+        "id": "light_block_0",
+        "numId": "-215",
+        "hexId": "FFFFFFFFFFFFFF29"
+    },
+    {
+        "name": "凋灵玫瑰",
+        "id": "wither_rose",
+        "numId": "-216",
+        "hexId": "FFFFFFFFFFFFFF28"
+    },
+    {
+        "name": "黏性活塞臂",
+        "id": "sticky_piston_arm_collision",
+        "numId": "-217",
+        "hexId": "FFFFFFFFFFFFFF27"
+    },
+    {
+        "name": "蜂巢",
+        "id": "bee_nest",
+        "numId": "-218",
+        "hexId": "FFFFFFFFFFFFFF26"
+    },
+    {
+        "name": "蜂箱",
+        "id": "beehive",
+        "numId": "-219",
+        "hexId": "FFFFFFFFFFFFFF25"
+    },
+    {
+        "name": "蜂蜜块",
+        "id": "honey_block",
+        "numId": "-220",
+        "hexId": "FFFFFFFFFFFFFF24"
+    },
+    {
+        "name": "蜜脾块",
+        "id": "honeycomb_block",
+        "numId": "-221",
+        "hexId": "FFFFFFFFFFFFFF23"
+    },
+    {
+        "name": "磁石",
+        "id": "lodestone",
+        "numId": "-222",
+        "hexId": "FFFFFFFFFFFFFF22"
+    },
+    {
+        "name": "绯红菌索",
+        "id": "crimson_roots",
+        "numId": "-223",
+        "hexId": "FFFFFFFFFFFFFF21"
+    },
+    {
+        "name": "诡异菌索",
+        "id": "warped_roots",
+        "numId": "-224",
+        "hexId": "FFFFFFFFFFFFFF20"
+    },
+    {
+        "name": "绯红菌柄",
+        "id": "crimson_stem",
+        "numId": "-225",
+        "hexId": "FFFFFFFFFFFFFF1F"
+    },
+    {
+        "name": "诡异菌柄",
+        "id": "warped_stem",
+        "numId": "-226",
+        "hexId": "FFFFFFFFFFFFFF1E"
+    },
+    {
+        "name": "诡异疣块",
+        "id": "warped_wart_block",
+        "numId": "-227",
+        "hexId": "FFFFFFFFFFFFFF1D"
+    },
+    {
+        "name": "绯红菌",
+        "id": "crimson_fungus",
+        "numId": "-228",
+        "hexId": "FFFFFFFFFFFFFF1C"
+    },
+    {
+        "name": "诡异菌",
+        "id": "warped_fungus",
+        "numId": "-229",
+        "hexId": "FFFFFFFFFFFFFF1B"
+    },
+    {
+        "name": "菌光体",
+        "id": "shroomlight",
+        "numId": "-230",
+        "hexId": "FFFFFFFFFFFFFF1A"
+    },
+    {
+        "name": "垂泪藤植株",
+        "id": "weeping_vines_plant",
+        "numId": "-231",
+        "hexId": "FFFFFFFFFFFFFF19"
+    },
+    {
+        "name": "绯红菌岩",
+        "id": "crimson_nylium",
+        "numId": "-232",
+        "hexId": "FFFFFFFFFFFFFF18"
+    },
+    {
+        "name": "诡异菌岩",
+        "id": "warped_nylium",
+        "numId": "-233",
+        "hexId": "FFFFFFFFFFFFFF17"
+    },
+    {
+        "name": "玄武岩",
+        "id": "basalt",
+        "numId": "-234",
+        "hexId": "FFFFFFFFFFFFFF16"
+    },
+    {
+        "name": "磨制玄武岩",
+        "id": "polished_basalt",
+        "numId": "-235",
+        "hexId": "FFFFFFFFFFFFFF15"
+    },
+    {
+        "name": "灵魂土",
+        "id": "soul_soil",
+        "numId": "-236",
+        "hexId": "FFFFFFFFFFFFFF14"
+    },
+    {
+        "name": "灵魂火",
+        "id": "soul_fire",
+        "numId": "-237",
+        "hexId": "FFFFFFFFFFFFFF13"
+    },
+    {
+        "name": "下界苗",
+        "id": "nether_sprouts",
+        "numId": "-238",
+        "hexId": "FFFFFFFFFFFFFF12"
+    },
+    {
+        "name": "标靶",
+        "id": "target",
+        "numId": "-239",
+        "hexId": "FFFFFFFFFFFFFF11"
+    },
+    {
+        "name": "去皮绯红菌柄",
+        "id": "stripped_crimson_stem",
+        "numId": "-240",
+        "hexId": "FFFFFFFFFFFFFF10"
+    },
+    {
+        "name": "去皮诡异菌柄",
+        "id": "stripped_warped_stem",
+        "numId": "-241",
+        "hexId": "FFFFFFFFFFFFFF0F"
+    },
+    {
+        "name": "绯红木板",
+        "id": "crimson_planks",
+        "numId": "-242",
+        "hexId": "FFFFFFFFFFFFFF0E"
+    },
+    {
+        "name": "诡异木板",
+        "id": "warped_planks",
+        "numId": "-243",
+        "hexId": "FFFFFFFFFFFFFF0D"
+    },
+    {
+        "name": "绯红木门",
+        "id": "crimson_door",
+        "numId": "-244",
+        "hexId": "FFFFFFFFFFFFFF0C"
+    },
+    {
+        "name": "诡异木门",
+        "id": "warped_door",
+        "numId": "-245",
+        "hexId": "FFFFFFFFFFFFFF0B"
+    },
+    {
+        "name": "绯红木活板门",
+        "id": "crimson_trapdoor",
+        "numId": "-246",
+        "hexId": "FFFFFFFFFFFFFF0A"
+    },
+    {
+        "name": "诡异木活板门",
+        "id": "warped_trapdoor",
+        "numId": "-247",
+        "hexId": "FFFFFFFFFFFFFF09"
+    },
+    {
+        "name": "绯红木告示牌",
+        "id": "crimson_standing_sign",
+        "numId": "-250",
+        "hexId": "FFFFFFFFFFFFFF06"
+    },
+    {
+        "name": "诡异木告示牌",
+        "id": "warped_standing_sign",
+        "numId": "-251",
+        "hexId": "FFFFFFFFFFFFFF05"
+    },
+    {
+        "name": "墙上的绯红木告示牌",
+        "id": "crimson_wall_sign",
+        "numId": "-252",
+        "hexId": "FFFFFFFFFFFFFF04"
+    },
+    {
+        "name": "墙上的诡异木告示牌",
+        "id": "warped_wall_sign",
+        "numId": "-253",
+        "hexId": "FFFFFFFFFFFFFF03"
+    },
+    {
+        "name": "绯红木楼梯",
+        "id": "crimson_stairs",
+        "numId": "-254",
+        "hexId": "FFFFFFFFFFFFFF02"
+    },
+    {
+        "name": "诡异木楼梯",
+        "id": "warped_stairs",
+        "numId": "-255",
+        "hexId": "FFFFFFFFFFFFFF01"
+    },
+    {
+        "name": "绯红木栅栏",
+        "id": "crimson_fence",
+        "numId": "-256",
+        "hexId": "FFFFFFFFFFFFFF00"
+    },
+    {
+        "name": "诡异木栅栏",
+        "id": "warped_fence",
+        "numId": "-257",
+        "hexId": "FFFFFFFFFFFFFEFF"
+    },
+    {
+        "name": "绯红木栅栏门",
+        "id": "crimson_fence_gate",
+        "numId": "-258",
+        "hexId": "FFFFFFFFFFFFFEFE"
+    },
+    {
+        "name": "诡异木栅栏门",
+        "id": "warped_fence_gate",
+        "numId": "-259",
+        "hexId": "FFFFFFFFFFFFFEFD"
+    },
+    {
+        "name": "绯红木按钮",
+        "id": "crimson_button",
+        "numId": "-260",
+        "hexId": "FFFFFFFFFFFFFEFC"
+    },
+    {
+        "name": "诡异木按钮",
+        "id": "warped_button",
+        "numId": "-261",
+        "hexId": "FFFFFFFFFFFFFEFB"
+    },
+    {
+        "name": "绯红木压力板",
+        "id": "crimson_pressure_plate",
+        "numId": "-262",
+        "hexId": "FFFFFFFFFFFFFEFA"
+    },
+    {
+        "name": "诡异木压力板",
+        "id": "warped_pressure_plate",
+        "numId": "-263",
+        "hexId": "FFFFFFFFFFFFFEF9"
+    },
+    {
+        "name": "绯红木台阶",
+        "id": "crimson_slab",
+        "numId": "-264",
+        "hexId": "FFFFFFFFFFFFFEF8"
+    },
+    {
+        "name": "诡异木台阶",
+        "id": "warped_slab",
+        "numId": "-265",
+        "hexId": "FFFFFFFFFFFFFEF7"
+    },
+    {
+        "name": "绯红木双层台阶",
+        "id": "crimson_double_slab",
+        "numId": "-266",
+        "hexId": "FFFFFFFFFFFFFEF6"
+    },
+    {
+        "name": "诡异木双层台阶",
+        "id": "warped_double_slab",
+        "numId": "-267",
+        "hexId": "FFFFFFFFFFFFFEF5"
+    },
+    {
+        "name": "灵魂火把",
+        "id": "soul_torch",
+        "numId": "-268",
+        "hexId": "FFFFFFFFFFFFFEF4"
+    },
+    {
+        "name": "灵魂灯笼",
+        "id": "soul_lantern",
+        "numId": "-269",
+        "hexId": "FFFFFFFFFFFFFEF3"
+    },
+    {
+        "name": "下界合金块",
+        "id": "netherite_block",
+        "numId": "-270",
+        "hexId": "FFFFFFFFFFFFFEF2"
+    },
+    {
+        "name": "远古残骸",
+        "id": "ancient_debris",
+        "numId": "-271",
+        "hexId": "FFFFFFFFFFFFFEF1"
+    },
+    {
+        "name": "重生锚",
+        "id": "respawn_anchor",
+        "numId": "-272",
+        "hexId": "FFFFFFFFFFFFFEF0"
+    },
+    {
+        "name": "黑石",
+        "id": "blackstone",
+        "numId": "-273",
+        "hexId": "FFFFFFFFFFFFFEEF"
+    },
+    {
+        "name": "磨制黑石砖",
+        "id": "polished_blackstone_bricks",
+        "numId": "-274",
+        "hexId": "FFFFFFFFFFFFFEEE"
+    },
+    {
+        "name": "磨制黑石砖楼梯",
+        "id": "polished_blackstone_brick_stairs",
+        "numId": "-275",
+        "hexId": "FFFFFFFFFFFFFEED"
+    },
+    {
+        "name": "黑石楼梯",
+        "id": "blackstone_stairs",
+        "numId": "-276",
+        "hexId": "FFFFFFFFFFFFFEEC"
+    },
+    {
+        "name": "黑石墙",
+        "id": "blackstone_wall",
+        "numId": "-277",
+        "hexId": "FFFFFFFFFFFFFEEB"
+    },
+    {
+        "name": "磨制黑石砖墙",
+        "id": "polished_blackstone_brick_wall",
+        "numId": "-278",
+        "hexId": "FFFFFFFFFFFFFEEA"
+    },
+    {
+        "name": "雕纹磨制黑石",
+        "id": "chiseled_polished_blackstone",
+        "numId": "-279",
+        "hexId": "FFFFFFFFFFFFFEE9"
+    },
+    {
+        "name": "裂纹磨制黑石砖",
+        "id": "cracked_polished_blackstone_bricks",
+        "numId": "-280",
+        "hexId": "FFFFFFFFFFFFFEE8"
+    },
+    {
+        "name": "镶金黑石",
+        "id": "gilded_blackstone",
+        "numId": "-281",
+        "hexId": "FFFFFFFFFFFFFEE7"
+    },
+    {
+        "name": "黑石台阶",
+        "id": "blackstone_slab",
+        "numId": "-282",
+        "hexId": "FFFFFFFFFFFFFEE6"
+    },
+    {
+        "name": "黑石双层台阶",
+        "id": "blackstone_double_slab",
+        "numId": "-283",
+        "hexId": "FFFFFFFFFFFFFEE5"
+    },
+    {
+        "name": "磨制黑石砖台阶",
+        "id": "polished_blackstone_brick_slab",
+        "numId": "-284",
+        "hexId": "FFFFFFFFFFFFFEE4"
+    },
+    {
+        "name": "磨制黑石砖双层台阶",
+        "id": "polished_blackstone_brick_double_slab",
+        "numId": "-285",
+        "hexId": "FFFFFFFFFFFFFEE3"
+    },
+    {
+        "name": "铁链",
+        "id": "iron_chain",
+        "numId": "-286",
+        "hexId": "FFFFFFFFFFFFFEE2"
+    },
+    {
+        "name": "缠怨藤",
+        "id": "twisting_vines",
+        "numId": "-287",
+        "hexId": "FFFFFFFFFFFFFEE1"
+    },
+    {
+        "name": "下界金矿石",
+        "id": "nether_gold_ore",
+        "numId": "-288",
+        "hexId": "FFFFFFFFFFFFFEE0"
+    },
+    {
+        "name": "哭泣的黑曜石",
+        "id": "crying_obsidian",
+        "numId": "-289",
+        "hexId": "FFFFFFFFFFFFFEDF"
+    },
+    {
+        "name": "灵魂营火",
+        "id": "soul_campfire",
+        "numId": "-290",
+        "hexId": "FFFFFFFFFFFFFEDE"
+    },
+    {
+        "name": "磨制黑石",
+        "id": "polished_blackstone",
+        "numId": "-291",
+        "hexId": "FFFFFFFFFFFFFEDD"
+    },
+    {
+        "name": "磨制黑石楼梯",
+        "id": "polished_blackstone_stairs",
+        "numId": "-292",
+        "hexId": "FFFFFFFFFFFFFEDC"
+    },
+    {
+        "name": "磨制黑石台阶",
+        "id": "polished_blackstone_slab",
+        "numId": "-293",
+        "hexId": "FFFFFFFFFFFFFEDB"
+    },
+    {
+        "name": "磨制黑石双层台阶",
+        "id": "polished_blackstone_double_slab",
+        "numId": "-294",
+        "hexId": "FFFFFFFFFFFFFEDA"
+    },
+    {
+        "name": "磨制黑石压力板",
+        "id": "polished_blackstone_pressure_plate",
+        "numId": "-295",
+        "hexId": "FFFFFFFFFFFFFED9"
+    },
+    {
+        "name": "磨制黑石按钮",
+        "id": "polished_blackstone_button",
+        "numId": "-296",
+        "hexId": "FFFFFFFFFFFFFED8"
+    },
+    {
+        "name": "磨制黑石墙",
+        "id": "polished_blackstone_wall",
+        "numId": "-297",
+        "hexId": "FFFFFFFFFFFFFED7"
+    },
+    {
+        "name": "诡异菌核",
+        "id": "warped_hyphae",
+        "numId": "-298",
+        "hexId": "FFFFFFFFFFFFFED6"
+    },
+    {
+        "name": "绯红菌核",
+        "id": "crimson_hyphae",
+        "numId": "-299",
+        "hexId": "FFFFFFFFFFFFFED5"
+    },
+    {
+        "name": "去皮绯红菌核",
+        "id": "stripped_crimson_hyphae",
+        "numId": "-300",
+        "hexId": "FFFFFFFFFFFFFED4"
+    },
+    {
+        "name": "去皮诡异菌核",
+        "id": "stripped_warped_hyphae",
+        "numId": "-301",
+        "hexId": "FFFFFFFFFFFFFED3"
+    },
+    {
+        "name": "雕纹下界砖块",
+        "id": "chiseled_nether_bricks",
+        "numId": "-302",
+        "hexId": "FFFFFFFFFFFFFED2"
+    },
+    {
+        "name": "裂纹下界砖块",
+        "id": "cracked_nether_bricks",
+        "numId": "-303",
+        "hexId": "FFFFFFFFFFFFFED1"
+    },
+    {
+        "name": "石英砖",
+        "id": "quartz_bricks",
+        "numId": "-304",
+        "hexId": "FFFFFFFFFFFFFED0"
+    },
+    {
+        "name": "未知",
+        "id": "unknown",
+        "numId": "-305",
+        "hexId": "FFFFFFFFFFFFFECF"
+    },
+    {
+        "name": "细雪",
+        "id": "powder_snow",
+        "numId": "-306",
+        "hexId": "FFFFFFFFFFFFFECE"
+    },
+    {
+        "name": "幽匿感测体",
+        "id": "sculk_sensor",
+        "numId": "-307",
+        "hexId": "FFFFFFFFFFFFFECD"
+    },
+    {
+        "name": "滴水石锥",
+        "id": "pointed_dripstone",
+        "numId": "-308",
+        "hexId": "FFFFFFFFFFFFFECC"
+    },
+    {
+        "name": "铜矿石",
+        "id": "copper_ore",
+        "numId": "-311",
+        "hexId": "FFFFFFFFFFFFFEC9"
+    },
+    {
+        "name": "避雷针",
+        "id": "lightning_rod",
+        "numId": "-312",
+        "hexId": "FFFFFFFFFFFFFEC8"
+    },
+    {
+        "name": "合成器",
+        "id": "crafter",
+        "numId": "-313",
+        "hexId": "FFFFFFFFFFFFFEC7"
+    },
+    {
+        "name": "宝库",
+        "id": "vault",
+        "numId": "-314",
+        "hexId": "FFFFFFFFFFFFFEC6"
+    },
+    {
+        "name": "试炼刷怪笼",
+        "id": "trial_spawner",
+        "numId": "-315",
+        "hexId": "FFFFFFFFFFFFFEC5"
+    },
+    {
+        "name": "沉重核心",
+        "id": "heavy_core",
+        "numId": "-316",
+        "hexId": "FFFFFFFFFFFFFEC4"
+    },
+    {
+        "name": "滴水石块",
+        "id": "dripstone_block",
+        "numId": "-317",
+        "hexId": "FFFFFFFFFFFFFEC3"
+    },
+    {
+        "name": "缠根泥土",
+        "id": "dirt_with_roots",
+        "numId": "-318",
+        "hexId": "FFFFFFFFFFFFFEC2"
+    },
+    {
+        "name": "垂根",
+        "id": "hanging_roots",
+        "numId": "-319",
+        "hexId": "FFFFFFFFFFFFFEC1"
+    },
+    {
+        "name": "苔藓块",
+        "id": "moss_block",
+        "numId": "-320",
+        "hexId": "FFFFFFFFFFFFFEC0"
+    },
+    {
+        "name": "孢子花",
+        "id": "spore_blossom",
+        "numId": "-321",
+        "hexId": "FFFFFFFFFFFFFEBF"
+    },
+    {
+        "name": "洞穴藤蔓",
+        "id": "cave_vines",
+        "numId": "-322",
+        "hexId": "FFFFFFFFFFFFFEBE"
+    },
+    {
+        "name": "大型垂滴叶",
+        "id": "big_dripleaf",
+        "numId": "-323",
+        "hexId": "FFFFFFFFFFFFFEBD"
+    },
+    {
+        "name": "杜鹃树叶",
+        "id": "azalea_leaves",
+        "numId": "-324",
+        "hexId": "FFFFFFFFFFFFFEBC"
+    },
+    {
+        "name": "盛开的杜鹃树叶",
+        "id": "azalea_leaves_flowered",
+        "numId": "-325",
+        "hexId": "FFFFFFFFFFFFFEBB"
+    },
+    {
+        "name": "方解石",
+        "id": "calcite",
+        "numId": "-326",
+        "hexId": "FFFFFFFFFFFFFEBA"
+    },
+    {
+        "name": "紫水晶块",
+        "id": "amethyst_block",
+        "numId": "-327",
+        "hexId": "FFFFFFFFFFFFFEB9"
+    },
+    {
+        "name": "紫水晶母岩",
+        "id": "budding_amethyst",
+        "numId": "-328",
+        "hexId": "FFFFFFFFFFFFFEB8"
+    },
+    {
+        "name": "紫水晶簇",
+        "id": "amethyst_cluster",
+        "numId": "-329",
+        "hexId": "FFFFFFFFFFFFFEB7"
+    },
+    {
+        "name": "大型紫晶芽",
+        "id": "large_amethyst_bud",
+        "numId": "-330",
+        "hexId": "FFFFFFFFFFFFFEB6"
+    },
+    {
+        "name": "中型紫晶芽",
+        "id": "medium_amethyst_bud",
+        "numId": "-331",
+        "hexId": "FFFFFFFFFFFFFEB5"
+    },
+    {
+        "name": "小型紫晶芽",
+        "id": "small_amethyst_bud",
+        "numId": "-332",
+        "hexId": "FFFFFFFFFFFFFEB4"
+    },
+    {
+        "name": "凝灰岩",
+        "id": "tuff",
+        "numId": "-333",
+        "hexId": "FFFFFFFFFFFFFEB3"
+    },
+    {
+        "name": "遮光玻璃",
+        "id": "tinted_glass",
+        "numId": "-334",
+        "hexId": "FFFFFFFFFFFFFEB2"
+    },
+    {
+        "name": "覆地苔藓",
+        "id": "moss_carpet",
+        "numId": "-335",
+        "hexId": "FFFFFFFFFFFFFEB1"
+    },
+    {
+        "name": "小型垂滴叶",
+        "id": "small_dripleaf",
+        "numId": "-336",
+        "hexId": "FFFFFFFFFFFFFEB0"
+    },
+    {
+        "name": "杜鹃花丛",
+        "id": "azalea",
+        "numId": "-337",
+        "hexId": "FFFFFFFFFFFFFEAF"
+    },
+    {
+        "name": "盛开的杜鹃花丛",
+        "id": "flowering_azalea",
+        "numId": "-338",
+        "hexId": "FFFFFFFFFFFFFEAE"
+    },
+    {
+        "name": "荧光物品展示框",
+        "id": "glow_frame",
+        "numId": "-339",
+        "hexId": "FFFFFFFFFFFFFEAD"
+    },
+    {
+        "name": "铜块",
+        "id": "copper_block",
+        "numId": "-340",
+        "hexId": "FFFFFFFFFFFFFEAC"
+    },
+    {
+        "name": "斑驳的铜块",
+        "id": "exposed_copper",
+        "numId": "-341",
+        "hexId": "FFFFFFFFFFFFFEAB"
+    },
+    {
+        "name": "锈蚀的铜块",
+        "id": "weathered_copper",
+        "numId": "-342",
+        "hexId": "FFFFFFFFFFFFFEAA"
+    },
+    {
+        "name": "氧化的铜块",
+        "id": "oxidized_copper",
+        "numId": "-343",
+        "hexId": "FFFFFFFFFFFFFEA9"
+    },
+    {
+        "name": "涂蜡的铜块",
+        "id": "waxed_copper",
+        "numId": "-344",
+        "hexId": "FFFFFFFFFFFFFEA8"
+    },
+    {
+        "name": "涂蜡的斑驳铜块",
+        "id": "waxed_exposed_copper",
+        "numId": "-345",
+        "hexId": "FFFFFFFFFFFFFEA7"
+    },
+    {
+        "name": "涂蜡的锈蚀铜块",
+        "id": "waxed_weathered_copper",
+        "numId": "-346",
+        "hexId": "FFFFFFFFFFFFFEA6"
+    },
+    {
+        "name": "切制铜块",
+        "id": "cut_copper",
+        "numId": "-347",
+        "hexId": "FFFFFFFFFFFFFEA5"
+    },
+    {
+        "name": "斑驳的切制铜块",
+        "id": "exposed_cut_copper",
+        "numId": "-348",
+        "hexId": "FFFFFFFFFFFFFEA4"
+    },
+    {
+        "name": "锈蚀的切制铜块",
+        "id": "weathered_cut_copper",
+        "numId": "-349",
+        "hexId": "FFFFFFFFFFFFFEA3"
+    },
+    {
+        "name": "氧化的切制铜块",
+        "id": "oxidized_cut_copper",
+        "numId": "-350",
+        "hexId": "FFFFFFFFFFFFFEA2"
+    },
+    {
+        "name": "涂蜡的切制铜块",
+        "id": "waxed_cut_copper",
+        "numId": "-351",
+        "hexId": "FFFFFFFFFFFFFEA1"
+    },
+    {
+        "name": "涂蜡的斑驳切制铜块",
+        "id": "waxed_exposed_cut_copper",
+        "numId": "-352",
+        "hexId": "FFFFFFFFFFFFFEA0"
+    },
+    {
+        "name": "涂蜡的锈蚀切制铜块",
+        "id": "waxed_weathered_cut_copper",
+        "numId": "-353",
+        "hexId": "FFFFFFFFFFFFFE9F"
+    },
+    {
+        "name": "切制铜楼梯",
+        "id": "cut_copper_stairs",
+        "numId": "-354",
+        "hexId": "FFFFFFFFFFFFFE9E"
+    },
+    {
+        "name": "斑驳的切制铜楼梯",
+        "id": "exposed_cut_copper_stairs",
+        "numId": "-355",
+        "hexId": "FFFFFFFFFFFFFE9D"
+    },
+    {
+        "name": "锈蚀的切制铜楼梯",
+        "id": "weathered_cut_copper_stairs",
+        "numId": "-356",
+        "hexId": "FFFFFFFFFFFFFE9C"
+    },
+    {
+        "name": "氧化的切制铜楼梯",
+        "id": "oxidized_cut_copper_stairs",
+        "numId": "-357",
+        "hexId": "FFFFFFFFFFFFFE9B"
+    },
+    {
+        "name": "涂蜡的切制铜楼梯",
+        "id": "waxed_cut_copper_stairs",
+        "numId": "-358",
+        "hexId": "FFFFFFFFFFFFFE9A"
+    },
+    {
+        "name": "涂蜡的斑驳切制铜楼梯",
+        "id": "waxed_exposed_cut_copper_stairs",
+        "numId": "-359",
+        "hexId": "FFFFFFFFFFFFFE99"
+    },
+    {
+        "name": "涂蜡的锈蚀切制铜楼梯",
+        "id": "waxed_weathered_cut_copper_stairs",
+        "numId": "-360",
+        "hexId": "FFFFFFFFFFFFFE98"
+    },
+    {
+        "name": "切制铜台阶",
+        "id": "cut_copper_slab",
+        "numId": "-361",
+        "hexId": "FFFFFFFFFFFFFE97"
+    },
+    {
+        "name": "斑驳的切制铜台阶",
+        "id": "exposed_cut_copper_slab",
+        "numId": "-362",
+        "hexId": "FFFFFFFFFFFFFE96"
+    },
+    {
+        "name": "锈蚀的切制铜台阶",
+        "id": "weathered_cut_copper_slab",
+        "numId": "-363",
+        "hexId": "FFFFFFFFFFFFFE95"
+    },
+    {
+        "name": "氧化的切制铜台阶",
+        "id": "oxidized_cut_copper_slab",
+        "numId": "-364",
+        "hexId": "FFFFFFFFFFFFFE94"
+    },
+    {
+        "name": "涂蜡的切制铜台阶",
+        "id": "waxed_cut_copper_slab",
+        "numId": "-365",
+        "hexId": "FFFFFFFFFFFFFE93"
+    },
+    {
+        "name": "涂蜡的斑驳切制铜台阶",
+        "id": "waxed_exposed_cut_copper_slab",
+        "numId": "-366",
+        "hexId": "FFFFFFFFFFFFFE92"
+    },
+    {
+        "name": "涂蜡的锈蚀切制铜台阶",
+        "id": "waxed_weathered_cut_copper_slab",
+        "numId": "-367",
+        "hexId": "FFFFFFFFFFFFFE91"
+    },
+    {
+        "name": "切制铜双层台阶",
+        "id": "double_cut_copper_slab",
+        "numId": "-368",
+        "hexId": "FFFFFFFFFFFFFE90"
+    },
+    {
+        "name": "斑驳的切制铜双层台阶",
+        "id": "exposed_double_cut_copper_slab",
+        "numId": "-369",
+        "hexId": "FFFFFFFFFFFFFE8F"
+    },
+    {
+        "name": "锈蚀的切制铜双层台阶",
+        "id": "weathered_double_cut_copper_slab",
+        "numId": "-370",
+        "hexId": "FFFFFFFFFFFFFE8E"
+    },
+    {
+        "name": "氧化的切制铜双层台阶",
+        "id": "oxidized_double_cut_copper_slab",
+        "numId": "-371",
+        "hexId": "FFFFFFFFFFFFFE8D"
+    },
+    {
+        "name": "涂蜡的切制铜双层台阶",
+        "id": "waxed_double_cut_copper_slab",
+        "numId": "-372",
+        "hexId": "FFFFFFFFFFFFFE8C"
+    },
+    {
+        "name": "涂蜡的斑驳切制铜双层台阶",
+        "id": "waxed_exposed_double_cut_copper_slab",
+        "numId": "-373",
+        "hexId": "FFFFFFFFFFFFFE8B"
+    },
+    {
+        "name": "涂蜡的锈蚀切制铜双层台阶",
+        "id": "waxed_weathered_double_cut_copper_slab",
+        "numId": "-374",
+        "hexId": "FFFFFFFFFFFFFE8A"
+    },
+    {
+        "name": "洞穴藤蔓（带浆果）",
+        "id": "cave_vines_body_berries",
+        "numId": "-375",
+        "hexId": "FFFFFFFFFFFFFE89"
+    },
+    {
+        "name": "洞穴藤蔓首部（带浆果）",
+        "id": "cave_vines_head_berries",
+        "numId": "-376",
+        "hexId": "FFFFFFFFFFFFFE88"
+    },
+    {
+        "name": "平滑玄武岩",
+        "id": "smooth_basalt",
+        "numId": "-377",
+        "hexId": "FFFFFFFFFFFFFE87"
+    },
+    {
+        "name": "深板岩",
+        "id": "deepslate",
+        "numId": "-378",
+        "hexId": "FFFFFFFFFFFFFE86"
+    },
+    {
+        "name": "深板岩圆石",
+        "id": "cobbled_deepslate",
+        "numId": "-379",
+        "hexId": "FFFFFFFFFFFFFE85"
+    },
+    {
+        "name": "深板岩圆石台阶",
+        "id": "cobbled_deepslate_slab",
+        "numId": "-380",
+        "hexId": "FFFFFFFFFFFFFE84"
+    },
+    {
+        "name": "深板岩圆石楼梯",
+        "id": "cobbled_deepslate_stairs",
+        "numId": "-381",
+        "hexId": "FFFFFFFFFFFFFE83"
+    },
+    {
+        "name": "深板岩圆石墙",
+        "id": "cobbled_deepslate_wall",
+        "numId": "-382",
+        "hexId": "FFFFFFFFFFFFFE82"
+    },
+    {
+        "name": "磨制深板岩",
+        "id": "polished_deepslate",
+        "numId": "-383",
+        "hexId": "FFFFFFFFFFFFFE81"
+    },
+    {
+        "name": "磨制深板岩台阶",
+        "id": "polished_deepslate_slab",
+        "numId": "-384",
+        "hexId": "FFFFFFFFFFFFFE80"
+    },
+    {
+        "name": "磨制深板岩楼梯",
+        "id": "polished_deepslate_stairs",
+        "numId": "-385",
+        "hexId": "FFFFFFFFFFFFFE7F"
+    },
+    {
+        "name": "磨制深板岩墙",
+        "id": "polished_deepslate_wall",
+        "numId": "-386",
+        "hexId": "FFFFFFFFFFFFFE7E"
+    },
+    {
+        "name": "深板岩瓦",
+        "id": "deepslate_tiles",
+        "numId": "-387",
+        "hexId": "FFFFFFFFFFFFFE7D"
+    },
+    {
+        "name": "深板岩瓦台阶",
+        "id": "deepslate_tile_slab",
+        "numId": "-388",
+        "hexId": "FFFFFFFFFFFFFE7C"
+    },
+    {
+        "name": "深板岩瓦楼梯",
+        "id": "deepslate_tile_stairs",
+        "numId": "-389",
+        "hexId": "FFFFFFFFFFFFFE7B"
+    },
+    {
+        "name": "深板岩瓦墙",
+        "id": "deepslate_tile_wall",
+        "numId": "-390",
+        "hexId": "FFFFFFFFFFFFFE7A"
+    },
+    {
+        "name": "深板岩砖",
+        "id": "deepslate_bricks",
+        "numId": "-391",
+        "hexId": "FFFFFFFFFFFFFE79"
+    },
+    {
+        "name": "深板岩砖台阶",
+        "id": "deepslate_brick_slab",
+        "numId": "-392",
+        "hexId": "FFFFFFFFFFFFFE78"
+    },
+    {
+        "name": "深板岩砖楼梯",
+        "id": "deepslate_brick_stairs",
+        "numId": "-393",
+        "hexId": "FFFFFFFFFFFFFE77"
+    },
+    {
+        "name": "深板岩砖墙",
+        "id": "deepslate_brick_wall",
+        "numId": "-394",
+        "hexId": "FFFFFFFFFFFFFE76"
+    },
+    {
+        "name": "雕纹深板岩",
+        "id": "chiseled_deepslate",
+        "numId": "-395",
+        "hexId": "FFFFFFFFFFFFFE75"
+    },
+    {
+        "name": "深板岩圆石双层台阶",
+        "id": "cobbled_deepslate_double_slab",
+        "numId": "-396",
+        "hexId": "FFFFFFFFFFFFFE74"
+    },
+    {
+        "name": "磨制深板岩双层台阶",
+        "id": "polished_deepslate_double_slab",
+        "numId": "-397",
+        "hexId": "FFFFFFFFFFFFFE73"
+    },
+    {
+        "name": "深板岩瓦双层台阶",
+        "id": "deepslate_tile_double_slab",
+        "numId": "-398",
+        "hexId": "FFFFFFFFFFFFFE72"
+    },
+    {
+        "name": "深板岩砖双层台阶",
+        "id": "deepslate_brick_double_slab",
+        "numId": "-399",
+        "hexId": "FFFFFFFFFFFFFE71"
+    },
+    {
+        "name": "深层青金石矿石",
+        "id": "deepslate_lapis_ore",
+        "numId": "-400",
+        "hexId": "FFFFFFFFFFFFFE70"
+    },
+    {
+        "name": "深层铁矿石",
+        "id": "deepslate_iron_ore",
+        "numId": "-401",
+        "hexId": "FFFFFFFFFFFFFE6F"
+    },
+    {
+        "name": "深层金矿石",
+        "id": "deepslate_gold_ore",
+        "numId": "-402",
+        "hexId": "FFFFFFFFFFFFFE6E"
+    },
+    {
+        "name": "深层红石矿石",
+        "id": "deepslate_redstone_ore",
+        "numId": "-403",
+        "hexId": "FFFFFFFFFFFFFE6D"
+    },
+    {
+        "name": "发光的深层红石矿石",
+        "id": "lit_deepslate_redstone_ore",
+        "numId": "-404",
+        "hexId": "FFFFFFFFFFFFFE6C"
+    },
+    {
+        "name": "深层钻石矿石",
+        "id": "deepslate_diamond_ore",
+        "numId": "-405",
+        "hexId": "FFFFFFFFFFFFFE6B"
+    },
+    {
+        "name": "深层煤矿石",
+        "id": "deepslate_coal_ore",
+        "numId": "-406",
+        "hexId": "FFFFFFFFFFFFFE6A"
+    },
+    {
+        "name": "深层绿宝石矿石",
+        "id": "deepslate_emerald_ore",
+        "numId": "-407",
+        "hexId": "FFFFFFFFFFFFFE69"
+    },
+    {
+        "name": "深层铜矿石",
+        "id": "deepslate_copper_ore",
+        "numId": "-408",
+        "hexId": "FFFFFFFFFFFFFE68"
+    },
+    {
+        "name": "裂纹深板岩瓦",
+        "id": "cracked_deepslate_tiles",
+        "numId": "-409",
+        "hexId": "FFFFFFFFFFFFFE67"
+    },
+    {
+        "name": "裂纹深板岩砖",
+        "id": "cracked_deepslate_bricks",
+        "numId": "-410",
+        "hexId": "FFFFFFFFFFFFFE66"
+    },
+    {
+        "name": "发光地衣",
+        "id": "glow_lichen",
+        "numId": "-411",
+        "hexId": "FFFFFFFFFFFFFE65"
+    },
+    {
+        "name": "蜡烛",
+        "id": "candle",
+        "numId": "-412",
+        "hexId": "FFFFFFFFFFFFFE64"
+    },
+    {
+        "name": "白色蜡烛",
+        "id": "white_candle",
+        "numId": "-413",
+        "hexId": "FFFFFFFFFFFFFE63"
+    },
+    {
+        "name": "橙色蜡烛",
+        "id": "orange_candle",
+        "numId": "-414",
+        "hexId": "FFFFFFFFFFFFFE62"
+    },
+    {
+        "name": "品红色蜡烛",
+        "id": "magenta_candle",
+        "numId": "-415",
+        "hexId": "FFFFFFFFFFFFFE61"
+    },
+    {
+        "name": "淡蓝色蜡烛",
+        "id": "light_blue_candle",
+        "numId": "-416",
+        "hexId": "FFFFFFFFFFFFFE60"
+    },
+    {
+        "name": "黄色蜡烛",
+        "id": "yellow_candle",
+        "numId": "-417",
+        "hexId": "FFFFFFFFFFFFFE5F"
+    },
+    {
+        "name": "黄绿色蜡烛",
+        "id": "lime_candle",
+        "numId": "-418",
+        "hexId": "FFFFFFFFFFFFFE5E"
+    },
+    {
+        "name": "粉红色蜡烛",
+        "id": "pink_candle",
+        "numId": "-419",
+        "hexId": "FFFFFFFFFFFFFE5D"
+    },
+    {
+        "name": "灰色蜡烛",
+        "id": "gray_candle",
+        "numId": "-420",
+        "hexId": "FFFFFFFFFFFFFE5C"
+    },
+    {
+        "name": "淡灰色蜡烛",
+        "id": "light_gray_candle",
+        "numId": "-421",
+        "hexId": "FFFFFFFFFFFFFE5B"
+    },
+    {
+        "name": "青色蜡烛",
+        "id": "cyan_candle",
+        "numId": "-422",
+        "hexId": "FFFFFFFFFFFFFE5A"
+    },
+    {
+        "name": "紫色蜡烛",
+        "id": "purple_candle",
+        "numId": "-423",
+        "hexId": "FFFFFFFFFFFFFE59"
+    },
+    {
+        "name": "蓝色蜡烛",
+        "id": "blue_candle",
+        "numId": "-424",
+        "hexId": "FFFFFFFFFFFFFE58"
+    },
+    {
+        "name": "棕色蜡烛",
+        "id": "brown_candle",
+        "numId": "-425",
+        "hexId": "FFFFFFFFFFFFFE57"
+    },
+    {
+        "name": "绿色蜡烛",
+        "id": "green_candle",
+        "numId": "-426",
+        "hexId": "FFFFFFFFFFFFFE56"
+    },
+    {
+        "name": "红色蜡烛",
+        "id": "red_candle",
+        "numId": "-427",
+        "hexId": "FFFFFFFFFFFFFE55"
+    },
+    {
+        "name": "黑色蜡烛",
+        "id": "black_candle",
+        "numId": "-428",
+        "hexId": "FFFFFFFFFFFFFE54"
+    },
+    {
+        "name": "插上蜡烛的蛋糕",
+        "id": "candle_cake",
+        "numId": "-429",
+        "hexId": "FFFFFFFFFFFFFE53"
+    },
+    {
+        "name": "插上白色蜡烛的蛋糕",
+        "id": "white_candle_cake",
+        "numId": "-430",
+        "hexId": "FFFFFFFFFFFFFE52"
+    },
+    {
+        "name": "插上橙色蜡烛的蛋糕",
+        "id": "orange_candle_cake",
+        "numId": "-431",
+        "hexId": "FFFFFFFFFFFFFE51"
+    },
+    {
+        "name": "插上品红色蜡烛的蛋糕",
+        "id": "magenta_candle_cake",
+        "numId": "-432",
+        "hexId": "FFFFFFFFFFFFFE50"
+    },
+    {
+        "name": "插上淡蓝色蜡烛的蛋糕",
+        "id": "light_blue_candle_cake",
+        "numId": "-433",
+        "hexId": "FFFFFFFFFFFFFE4F"
+    },
+    {
+        "name": "插上黄色蜡烛的蛋糕",
+        "id": "yellow_candle_cake",
+        "numId": "-434",
+        "hexId": "FFFFFFFFFFFFFE4E"
+    },
+    {
+        "name": "插上黄绿色蜡烛的蛋糕",
+        "id": "lime_candle_cake",
+        "numId": "-435",
+        "hexId": "FFFFFFFFFFFFFE4D"
+    },
+    {
+        "name": "插上粉红色蜡烛的蛋糕",
+        "id": "pink_candle_cake",
+        "numId": "-436",
+        "hexId": "FFFFFFFFFFFFFE4C"
+    },
+    {
+        "name": "插上灰色蜡烛的蛋糕",
+        "id": "gray_candle_cake",
+        "numId": "-437",
+        "hexId": "FFFFFFFFFFFFFE4B"
+    },
+    {
+        "name": "插上淡灰色蜡烛的蛋糕",
+        "id": "light_gray_candle_cake",
+        "numId": "-438",
+        "hexId": "FFFFFFFFFFFFFE4A"
+    },
+    {
+        "name": "插上青色蜡烛的蛋糕",
+        "id": "cyan_candle_cake",
+        "numId": "-439",
+        "hexId": "FFFFFFFFFFFFFE49"
+    },
+    {
+        "name": "插上紫色蜡烛的蛋糕",
+        "id": "purple_candle_cake",
+        "numId": "-440",
+        "hexId": "FFFFFFFFFFFFFE48"
+    },
+    {
+        "name": "插上蓝色蜡烛的蛋糕",
+        "id": "blue_candle_cake",
+        "numId": "-441",
+        "hexId": "FFFFFFFFFFFFFE47"
+    },
+    {
+        "name": "插上棕色蜡烛的蛋糕",
+        "id": "brown_candle_cake",
+        "numId": "-442",
+        "hexId": "FFFFFFFFFFFFFE46"
+    },
+    {
+        "name": "插上绿色蜡烛的蛋糕",
+        "id": "green_candle_cake",
+        "numId": "-443",
+        "hexId": "FFFFFFFFFFFFFE45"
+    },
+    {
+        "name": "插上红色蜡烛的蛋糕",
+        "id": "red_candle_cake",
+        "numId": "-444",
+        "hexId": "FFFFFFFFFFFFFE44"
+    },
+    {
+        "name": "插上黑色蜡烛的蛋糕",
+        "id": "black_candle_cake",
+        "numId": "-445",
+        "hexId": "FFFFFFFFFFFFFE43"
+    },
+    {
+        "name": "涂蜡的氧化铜块",
+        "id": "waxed_oxidized_copper",
+        "numId": "-446",
+        "hexId": "FFFFFFFFFFFFFE42"
+    },
+    {
+        "name": "涂蜡的氧化切制铜块",
+        "id": "waxed_oxidized_cut_copper",
+        "numId": "-447",
+        "hexId": "FFFFFFFFFFFFFE41"
+    },
+    {
+        "name": "涂蜡的氧化切制铜楼梯",
+        "id": "waxed_oxidized_cut_copper_stairs",
+        "numId": "-448",
+        "hexId": "FFFFFFFFFFFFFE40"
+    },
+    {
+        "name": "涂蜡的氧化切制铜台阶",
+        "id": "waxed_oxidized_cut_copper_slab",
+        "numId": "-449",
+        "hexId": "FFFFFFFFFFFFFE3F"
+    },
+    {
+        "name": "涂蜡的氧化切制铜双层台阶",
+        "id": "waxed_oxidized_double_cut_copper_slab",
+        "numId": "-450",
+        "hexId": "FFFFFFFFFFFFFE3E"
+    },
+    {
+        "name": "粗铁块",
+        "id": "raw_iron_block",
+        "numId": "-451",
+        "hexId": "FFFFFFFFFFFFFE3D"
+    },
+    {
+        "name": "粗铜块",
+        "id": "raw_copper_block",
+        "numId": "-452",
+        "hexId": "FFFFFFFFFFFFFE3C"
+    },
+    {
+        "name": "粗金块",
+        "id": "raw_gold_block",
+        "numId": "-453",
+        "hexId": "FFFFFFFFFFFFFE3B"
+    },
+    {
+        "name": "虫蚀深板岩",
+        "id": "infested_deepslate",
+        "numId": "-454",
+        "hexId": "FFFFFFFFFFFFFE3A"
+    },
+    {
+        "name": "幽匿块",
+        "id": "sculk",
+        "numId": "-458",
+        "hexId": "FFFFFFFFFFFFFE36"
+    },
+    {
+        "name": "幽匿脉络",
+        "id": "sculk_vein",
+        "numId": "-459",
+        "hexId": "FFFFFFFFFFFFFE35"
+    },
+    {
+        "name": "幽匿催发体",
+        "id": "sculk_catalyst",
+        "numId": "-460",
+        "hexId": "FFFFFFFFFFFFFE34"
+    },
+    {
+        "name": "幽匿尖啸体",
+        "id": "sculk_shrieker",
+        "numId": "-461",
+        "hexId": "FFFFFFFFFFFFFE33"
+    },
+    {
+        "name": "客户端请求占位符方块",
+        "id": "client_request_placeholder_block",
+        "numId": "-465",
+        "hexId": "FFFFFFFFFFFFFE2F"
+    },
+    {
+        "name": "强化深板岩",
+        "id": "reinforced_deepslate",
+        "numId": "-466",
+        "hexId": "FFFFFFFFFFFFFE2E"
+    },
+    {
+        "name": "带插槽的神秘框架（已移除）",
+        "id": "mysterious_frame_slot",
+        "numId": "-467",
+        "hexId": "FFFFFFFFFFFFFE2D"
+    },
+    {
+        "name": "青蛙卵",
+        "id": "frog_spawn",
+        "numId": "-468",
+        "hexId": "FFFFFFFFFFFFFE2C"
+    },
+    {
+        "name": "珠光蛙明灯",
+        "id": "pearlescent_froglight",
+        "numId": "-469",
+        "hexId": "FFFFFFFFFFFFFE2B"
+    },
+    {
+        "name": "青翠蛙明灯",
+        "id": "verdant_froglight",
+        "numId": "-470",
+        "hexId": "FFFFFFFFFFFFFE2A"
+    },
+    {
+        "name": "赭黄蛙明灯",
+        "id": "ochre_froglight",
+        "numId": "-471",
+        "hexId": "FFFFFFFFFFFFFE29"
+    },
+    {
+        "name": "红树树叶",
+        "id": "mangrove_leaves",
+        "numId": "-472",
+        "hexId": "FFFFFFFFFFFFFE28"
+    },
+    {
+        "name": "泥巴",
+        "id": "mud",
+        "numId": "-473",
+        "hexId": "FFFFFFFFFFFFFE27"
+    },
+    {
+        "name": "红树胎生苗",
+        "id": "mangrove_propagule",
+        "numId": "-474",
+        "hexId": "FFFFFFFFFFFFFE26"
+    },
+    {
+        "name": "泥砖",
+        "id": "mud_bricks",
+        "numId": "-475",
+        "hexId": "FFFFFFFFFFFFFE25"
+    },
+    {
+        "name": "悬挂的红树胎生苗 （已移除）",
+        "id": "mangrove_propagule_hanging",
+        "numId": "-476",
+        "hexId": "FFFFFFFFFFFFFE24"
+    },
+    {
+        "name": "泥坯",
+        "id": "packed_mud",
+        "numId": "-477",
+        "hexId": "FFFFFFFFFFFFFE23"
+    },
+    {
+        "name": "泥砖台阶",
+        "id": "mud_brick_slab",
+        "numId": "-478",
+        "hexId": "FFFFFFFFFFFFFE22"
+    },
+    {
+        "name": "泥砖双层台阶",
+        "id": "mud_brick_double_slab",
+        "numId": "-479",
+        "hexId": "FFFFFFFFFFFFFE21"
+    },
+    {
+        "name": "泥砖楼梯",
+        "id": "mud_brick_stairs",
+        "numId": "-480",
+        "hexId": "FFFFFFFFFFFFFE20"
+    },
+    {
+        "name": "泥砖墙",
+        "id": "mud_brick_wall",
+        "numId": "-481",
+        "hexId": "FFFFFFFFFFFFFE1F"
+    },
+    {
+        "name": "红树根",
+        "id": "mangrove_roots",
+        "numId": "-482",
+        "hexId": "FFFFFFFFFFFFFE1E"
+    },
+    {
+        "name": "沾泥的红树根",
+        "id": "muddy_mangrove_roots",
+        "numId": "-483",
+        "hexId": "FFFFFFFFFFFFFE1D"
+    },
+    {
+        "name": "红树原木",
+        "id": "mangrove_log",
+        "numId": "-484",
+        "hexId": "FFFFFFFFFFFFFE1C"
+    },
+    {
+        "name": "去皮红树原木",
+        "id": "stripped_mangrove_log",
+        "numId": "-485",
+        "hexId": "FFFFFFFFFFFFFE1B"
+    },
+    {
+        "name": "红树木板",
+        "id": "mangrove_planks",
+        "numId": "-486",
+        "hexId": "FFFFFFFFFFFFFE1A"
+    },
+    {
+        "name": "红树木按钮",
+        "id": "mangrove_button",
+        "numId": "-487",
+        "hexId": "FFFFFFFFFFFFFE19"
+    },
+    {
+        "name": "红树木楼梯",
+        "id": "mangrove_stairs",
+        "numId": "-488",
+        "hexId": "FFFFFFFFFFFFFE18"
+    },
+    {
+        "name": "红树木台阶",
+        "id": "mangrove_slab",
+        "numId": "-489",
+        "hexId": "FFFFFFFFFFFFFE17"
+    },
+    {
+        "name": "红树木压力板",
+        "id": "mangrove_pressure_plate",
+        "numId": "-490",
+        "hexId": "FFFFFFFFFFFFFE16"
+    },
+    {
+        "name": "红树木栅栏",
+        "id": "mangrove_fence",
+        "numId": "-491",
+        "hexId": "FFFFFFFFFFFFFE15"
+    },
+    {
+        "name": "红树木栅栏门",
+        "id": "mangrove_fence_gate",
+        "numId": "-492",
+        "hexId": "FFFFFFFFFFFFFE14"
+    },
+    {
+        "name": "红树木门",
+        "id": "mangrove_door",
+        "numId": "-493",
+        "hexId": "FFFFFFFFFFFFFE13"
+    },
+    {
+        "name": "红树木告示牌",
+        "id": "mangrove_standing_sign",
+        "numId": "-494",
+        "hexId": "FFFFFFFFFFFFFE12"
+    },
+    {
+        "name": "墙上的红树木告示牌",
+        "id": "mangrove_wall_sign",
+        "numId": "-495",
+        "hexId": "FFFFFFFFFFFFFE11"
+    },
+    {
+        "name": "红树木活板门",
+        "id": "mangrove_trapdoor",
+        "numId": "-496",
+        "hexId": "FFFFFFFFFFFFFE10"
+    },
+    {
+        "name": "红树木",
+        "id": "mangrove_wood",
+        "numId": "-497",
+        "hexId": "FFFFFFFFFFFFFE0F"
+    },
+    {
+        "name": "去皮红树木",
+        "id": "stripped_mangrove_wood",
+        "numId": "-498",
+        "hexId": "FFFFFFFFFFFFFE0E"
+    },
+    {
+        "name": "红树木双层台阶",
+        "id": "mangrove_double_slab",
+        "numId": "-499",
+        "hexId": "FFFFFFFFFFFFFE0D"
+    },
+    {
+        "name": "悬挂式橡木告示牌",
+        "id": "oak_hanging_sign",
+        "numId": "-500",
+        "hexId": "FFFFFFFFFFFFFE0C"
+    },
+    {
+        "name": "悬挂式云杉木告示牌",
+        "id": "spruce_hanging_sign",
+        "numId": "-501",
+        "hexId": "FFFFFFFFFFFFFE0B"
+    },
+    {
+        "name": "悬挂式白桦木告示牌",
+        "id": "birch_hanging_sign",
+        "numId": "-502",
+        "hexId": "FFFFFFFFFFFFFE0A"
+    },
+    {
+        "name": "悬挂式丛林木告示牌",
+        "id": "jungle_hanging_sign",
+        "numId": "-503",
+        "hexId": "FFFFFFFFFFFFFE09"
+    },
+    {
+        "name": "悬挂式金合欢木告示牌",
+        "id": "acacia_hanging_sign",
+        "numId": "-504",
+        "hexId": "FFFFFFFFFFFFFE08"
+    },
+    {
+        "name": "悬挂式深色橡木告示牌",
+        "id": "dark_oak_hanging_sign",
+        "numId": "-505",
+        "hexId": "FFFFFFFFFFFFFE07"
+    },
+    {
+        "name": "悬挂式绯红木告示牌",
+        "id": "crimson_hanging_sign",
+        "numId": "-506",
+        "hexId": "FFFFFFFFFFFFFE06"
+    },
+    {
+        "name": "悬挂式诡异木告示牌",
+        "id": "warped_hanging_sign",
+        "numId": "-507",
+        "hexId": "FFFFFFFFFFFFFE05"
+    },
+    {
+        "name": "悬挂式红树木告示牌",
+        "id": "mangrove_hanging_sign",
+        "numId": "-508",
+        "hexId": "FFFFFFFFFFFFFE04"
+    },
+    {
+        "name": "竹马赛克",
+        "id": "bamboo_mosaic",
+        "numId": "-509",
+        "hexId": "FFFFFFFFFFFFFE03"
+    },
+    {
+        "name": "竹板",
+        "id": "bamboo_planks",
+        "numId": "-510",
+        "hexId": "FFFFFFFFFFFFFE02"
+    },
+    {
+        "name": "竹按钮",
+        "id": "bamboo_button",
+        "numId": "-511",
+        "hexId": "FFFFFFFFFFFFFE01"
+    },
+    {
+        "name": "竹楼梯",
+        "id": "bamboo_stairs",
+        "numId": "-512",
+        "hexId": "FFFFFFFFFFFFFE00"
+    },
+    {
+        "name": "竹台阶",
+        "id": "bamboo_slab",
+        "numId": "-513",
+        "hexId": "FFFFFFFFFFFFFDFF"
+    },
+    {
+        "name": "竹压力板",
+        "id": "bamboo_pressure_plate",
+        "numId": "-514",
+        "hexId": "FFFFFFFFFFFFFDFE"
+    },
+    {
+        "name": "竹栅栏",
+        "id": "bamboo_fence",
+        "numId": "-515",
+        "hexId": "FFFFFFFFFFFFFDFD"
+    },
+    {
+        "name": "竹栅栏门",
+        "id": "bamboo_fence_gate",
+        "numId": "-516",
+        "hexId": "FFFFFFFFFFFFFDFC"
+    },
+    {
+        "name": "竹门",
+        "id": "bamboo_door",
+        "numId": "-517",
+        "hexId": "FFFFFFFFFFFFFDFB"
+    },
+    {
+        "name": "竹告示牌",
+        "id": "bamboo_standing_sign",
+        "numId": "-518",
+        "hexId": "FFFFFFFFFFFFFDFA"
+    },
+    {
+        "name": "墙上的竹告示牌",
+        "id": "bamboo_wall_sign",
+        "numId": "-519",
+        "hexId": "FFFFFFFFFFFFFDF9"
+    },
+    {
+        "name": "竹活板门",
+        "id": "bamboo_trapdoor",
+        "numId": "-520",
+        "hexId": "FFFFFFFFFFFFFDF8"
+    },
+    {
+        "name": "竹双层台阶",
+        "id": "bamboo_double_slab",
+        "numId": "-521",
+        "hexId": "FFFFFFFFFFFFFDF7"
+    },
+    {
+        "name": "悬挂式竹告示牌",
+        "id": "bamboo_hanging_sign",
+        "numId": "-522",
+        "hexId": "FFFFFFFFFFFFFDF6"
+    },
+    {
+        "name": "竹马赛克楼梯",
+        "id": "bamboo_mosaic_stairs",
+        "numId": "-523",
+        "hexId": "FFFFFFFFFFFFFDF5"
+    },
+    {
+        "name": "竹马赛克台阶",
+        "id": "bamboo_mosaic_slab",
+        "numId": "-524",
+        "hexId": "FFFFFFFFFFFFFDF4"
+    },
+    {
+        "name": "竹马赛克双层台阶",
+        "id": "bamboo_mosaic_double_slab",
+        "numId": "-525",
+        "hexId": "FFFFFFFFFFFFFDF3"
+    },
+    {
+        "name": "雕纹书架",
+        "id": "chiseled_bookshelf",
+        "numId": "-526",
+        "hexId": "FFFFFFFFFFFFFDF2"
+    },
+    {
+        "name": "竹块",
+        "id": "bamboo_block",
+        "numId": "-527",
+        "hexId": "FFFFFFFFFFFFFDF1"
+    },
+    {
+        "name": "去皮竹块",
+        "id": "stripped_bamboo_block",
+        "numId": "-528",
+        "hexId": "FFFFFFFFFFFFFDF0"
+    },
+    {
+        "name": "可疑的沙子",
+        "id": "suspicious_sand",
+        "numId": "-529",
+        "hexId": "FFFFFFFFFFFFFDEF"
+    },
+    {
+        "name": "樱花木按钮",
+        "id": "cherry_button",
+        "numId": "-530",
+        "hexId": "FFFFFFFFFFFFFDEE"
+    },
+    {
+        "name": "樱花木门",
+        "id": "cherry_door",
+        "numId": "-531",
+        "hexId": "FFFFFFFFFFFFFDED"
+    },
+    {
+        "name": "樱花木栅栏",
+        "id": "cherry_fence",
+        "numId": "-532",
+        "hexId": "FFFFFFFFFFFFFDEC"
+    },
+    {
+        "name": "樱花木栅栏门",
+        "id": "cherry_fence_gate",
+        "numId": "-533",
+        "hexId": "FFFFFFFFFFFFFDEB"
+    },
+    {
+        "name": "悬挂式樱花木告示牌",
+        "id": "cherry_hanging_sign",
+        "numId": "-534",
+        "hexId": "FFFFFFFFFFFFFDEA"
+    },
+    {
+        "name": "去皮樱花原木",
+        "id": "stripped_cherry_log",
+        "numId": "-535",
+        "hexId": "FFFFFFFFFFFFFDE9"
+    },
+    {
+        "name": "樱花原木",
+        "id": "cherry_log",
+        "numId": "-536",
+        "hexId": "FFFFFFFFFFFFFDE8"
+    },
+    {
+        "name": "樱花木板",
+        "id": "cherry_planks",
+        "numId": "-537",
+        "hexId": "FFFFFFFFFFFFFDE7"
+    },
+    {
+        "name": "樱花木压力板",
+        "id": "cherry_pressure_plate",
+        "numId": "-538",
+        "hexId": "FFFFFFFFFFFFFDE6"
+    },
+    {
+        "name": "樱花木台阶",
+        "id": "cherry_slab",
+        "numId": "-539",
+        "hexId": "FFFFFFFFFFFFFDE5"
+    },
+    {
+        "name": "樱花木双层台阶",
+        "id": "cherry_double_slab",
+        "numId": "-540",
+        "hexId": "FFFFFFFFFFFFFDE4"
+    },
+    {
+        "name": "樱花木楼梯",
+        "id": "cherry_stairs",
+        "numId": "-541",
+        "hexId": "FFFFFFFFFFFFFDE3"
+    },
+    {
+        "name": "樱花木告示牌",
+        "id": "cherry_standing_sign",
+        "numId": "-542",
+        "hexId": "FFFFFFFFFFFFFDE2"
+    },
+    {
+        "name": "樱花木活板门",
+        "id": "cherry_trapdoor",
+        "numId": "-543",
+        "hexId": "FFFFFFFFFFFFFDE1"
+    },
+    {
+        "name": "墙上的樱花木告示牌",
+        "id": "cherry_wall_sign",
+        "numId": "-544",
+        "hexId": "FFFFFFFFFFFFFDE0"
+    },
+    {
+        "name": "去皮樱花木",
+        "id": "stripped_cherry_wood",
+        "numId": "-545",
+        "hexId": "FFFFFFFFFFFFFDDF"
+    },
+    {
+        "name": "樱花木",
+        "id": "cherry_wood",
+        "numId": "-546",
+        "hexId": "FFFFFFFFFFFFFDDE"
+    },
+    {
+        "name": "樱花树苗",
+        "id": "cherry_sapling",
+        "numId": "-547",
+        "hexId": "FFFFFFFFFFFFFDDD"
+    },
+    {
+        "name": "樱花树叶",
+        "id": "cherry_leaves",
+        "numId": "-548",
+        "hexId": "FFFFFFFFFFFFFDDC"
+    },
+    {
+        "name": "粉红色花簇",
+        "id": "pink_petals",
+        "numId": "-549",
+        "hexId": "FFFFFFFFFFFFFDDB"
+    },
+    {
+        "name": "饰纹陶罐",
+        "id": "decorated_pot",
+        "numId": "-551",
+        "hexId": "FFFFFFFFFFFFFDD9"
+    },
+    {
+        "name": "淡灰色羊毛",
+        "id": "light_gray_wool",
+        "numId": "-552",
+        "hexId": "FFFFFFFFFFFFFDD8"
+    },
+    {
+        "name": "灰色羊毛",
+        "id": "gray_wool",
+        "numId": "-553",
+        "hexId": "FFFFFFFFFFFFFDD7"
+    },
+    {
+        "name": "黑色羊毛",
+        "id": "black_wool",
+        "numId": "-554",
+        "hexId": "FFFFFFFFFFFFFDD6"
+    },
+    {
+        "name": "棕色羊毛",
+        "id": "brown_wool",
+        "numId": "-555",
+        "hexId": "FFFFFFFFFFFFFDD5"
+    },
+    {
+        "name": "红色羊毛",
+        "id": "red_wool",
+        "numId": "-556",
+        "hexId": "FFFFFFFFFFFFFDD4"
+    },
+    {
+        "name": "橙色羊毛",
+        "id": "orange_wool",
+        "numId": "-557",
+        "hexId": "FFFFFFFFFFFFFDD3"
+    },
+    {
+        "name": "黄色羊毛",
+        "id": "yellow_wool",
+        "numId": "-558",
+        "hexId": "FFFFFFFFFFFFFDD2"
+    },
+    {
+        "name": "黄绿色羊毛",
+        "id": "lime_wool",
+        "numId": "-559",
+        "hexId": "FFFFFFFFFFFFFDD1"
+    },
+    {
+        "name": "绿色羊毛",
+        "id": "green_wool",
+        "numId": "-560",
+        "hexId": "FFFFFFFFFFFFFDD0"
+    },
+    {
+        "name": "青色羊毛",
+        "id": "cyan_wool",
+        "numId": "-561",
+        "hexId": "FFFFFFFFFFFFFDCF"
+    },
+    {
+        "name": "淡蓝色羊毛",
+        "id": "light_blue_wool",
+        "numId": "-562",
+        "hexId": "FFFFFFFFFFFFFDCE"
+    },
+    {
+        "name": "蓝色羊毛",
+        "id": "blue_wool",
+        "numId": "-563",
+        "hexId": "FFFFFFFFFFFFFDCD"
+    },
+    {
+        "name": "紫色羊毛",
+        "id": "purple_wool",
+        "numId": "-564",
+        "hexId": "FFFFFFFFFFFFFDCC"
+    },
+    {
+        "name": "品红色羊毛",
+        "id": "magenta_wool",
+        "numId": "-565",
+        "hexId": "FFFFFFFFFFFFFDCB"
+    },
+    {
+        "name": "粉红色羊毛",
+        "id": "pink_wool",
+        "numId": "-566",
+        "hexId": "FFFFFFFFFFFFFDCA"
+    },
+    {
+        "name": "火把花植株",
+        "id": "torchflower_crop",
+        "numId": "-567",
+        "hexId": "FFFFFFFFFFFFFDC9"
+    },
+    {
+        "name": "火把花",
+        "id": "torchflower",
+        "numId": "-568",
+        "hexId": "FFFFFFFFFFFFFDC8"
+    },
+    {
+        "name": "云杉原木",
+        "id": "spruce_log",
+        "numId": "-569",
+        "hexId": "FFFFFFFFFFFFFDC7"
+    },
+    {
+        "name": "白桦原木",
+        "id": "birch_log",
+        "numId": "-570",
+        "hexId": "FFFFFFFFFFFFFDC6"
+    },
+    {
+        "name": "丛林原木",
+        "id": "jungle_log",
+        "numId": "-571",
+        "hexId": "FFFFFFFFFFFFFDC5"
+    },
+    {
+        "name": "深色橡木原木",
+        "id": "dark_oak_log",
+        "numId": "-572",
+        "hexId": "FFFFFFFFFFFFFDC4"
+    },
+    {
+        "name": "可疑的沙砾",
+        "id": "suspicious_gravel",
+        "numId": "-573",
+        "hexId": "FFFFFFFFFFFFFDC3"
+    },
+    {
+        "name": "瓶子草植株",
+        "id": "pitcher_crop",
+        "numId": "-574",
+        "hexId": "FFFFFFFFFFFFFDC2"
+    },
+    {
+        "name": "金合欢木栅栏",
+        "id": "acacia_fence",
+        "numId": "-575",
+        "hexId": "FFFFFFFFFFFFFDC1"
+    },
+    {
+        "name": "白桦木栅栏",
+        "id": "birch_fence",
+        "numId": "-576",
+        "hexId": "FFFFFFFFFFFFFDC0"
+    },
+    {
+        "name": "深色橡木栅栏",
+        "id": "dark_oak_fence",
+        "numId": "-577",
+        "hexId": "FFFFFFFFFFFFFDBF"
+    },
+    {
+        "name": "丛林木栅栏",
+        "id": "jungle_fence",
+        "numId": "-578",
+        "hexId": "FFFFFFFFFFFFFDBE"
+    },
+    {
+        "name": "云杉木栅栏",
+        "id": "spruce_fence",
+        "numId": "-579",
+        "hexId": "FFFFFFFFFFFFFDBD"
+    },
+    {
+        "name": "校频幽匿感测体",
+        "id": "calibrated_sculk_sensor",
+        "numId": "-580",
+        "hexId": "FFFFFFFFFFFFFDBC"
+    },
+    {
+        "name": "脑纹珊瑚",
+        "id": "brain_coral",
+        "numId": "-581",
+        "hexId": "FFFFFFFFFFFFFDBB"
+    },
+    {
+        "name": "气泡珊瑚",
+        "id": "bubble_coral",
+        "numId": "-582",
+        "hexId": "FFFFFFFFFFFFFDBA"
+    },
+    {
+        "name": "火珊瑚",
+        "id": "fire_coral",
+        "numId": "-583",
+        "hexId": "FFFFFFFFFFFFFDB9"
+    },
+    {
+        "name": "鹿角珊瑚",
+        "id": "horn_coral",
+        "numId": "-584",
+        "hexId": "FFFFFFFFFFFFFDB8"
+    },
+    {
+        "name": "失活的管珊瑚",
+        "id": "dead_tube_coral",
+        "numId": "-585",
+        "hexId": "FFFFFFFFFFFFFDB7"
+    },
+    {
+        "name": "失活的脑纹珊瑚",
+        "id": "dead_brain_coral",
+        "numId": "-586",
+        "hexId": "FFFFFFFFFFFFFDB6"
+    },
+    {
+        "name": "失活的气泡珊瑚",
+        "id": "dead_bubble_coral",
+        "numId": "-587",
+        "hexId": "FFFFFFFFFFFFFDB5"
+    },
+    {
+        "name": "失活的火珊瑚",
+        "id": "dead_fire_coral",
+        "numId": "-588",
+        "hexId": "FFFFFFFFFFFFFDB4"
+    },
+    {
+        "name": "失活的鹿角珊瑚",
+        "id": "dead_horn_coral",
+        "numId": "-589",
+        "hexId": "FFFFFFFFFFFFFDB3"
+    },
+    {
+        "name": "花岗岩",
+        "id": "granite",
+        "numId": "-590",
+        "hexId": "FFFFFFFFFFFFFDB2"
+    },
+    {
+        "name": "磨制花岗岩",
+        "id": "polished_granite",
+        "numId": "-591",
+        "hexId": "FFFFFFFFFFFFFDB1"
+    },
+    {
+        "name": "闪长岩",
+        "id": "diorite",
+        "numId": "-592",
+        "hexId": "FFFFFFFFFFFFFDB0"
+    },
+    {
+        "name": "磨制闪长岩",
+        "id": "polished_diorite",
+        "numId": "-593",
+        "hexId": "FFFFFFFFFFFFFDAF"
+    },
+    {
+        "name": "安山岩",
+        "id": "andesite",
+        "numId": "-594",
+        "hexId": "FFFFFFFFFFFFFDAE"
+    },
+    {
+        "name": "磨制安山岩",
+        "id": "polished_andesite",
+        "numId": "-595",
+        "hexId": "FFFFFFFFFFFFFDAD"
+    },
+    {
+        "name": "嗅探兽蛋",
+        "id": "sniffer_egg",
+        "numId": "-596",
+        "hexId": "FFFFFFFFFFFFFDAC"
+    },
+    {
+        "name": "橙色地毯",
+        "id": "orange_carpet",
+        "numId": "-597",
+        "hexId": "FFFFFFFFFFFFFDAB"
+    },
+    {
+        "name": "品红色地毯",
+        "id": "magenta_carpet",
+        "numId": "-598",
+        "hexId": "FFFFFFFFFFFFFDAA"
+    },
+    {
+        "name": "淡蓝色地毯",
+        "id": "light_blue_carpet",
+        "numId": "-599",
+        "hexId": "FFFFFFFFFFFFFDA9"
+    },
+    {
+        "name": "黄色地毯",
+        "id": "yellow_carpet",
+        "numId": "-600",
+        "hexId": "FFFFFFFFFFFFFDA8"
+    },
+    {
+        "name": "黄绿色地毯",
+        "id": "lime_carpet",
+        "numId": "-601",
+        "hexId": "FFFFFFFFFFFFFDA7"
+    },
+    {
+        "name": "粉红色地毯",
+        "id": "pink_carpet",
+        "numId": "-602",
+        "hexId": "FFFFFFFFFFFFFDA6"
+    },
+    {
+        "name": "灰色地毯",
+        "id": "gray_carpet",
+        "numId": "-603",
+        "hexId": "FFFFFFFFFFFFFDA5"
+    },
+    {
+        "name": "淡灰色地毯",
+        "id": "light_gray_carpet",
+        "numId": "-604",
+        "hexId": "FFFFFFFFFFFFFDA4"
+    },
+    {
+        "name": "青色地毯",
+        "id": "cyan_carpet",
+        "numId": "-605",
+        "hexId": "FFFFFFFFFFFFFDA3"
+    },
+    {
+        "name": "紫色地毯",
+        "id": "purple_carpet",
+        "numId": "-606",
+        "hexId": "FFFFFFFFFFFFFDA2"
+    },
+    {
+        "name": "蓝色地毯",
+        "id": "blue_carpet",
+        "numId": "-607",
+        "hexId": "FFFFFFFFFFFFFDA1"
+    },
+    {
+        "name": "棕色地毯",
+        "id": "brown_carpet",
+        "numId": "-608",
+        "hexId": "FFFFFFFFFFFFFDA0"
+    },
+    {
+        "name": "绿色地毯",
+        "id": "green_carpet",
+        "numId": "-609",
+        "hexId": "FFFFFFFFFFFFFD9F"
+    },
+    {
+        "name": "红色地毯",
+        "id": "red_carpet",
+        "numId": "-610",
+        "hexId": "FFFFFFFFFFFFFD9E"
+    },
+    {
+        "name": "黑色地毯",
+        "id": "black_carpet",
+        "numId": "-611",
+        "hexId": "FFFFFFFFFFFFFD9D"
+    },
+    {
+        "name": "瓶子草",
+        "id": "pitcher_plant",
+        "numId": "-612",
+        "hexId": "FFFFFFFFFFFFFD9C"
+    },
+    {
+        "name": "橙色潜影盒",
+        "id": "orange_shulker_box",
+        "numId": "-613",
+        "hexId": "FFFFFFFFFFFFFD9B"
+    },
+    {
+        "name": "品红色潜影盒",
+        "id": "magenta_shulker_box",
+        "numId": "-614",
+        "hexId": "FFFFFFFFFFFFFD9A"
+    },
+    {
+        "name": "淡蓝色潜影盒",
+        "id": "light_blue_shulker_box",
+        "numId": "-615",
+        "hexId": "FFFFFFFFFFFFFD99"
+    },
+    {
+        "name": "黄色潜影盒",
+        "id": "yellow_shulker_box",
+        "numId": "-616",
+        "hexId": "FFFFFFFFFFFFFD98"
+    },
+    {
+        "name": "黄绿色潜影盒",
+        "id": "lime_shulker_box",
+        "numId": "-617",
+        "hexId": "FFFFFFFFFFFFFD97"
+    },
+    {
+        "name": "粉红色潜影盒",
+        "id": "pink_shulker_box",
+        "numId": "-618",
+        "hexId": "FFFFFFFFFFFFFD96"
+    },
+    {
+        "name": "灰色潜影盒",
+        "id": "gray_shulker_box",
+        "numId": "-619",
+        "hexId": "FFFFFFFFFFFFFD95"
+    },
+    {
+        "name": "淡灰色潜影盒",
+        "id": "light_gray_shulker_box",
+        "numId": "-620",
+        "hexId": "FFFFFFFFFFFFFD94"
+    },
+    {
+        "name": "青色潜影盒",
+        "id": "cyan_shulker_box",
+        "numId": "-621",
+        "hexId": "FFFFFFFFFFFFFD93"
+    },
+    {
+        "name": "紫色潜影盒",
+        "id": "purple_shulker_box",
+        "numId": "-622",
+        "hexId": "FFFFFFFFFFFFFD92"
+    },
+    {
+        "name": "蓝色潜影盒",
+        "id": "blue_shulker_box",
+        "numId": "-623",
+        "hexId": "FFFFFFFFFFFFFD91"
+    },
+    {
+        "name": "棕色潜影盒",
+        "id": "brown_shulker_box",
+        "numId": "-624",
+        "hexId": "FFFFFFFFFFFFFD90"
+    },
+    {
+        "name": "绿色潜影盒",
+        "id": "green_shulker_box",
+        "numId": "-625",
+        "hexId": "FFFFFFFFFFFFFD8F"
+    },
+    {
+        "name": "红色潜影盒",
+        "id": "red_shulker_box",
+        "numId": "-626",
+        "hexId": "FFFFFFFFFFFFFD8E"
+    },
+    {
+        "name": "黑色潜影盒",
+        "id": "black_shulker_box",
+        "numId": "-627",
+        "hexId": "FFFFFFFFFFFFFD8D"
+    },
+    {
+        "name": "橙色混凝土",
+        "id": "orange_concrete",
+        "numId": "-628",
+        "hexId": "FFFFFFFFFFFFFD8C"
+    },
+    {
+        "name": "品红色混凝土",
+        "id": "magenta_concrete",
+        "numId": "-629",
+        "hexId": "FFFFFFFFFFFFFD8B"
+    },
+    {
+        "name": "淡蓝色混凝土",
+        "id": "light_blue_concrete",
+        "numId": "-630",
+        "hexId": "FFFFFFFFFFFFFD8A"
+    },
+    {
+        "name": "黄色混凝土",
+        "id": "yellow_concrete",
+        "numId": "-631",
+        "hexId": "FFFFFFFFFFFFFD89"
+    },
+    {
+        "name": "黄绿色混凝土",
+        "id": "lime_concrete",
+        "numId": "-632",
+        "hexId": "FFFFFFFFFFFFFD88"
+    },
+    {
+        "name": "粉红色混凝土",
+        "id": "pink_concrete",
+        "numId": "-633",
+        "hexId": "FFFFFFFFFFFFFD87"
+    },
+    {
+        "name": "灰色混凝土",
+        "id": "gray_concrete",
+        "numId": "-634",
+        "hexId": "FFFFFFFFFFFFFD86"
+    },
+    {
+        "name": "淡灰色混凝土",
+        "id": "light_gray_concrete",
+        "numId": "-635",
+        "hexId": "FFFFFFFFFFFFFD85"
+    },
+    {
+        "name": "青色混凝土",
+        "id": "cyan_concrete",
+        "numId": "-636",
+        "hexId": "FFFFFFFFFFFFFD84"
+    },
+    {
+        "name": "紫色混凝土",
+        "id": "purple_concrete",
+        "numId": "-637",
+        "hexId": "FFFFFFFFFFFFFD83"
+    },
+    {
+        "name": "蓝色混凝土",
+        "id": "blue_concrete",
+        "numId": "-638",
+        "hexId": "FFFFFFFFFFFFFD82"
+    },
+    {
+        "name": "棕色混凝土",
+        "id": "brown_concrete",
+        "numId": "-639",
+        "hexId": "FFFFFFFFFFFFFD81"
+    },
+    {
+        "name": "绿色混凝土",
+        "id": "green_concrete",
+        "numId": "-640",
+        "hexId": "FFFFFFFFFFFFFD80"
+    },
+    {
+        "name": "红色混凝土",
+        "id": "red_concrete",
+        "numId": "-641",
+        "hexId": "FFFFFFFFFFFFFD7F"
+    },
+    {
+        "name": "黑色混凝土",
+        "id": "black_concrete",
+        "numId": "-642",
+        "hexId": "FFFFFFFFFFFFFD7E"
+    },
+    {
+        "name": "橙色染色玻璃板",
+        "id": "orange_stained_glass_pane",
+        "numId": "-643",
+        "hexId": "FFFFFFFFFFFFFD7D"
+    },
+    {
+        "name": "品红色染色玻璃板",
+        "id": "magenta_stained_glass_pane",
+        "numId": "-644",
+        "hexId": "FFFFFFFFFFFFFD7C"
+    },
+    {
+        "name": "淡蓝色染色玻璃板",
+        "id": "light_blue_stained_glass_pane",
+        "numId": "-645",
+        "hexId": "FFFFFFFFFFFFFD7B"
+    },
+    {
+        "name": "黄色染色玻璃板",
+        "id": "yellow_stained_glass_pane",
+        "numId": "-646",
+        "hexId": "FFFFFFFFFFFFFD7A"
+    },
+    {
+        "name": "黄绿色染色玻璃板",
+        "id": "lime_stained_glass_pane",
+        "numId": "-647",
+        "hexId": "FFFFFFFFFFFFFD79"
+    },
+    {
+        "name": "粉红色染色玻璃板",
+        "id": "pink_stained_glass_pane",
+        "numId": "-648",
+        "hexId": "FFFFFFFFFFFFFD78"
+    },
+    {
+        "name": "灰色染色玻璃板",
+        "id": "gray_stained_glass_pane",
+        "numId": "-649",
+        "hexId": "FFFFFFFFFFFFFD77"
+    },
+    {
+        "name": "淡灰色染色玻璃板",
+        "id": "light_gray_stained_glass_pane",
+        "numId": "-650",
+        "hexId": "FFFFFFFFFFFFFD76"
+    },
+    {
+        "name": "青色染色玻璃板",
+        "id": "cyan_stained_glass_pane",
+        "numId": "-651",
+        "hexId": "FFFFFFFFFFFFFD75"
+    },
+    {
+        "name": "紫色染色玻璃板",
+        "id": "purple_stained_glass_pane",
+        "numId": "-652",
+        "hexId": "FFFFFFFFFFFFFD74"
+    },
+    {
+        "name": "蓝色染色玻璃板",
+        "id": "blue_stained_glass_pane",
+        "numId": "-653",
+        "hexId": "FFFFFFFFFFFFFD73"
+    },
+    {
+        "name": "棕色染色玻璃板",
+        "id": "brown_stained_glass_pane",
+        "numId": "-654",
+        "hexId": "FFFFFFFFFFFFFD72"
+    },
+    {
+        "name": "绿色染色玻璃板",
+        "id": "green_stained_glass_pane",
+        "numId": "-655",
+        "hexId": "FFFFFFFFFFFFFD71"
+    },
+    {
+        "name": "红色染色玻璃板",
+        "id": "red_stained_glass_pane",
+        "numId": "-656",
+        "hexId": "FFFFFFFFFFFFFD70"
+    },
+    {
+        "name": "黑色染色玻璃板",
+        "id": "black_stained_glass_pane",
+        "numId": "-657",
+        "hexId": "FFFFFFFFFFFFFD6F"
+    },
+    {
+        "name": "橙色强化玻璃板",
+        "id": "hard_orange_stained_glass_pane",
+        "numId": "-658",
+        "hexId": "FFFFFFFFFFFFFD6E"
+    },
+    {
+        "name": "品红色强化玻璃板",
+        "id": "hard_magenta_stained_glass_pane",
+        "numId": "-659",
+        "hexId": "FFFFFFFFFFFFFD6D"
+    },
+    {
+        "name": "淡蓝色强化玻璃板",
+        "id": "hard_light_blue_stained_glass_pane",
+        "numId": "-660",
+        "hexId": "FFFFFFFFFFFFFD6C"
+    },
+    {
+        "name": "黄色强化玻璃板",
+        "id": "hard_yellow_stained_glass_pane",
+        "numId": "-661",
+        "hexId": "FFFFFFFFFFFFFD6B"
+    },
+    {
+        "name": "黄绿色强化玻璃板",
+        "id": "hard_lime_stained_glass_pane",
+        "numId": "-662",
+        "hexId": "FFFFFFFFFFFFFD6A"
+    },
+    {
+        "name": "粉红色强化玻璃板",
+        "id": "hard_pink_stained_glass_pane",
+        "numId": "-663",
+        "hexId": "FFFFFFFFFFFFFD69"
+    },
+    {
+        "name": "灰色强化玻璃板",
+        "id": "hard_gray_stained_glass_pane",
+        "numId": "-664",
+        "hexId": "FFFFFFFFFFFFFD68"
+    },
+    {
+        "name": "淡灰色强化玻璃板",
+        "id": "hard_light_gray_stained_glass_pane",
+        "numId": "-665",
+        "hexId": "FFFFFFFFFFFFFD67"
+    },
+    {
+        "name": "青色强化玻璃板",
+        "id": "hard_cyan_stained_glass_pane",
+        "numId": "-666",
+        "hexId": "FFFFFFFFFFFFFD66"
+    },
+    {
+        "name": "紫色强化玻璃板",
+        "id": "hard_purple_stained_glass_pane",
+        "numId": "-667",
+        "hexId": "FFFFFFFFFFFFFD65"
+    },
+    {
+        "name": "蓝色强化玻璃板",
+        "id": "hard_blue_stained_glass_pane",
+        "numId": "-668",
+        "hexId": "FFFFFFFFFFFFFD64"
+    },
+    {
+        "name": "棕色强化玻璃板",
+        "id": "hard_brown_stained_glass_pane",
+        "numId": "-669",
+        "hexId": "FFFFFFFFFFFFFD63"
+    },
+    {
+        "name": "绿色强化玻璃板",
+        "id": "hard_green_stained_glass_pane",
+        "numId": "-670",
+        "hexId": "FFFFFFFFFFFFFD62"
+    },
+    {
+        "name": "红色强化玻璃板",
+        "id": "hard_red_stained_glass_pane",
+        "numId": "-671",
+        "hexId": "FFFFFFFFFFFFFD61"
+    },
+    {
+        "name": "黑色强化玻璃板",
+        "id": "hard_black_stained_glass_pane",
+        "numId": "-672",
+        "hexId": "FFFFFFFFFFFFFD60"
+    },
+    {
+        "name": "橙色染色玻璃",
+        "id": "orange_stained_glass",
+        "numId": "-673",
+        "hexId": "FFFFFFFFFFFFFD5F"
+    },
+    {
+        "name": "品红色染色玻璃",
+        "id": "magenta_stained_glass",
+        "numId": "-674",
+        "hexId": "FFFFFFFFFFFFFD5E"
+    },
+    {
+        "name": "淡蓝色染色玻璃",
+        "id": "light_blue_stained_glass",
+        "numId": "-675",
+        "hexId": "FFFFFFFFFFFFFD5D"
+    },
+    {
+        "name": "黄色染色玻璃",
+        "id": "yellow_stained_glass",
+        "numId": "-676",
+        "hexId": "FFFFFFFFFFFFFD5C"
+    },
+    {
+        "name": "黄绿色染色玻璃",
+        "id": "lime_stained_glass",
+        "numId": "-677",
+        "hexId": "FFFFFFFFFFFFFD5B"
+    },
+    {
+        "name": "粉红色染色玻璃",
+        "id": "pink_stained_glass",
+        "numId": "-678",
+        "hexId": "FFFFFFFFFFFFFD5A"
+    },
+    {
+        "name": "灰色染色玻璃",
+        "id": "gray_stained_glass",
+        "numId": "-679",
+        "hexId": "FFFFFFFFFFFFFD59"
+    },
+    {
+        "name": "淡灰色染色玻璃",
+        "id": "light_gray_stained_glass",
+        "numId": "-680",
+        "hexId": "FFFFFFFFFFFFFD58"
+    },
+    {
+        "name": "青色染色玻璃",
+        "id": "cyan_stained_glass",
+        "numId": "-681",
+        "hexId": "FFFFFFFFFFFFFD57"
+    },
+    {
+        "name": "紫色染色玻璃",
+        "id": "purple_stained_glass",
+        "numId": "-682",
+        "hexId": "FFFFFFFFFFFFFD56"
+    },
+    {
+        "name": "蓝色染色玻璃",
+        "id": "blue_stained_glass",
+        "numId": "-683",
+        "hexId": "FFFFFFFFFFFFFD55"
+    },
+    {
+        "name": "棕色染色玻璃",
+        "id": "brown_stained_glass",
+        "numId": "-684",
+        "hexId": "FFFFFFFFFFFFFD54"
+    },
+    {
+        "name": "绿色染色玻璃",
+        "id": "green_stained_glass",
+        "numId": "-685",
+        "hexId": "FFFFFFFFFFFFFD53"
+    },
+    {
+        "name": "红色染色玻璃",
+        "id": "red_stained_glass",
+        "numId": "-686",
+        "hexId": "FFFFFFFFFFFFFD52"
+    },
+    {
+        "name": "黑色染色玻璃",
+        "id": "black_stained_glass",
+        "numId": "-687",
+        "hexId": "FFFFFFFFFFFFFD51"
+    },
+    {
+        "name": "橙色强化玻璃",
+        "id": "hard_orange_stained_glass",
+        "numId": "-688",
+        "hexId": "FFFFFFFFFFFFFD50"
+    },
+    {
+        "name": "品红色强化玻璃",
+        "id": "hard_magenta_stained_glass",
+        "numId": "-689",
+        "hexId": "FFFFFFFFFFFFFD4F"
+    },
+    {
+        "name": "淡蓝色强化玻璃",
+        "id": "hard_light_blue_stained_glass",
+        "numId": "-690",
+        "hexId": "FFFFFFFFFFFFFD4E"
+    },
+    {
+        "name": "黄色强化玻璃",
+        "id": "hard_yellow_stained_glass",
+        "numId": "-691",
+        "hexId": "FFFFFFFFFFFFFD4D"
+    },
+    {
+        "name": "黄绿色强化玻璃",
+        "id": "hard_lime_stained_glass",
+        "numId": "-692",
+        "hexId": "FFFFFFFFFFFFFD4C"
+    },
+    {
+        "name": "粉红色强化玻璃",
+        "id": "hard_pink_stained_glass",
+        "numId": "-693",
+        "hexId": "FFFFFFFFFFFFFD4B"
+    },
+    {
+        "name": "灰色强化玻璃",
+        "id": "hard_gray_stained_glass",
+        "numId": "-694",
+        "hexId": "FFFFFFFFFFFFFD4A"
+    },
+    {
+        "name": "淡灰色强化玻璃",
+        "id": "hard_light_gray_stained_glass",
+        "numId": "-695",
+        "hexId": "FFFFFFFFFFFFFD49"
+    },
+    {
+        "name": "青色强化玻璃",
+        "id": "hard_cyan_stained_glass",
+        "numId": "-696",
+        "hexId": "FFFFFFFFFFFFFD48"
+    },
+    {
+        "name": "紫色强化玻璃",
+        "id": "hard_purple_stained_glass",
+        "numId": "-697",
+        "hexId": "FFFFFFFFFFFFFD47"
+    },
+    {
+        "name": "蓝色强化玻璃",
+        "id": "hard_blue_stained_glass",
+        "numId": "-698",
+        "hexId": "FFFFFFFFFFFFFD46"
+    },
+    {
+        "name": "棕色强化玻璃",
+        "id": "hard_brown_stained_glass",
+        "numId": "-699",
+        "hexId": "FFFFFFFFFFFFFD45"
+    },
+    {
+        "name": "绿色强化玻璃",
+        "id": "hard_green_stained_glass",
+        "numId": "-700",
+        "hexId": "FFFFFFFFFFFFFD44"
+    },
+    {
+        "name": "红色强化玻璃",
+        "id": "hard_red_stained_glass",
+        "numId": "-701",
+        "hexId": "FFFFFFFFFFFFFD43"
+    },
+    {
+        "name": "黑色强化玻璃",
+        "id": "hard_black_stained_glass",
+        "numId": "-702",
+        "hexId": "FFFFFFFFFFFFFD42"
+    },
+    {
+        "name": "橙色混凝土粉末",
+        "id": "orange_concrete_powder",
+        "numId": "-709",
+        "hexId": "FFFFFFFFFFFFFD3B"
+    },
+    {
+        "name": "品红色混凝土粉末",
+        "id": "magenta_concrete_powder",
+        "numId": "-710",
+        "hexId": "FFFFFFFFFFFFFD3A"
+    },
+    {
+        "name": "淡蓝色混凝土粉末",
+        "id": "light_blue_concrete_powder",
+        "numId": "-711",
+        "hexId": "FFFFFFFFFFFFFD39"
+    },
+    {
+        "name": "黄色混凝土粉末",
+        "id": "yellow_concrete_powder",
+        "numId": "-712",
+        "hexId": "FFFFFFFFFFFFFD38"
+    },
+    {
+        "name": "黄绿色混凝土粉末",
+        "id": "lime_concrete_powder",
+        "numId": "-713",
+        "hexId": "FFFFFFFFFFFFFD37"
+    },
+    {
+        "name": "粉红色混凝土粉末",
+        "id": "pink_concrete_powder",
+        "numId": "-714",
+        "hexId": "FFFFFFFFFFFFFD36"
+    },
+    {
+        "name": "灰色混凝土粉末",
+        "id": "gray_concrete_powder",
+        "numId": "-715",
+        "hexId": "FFFFFFFFFFFFFD35"
+    },
+    {
+        "name": "淡灰色混凝土粉末",
+        "id": "light_gray_concrete_powder",
+        "numId": "-716",
+        "hexId": "FFFFFFFFFFFFFD34"
+    },
+    {
+        "name": "青色混凝土粉末",
+        "id": "cyan_concrete_powder",
+        "numId": "-717",
+        "hexId": "FFFFFFFFFFFFFD33"
+    },
+    {
+        "name": "紫色混凝土粉末",
+        "id": "purple_concrete_powder",
+        "numId": "-718",
+        "hexId": "FFFFFFFFFFFFFD32"
+    },
+    {
+        "name": "蓝色混凝土粉末",
+        "id": "blue_concrete_powder",
+        "numId": "-719",
+        "hexId": "FFFFFFFFFFFFFD31"
+    },
+    {
+        "name": "棕色混凝土粉末",
+        "id": "brown_concrete_powder",
+        "numId": "-720",
+        "hexId": "FFFFFFFFFFFFFD30"
+    },
+    {
+        "name": "绿色混凝土粉末",
+        "id": "green_concrete_powder",
+        "numId": "-721",
+        "hexId": "FFFFFFFFFFFFFD2F"
+    },
+    {
+        "name": "红色混凝土粉末",
+        "id": "red_concrete_powder",
+        "numId": "-722",
+        "hexId": "FFFFFFFFFFFFFD2E"
+    },
+    {
+        "name": "黑色混凝土粉末",
+        "id": "black_concrete_powder",
+        "numId": "-723",
+        "hexId": "FFFFFFFFFFFFFD2D"
+    },
+    {
+        "name": "橙色陶瓦",
+        "id": "orange_terracotta",
+        "numId": "-724",
+        "hexId": "FFFFFFFFFFFFFD2C"
+    },
+    {
+        "name": "品红色陶瓦",
+        "id": "magenta_terracotta",
+        "numId": "-725",
+        "hexId": "FFFFFFFFFFFFFD2B"
+    },
+    {
+        "name": "淡蓝色陶瓦",
+        "id": "light_blue_terracotta",
+        "numId": "-726",
+        "hexId": "FFFFFFFFFFFFFD2A"
+    },
+    {
+        "name": "黄色陶瓦",
+        "id": "yellow_terracotta",
+        "numId": "-727",
+        "hexId": "FFFFFFFFFFFFFD29"
+    },
+    {
+        "name": "黄绿色陶瓦",
+        "id": "lime_terracotta",
+        "numId": "-728",
+        "hexId": "FFFFFFFFFFFFFD28"
+    },
+    {
+        "name": "粉红色陶瓦",
+        "id": "pink_terracotta",
+        "numId": "-729",
+        "hexId": "FFFFFFFFFFFFFD27"
+    },
+    {
+        "name": "灰色陶瓦",
+        "id": "gray_terracotta",
+        "numId": "-730",
+        "hexId": "FFFFFFFFFFFFFD26"
+    },
+    {
+        "name": "淡灰色陶瓦",
+        "id": "light_gray_terracotta",
+        "numId": "-731",
+        "hexId": "FFFFFFFFFFFFFD25"
+    },
+    {
+        "name": "青色陶瓦",
+        "id": "cyan_terracotta",
+        "numId": "-732",
+        "hexId": "FFFFFFFFFFFFFD24"
+    },
+    {
+        "name": "紫色陶瓦",
+        "id": "purple_terracotta",
+        "numId": "-733",
+        "hexId": "FFFFFFFFFFFFFD23"
+    },
+    {
+        "name": "蓝色陶瓦",
+        "id": "blue_terracotta",
+        "numId": "-734",
+        "hexId": "FFFFFFFFFFFFFD22"
+    },
+    {
+        "name": "棕色陶瓦",
+        "id": "brown_terracotta",
+        "numId": "-735",
+        "hexId": "FFFFFFFFFFFFFD21"
+    },
+    {
+        "name": "绿色陶瓦",
+        "id": "green_terracotta",
+        "numId": "-736",
+        "hexId": "FFFFFFFFFFFFFD20"
+    },
+    {
+        "name": "红色陶瓦",
+        "id": "red_terracotta",
+        "numId": "-737",
+        "hexId": "FFFFFFFFFFFFFD1F"
+    },
+    {
+        "name": "黑色陶瓦",
+        "id": "black_terracotta",
+        "numId": "-738",
+        "hexId": "FFFFFFFFFFFFFD1E"
+    },
+    {
+        "name": "云杉木板",
+        "id": "spruce_planks",
+        "numId": "-739",
+        "hexId": "FFFFFFFFFFFFFD1D"
+    },
+    {
+        "name": "白桦木板",
+        "id": "birch_planks",
+        "numId": "-740",
+        "hexId": "FFFFFFFFFFFFFD1C"
+    },
+    {
+        "name": "丛林木板",
+        "id": "jungle_planks",
+        "numId": "-741",
+        "hexId": "FFFFFFFFFFFFFD1B"
+    },
+    {
+        "name": "金合欢木板",
+        "id": "acacia_planks",
+        "numId": "-742",
+        "hexId": "FFFFFFFFFFFFFD1A"
+    },
+    {
+        "name": "深色橡木木板",
+        "id": "dark_oak_planks",
+        "numId": "-743",
+        "hexId": "FFFFFFFFFFFFFD19"
+    },
+    {
+        "name": "凝灰岩台阶",
+        "id": "tuff_slab",
+        "numId": "-744",
+        "hexId": "FFFFFFFFFFFFFD18"
+    },
+    {
+        "name": "凝灰岩双层台阶",
+        "id": "tuff_double_slab",
+        "numId": "-745",
+        "hexId": "FFFFFFFFFFFFFD17"
+    },
+    {
+        "name": "凝灰岩楼梯",
+        "id": "tuff_stairs",
+        "numId": "-746",
+        "hexId": "FFFFFFFFFFFFFD16"
+    },
+    {
+        "name": "凝灰岩墙",
+        "id": "tuff_wall",
+        "numId": "-747",
+        "hexId": "FFFFFFFFFFFFFD15"
+    },
+    {
+        "name": "磨制凝灰岩",
+        "id": "polished_tuff",
+        "numId": "-748",
+        "hexId": "FFFFFFFFFFFFFD14"
+    },
+    {
+        "name": "磨制凝灰岩台阶",
+        "id": "polished_tuff_slab",
+        "numId": "-749",
+        "hexId": "FFFFFFFFFFFFFD13"
+    },
+    {
+        "name": "磨制凝灰岩双层台阶",
+        "id": "polished_tuff_double_slab",
+        "numId": "-750",
+        "hexId": "FFFFFFFFFFFFFD12"
+    },
+    {
+        "name": "磨制凝灰岩楼梯",
+        "id": "polished_tuff_stairs",
+        "numId": "-751",
+        "hexId": "FFFFFFFFFFFFFD11"
+    },
+    {
+        "name": "磨制凝灰岩墙",
+        "id": "polished_tuff_wall",
+        "numId": "-752",
+        "hexId": "FFFFFFFFFFFFFD10"
+    },
+    {
+        "name": "雕纹凝灰岩",
+        "id": "chiseled_tuff",
+        "numId": "-753",
+        "hexId": "FFFFFFFFFFFFFD0F"
+    },
+    {
+        "name": "凝灰岩砖",
+        "id": "tuff_bricks",
+        "numId": "-754",
+        "hexId": "FFFFFFFFFFFFFD0E"
+    },
+    {
+        "name": "凝灰岩砖台阶",
+        "id": "tuff_brick_slab",
+        "numId": "-755",
+        "hexId": "FFFFFFFFFFFFFD0D"
+    },
+    {
+        "name": "凝灰岩砖双层台阶",
+        "id": "tuff_brick_double_slab",
+        "numId": "-756",
+        "hexId": "FFFFFFFFFFFFFD0C"
+    },
+    {
+        "name": "凝灰岩砖楼梯",
+        "id": "tuff_brick_stairs",
+        "numId": "-757",
+        "hexId": "FFFFFFFFFFFFFD0B"
+    },
+    {
+        "name": "凝灰岩砖墙",
+        "id": "tuff_brick_wall",
+        "numId": "-758",
+        "hexId": "FFFFFFFFFFFFFD0A"
+    },
+    {
+        "name": "雕纹凝灰岩砖",
+        "id": "chiseled_tuff_bricks",
+        "numId": "-759",
+        "hexId": "FFFFFFFFFFFFFD09"
+    },
+    {
+        "name": "雕纹铜块",
+        "id": "chiseled_copper",
+        "numId": "-760",
+        "hexId": "FFFFFFFFFFFFFD08"
+    },
+    {
+        "name": "斑驳的雕纹铜块",
+        "id": "exposed_chiseled_copper",
+        "numId": "-761",
+        "hexId": "FFFFFFFFFFFFFD07"
+    },
+    {
+        "name": "锈蚀的雕纹铜块",
+        "id": "weathered_chiseled_copper",
+        "numId": "-762",
+        "hexId": "FFFFFFFFFFFFFD06"
+    },
+    {
+        "name": "氧化的雕纹铜块",
+        "id": "oxidized_chiseled_copper",
+        "numId": "-763",
+        "hexId": "FFFFFFFFFFFFFD05"
+    },
+    {
+        "name": "涂蜡的雕纹铜块",
+        "id": "waxed_chiseled_copper",
+        "numId": "-764",
+        "hexId": "FFFFFFFFFFFFFD04"
+    },
+    {
+        "name": "涂蜡的斑驳雕纹铜块",
+        "id": "waxed_exposed_chiseled_copper",
+        "numId": "-765",
+        "hexId": "FFFFFFFFFFFFFD03"
+    },
+    {
+        "name": "涂蜡的锈蚀雕纹铜块",
+        "id": "waxed_weathered_chiseled_copper",
+        "numId": "-766",
+        "hexId": "FFFFFFFFFFFFFD02"
+    },
+    {
+        "name": "涂蜡的氧化雕纹铜块",
+        "id": "waxed_oxidized_chiseled_copper",
+        "numId": "-767",
+        "hexId": "FFFFFFFFFFFFFD01"
+    },
+    {
+        "name": "铜格栅",
+        "id": "copper_grate",
+        "numId": "-768",
+        "hexId": "FFFFFFFFFFFFFD00"
+    },
+    {
+        "name": "斑驳的铜格栅",
+        "id": "exposed_copper_grate",
+        "numId": "-769",
+        "hexId": "FFFFFFFFFFFFFCFF"
+    },
+    {
+        "name": "锈蚀的铜格栅",
+        "id": "weathered_copper_grate",
+        "numId": "-770",
+        "hexId": "FFFFFFFFFFFFFCFE"
+    },
+    {
+        "name": "氧化的铜格栅",
+        "id": "oxidized_copper_grate",
+        "numId": "-771",
+        "hexId": "FFFFFFFFFFFFFCFD"
+    },
+    {
+        "name": "涂蜡的铜格栅",
+        "id": "waxed_copper_grate",
+        "numId": "-772",
+        "hexId": "FFFFFFFFFFFFFCFC"
+    },
+    {
+        "name": "涂蜡的斑驳铜格栅",
+        "id": "waxed_exposed_copper_grate",
+        "numId": "-773",
+        "hexId": "FFFFFFFFFFFFFCFB"
+    },
+    {
+        "name": "涂蜡的锈蚀铜格栅",
+        "id": "waxed_weathered_copper_grate",
+        "numId": "-774",
+        "hexId": "FFFFFFFFFFFFFCFA"
+    },
+    {
+        "name": "涂蜡的氧化铜格栅",
+        "id": "waxed_oxidized_copper_grate",
+        "numId": "-775",
+        "hexId": "FFFFFFFFFFFFFCF9"
+    },
+    {
+        "name": "铜灯",
+        "id": "copper_bulb",
+        "numId": "-776",
+        "hexId": "FFFFFFFFFFFFFCF8"
+    },
+    {
+        "name": "斑驳的铜灯",
+        "id": "exposed_copper_bulb",
+        "numId": "-777",
+        "hexId": "FFFFFFFFFFFFFCF7"
+    },
+    {
+        "name": "锈蚀的铜灯",
+        "id": "weathered_copper_bulb",
+        "numId": "-778",
+        "hexId": "FFFFFFFFFFFFFCF6"
+    },
+    {
+        "name": "氧化的铜灯",
+        "id": "oxidized_copper_bulb",
+        "numId": "-779",
+        "hexId": "FFFFFFFFFFFFFCF5"
+    },
+    {
+        "name": "涂蜡的铜灯",
+        "id": "waxed_copper_bulb",
+        "numId": "-780",
+        "hexId": "FFFFFFFFFFFFFCF4"
+    },
+    {
+        "name": "涂蜡的斑驳铜灯",
+        "id": "waxed_exposed_copper_bulb",
+        "numId": "-781",
+        "hexId": "FFFFFFFFFFFFFCF3"
+    },
+    {
+        "name": "涂蜡的锈蚀铜灯",
+        "id": "waxed_weathered_copper_bulb",
+        "numId": "-782",
+        "hexId": "FFFFFFFFFFFFFCF2"
+    },
+    {
+        "name": "涂蜡的氧化铜灯",
+        "id": "waxed_oxidized_copper_bulb",
+        "numId": "-783",
+        "hexId": "FFFFFFFFFFFFFCF1"
+    },
+    {
+        "name": "铜门",
+        "id": "copper_door",
+        "numId": "-784",
+        "hexId": "FFFFFFFFFFFFFCF0"
+    },
+    {
+        "name": "斑驳的铜门",
+        "id": "exposed_copper_door",
+        "numId": "-785",
+        "hexId": "FFFFFFFFFFFFFCEF"
+    },
+    {
+        "name": "锈蚀的铜门",
+        "id": "weathered_copper_door",
+        "numId": "-786",
+        "hexId": "FFFFFFFFFFFFFCEE"
+    },
+    {
+        "name": "氧化的铜门",
+        "id": "oxidized_copper_door",
+        "numId": "-787",
+        "hexId": "FFFFFFFFFFFFFCED"
+    },
+    {
+        "name": "涂蜡的铜门",
+        "id": "waxed_copper_door",
+        "numId": "-788",
+        "hexId": "FFFFFFFFFFFFFCEC"
+    },
+    {
+        "name": "涂蜡的斑驳铜门",
+        "id": "waxed_exposed_copper_door",
+        "numId": "-789",
+        "hexId": "FFFFFFFFFFFFFCEB"
+    },
+    {
+        "name": "涂蜡的锈蚀铜门",
+        "id": "waxed_weathered_copper_door",
+        "numId": "-790",
+        "hexId": "FFFFFFFFFFFFFCEA"
+    },
+    {
+        "name": "涂蜡的氧化铜门",
+        "id": "waxed_oxidized_copper_door",
+        "numId": "-791",
+        "hexId": "FFFFFFFFFFFFFCE9"
+    },
+    {
+        "name": "铜活板门",
+        "id": "copper_trapdoor",
+        "numId": "-792",
+        "hexId": "FFFFFFFFFFFFFCE8"
+    },
+    {
+        "name": "斑驳的铜活板门",
+        "id": "exposed_copper_trapdoor",
+        "numId": "-793",
+        "hexId": "FFFFFFFFFFFFFCE7"
+    },
+    {
+        "name": "锈蚀的铜活板门",
+        "id": "weathered_copper_trapdoor",
+        "numId": "-794",
+        "hexId": "FFFFFFFFFFFFFCE6"
+    },
+    {
+        "name": "氧化的铜活板门",
+        "id": "oxidized_copper_trapdoor",
+        "numId": "-795",
+        "hexId": "FFFFFFFFFFFFFCE5"
+    },
+    {
+        "name": "涂蜡的铜活板门",
+        "id": "waxed_copper_trapdoor",
+        "numId": "-796",
+        "hexId": "FFFFFFFFFFFFFCE4"
+    },
+    {
+        "name": "涂蜡的斑驳铜活板门",
+        "id": "waxed_exposed_copper_trapdoor",
+        "numId": "-797",
+        "hexId": "FFFFFFFFFFFFFCE3"
+    },
+    {
+        "name": "涂蜡的锈蚀铜活板门",
+        "id": "waxed_weathered_copper_trapdoor",
+        "numId": "-798",
+        "hexId": "FFFFFFFFFFFFFCE2"
+    },
+    {
+        "name": "涂蜡的氧化铜活板门",
+        "id": "waxed_oxidized_copper_trapdoor",
+        "numId": "-799",
+        "hexId": "FFFFFFFFFFFFFCE1"
+    },
+    {
+        "name": "云杉树叶",
+        "id": "spruce_leaves",
+        "numId": "-800",
+        "hexId": "FFFFFFFFFFFFFCE0"
+    },
+    {
+        "name": "白桦树叶",
+        "id": "birch_leaves",
+        "numId": "-801",
+        "hexId": "FFFFFFFFFFFFFCDF"
+    },
+    {
+        "name": "丛林树叶",
+        "id": "jungle_leaves",
+        "numId": "-802",
+        "hexId": "FFFFFFFFFFFFFCDE"
+    },
+    {
+        "name": "深色橡树树叶",
+        "id": "dark_oak_leaves",
+        "numId": "-803",
+        "hexId": "FFFFFFFFFFFFFCDD"
+    },
+    {
+        "name": "云杉木台阶",
+        "id": "spruce_slab",
+        "numId": "-804",
+        "hexId": "FFFFFFFFFFFFFCDC"
+    },
+    {
+        "name": "白桦木台阶",
+        "id": "birch_slab",
+        "numId": "-805",
+        "hexId": "FFFFFFFFFFFFFCDB"
+    },
+    {
+        "name": "丛林木台阶",
+        "id": "jungle_slab",
+        "numId": "-806",
+        "hexId": "FFFFFFFFFFFFFCDA"
+    },
+    {
+        "name": "金合欢木台阶",
+        "id": "acacia_slab",
+        "numId": "-807",
+        "hexId": "FFFFFFFFFFFFFCD9"
+    },
+    {
+        "name": "深色橡木台阶",
+        "id": "dark_oak_slab",
+        "numId": "-808",
+        "hexId": "FFFFFFFFFFFFFCD8"
+    },
+    {
+        "name": "云杉木双层台阶",
+        "id": "spruce_double_slab",
+        "numId": "-809",
+        "hexId": "FFFFFFFFFFFFFCD7"
+    },
+    {
+        "name": "白桦木双层台阶",
+        "id": "birch_double_slab",
+        "numId": "-810",
+        "hexId": "FFFFFFFFFFFFFCD6"
+    },
+    {
+        "name": "丛林木双层台阶",
+        "id": "jungle_double_slab",
+        "numId": "-811",
+        "hexId": "FFFFFFFFFFFFFCD5"
+    },
+    {
+        "name": "金合欢木双层台阶",
+        "id": "acacia_double_slab",
+        "numId": "-812",
+        "hexId": "FFFFFFFFFFFFFCD4"
+    },
+    {
+        "name": "深色橡木双层台阶",
+        "id": "dark_oak_double_slab",
+        "numId": "-813",
+        "hexId": "FFFFFFFFFFFFFCD3"
+    },
+    {
+        "name": "云杉木",
+        "id": "spruce_wood",
+        "numId": "-814",
+        "hexId": "FFFFFFFFFFFFFCD2"
+    },
+    {
+        "name": "白桦木",
+        "id": "birch_wood",
+        "numId": "-815",
+        "hexId": "FFFFFFFFFFFFFCD1"
+    },
+    {
+        "name": "丛林木",
+        "id": "jungle_wood",
+        "numId": "-816",
+        "hexId": "FFFFFFFFFFFFFCD0"
+    },
+    {
+        "name": "金合欢木",
+        "id": "acacia_wood",
+        "numId": "-817",
+        "hexId": "FFFFFFFFFFFFFCCF"
+    },
+    {
+        "name": "深色橡木",
+        "id": "dark_oak_wood",
+        "numId": "-818",
+        "hexId": "FFFFFFFFFFFFFCCE"
+    },
+    {
+        "name": "去皮橡木",
+        "id": "stripped_oak_wood",
+        "numId": "-819",
+        "hexId": "FFFFFFFFFFFFFCCD"
+    },
+    {
+        "name": "去皮云杉木",
+        "id": "stripped_spruce_wood",
+        "numId": "-820",
+        "hexId": "FFFFFFFFFFFFFCCC"
+    },
+    {
+        "name": "去皮白桦木",
+        "id": "stripped_birch_wood",
+        "numId": "-821",
+        "hexId": "FFFFFFFFFFFFFCCB"
+    },
+    {
+        "name": "去皮丛林木",
+        "id": "stripped_jungle_wood",
+        "numId": "-822",
+        "hexId": "FFFFFFFFFFFFFCCA"
+    },
+    {
+        "name": "去皮金合欢木",
+        "id": "stripped_acacia_wood",
+        "numId": "-823",
+        "hexId": "FFFFFFFFFFFFFCC9"
+    },
+    {
+        "name": "去皮深色橡木",
+        "id": "stripped_dark_oak_wood",
+        "numId": "-824",
+        "hexId": "FFFFFFFFFFFFFCC8"
+    },
+    {
+        "name": "云杉树苗",
+        "id": "spruce_sapling",
+        "numId": "-825",
+        "hexId": "FFFFFFFFFFFFFCC7"
+    },
+    {
+        "name": "白桦树苗",
+        "id": "birch_sapling",
+        "numId": "-826",
+        "hexId": "FFFFFFFFFFFFFCC6"
+    },
+    {
+        "name": "丛林树苗",
+        "id": "jungle_sapling",
+        "numId": "-827",
+        "hexId": "FFFFFFFFFFFFFCC5"
+    },
+    {
+        "name": "金合欢树苗",
+        "id": "acacia_sapling",
+        "numId": "-828",
+        "hexId": "FFFFFFFFFFFFFCC4"
+    },
+    {
+        "name": "深色橡树树苗",
+        "id": "dark_oak_sapling",
+        "numId": "-829",
+        "hexId": "FFFFFFFFFFFFFCC3"
+    },
+    {
+        "name": "兰花",
+        "id": "blue_orchid",
+        "numId": "-830",
+        "hexId": "FFFFFFFFFFFFFCC2"
+    },
+    {
+        "name": "绒球葱",
+        "id": "allium",
+        "numId": "-831",
+        "hexId": "FFFFFFFFFFFFFCC1"
+    },
+    {
+        "name": "蓝花美耳草",
+        "id": "azure_bluet",
+        "numId": "-832",
+        "hexId": "FFFFFFFFFFFFFCC0"
+    },
+    {
+        "name": "红色郁金香",
+        "id": "red_tulip",
+        "numId": "-833",
+        "hexId": "FFFFFFFFFFFFFCBF"
+    },
+    {
+        "name": "橙色郁金香",
+        "id": "orange_tulip",
+        "numId": "-834",
+        "hexId": "FFFFFFFFFFFFFCBE"
+    },
+    {
+        "name": "白色郁金香",
+        "id": "white_tulip",
+        "numId": "-835",
+        "hexId": "FFFFFFFFFFFFFCBD"
+    },
+    {
+        "name": "粉红色郁金香",
+        "id": "pink_tulip",
+        "numId": "-836",
+        "hexId": "FFFFFFFFFFFFFCBC"
+    },
+    {
+        "name": "滨菊",
+        "id": "oxeye_daisy",
+        "numId": "-837",
+        "hexId": "FFFFFFFFFFFFFCBB"
+    },
+    {
+        "name": "矢车菊",
+        "id": "cornflower",
+        "numId": "-838",
+        "hexId": "FFFFFFFFFFFFFCBA"
+    },
+    {
+        "name": "铃兰",
+        "id": "lily_of_the_valley",
+        "numId": "-839",
+        "hexId": "FFFFFFFFFFFFFCB9"
+    },
+    {
+        "name": "脑纹珊瑚扇",
+        "id": "brain_coral_fan",
+        "numId": "-840",
+        "hexId": "FFFFFFFFFFFFFCB8"
+    },
+    {
+        "name": "气泡珊瑚扇",
+        "id": "bubble_coral_fan",
+        "numId": "-841",
+        "hexId": "FFFFFFFFFFFFFCB7"
+    },
+    {
+        "name": "火珊瑚扇",
+        "id": "fire_coral_fan",
+        "numId": "-842",
+        "hexId": "FFFFFFFFFFFFFCB6"
+    },
+    {
+        "name": "鹿角珊瑚扇",
+        "id": "horn_coral_fan",
+        "numId": "-843",
+        "hexId": "FFFFFFFFFFFFFCB5"
+    },
+    {
+        "name": "失活的脑纹珊瑚扇",
+        "id": "dead_brain_coral_fan",
+        "numId": "-844",
+        "hexId": "FFFFFFFFFFFFFCB4"
+    },
+    {
+        "name": "失活的气泡珊瑚扇",
+        "id": "dead_bubble_coral_fan",
+        "numId": "-845",
+        "hexId": "FFFFFFFFFFFFFCB3"
+    },
+    {
+        "name": "失活的火珊瑚扇",
+        "id": "dead_fire_coral_fan",
+        "numId": "-846",
+        "hexId": "FFFFFFFFFFFFFCB2"
+    },
+    {
+        "name": "失活的鹿角珊瑚扇",
+        "id": "dead_horn_coral_fan",
+        "numId": "-847",
+        "hexId": "FFFFFFFFFFFFFCB1"
+    },
+    {
+        "name": "蕨",
+        "id": "fern",
+        "numId": "-848",
+        "hexId": "FFFFFFFFFFFFFCB0"
+    },
+    {
+        "name": "脑纹珊瑚块",
+        "id": "brain_coral_block",
+        "numId": "-849",
+        "hexId": "FFFFFFFFFFFFFCAF"
+    },
+    {
+        "name": "气泡珊瑚块",
+        "id": "bubble_coral_block",
+        "numId": "-850",
+        "hexId": "FFFFFFFFFFFFFCAE"
+    },
+    {
+        "name": "火珊瑚块",
+        "id": "fire_coral_block",
+        "numId": "-851",
+        "hexId": "FFFFFFFFFFFFFCAD"
+    },
+    {
+        "name": "鹿角珊瑚块",
+        "id": "horn_coral_block",
+        "numId": "-852",
+        "hexId": "FFFFFFFFFFFFFCAC"
+    },
+    {
+        "name": "失活的管珊瑚块",
+        "id": "dead_tube_coral_block",
+        "numId": "-853",
+        "hexId": "FFFFFFFFFFFFFCAB"
+    },
+    {
+        "name": "失活的脑纹珊瑚块",
+        "id": "dead_brain_coral_block",
+        "numId": "-854",
+        "hexId": "FFFFFFFFFFFFFCAA"
+    },
+    {
+        "name": "失活的气泡珊瑚块",
+        "id": "dead_bubble_coral_block",
+        "numId": "-855",
+        "hexId": "FFFFFFFFFFFFFCA9"
+    },
+    {
+        "name": "失活的火珊瑚块",
+        "id": "dead_fire_coral_block",
+        "numId": "-856",
+        "hexId": "FFFFFFFFFFFFFCA8"
+    },
+    {
+        "name": "失活的鹿角珊瑚块",
+        "id": "dead_horn_coral_block",
+        "numId": "-857",
+        "hexId": "FFFFFFFFFFFFFCA7"
+    },
+    {
+        "name": "虫蚀圆石",
+        "id": "infested_cobblestone",
+        "numId": "-858",
+        "hexId": "FFFFFFFFFFFFFCA6"
+    },
+    {
+        "name": "虫蚀石砖",
+        "id": "infested_stone_bricks",
+        "numId": "-859",
+        "hexId": "FFFFFFFFFFFFFCA5"
+    },
+    {
+        "name": "虫蚀苔石砖",
+        "id": "infested_mossy_stone_bricks",
+        "numId": "-860",
+        "hexId": "FFFFFFFFFFFFFCA4"
+    },
+    {
+        "name": "虫蚀裂纹石砖",
+        "id": "infested_cracked_stone_bricks",
+        "numId": "-861",
+        "hexId": "FFFFFFFFFFFFFCA3"
+    },
+    {
+        "name": "虫蚀雕纹石砖",
+        "id": "infested_chiseled_stone_bricks",
+        "numId": "-862",
+        "hexId": "FFFFFFFFFFFFFCA2"
+    },
+    {
+        "name": "丁香",
+        "id": "lilac",
+        "numId": "-863",
+        "hexId": "FFFFFFFFFFFFFCA1"
+    },
+    {
+        "name": "高草丛",
+        "id": "tall_grass",
+        "numId": "-864",
+        "hexId": "FFFFFFFFFFFFFCA0"
+    },
+    {
+        "name": "大型蕨",
+        "id": "large_fern",
+        "numId": "-865",
+        "hexId": "FFFFFFFFFFFFFC9F"
+    },
+    {
+        "name": "玫瑰丛",
+        "id": "rose_bush",
+        "numId": "-866",
+        "hexId": "FFFFFFFFFFFFFC9E"
+    },
+    {
+        "name": "牡丹",
+        "id": "peony",
+        "numId": "-867",
+        "hexId": "FFFFFFFFFFFFFC9D"
+    },
+    {
+        "name": "苔石砖",
+        "id": "mossy_stone_bricks",
+        "numId": "-868",
+        "hexId": "FFFFFFFFFFFFFC9C"
+    },
+    {
+        "name": "裂纹石砖",
+        "id": "cracked_stone_bricks",
+        "numId": "-869",
+        "hexId": "FFFFFFFFFFFFFC9B"
+    },
+    {
+        "name": "雕纹石砖",
+        "id": "chiseled_stone_bricks",
+        "numId": "-870",
+        "hexId": "FFFFFFFFFFFFFC9A"
+    },
+    {
+        "name": "砂岩台阶",
+        "id": "sandstone_slab",
+        "numId": "-872",
+        "hexId": "FFFFFFFFFFFFFC98"
+    },
+    {
+        "name": "圆石台阶",
+        "id": "cobblestone_slab",
+        "numId": "-873",
+        "hexId": "FFFFFFFFFFFFFC97"
+    },
+    {
+        "name": "红砖台阶",
+        "id": "brick_slab",
+        "numId": "-874",
+        "hexId": "FFFFFFFFFFFFFC96"
+    },
+    {
+        "name": "石砖台阶",
+        "id": "stone_brick_slab",
+        "numId": "-875",
+        "hexId": "FFFFFFFFFFFFFC95"
+    },
+    {
+        "name": "石英台阶",
+        "id": "quartz_slab",
+        "numId": "-876",
+        "hexId": "FFFFFFFFFFFFFC94"
+    },
+    {
+        "name": "下界砖台阶",
+        "id": "nether_brick_slab",
+        "numId": "-877",
+        "hexId": "FFFFFFFFFFFFFC93"
+    },
+    {
+        "name": "砂岩双层台阶",
+        "id": "sandstone_double_slab",
+        "numId": "-878",
+        "hexId": "FFFFFFFFFFFFFC92"
+    },
+    {
+        "name": "圆石双层台阶",
+        "id": "cobblestone_double_slab",
+        "numId": "-879",
+        "hexId": "FFFFFFFFFFFFFC91"
+    },
+    {
+        "name": "红砖双层台阶",
+        "id": "brick_double_slab",
+        "numId": "-880",
+        "hexId": "FFFFFFFFFFFFFC90"
+    },
+    {
+        "name": "石砖双层台阶",
+        "id": "stone_brick_double_slab",
+        "numId": "-881",
+        "hexId": "FFFFFFFFFFFFFC8F"
+    },
+    {
+        "name": "石英双层台阶",
+        "id": "quartz_double_slab",
+        "numId": "-882",
+        "hexId": "FFFFFFFFFFFFFC8E"
+    },
+    {
+        "name": "下界砖双层台阶",
+        "id": "nether_brick_double_slab",
+        "numId": "-883",
+        "hexId": "FFFFFFFFFFFFFC8D"
+    },
+    {
+        "name": "紫珀台阶",
+        "id": "purpur_slab",
+        "numId": "-884",
+        "hexId": "FFFFFFFFFFFFFC8C"
+    },
+    {
+        "name": "海晶石台阶",
+        "id": "prismarine_slab",
+        "numId": "-885",
+        "hexId": "FFFFFFFFFFFFFC8B"
+    },
+    {
+        "name": "暗海晶石台阶",
+        "id": "dark_prismarine_slab",
+        "numId": "-886",
+        "hexId": "FFFFFFFFFFFFFC8A"
+    },
+    {
+        "name": "海晶石砖台阶",
+        "id": "prismarine_brick_slab",
+        "numId": "-887",
+        "hexId": "FFFFFFFFFFFFFC89"
+    },
+    {
+        "name": "苔石台阶",
+        "id": "mossy_cobblestone_slab",
+        "numId": "-888",
+        "hexId": "FFFFFFFFFFFFFC88"
+    },
+    {
+        "name": "平滑砂岩台阶",
+        "id": "smooth_sandstone_slab",
+        "numId": "-889",
+        "hexId": "FFFFFFFFFFFFFC87"
+    },
+    {
+        "name": "红色下界砖台阶",
+        "id": "red_nether_brick_slab",
+        "numId": "-890",
+        "hexId": "FFFFFFFFFFFFFC86"
+    },
+    {
+        "name": "平滑红砂岩台阶",
+        "id": "smooth_red_sandstone_slab",
+        "numId": "-891",
+        "hexId": "FFFFFFFFFFFFFC85"
+    },
+    {
+        "name": "磨制安山岩台阶",
+        "id": "polished_andesite_slab",
+        "numId": "-892",
+        "hexId": "FFFFFFFFFFFFFC84"
+    },
+    {
+        "name": "安山岩台阶",
+        "id": "andesite_slab",
+        "numId": "-893",
+        "hexId": "FFFFFFFFFFFFFC83"
+    },
+    {
+        "name": "闪长岩台阶",
+        "id": "diorite_slab",
+        "numId": "-894",
+        "hexId": "FFFFFFFFFFFFFC82"
+    },
+    {
+        "name": "磨制闪长岩台阶",
+        "id": "polished_diorite_slab",
+        "numId": "-895",
+        "hexId": "FFFFFFFFFFFFFC81"
+    },
+    {
+        "name": "花岗岩台阶",
+        "id": "granite_slab",
+        "numId": "-896",
+        "hexId": "FFFFFFFFFFFFFC80"
+    },
+    {
+        "name": "磨制花岗岩台阶",
+        "id": "polished_granite_slab",
+        "numId": "-897",
+        "hexId": "FFFFFFFFFFFFFC7F"
+    },
+    {
+        "name": "平滑石英台阶",
+        "id": "smooth_quartz_slab",
+        "numId": "-898",
+        "hexId": "FFFFFFFFFFFFFC7E"
+    },
+    {
+        "name": "石头台阶",
+        "id": "normal_stone_slab",
+        "numId": "-899",
+        "hexId": "FFFFFFFFFFFFFC7D"
+    },
+    {
+        "name": "切制砂岩台阶",
+        "id": "cut_sandstone_slab",
+        "numId": "-900",
+        "hexId": "FFFFFFFFFFFFFC7C"
+    },
+    {
+        "name": "切制红砂岩台阶",
+        "id": "cut_red_sandstone_slab",
+        "numId": "-901",
+        "hexId": "FFFFFFFFFFFFFC7B"
+    },
+    {
+        "name": "石化橡木台阶",
+        "id": "petrified_slab",
+        "numId": "-902",
+        "hexId": "FFFFFFFFFFFFFC7A"
+    },
+    {
+        "name": "石化橡木双层台阶",
+        "id": "petrified_double_slab",
+        "numId": "-903",
+        "hexId": "FFFFFFFFFFFFFC79"
+    },
+    {
+        "name": "墙上的脑纹珊瑚扇",
+        "id": "brain_coral_wall_fan",
+        "numId": "-904",
+        "hexId": "FFFFFFFFFFFFFC78"
+    },
+    {
+        "name": "墙上的失活管珊瑚扇",
+        "id": "dead_tube_coral_wall_fan",
+        "numId": "-905",
+        "hexId": "FFFFFFFFFFFFFC77"
+    },
+    {
+        "name": "墙上的失活脑纹珊瑚扇",
+        "id": "dead_brain_coral_wall_fan",
+        "numId": "-906",
+        "hexId": "FFFFFFFFFFFFFC76"
+    },
+    {
+        "name": "墙上的火珊瑚扇",
+        "id": "fire_coral_wall_fan",
+        "numId": "-907",
+        "hexId": "FFFFFFFFFFFFFC75"
+    },
+    {
+        "name": "墙上的失活气泡珊瑚扇",
+        "id": "dead_bubble_coral_wall_fan",
+        "numId": "-908",
+        "hexId": "FFFFFFFFFFFFFC74"
+    },
+    {
+        "name": "墙上的失活火珊瑚扇",
+        "id": "dead_fire_coral_wall_fan",
+        "numId": "-909",
+        "hexId": "FFFFFFFFFFFFFC73"
+    },
+    {
+        "name": "墙上的失活鹿角珊瑚扇",
+        "id": "dead_horn_coral_wall_fan",
+        "numId": "-910",
+        "hexId": "FFFFFFFFFFFFFC72"
+    },
+    {
+        "name": "紫珀双层台阶",
+        "id": "purpur_double_slab",
+        "numId": "-911",
+        "hexId": "FFFFFFFFFFFFFC71"
+    },
+    {
+        "name": "海晶石双层台阶",
+        "id": "prismarine_double_slab",
+        "numId": "-912",
+        "hexId": "FFFFFFFFFFFFFC70"
+    },
+    {
+        "name": "暗海晶石双层台阶",
+        "id": "dark_prismarine_double_slab",
+        "numId": "-913",
+        "hexId": "FFFFFFFFFFFFFC6F"
+    },
+    {
+        "name": "海晶石砖双层台阶",
+        "id": "prismarine_brick_double_slab",
+        "numId": "-914",
+        "hexId": "FFFFFFFFFFFFFC6E"
+    },
+    {
+        "name": "苔石双层台阶",
+        "id": "mossy_cobblestone_double_slab",
+        "numId": "-915",
+        "hexId": "FFFFFFFFFFFFFC6D"
+    },
+    {
+        "name": "平滑砂岩双层台阶",
+        "id": "smooth_sandstone_double_slab",
+        "numId": "-916",
+        "hexId": "FFFFFFFFFFFFFC6C"
+    },
+    {
+        "name": "红色下界砖双层台阶",
+        "id": "red_nether_brick_double_slab",
+        "numId": "-917",
+        "hexId": "FFFFFFFFFFFFFC6B"
+    },
+    {
+        "name": "平滑红砂岩双层台阶",
+        "id": "smooth_red_sandstone_double_slab",
+        "numId": "-918",
+        "hexId": "FFFFFFFFFFFFFC6A"
+    },
+    {
+        "name": "磨制安山岩双层台阶",
+        "id": "polished_andesite_double_slab",
+        "numId": "-919",
+        "hexId": "FFFFFFFFFFFFFC69"
+    },
+    {
+        "name": "安山岩双层台阶",
+        "id": "andesite_double_slab",
+        "numId": "-920",
+        "hexId": "FFFFFFFFFFFFFC68"
+    },
+    {
+        "name": "闪长岩双层台阶",
+        "id": "diorite_double_slab",
+        "numId": "-921",
+        "hexId": "FFFFFFFFFFFFFC67"
+    },
+    {
+        "name": "磨制闪长岩双层台阶",
+        "id": "polished_diorite_double_slab",
+        "numId": "-922",
+        "hexId": "FFFFFFFFFFFFFC66"
+    },
+    {
+        "name": "花岗岩双层台阶",
+        "id": "granite_double_slab",
+        "numId": "-923",
+        "hexId": "FFFFFFFFFFFFFC65"
+    },
+    {
+        "name": "磨制花岗岩双层台阶",
+        "id": "polished_granite_double_slab",
+        "numId": "-924",
+        "hexId": "FFFFFFFFFFFFFC64"
+    },
+    {
+        "name": "平滑石英双层台阶",
+        "id": "smooth_quartz_double_slab",
+        "numId": "-925",
+        "hexId": "FFFFFFFFFFFFFC63"
+    },
+    {
+        "name": "石头双层台阶",
+        "id": "normal_stone_double_slab",
+        "numId": "-926",
+        "hexId": "FFFFFFFFFFFFFC62"
+    },
+    {
+        "name": "切制砂岩双层台阶",
+        "id": "cut_sandstone_double_slab",
+        "numId": "-927",
+        "hexId": "FFFFFFFFFFFFFC61"
+    },
+    {
+        "name": "切制红砂岩双层台阶",
+        "id": "cut_red_sandstone_double_slab",
+        "numId": "-928",
+        "hexId": "FFFFFFFFFFFFFC60"
+    },
+    {
+        "name": "光源方块 （亮度1）",
+        "id": "light_block_1",
+        "numId": "-929",
+        "hexId": "FFFFFFFFFFFFFC5F"
+    },
+    {
+        "name": "光源方块 （亮度2）",
+        "id": "light_block_2",
+        "numId": "-930",
+        "hexId": "FFFFFFFFFFFFFC5E"
+    },
+    {
+        "name": "光源方块 （亮度3）",
+        "id": "light_block_3",
+        "numId": "-931",
+        "hexId": "FFFFFFFFFFFFFC5D"
+    },
+    {
+        "name": "光源方块 （亮度4）",
+        "id": "light_block_4",
+        "numId": "-932",
+        "hexId": "FFFFFFFFFFFFFC5C"
+    },
+    {
+        "name": "光源方块 （亮度5）",
+        "id": "light_block_5",
+        "numId": "-933",
+        "hexId": "FFFFFFFFFFFFFC5B"
+    },
+    {
+        "name": "光源方块 （亮度6）",
+        "id": "light_block_6",
+        "numId": "-934",
+        "hexId": "FFFFFFFFFFFFFC5A"
+    },
+    {
+        "name": "光源方块 （亮度7）",
+        "id": "light_block_7",
+        "numId": "-935",
+        "hexId": "FFFFFFFFFFFFFC59"
+    },
+    {
+        "name": "光源方块 （亮度8）",
+        "id": "light_block_8",
+        "numId": "-936",
+        "hexId": "FFFFFFFFFFFFFC58"
+    },
+    {
+        "name": "光源方块 （亮度9）",
+        "id": "light_block_9",
+        "numId": "-937",
+        "hexId": "FFFFFFFFFFFFFC57"
+    },
+    {
+        "name": "光源方块 （亮度10）",
+        "id": "light_block_10",
+        "numId": "-938",
+        "hexId": "FFFFFFFFFFFFFC56"
+    },
+    {
+        "name": "光源方块 （亮度11）",
+        "id": "light_block_11",
+        "numId": "-939",
+        "hexId": "FFFFFFFFFFFFFC55"
+    },
+    {
+        "name": "光源方块 （亮度12）",
+        "id": "light_block_12",
+        "numId": "-940",
+        "hexId": "FFFFFFFFFFFFFC54"
+    },
+    {
+        "name": "光源方块 （亮度13）",
+        "id": "light_block_13",
+        "numId": "-941",
+        "hexId": "FFFFFFFFFFFFFC53"
+    },
+    {
+        "name": "光源方块 （亮度14）",
+        "id": "light_block_14",
+        "numId": "-942",
+        "hexId": "FFFFFFFFFFFFFC52"
+    },
+    {
+        "name": "光源方块 （亮度15）",
+        "id": "light_block_15",
+        "numId": "-943",
+        "hexId": "FFFFFFFFFFFFFC51"
+    },
+    {
+        "name": "雕纹砂岩",
+        "id": "chiseled_sandstone",
+        "numId": "-944",
+        "hexId": "FFFFFFFFFFFFFC50"
+    },
+    {
+        "name": "切制砂岩",
+        "id": "cut_sandstone",
+        "numId": "-945",
+        "hexId": "FFFFFFFFFFFFFC4F"
+    },
+    {
+        "name": "平滑砂岩",
+        "id": "smooth_sandstone",
+        "numId": "-946",
+        "hexId": "FFFFFFFFFFFFFC4E"
+    },
+    {
+        "name": "暗海晶石",
+        "id": "dark_prismarine",
+        "numId": "-947",
+        "hexId": "FFFFFFFFFFFFFC4D"
+    },
+    {
+        "name": "海晶石砖",
+        "id": "prismarine_bricks",
+        "numId": "-948",
+        "hexId": "FFFFFFFFFFFFFC4C"
+    },
+    {
+        "name": "红沙",
+        "id": "red_sand",
+        "numId": "-949",
+        "hexId": "FFFFFFFFFFFFFC4B"
+    },
+    {
+        "name": "雕纹紫珀块",
+        "id": "deprecated_purpur_block_1",
+        "numId": "-950",
+        "hexId": "FFFFFFFFFFFFFC4A"
+    },
+    {
+        "name": "紫珀柱",
+        "id": "purpur_pillar",
+        "numId": "-951",
+        "hexId": "FFFFFFFFFFFFFC49"
+    },
+    {
+        "name": "平滑紫珀块",
+        "id": "deprecated_purpur_block_2",
+        "numId": "-952",
+        "hexId": "FFFFFFFFFFFFFC48"
+    },
+    {
+        "name": "雕纹石英块",
+        "id": "chiseled_quartz_block",
+        "numId": "-953",
+        "hexId": "FFFFFFFFFFFFFC47"
+    },
+    {
+        "name": "石英柱",
+        "id": "quartz_pillar",
+        "numId": "-954",
+        "hexId": "FFFFFFFFFFFFFC46"
+    },
+    {
+        "name": "平滑石英块",
+        "id": "smooth_quartz_block",
+        "numId": "-955",
+        "hexId": "FFFFFFFFFFFFFC45"
+    },
+    {
+        "name": "雕纹红砂岩",
+        "id": "chiseled_red_sandstone",
+        "numId": "-956",
+        "hexId": "FFFFFFFFFFFFFC44"
+    },
+    {
+        "name": "切制红砂岩",
+        "id": "cut_red_sandstone",
+        "numId": "-957",
+        "hexId": "FFFFFFFFFFFFFC43"
+    },
+    {
+        "name": "平滑红砂岩",
+        "id": "smooth_red_sandstone",
+        "numId": "-958",
+        "hexId": "FFFFFFFFFFFFFC42"
+    },
+    {
+        "name": "开裂的铁砧",
+        "id": "chipped_anvil",
+        "numId": "-959",
+        "hexId": "FFFFFFFFFFFFFC41"
+    },
+    {
+        "name": "损坏的铁砧",
+        "id": "damaged_anvil",
+        "numId": "-960",
+        "hexId": "FFFFFFFFFFFFFC40"
+    },
+    {
+        "name": "破碎的铁砧",
+        "id": "deprecated_anvil",
+        "numId": "-961",
+        "hexId": "FFFFFFFFFFFFFC3F"
+    },
+    {
+        "name": "砂土",
+        "id": "coarse_dirt",
+        "numId": "-962",
+        "hexId": "FFFFFFFFFFFFFC3E"
+    },
+    {
+        "name": "绿色火把",
+        "id": "colored_torch_green",
+        "numId": "-963",
+        "hexId": "FFFFFFFFFFFFFC3D"
+    },
+    {
+        "name": "紫色火把",
+        "id": "colored_torch_purple",
+        "numId": "-964",
+        "hexId": "FFFFFFFFFFFFFC3C"
+    },
+    {
+        "name": "凋灵骷髅头颅",
+        "id": "wither_skeleton_skull",
+        "numId": "-965",
+        "hexId": "FFFFFFFFFFFFFC3B"
+    },
+    {
+        "name": "僵尸的头",
+        "id": "zombie_head",
+        "numId": "-966",
+        "hexId": "FFFFFFFFFFFFFC3A"
+    },
+    {
+        "name": "玩家的头",
+        "id": "player_head",
+        "numId": "-967",
+        "hexId": "FFFFFFFFFFFFFC39"
+    },
+    {
+        "name": "苦力怕的头",
+        "id": "creeper_head",
+        "numId": "-968",
+        "hexId": "FFFFFFFFFFFFFC38"
+    },
+    {
+        "name": "龙首",
+        "id": "dragon_head",
+        "numId": "-969",
+        "hexId": "FFFFFFFFFFFFFC37"
+    },
+    {
+        "name": "猪灵的头",
+        "id": "piglin_head",
+        "numId": "-970",
+        "hexId": "FFFFFFFFFFFFFC36"
+    },
+    {
+        "name": "苔石墙",
+        "id": "mossy_cobblestone_wall",
+        "numId": "-971",
+        "hexId": "FFFFFFFFFFFFFC35"
+    },
+    {
+        "name": "花岗岩墙",
+        "id": "granite_wall",
+        "numId": "-972",
+        "hexId": "FFFFFFFFFFFFFC34"
+    },
+    {
+        "name": "闪长岩墙",
+        "id": "diorite_wall",
+        "numId": "-973",
+        "hexId": "FFFFFFFFFFFFFC33"
+    },
+    {
+        "name": "安山岩墙",
+        "id": "andesite_wall",
+        "numId": "-974",
+        "hexId": "FFFFFFFFFFFFFC32"
+    },
+    {
+        "name": "砂岩墙",
+        "id": "sandstone_wall",
+        "numId": "-975",
+        "hexId": "FFFFFFFFFFFFFC31"
+    },
+    {
+        "name": "红砖墙",
+        "id": "brick_wall",
+        "numId": "-976",
+        "hexId": "FFFFFFFFFFFFFC30"
+    },
+    {
+        "name": "石砖墙",
+        "id": "stone_brick_wall",
+        "numId": "-977",
+        "hexId": "FFFFFFFFFFFFFC2F"
+    },
+    {
+        "name": "苔石砖墙",
+        "id": "mossy_stone_brick_wall",
+        "numId": "-978",
+        "hexId": "FFFFFFFFFFFFFC2E"
+    },
+    {
+        "name": "下界砖墙",
+        "id": "nether_brick_wall",
+        "numId": "-979",
+        "hexId": "FFFFFFFFFFFFFC2D"
+    },
+    {
+        "name": "末地石砖墙",
+        "id": "end_stone_brick_wall",
+        "numId": "-980",
+        "hexId": "FFFFFFFFFFFFFC2C"
+    },
+    {
+        "name": "海晶石墙",
+        "id": "prismarine_wall",
+        "numId": "-981",
+        "hexId": "FFFFFFFFFFFFFC2B"
+    },
+    {
+        "name": "红砂岩墙",
+        "id": "red_sandstone_wall",
+        "numId": "-982",
+        "hexId": "FFFFFFFFFFFFFC2A"
+    },
+    {
+        "name": "红色下界砖墙",
+        "id": "red_nether_brick_wall",
+        "numId": "-983",
+        "hexId": "FFFFFFFFFFFFFC29"
+    },
+    {
+        "name": "湿海绵",
+        "id": "wet_sponge",
+        "numId": "-984",
+        "hexId": "FFFFFFFFFFFFFC28"
+    },
+    {
+        "name": "水下TNT",
+        "id": "underwater_tnt",
+        "numId": "-985",
+        "hexId": "FFFFFFFFFFFFFC27"
+    },
+    {
+        "name": "材料分解器",
+        "id": "material_reducer",
+        "numId": "-986",
+        "hexId": "FFFFFFFFFFFFFC26"
+    },
+    {
+        "name": "元素构造器",
+        "id": "element_constructor",
+        "numId": "-987",
+        "hexId": "FFFFFFFFFFFFFC25"
+    },
+    {
+        "name": "实验台",
+        "id": "lab_table",
+        "numId": "-988",
+        "hexId": "FFFFFFFFFFFFFC24"
+    },
+    {
+        "name": "苍白橡木按钮",
+        "id": "pale_oak_button",
+        "numId": "-989",
+        "hexId": "FFFFFFFFFFFFFC23"
+    },
+    {
+        "name": "苍白橡木门",
+        "id": "pale_oak_door",
+        "numId": "-990",
+        "hexId": "FFFFFFFFFFFFFC22"
+    },
+    {
+        "name": "苍白橡木栅栏",
+        "id": "pale_oak_fence",
+        "numId": "-991",
+        "hexId": "FFFFFFFFFFFFFC21"
+    },
+    {
+        "name": "苍白橡木栅栏门",
+        "id": "pale_oak_fence_gate",
+        "numId": "-992",
+        "hexId": "FFFFFFFFFFFFFC20"
+    },
+    {
+        "name": "悬挂式苍白橡木告示牌",
+        "id": "pale_oak_hanging_sign",
+        "numId": "-993",
+        "hexId": "FFFFFFFFFFFFFC1F"
+    },
+    {
+        "name": "去皮苍白橡木原木",
+        "id": "stripped_pale_oak_log",
+        "numId": "-994",
+        "hexId": "FFFFFFFFFFFFFC1E"
+    },
+    {
+        "name": "苍白橡木原木",
+        "id": "pale_oak_log",
+        "numId": "-995",
+        "hexId": "FFFFFFFFFFFFFC1D"
+    },
+    {
+        "name": "苍白橡木木板",
+        "id": "pale_oak_planks",
+        "numId": "-996",
+        "hexId": "FFFFFFFFFFFFFC1C"
+    },
+    {
+        "name": "苍白橡木压力板",
+        "id": "pale_oak_pressure_plate",
+        "numId": "-997",
+        "hexId": "FFFFFFFFFFFFFC1B"
+    },
+    {
+        "name": "苍白橡木台阶",
+        "id": "pale_oak_slab",
+        "numId": "-998",
+        "hexId": "FFFFFFFFFFFFFC1A"
+    },
+    {
+        "name": "苍白橡木双层台阶",
+        "id": "pale_oak_double_slab",
+        "numId": "-999",
+        "hexId": "FFFFFFFFFFFFFC19"
+    },
+    {
+        "name": "苍白橡木楼梯",
+        "id": "pale_oak_stairs",
+        "numId": "-1000",
+        "hexId": "FFFFFFFFFFFFFC18"
+    },
+    {
+        "name": "苍白橡木告示牌",
+        "id": "pale_oak_standing_sign",
+        "numId": "-1001",
+        "hexId": "FFFFFFFFFFFFFC17"
+    },
+    {
+        "name": "苍白橡木活板门",
+        "id": "pale_oak_trapdoor",
+        "numId": "-1002",
+        "hexId": "FFFFFFFFFFFFFC16"
+    },
+    {
+        "name": "墙上的苍白橡木告示牌",
+        "id": "pale_oak_wall_sign",
+        "numId": "-1003",
+        "hexId": "FFFFFFFFFFFFFC15"
+    },
+    {
+        "name": "去皮苍白橡木",
+        "id": "stripped_pale_oak_wood",
+        "numId": "-1004",
+        "hexId": "FFFFFFFFFFFFFC14"
+    },
+    {
+        "name": "苍白橡木",
+        "id": "pale_oak_wood",
+        "numId": "-1005",
+        "hexId": "FFFFFFFFFFFFFC13"
+    },
+    {
+        "name": "苍白橡树树苗",
+        "id": "pale_oak_sapling",
+        "numId": "-1006",
+        "hexId": "FFFFFFFFFFFFFC12"
+    },
+    {
+        "name": "苍白橡树树叶",
+        "id": "pale_oak_leaves",
+        "numId": "-1007",
+        "hexId": "FFFFFFFFFFFFFC11"
+    },
+    {
+        "name": "蘑菇柄",
+        "id": "mushroom_stem",
+        "numId": "-1008",
+        "hexId": "FFFFFFFFFFFFFC10"
+    },
+    {
+        "name": "苍白苔藓块",
+        "id": "pale_moss_block",
+        "numId": "-1009",
+        "hexId": "FFFFFFFFFFFFFC0F"
+    },
+    {
+        "name": "苍白覆地苔藓",
+        "id": "pale_moss_carpet",
+        "numId": "-1010",
+        "hexId": "FFFFFFFFFFFFFC0E"
+    },
+    {
+        "name": "苍白垂须",
+        "id": "pale_hanging_moss",
+        "numId": "-1011",
+        "hexId": "FFFFFFFFFFFFFC0D"
+    },
+    {
+        "name": "嘎枝之心",
+        "id": "creaking_heart",
+        "numId": "-1012",
+        "hexId": "FFFFFFFFFFFFFC0C"
+    },
+    {
+        "name": "树脂砖块",
+        "id": "resin_bricks",
+        "numId": "-1013",
+        "hexId": "FFFFFFFFFFFFFC0B"
+    },
+    {
+        "name": "树脂砖台阶",
+        "id": "resin_brick_slab",
+        "numId": "-1014",
+        "hexId": "FFFFFFFFFFFFFC0A"
+    },
+    {
+        "name": "树脂砖双层台阶",
+        "id": "resin_brick_double_slab",
+        "numId": "-1015",
+        "hexId": "FFFFFFFFFFFFFC09"
+    },
+    {
+        "name": "树脂砖楼梯",
+        "id": "resin_brick_stairs",
+        "numId": "-1016",
+        "hexId": "FFFFFFFFFFFFFC08"
+    },
+    {
+        "name": "树脂砖墙",
+        "id": "resin_brick_wall",
+        "numId": "-1017",
+        "hexId": "FFFFFFFFFFFFFC07"
+    },
+    {
+        "name": "张开的眼眸花",
+        "id": "open_eyeblossom",
+        "numId": "-1018",
+        "hexId": "FFFFFFFFFFFFFC06"
+    },
+    {
+        "name": "闭合的眼眸花",
+        "id": "closed_eyeblossom",
+        "numId": "-1019",
+        "hexId": "FFFFFFFFFFFFFC05"
+    },
+    {
+        "name": "雕纹树脂砖块",
+        "id": "chiseled_resin_bricks",
+        "numId": "-1020",
+        "hexId": "FFFFFFFFFFFFFC04"
+    },
+    {
+        "name": "树脂块",
+        "id": "resin_block",
+        "numId": "-1021",
+        "hexId": "FFFFFFFFFFFFFC03"
+    },
+    {
+        "name": "树脂团",
+        "id": "resin_clump",
+        "numId": "-1022",
+        "hexId": "FFFFFFFFFFFFFC02"
+    },
+    {
+        "name": "灌木丛",
+        "id": "bush",
+        "numId": "-1023",
+        "hexId": "FFFFFFFFFFFFFC01"
+    },
+    {
+        "name": "野花簇",
+        "id": "wildflowers",
+        "numId": "-1024",
+        "hexId": "FFFFFFFFFFFFFC00"
+    },
+    {
+        "name": "萤火虫灌木丛",
+        "id": "firefly_bush",
+        "numId": "-1025",
+        "hexId": "FFFFFFFFFFFFFBFF"
+    },
+    {
+        "name": "枯叶堆",
+        "id": "leaf_litter",
+        "numId": "-1026",
+        "hexId": "FFFFFFFFFFFFFBFE"
+    },
+    {
+        "name": "失水恶魂",
+        "id": "dried_ghast",
+        "numId": "-1027",
+        "hexId": "FFFFFFFFFFFFFBFD"
+    },
+    {
+        "name": "矮枯草丛",
+        "id": "short_dry_grass",
+        "numId": "-1028",
+        "hexId": "FFFFFFFFFFFFFBFC"
+    },
+    {
+        "name": "高枯草丛",
+        "id": "tall_dry_grass",
+        "numId": "-1029",
+        "hexId": "FFFFFFFFFFFFFBFB"
+    },
+    {
+        "name": "仙人掌花",
+        "id": "cactus_flower",
+        "numId": "-1030",
+        "hexId": "FFFFFFFFFFFFFBFA"
+    },
+    {
+        "name": "铜箱子",
+        "id": "copper_chest",
+        "numId": "-1031",
+        "hexId": "FFFFFFFFFFFFFBF9"
+    },
+    {
+        "name": "斑驳的铜箱子",
+        "id": "exposed_copper_chest",
+        "numId": "-1032",
+        "hexId": "FFFFFFFFFFFFFBF8"
+    },
+    {
+        "name": "锈蚀的铜箱子",
+        "id": "weathered_copper_chest",
+        "numId": "-1033",
+        "hexId": "FFFFFFFFFFFFFBF7"
+    },
+    {
+        "name": "氧化的铜箱子",
+        "id": "oxidized_copper_chest",
+        "numId": "-1034",
+        "hexId": "FFFFFFFFFFFFFBF6"
+    },
+    {
+        "name": "涂蜡的铜箱子",
+        "id": "waxed_copper_chest",
+        "numId": "-1035",
+        "hexId": "FFFFFFFFFFFFFBF5"
+    },
+    {
+        "name": "涂蜡的斑驳铜箱子",
+        "id": "waxed_exposed_copper_chest",
+        "numId": "-1036",
+        "hexId": "FFFFFFFFFFFFFBF4"
+    },
+    {
+        "name": "涂蜡的锈蚀铜箱子",
+        "id": "waxed_weathered_copper_chest",
+        "numId": "-1037",
+        "hexId": "FFFFFFFFFFFFFBF3"
+    },
+    {
+        "name": "涂蜡的氧化铜箱子",
+        "id": "waxed_oxidized_copper_chest",
+        "numId": "-1038",
+        "hexId": "FFFFFFFFFFFFFBF2"
+    },
+    {
+        "name": "铜傀儡像",
+        "id": "copper_golem_statue",
+        "numId": "-1039",
+        "hexId": "FFFFFFFFFFFFFBF1"
+    },
+    {
+        "name": "斑驳的铜傀儡像",
+        "id": "exposed_copper_golem_statue",
+        "numId": "-1040",
+        "hexId": "FFFFFFFFFFFFFBF0"
+    },
+    {
+        "name": "锈蚀的铜傀儡像",
+        "id": "weathered_copper_golem_statue",
+        "numId": "-1041",
+        "hexId": "FFFFFFFFFFFFFBEF"
+    },
+    {
+        "name": "氧化的铜傀儡像",
+        "id": "oxidized_copper_golem_statue",
+        "numId": "-1042",
+        "hexId": "FFFFFFFFFFFFFBEE"
+    },
+    {
+        "name": "涂蜡的铜傀儡像",
+        "id": "waxed_copper_golem_statue",
+        "numId": "-1043",
+        "hexId": "FFFFFFFFFFFFFBED"
+    },
+    {
+        "name": "涂蜡的斑驳铜傀儡像",
+        "id": "waxed_exposed_copper_golem_statue",
+        "numId": "-1044",
+        "hexId": "FFFFFFFFFFFFFBEC"
+    },
+    {
+        "name": "涂蜡的锈蚀铜傀儡像",
+        "id": "waxed_weathered_copper_golem_statue",
+        "numId": "-1045",
+        "hexId": "FFFFFFFFFFFFFBEB"
+    },
+    {
+        "name": "涂蜡的氧化铜傀儡像",
+        "id": "waxed_oxidized_copper_golem_statue",
+        "numId": "-1046",
+        "hexId": "FFFFFFFFFFFFFBEA"
+    },
+    {
+        "name": "橡木展示架",
+        "id": "oak_shelf",
+        "numId": "-1047",
+        "hexId": "FFFFFFFFFFFFFBE9"
+    },
+    {
+        "name": "云杉木展示架",
+        "id": "spruce_shelf",
+        "numId": "-1048",
+        "hexId": "FFFFFFFFFFFFFBE8"
+    },
+    {
+        "name": "白桦木展示架",
+        "id": "birch_shelf",
+        "numId": "-1049",
+        "hexId": "FFFFFFFFFFFFFBE7"
+    },
+    {
+        "name": "丛林木展示架",
+        "id": "jungle_shelf",
+        "numId": "-1050",
+        "hexId": "FFFFFFFFFFFFFBE6"
+    },
+    {
+        "name": "金合欢木展示架",
+        "id": "acacia_shelf",
+        "numId": "-1051",
+        "hexId": "FFFFFFFFFFFFFBE5"
+    },
+    {
+        "name": "深色橡木展示架",
+        "id": "dark_oak_shelf",
+        "numId": "-1052",
+        "hexId": "FFFFFFFFFFFFFBE4"
+    },
+    {
+        "name": "红树木展示架",
+        "id": "mangrove_shelf",
+        "numId": "-1053",
+        "hexId": "FFFFFFFFFFFFFBE3"
+    },
+    {
+        "name": "樱花木展示架",
+        "id": "cherry_shelf",
+        "numId": "-1054",
+        "hexId": "FFFFFFFFFFFFFBE2"
+    },
+    {
+        "name": "苍白橡木展示架",
+        "id": "pale_oak_shelf",
+        "numId": "-1055",
+        "hexId": "FFFFFFFFFFFFFBE1"
+    },
+    {
+        "name": "竹展示架",
+        "id": "bamboo_shelf",
+        "numId": "-1056",
+        "hexId": "FFFFFFFFFFFFFBE0"
+    },
+    {
+        "name": "绯红木展示架",
+        "id": "crimson_shelf",
+        "numId": "-1057",
+        "hexId": "FFFFFFFFFFFFFBDF"
+    },
+    {
+        "name": "诡异木展示架",
+        "id": "warped_shelf",
+        "numId": "-1058",
+        "hexId": "FFFFFFFFFFFFFBDE"
+    },
+    {
+        "name": "斑驳的避雷针",
+        "id": "exposed_lightning_rod",
+        "numId": "-1059",
+        "hexId": "FFFFFFFFFFFFFBDD"
+    },
+    {
+        "name": "锈蚀的避雷针",
+        "id": "weathered_lightning_rod",
+        "numId": "-1060",
+        "hexId": "FFFFFFFFFFFFFBDC"
+    },
+    {
+        "name": "氧化的避雷针",
+        "id": "oxidized_lightning_rod",
+        "numId": "-1061",
+        "hexId": "FFFFFFFFFFFFFBDB"
+    },
+    {
+        "name": "涂蜡的避雷针",
+        "id": "waxed_lightning_rod",
+        "numId": "-1062",
+        "hexId": "FFFFFFFFFFFFFBDA"
+    },
+    {
+        "name": "涂蜡的斑驳避雷针",
+        "id": "waxed_exposed_lightning_rod",
+        "numId": "-1063",
+        "hexId": "FFFFFFFFFFFFFBD9"
+    },
+    {
+        "name": "涂蜡的锈蚀避雷针",
+        "id": "waxed_weathered_lightning_rod",
+        "numId": "-1064",
+        "hexId": "FFFFFFFFFFFFFBD8"
+    },
+    {
+        "name": "涂蜡的氧化避雷针",
+        "id": "waxed_oxidized_lightning_rod",
+        "numId": "-1065",
+        "hexId": "FFFFFFFFFFFFFBD7"
+    },
+    {
+        "name": "铜栏杆",
+        "id": "copper_bars",
+        "numId": "-1066",
+        "hexId": "FFFFFFFFFFFFFBD6"
+    },
+    {
+        "name": "斑驳的铜栏杆",
+        "id": "exposed_copper_bars",
+        "numId": "-1067",
+        "hexId": "FFFFFFFFFFFFFBD5"
+    },
+    {
+        "name": "锈蚀的铜栏杆",
+        "id": "weathered_copper_bars",
+        "numId": "-1068",
+        "hexId": "FFFFFFFFFFFFFBD4"
+    },
+    {
+        "name": "氧化的铜栏杆",
+        "id": "oxidized_copper_bars",
+        "numId": "-1069",
+        "hexId": "FFFFFFFFFFFFFBD3"
+    },
+    {
+        "name": "涂蜡的铜栏杆",
+        "id": "waxed_copper_bars",
+        "numId": "-1070",
+        "hexId": "FFFFFFFFFFFFFBD2"
+    },
+    {
+        "name": "涂蜡的斑驳铜栏杆",
+        "id": "waxed_exposed_copper_bars",
+        "numId": "-1071",
+        "hexId": "FFFFFFFFFFFFFBD1"
+    },
+    {
+        "name": "涂蜡的锈蚀铜栏杆",
+        "id": "waxed_weathered_copper_bars",
+        "numId": "-1072",
+        "hexId": "FFFFFFFFFFFFFBD0"
+    },
+    {
+        "name": "涂蜡的氧化铜栏杆",
+        "id": "waxed_oxidized_copper_bars",
+        "numId": "-1073",
+        "hexId": "FFFFFFFFFFFFFBCF"
+    },
+    {
+        "name": "铜链",
+        "id": "copper_chain",
+        "numId": "-1074",
+        "hexId": "FFFFFFFFFFFFFBCE"
+    },
+    {
+        "name": "斑驳的铜链",
+        "id": "exposed_copper_chain",
+        "numId": "-1075",
+        "hexId": "FFFFFFFFFFFFFBCD"
+    },
+    {
+        "name": "锈蚀的铜链",
+        "id": "weathered_copper_chain",
+        "numId": "-1076",
+        "hexId": "FFFFFFFFFFFFFBCC"
+    },
+    {
+        "name": "氧化的铜链",
+        "id": "oxidized_copper_chain",
+        "numId": "-1077",
+        "hexId": "FFFFFFFFFFFFFBCB"
+    },
+    {
+        "name": "涂蜡的铜链",
+        "id": "waxed_copper_chain",
+        "numId": "-1078",
+        "hexId": "FFFFFFFFFFFFFBCA"
+    },
+    {
+        "name": "涂蜡的斑驳铜链",
+        "id": "waxed_exposed_copper_chain",
+        "numId": "-1079",
+        "hexId": "FFFFFFFFFFFFFBC9"
+    },
+    {
+        "name": "涂蜡的锈蚀铜链",
+        "id": "waxed_weathered_copper_chain",
+        "numId": "-1080",
+        "hexId": "FFFFFFFFFFFFFBC8"
+    },
+    {
+        "name": "涂蜡的氧化铜链",
+        "id": "waxed_oxidized_copper_chain",
+        "numId": "-1081",
+        "hexId": "FFFFFFFFFFFFFBC7"
+    },
+    {
+        "name": "铜火把",
+        "id": "copper_torch",
+        "numId": "-1082",
+        "hexId": "FFFFFFFFFFFFFBC6"
+    },
+    {
+        "name": "铜灯笼",
+        "id": "copper_lantern",
+        "numId": "-1083",
+        "hexId": "FFFFFFFFFFFFFBC5"
+    },
+    {
+        "name": "斑驳的铜灯笼",
+        "id": "exposed_copper_lantern",
+        "numId": "-1084",
+        "hexId": "FFFFFFFFFFFFFBC4"
+    },
+    {
+        "name": "锈蚀的铜灯笼",
+        "id": "weathered_copper_lantern",
+        "numId": "-1085",
+        "hexId": "FFFFFFFFFFFFFBC3"
+    },
+    {
+        "name": "氧化的铜灯笼",
+        "id": "oxidized_copper_lantern",
+        "numId": "-1086",
+        "hexId": "FFFFFFFFFFFFFBC2"
+    },
+    {
+        "name": "涂蜡的铜灯笼",
+        "id": "waxed_copper_lantern",
+        "numId": "-1087",
+        "hexId": "FFFFFFFFFFFFFBC1"
+    },
+    {
+        "name": "涂蜡的斑驳铜灯笼",
+        "id": "waxed_exposed_copper_lantern",
+        "numId": "-1088",
+        "hexId": "FFFFFFFFFFFFFBC0"
+    },
+    {
+        "name": "涂蜡的锈蚀铜灯笼",
+        "id": "waxed_weathered_copper_lantern",
+        "numId": "-1089",
+        "hexId": "FFFFFFFFFFFFFBBF"
+    },
+    {
+        "name": "涂蜡的氧化铜灯笼",
+        "id": "waxed_oxidized_copper_lantern",
+        "numId": "-1090",
+        "hexId": "FFFFFFFFFFFFFBBE"
+    },
+    {
+        "name": "金蒲公英",
+        "id": "golden_dandelion",
+        "numId": "-1091",
+        "hexId": "FFFFFFFFFFFFFBBD"
+    },
+    {
+        "name": "硫黄",
+        "id": "sulfur",
+        "numId": "-1092",
+        "hexId": "FFFFFFFFFFFFFBBC"
+    },
+    {
+        "name": "硫黄台阶",
+        "id": "sulfur_slab",
+        "numId": "-1093",
+        "hexId": "FFFFFFFFFFFFFBBB"
+    },
+    {
+        "name": "硫黄双层台阶",
+        "id": "sulfur_double_slab",
+        "numId": "-1094",
+        "hexId": "FFFFFFFFFFFFFBBA"
+    },
+    {
+        "name": "硫黄楼梯",
+        "id": "sulfur_stairs",
+        "numId": "-1095",
+        "hexId": "FFFFFFFFFFFFFBB9"
+    },
+    {
+        "name": "硫黄墙",
+        "id": "sulfur_wall",
+        "numId": "-1096",
+        "hexId": "FFFFFFFFFFFFFBB8"
+    },
+    {
+        "name": "磨制硫黄",
+        "id": "polished_sulfur",
+        "numId": "-1097",
+        "hexId": "FFFFFFFFFFFFFBB7"
+    },
+    {
+        "name": "磨制硫黄台阶",
+        "id": "polished_sulfur_slab",
+        "numId": "-1098",
+        "hexId": "FFFFFFFFFFFFFBB6"
+    },
+    {
+        "name": "磨制硫黄双层台阶",
+        "id": "polished_sulfur_double_slab",
+        "numId": "-1099",
+        "hexId": "FFFFFFFFFFFFFBB5"
+    },
+    {
+        "name": "磨制硫黄楼梯",
+        "id": "polished_sulfur_stairs",
+        "numId": "-1100",
+        "hexId": "FFFFFFFFFFFFFBB4"
+    },
+    {
+        "name": "磨制硫黄墙",
+        "id": "polished_sulfur_wall",
+        "numId": "-1101",
+        "hexId": "FFFFFFFFFFFFFBB3"
+    },
+    {
+        "name": "硫黄砖",
+        "id": "sulfur_bricks",
+        "numId": "-1102",
+        "hexId": "FFFFFFFFFFFFFBB2"
+    },
+    {
+        "name": "硫黄砖台阶",
+        "id": "sulfur_brick_slab",
+        "numId": "-1103",
+        "hexId": "FFFFFFFFFFFFFBB1"
+    },
+    {
+        "name": "硫黄砖双层台阶",
+        "id": "sulfur_brick_double_slab",
+        "numId": "-1104",
+        "hexId": "FFFFFFFFFFFFFBB0"
+    },
+    {
+        "name": "硫黄砖楼梯",
+        "id": "sulfur_brick_stairs",
+        "numId": "-1105",
+        "hexId": "FFFFFFFFFFFFFBAF"
+    },
+    {
+        "name": "硫黄砖墙",
+        "id": "sulfur_brick_wall",
+        "numId": "-1106",
+        "hexId": "FFFFFFFFFFFFFBAE"
+    },
+    {
+        "name": "雕纹硫黄",
+        "id": "chiseled_sulfur",
+        "numId": "-1107",
+        "hexId": "FFFFFFFFFFFFFBAD"
+    },
+    {
+        "name": "烈性硫黄",
+        "id": "potent_sulfur",
+        "numId": "-1108",
+        "hexId": "FFFFFFFFFFFFFBAC"
+    },
+    {
+        "name": "朱砂",
+        "id": "cinnabar",
+        "numId": "-1109",
+        "hexId": "FFFFFFFFFFFFFBAB"
+    },
+    {
+        "name": "朱砂台阶",
+        "id": "cinnabar_slab",
+        "numId": "-1110",
+        "hexId": "FFFFFFFFFFFFFBAA"
+    },
+    {
+        "name": "朱砂双层台阶",
+        "id": "cinnabar_double_slab",
+        "numId": "-1111",
+        "hexId": "FFFFFFFFFFFFFBA9"
+    },
+    {
+        "name": "朱砂楼梯",
+        "id": "cinnabar_stairs",
+        "numId": "-1112",
+        "hexId": "FFFFFFFFFFFFFBA8"
+    },
+    {
+        "name": "朱砂墙",
+        "id": "cinnabar_wall",
+        "numId": "-1113",
+        "hexId": "FFFFFFFFFFFFFBA7"
+    },
+    {
+        "name": "磨制朱砂",
+        "id": "polished_cinnabar",
+        "numId": "-1114",
+        "hexId": "FFFFFFFFFFFFFBA6"
+    },
+    {
+        "name": "磨制朱砂台阶",
+        "id": "polished_cinnabar_slab",
+        "numId": "-1115",
+        "hexId": "FFFFFFFFFFFFFBA5"
+    },
+    {
+        "name": "磨制朱砂双层台阶",
+        "id": "polished_cinnabar_double_slab",
+        "numId": "-1116",
+        "hexId": "FFFFFFFFFFFFFBA4"
+    },
+    {
+        "name": "磨制朱砂楼梯",
+        "id": "polished_cinnabar_stairs",
+        "numId": "-1117",
+        "hexId": "FFFFFFFFFFFFFBA3"
+    },
+    {
+        "name": "磨制朱砂墙",
+        "id": "polished_cinnabar_wall",
+        "numId": "-1118",
+        "hexId": "FFFFFFFFFFFFFBA2"
+    },
+    {
+        "name": "朱砂砖",
+        "id": "cinnabar_bricks",
+        "numId": "-1119",
+        "hexId": "FFFFFFFFFFFFFBA1"
+    },
+    {
+        "name": "朱砂砖台阶",
+        "id": "cinnabar_brick_slab",
+        "numId": "-1120",
+        "hexId": "FFFFFFFFFFFFFBA0"
+    },
+    {
+        "name": "朱砂砖双层台阶",
+        "id": "cinnabar_brick_double_slab",
+        "numId": "-1121",
+        "hexId": "FFFFFFFFFFFFFB9F"
+    },
+    {
+        "name": "朱砂砖楼梯",
+        "id": "cinnabar_brick_stairs",
+        "numId": "-1122",
+        "hexId": "FFFFFFFFFFFFFB9E"
+    },
+    {
+        "name": "朱砂砖墙",
+        "id": "cinnabar_brick_wall",
+        "numId": "-1123",
+        "hexId": "FFFFFFFFFFFFFB9D"
+    },
+    {
+        "name": "雕纹朱砂",
+        "id": "chiseled_cinnabar",
+        "numId": "-1124",
+        "hexId": "FFFFFFFFFFFFFB9C"
+    },
+    {
+        "name": "硫黄尖锥",
+        "id": "sulfur_spike",
+        "numId": "-1125",
+        "hexId": "FFFFFFFFFFFFFB9B"
+    }
+]

@@ -1,0 +1,3524 @@
+[
+    {
+        "name": "铜矛",
+        "id": "copper_spear",
+        "numId": "257",
+        "hexId": "101"
+    },
+    {
+        "name": "钻石矛",
+        "id": "diamond_spear",
+        "numId": "258",
+        "hexId": "102"
+    },
+    {
+        "name": "金矛",
+        "id": "golden_spear",
+        "numId": "259",
+        "hexId": "103"
+    },
+    {
+        "name": "铁矛",
+        "id": "iron_spear",
+        "numId": "260",
+        "hexId": "104"
+    },
+    {
+        "name": "下界合金矛",
+        "id": "netherite_spear",
+        "numId": "261",
+        "hexId": "105"
+    },
+    {
+        "name": "石矛",
+        "id": "stone_spear",
+        "numId": "262",
+        "hexId": "106"
+    },
+    {
+        "name": "木矛",
+        "id": "wooden_spear",
+        "numId": "263",
+        "hexId": "107"
+    },
+    {
+        "name": "黑色收纳袋",
+        "id": "black_bundle",
+        "numId": "264",
+        "hexId": "108"
+    },
+    {
+        "name": "蓝色收纳袋",
+        "id": "blue_bundle",
+        "numId": "265",
+        "hexId": "109"
+    },
+    {
+        "name": "棕色收纳袋",
+        "id": "brown_bundle",
+        "numId": "266",
+        "hexId": "10A"
+    },
+    {
+        "name": "收纳袋",
+        "id": "bundle",
+        "numId": "267",
+        "hexId": "10B"
+    },
+    {
+        "name": "青色收纳袋",
+        "id": "cyan_bundle",
+        "numId": "268",
+        "hexId": "10C"
+    },
+    {
+        "name": "灰色收纳袋",
+        "id": "gray_bundle",
+        "numId": "269",
+        "hexId": "10D"
+    },
+    {
+        "name": "绿色收纳袋",
+        "id": "green_bundle",
+        "numId": "270",
+        "hexId": "10E"
+    },
+    {
+        "name": "淡蓝色收纳袋",
+        "id": "light_blue_bundle",
+        "numId": "271",
+        "hexId": "10F"
+    },
+    {
+        "name": "淡灰色收纳袋",
+        "id": "light_gray_bundle",
+        "numId": "272",
+        "hexId": "110"
+    },
+    {
+        "name": "黄绿色收纳袋",
+        "id": "lime_bundle",
+        "numId": "273",
+        "hexId": "111"
+    },
+    {
+        "name": "品红色收纳袋",
+        "id": "magenta_bundle",
+        "numId": "274",
+        "hexId": "112"
+    },
+    {
+        "name": "橙色收纳袋",
+        "id": "orange_bundle",
+        "numId": "275",
+        "hexId": "113"
+    },
+    {
+        "name": "粉红色收纳袋",
+        "id": "pink_bundle",
+        "numId": "276",
+        "hexId": "114"
+    },
+    {
+        "name": "紫色收纳袋",
+        "id": "purple_bundle",
+        "numId": "277",
+        "hexId": "115"
+    },
+    {
+        "name": "红色收纳袋",
+        "id": "red_bundle",
+        "numId": "278",
+        "hexId": "116"
+    },
+    {
+        "name": "白色收纳袋",
+        "id": "white_bundle",
+        "numId": "279",
+        "hexId": "117"
+    },
+    {
+        "name": "黄色收纳袋",
+        "id": "yellow_bundle",
+        "numId": "280",
+        "hexId": "118"
+    },
+    {
+        "name": "旋风棒",
+        "id": "breeze_rod",
+        "numId": "281",
+        "hexId": "119"
+    },
+    {
+        "name": "不祥试炼钥匙",
+        "id": "ominous_trial_key",
+        "numId": "282",
+        "hexId": "11A"
+    },
+    {
+        "name": "试炼钥匙",
+        "id": "trial_key",
+        "numId": "283",
+        "hexId": "11B"
+    },
+    {
+        "name": "风弹",
+        "id": "wind_charge",
+        "numId": "284",
+        "hexId": "11C"
+    },
+    {
+        "name": "苹果",
+        "id": "apple",
+        "numId": "285",
+        "hexId": "11D"
+    },
+    {
+        "name": "金苹果",
+        "id": "golden_apple",
+        "numId": "287",
+        "hexId": "11F"
+    },
+    {
+        "name": "附魔金苹果",
+        "id": "enchanted_golden_apple",
+        "numId": "288",
+        "hexId": "120"
+    },
+    {
+        "name": "蘑菇煲",
+        "id": "mushroom_stew",
+        "numId": "289",
+        "hexId": "121"
+    },
+    {
+        "name": "面包",
+        "id": "bread",
+        "numId": "290",
+        "hexId": "122"
+    },
+    {
+        "name": "生猪排",
+        "id": "porkchop",
+        "numId": "291",
+        "hexId": "123"
+    },
+    {
+        "name": "熟猪排",
+        "id": "cooked_porkchop",
+        "numId": "292",
+        "hexId": "124"
+    },
+    {
+        "name": "生鳕鱼",
+        "id": "cod",
+        "numId": "293",
+        "hexId": "125"
+    },
+    {
+        "name": "生鲑鱼",
+        "id": "salmon",
+        "numId": "294",
+        "hexId": "126"
+    },
+    {
+        "name": "热带鱼",
+        "id": "tropical_fish",
+        "numId": "295",
+        "hexId": "127"
+    },
+    {
+        "name": "河豚",
+        "id": "pufferfish",
+        "numId": "296",
+        "hexId": "128"
+    },
+    {
+        "name": "熟鳕鱼",
+        "id": "cooked_cod",
+        "numId": "297",
+        "hexId": "129"
+    },
+    {
+        "name": "熟鲑鱼",
+        "id": "cooked_salmon",
+        "numId": "298",
+        "hexId": "12A"
+    },
+    {
+        "name": "干海带",
+        "id": "dried_kelp",
+        "numId": "299",
+        "hexId": "12B"
+    },
+    {
+        "name": "曲奇",
+        "id": "cookie",
+        "numId": "300",
+        "hexId": "12C"
+    },
+    {
+        "name": "西瓜",
+        "id": "melon_slice",
+        "numId": "301",
+        "hexId": "12D"
+    },
+    {
+        "name": "生牛肉",
+        "id": "beef",
+        "numId": "302",
+        "hexId": "12E"
+    },
+    {
+        "name": "牛排",
+        "id": "cooked_beef",
+        "numId": "303",
+        "hexId": "12F"
+    },
+    {
+        "name": "生鸡肉",
+        "id": "chicken",
+        "numId": "304",
+        "hexId": "130"
+    },
+    {
+        "name": "熟鸡肉",
+        "id": "cooked_chicken",
+        "numId": "305",
+        "hexId": "131"
+    },
+    {
+        "name": "腐肉",
+        "id": "rotten_flesh",
+        "numId": "306",
+        "hexId": "132"
+    },
+    {
+        "name": "蜘蛛眼",
+        "id": "spider_eye",
+        "numId": "307",
+        "hexId": "133"
+    },
+    {
+        "name": "胡萝卜",
+        "id": "carrot",
+        "numId": "308",
+        "hexId": "134"
+    },
+    {
+        "name": "马铃薯",
+        "id": "potato",
+        "numId": "309",
+        "hexId": "135"
+    },
+    {
+        "name": "烤马铃薯",
+        "id": "baked_potato",
+        "numId": "310",
+        "hexId": "136"
+    },
+    {
+        "name": "毒马铃薯",
+        "id": "poisonous_potato",
+        "numId": "311",
+        "hexId": "137"
+    },
+    {
+        "name": "金胡萝卜",
+        "id": "golden_carrot",
+        "numId": "312",
+        "hexId": "138"
+    },
+    {
+        "name": "南瓜派",
+        "id": "pumpkin_pie",
+        "numId": "313",
+        "hexId": "139"
+    },
+    {
+        "name": "甜菜根",
+        "id": "beetroot",
+        "numId": "314",
+        "hexId": "13A"
+    },
+    {
+        "name": "甜菜汤",
+        "id": "beetroot_soup",
+        "numId": "315",
+        "hexId": "13B"
+    },
+    {
+        "name": "甜浆果",
+        "id": "sweet_berries",
+        "numId": "316",
+        "hexId": "13C"
+    },
+    {
+        "name": "生兔肉",
+        "id": "rabbit",
+        "numId": "317",
+        "hexId": "13D"
+    },
+    {
+        "name": "熟兔肉",
+        "id": "cooked_rabbit",
+        "numId": "318",
+        "hexId": "13E"
+    },
+    {
+        "name": "兔肉煲",
+        "id": "rabbit_stew",
+        "numId": "319",
+        "hexId": "13F"
+    },
+    {
+        "name": "种子",
+        "id": "wheat_seeds",
+        "numId": "320",
+        "hexId": "140"
+    },
+    {
+        "name": "南瓜种子",
+        "id": "pumpkin_seeds",
+        "numId": "321",
+        "hexId": "141"
+    },
+    {
+        "name": "西瓜种子",
+        "id": "melon_seeds",
+        "numId": "322",
+        "hexId": "142"
+    },
+    {
+        "name": "下界疣",
+        "id": "nether_wart",
+        "numId": "323",
+        "hexId": "143"
+    },
+    {
+        "name": "甜菜种子",
+        "id": "beetroot_seeds",
+        "numId": "324",
+        "hexId": "144"
+    },
+    {
+        "name": "火把花种子",
+        "id": "torchflower_seeds",
+        "numId": "325",
+        "hexId": "145"
+    },
+    {
+        "name": "瓶子草荚果",
+        "id": "pitcher_pod",
+        "numId": "326",
+        "hexId": "146"
+    },
+    {
+        "name": "铁锹",
+        "id": "iron_shovel",
+        "numId": "327",
+        "hexId": "147"
+    },
+    {
+        "name": "铁镐",
+        "id": "iron_pickaxe",
+        "numId": "328",
+        "hexId": "148"
+    },
+    {
+        "name": "铁斧",
+        "id": "iron_axe",
+        "numId": "329",
+        "hexId": "149"
+    },
+    {
+        "name": "打火石",
+        "id": "flint_and_steel",
+        "numId": "330",
+        "hexId": "14A"
+    },
+    {
+        "name": "弓",
+        "id": "bow",
+        "numId": "331",
+        "hexId": "14B"
+    },
+    {
+        "name": "箭",
+        "id": "arrow",
+        "numId": "332",
+        "hexId": "14C"
+    },
+    {
+        "name": "煤炭",
+        "id": "coal",
+        "numId": "333",
+        "hexId": "14D"
+    },
+    {
+        "name": "木炭",
+        "id": "charcoal",
+        "numId": "334",
+        "hexId": "14E"
+    },
+    {
+        "name": "钻石",
+        "id": "diamond",
+        "numId": "335",
+        "hexId": "14F"
+    },
+    {
+        "name": "铁锭",
+        "id": "iron_ingot",
+        "numId": "336",
+        "hexId": "150"
+    },
+    {
+        "name": "金锭",
+        "id": "gold_ingot",
+        "numId": "337",
+        "hexId": "151"
+    },
+    {
+        "name": "铁剑",
+        "id": "iron_sword",
+        "numId": "338",
+        "hexId": "152"
+    },
+    {
+        "name": "木剑",
+        "id": "wooden_sword",
+        "numId": "339",
+        "hexId": "153"
+    },
+    {
+        "name": "木锹",
+        "id": "wooden_shovel",
+        "numId": "340",
+        "hexId": "154"
+    },
+    {
+        "name": "木镐",
+        "id": "wooden_pickaxe",
+        "numId": "341",
+        "hexId": "155"
+    },
+    {
+        "name": "木斧",
+        "id": "wooden_axe",
+        "numId": "342",
+        "hexId": "156"
+    },
+    {
+        "name": "石剑",
+        "id": "stone_sword",
+        "numId": "343",
+        "hexId": "157"
+    },
+    {
+        "name": "石锹",
+        "id": "stone_shovel",
+        "numId": "344",
+        "hexId": "158"
+    },
+    {
+        "name": "石镐",
+        "id": "stone_pickaxe",
+        "numId": "345",
+        "hexId": "159"
+    },
+    {
+        "name": "石斧",
+        "id": "stone_axe",
+        "numId": "346",
+        "hexId": "15A"
+    },
+    {
+        "name": "钻石剑",
+        "id": "diamond_sword",
+        "numId": "347",
+        "hexId": "15B"
+    },
+    {
+        "name": "钻石锹",
+        "id": "diamond_shovel",
+        "numId": "348",
+        "hexId": "15C"
+    },
+    {
+        "name": "钻石镐",
+        "id": "diamond_pickaxe",
+        "numId": "349",
+        "hexId": "15D"
+    },
+    {
+        "name": "钻石斧",
+        "id": "diamond_axe",
+        "numId": "350",
+        "hexId": "15E"
+    },
+    {
+        "name": "重锤",
+        "id": "mace",
+        "numId": "351",
+        "hexId": "15F"
+    },
+    {
+        "name": "木棍",
+        "id": "stick",
+        "numId": "352",
+        "hexId": "160"
+    },
+    {
+        "name": "碗",
+        "id": "bowl",
+        "numId": "353",
+        "hexId": "161"
+    },
+    {
+        "name": "金剑",
+        "id": "golden_sword",
+        "numId": "354",
+        "hexId": "162"
+    },
+    {
+        "name": "金锹",
+        "id": "golden_shovel",
+        "numId": "355",
+        "hexId": "163"
+    },
+    {
+        "name": "金镐",
+        "id": "golden_pickaxe",
+        "numId": "356",
+        "hexId": "164"
+    },
+    {
+        "name": "金斧",
+        "id": "golden_axe",
+        "numId": "357",
+        "hexId": "165"
+    },
+    {
+        "name": "线",
+        "id": "string",
+        "numId": "358",
+        "hexId": "166"
+    },
+    {
+        "name": "羽毛",
+        "id": "feather",
+        "numId": "359",
+        "hexId": "167"
+    },
+    {
+        "name": "火药",
+        "id": "gunpowder",
+        "numId": "360",
+        "hexId": "168"
+    },
+    {
+        "name": "木锄",
+        "id": "wooden_hoe",
+        "numId": "361",
+        "hexId": "169"
+    },
+    {
+        "name": "石锄",
+        "id": "stone_hoe",
+        "numId": "362",
+        "hexId": "16A"
+    },
+    {
+        "name": "铁锄",
+        "id": "iron_hoe",
+        "numId": "363",
+        "hexId": "16B"
+    },
+    {
+        "name": "钻石锄",
+        "id": "diamond_hoe",
+        "numId": "364",
+        "hexId": "16C"
+    },
+    {
+        "name": "金锄",
+        "id": "golden_hoe",
+        "numId": "365",
+        "hexId": "16D"
+    },
+    {
+        "name": "小麦",
+        "id": "wheat",
+        "numId": "366",
+        "hexId": "16E"
+    },
+    {
+        "name": "皮革帽子",
+        "id": "leather_helmet",
+        "numId": "367",
+        "hexId": "16F"
+    },
+    {
+        "name": "皮革外套",
+        "id": "leather_chestplate",
+        "numId": "368",
+        "hexId": "170"
+    },
+    {
+        "name": "皮革裤子",
+        "id": "leather_leggings",
+        "numId": "369",
+        "hexId": "171"
+    },
+    {
+        "name": "皮革靴子",
+        "id": "leather_boots",
+        "numId": "370",
+        "hexId": "172"
+    },
+    {
+        "name": "锁链头盔",
+        "id": "chainmail_helmet",
+        "numId": "371",
+        "hexId": "173"
+    },
+    {
+        "name": "锁链胸甲",
+        "id": "chainmail_chestplate",
+        "numId": "372",
+        "hexId": "174"
+    },
+    {
+        "name": "锁链护腿",
+        "id": "chainmail_leggings",
+        "numId": "373",
+        "hexId": "175"
+    },
+    {
+        "name": "锁链靴子",
+        "id": "chainmail_boots",
+        "numId": "374",
+        "hexId": "176"
+    },
+    {
+        "name": "铁头盔",
+        "id": "iron_helmet",
+        "numId": "375",
+        "hexId": "177"
+    },
+    {
+        "name": "铁胸甲",
+        "id": "iron_chestplate",
+        "numId": "376",
+        "hexId": "178"
+    },
+    {
+        "name": "铁护腿",
+        "id": "iron_leggings",
+        "numId": "377",
+        "hexId": "179"
+    },
+    {
+        "name": "铁靴子",
+        "id": "iron_boots",
+        "numId": "378",
+        "hexId": "17A"
+    },
+    {
+        "name": "钻石头盔",
+        "id": "diamond_helmet",
+        "numId": "379",
+        "hexId": "17B"
+    },
+    {
+        "name": "钻石胸甲",
+        "id": "diamond_chestplate",
+        "numId": "380",
+        "hexId": "17C"
+    },
+    {
+        "name": "钻石护腿",
+        "id": "diamond_leggings",
+        "numId": "381",
+        "hexId": "17D"
+    },
+    {
+        "name": "钻石靴子",
+        "id": "diamond_boots",
+        "numId": "382",
+        "hexId": "17E"
+    },
+    {
+        "name": "金头盔",
+        "id": "golden_helmet",
+        "numId": "383",
+        "hexId": "17F"
+    },
+    {
+        "name": "金胸甲",
+        "id": "golden_chestplate",
+        "numId": "384",
+        "hexId": "180"
+    },
+    {
+        "name": "金护腿",
+        "id": "golden_leggings",
+        "numId": "385",
+        "hexId": "181"
+    },
+    {
+        "name": "金靴子",
+        "id": "golden_boots",
+        "numId": "386",
+        "hexId": "182"
+    },
+    {
+        "name": "盾牌",
+        "id": "shield",
+        "numId": "387",
+        "hexId": "183"
+    },
+    {
+        "name": "燧石",
+        "id": "flint",
+        "numId": "388",
+        "hexId": "184"
+    },
+    {
+        "name": "画",
+        "id": "painting",
+        "numId": "389",
+        "hexId": "185"
+    },
+    {
+        "name": "橡木告示牌",
+        "id": "oak_sign",
+        "numId": "390",
+        "hexId": "186"
+    },
+    {
+        "name": "橡木门",
+        "id": "wooden_door",
+        "numId": "391",
+        "hexId": "187"
+    },
+    {
+        "name": "铁桶",
+        "id": "bucket",
+        "numId": "392",
+        "hexId": "188"
+    },
+    {
+        "name": "奶桶",
+        "id": "milk_bucket",
+        "numId": "393",
+        "hexId": "189"
+    },
+    {
+        "name": "水桶",
+        "id": "water_bucket",
+        "numId": "394",
+        "hexId": "18A"
+    },
+    {
+        "name": "熔岩桶",
+        "id": "lava_bucket",
+        "numId": "395",
+        "hexId": "18B"
+    },
+    {
+        "name": "鳕鱼桶",
+        "id": "cod_bucket",
+        "numId": "396",
+        "hexId": "18C"
+    },
+    {
+        "name": "鲑鱼桶",
+        "id": "salmon_bucket",
+        "numId": "397",
+        "hexId": "18D"
+    },
+    {
+        "name": "热带鱼桶",
+        "id": "tropical_fish_bucket",
+        "numId": "398",
+        "hexId": "18E"
+    },
+    {
+        "name": "河豚桶",
+        "id": "pufferfish_bucket",
+        "numId": "399",
+        "hexId": "18F"
+    },
+    {
+        "name": "细雪桶",
+        "id": "powder_snow_bucket",
+        "numId": "400",
+        "hexId": "190"
+    },
+    {
+        "name": "美西螈桶",
+        "id": "axolotl_bucket",
+        "numId": "401",
+        "hexId": "191"
+    },
+    {
+        "name": "矿车",
+        "id": "minecart",
+        "numId": "402",
+        "hexId": "192"
+    },
+    {
+        "name": "鞍",
+        "id": "saddle",
+        "numId": "403",
+        "hexId": "193"
+    },
+    {
+        "name": "铁门",
+        "id": "iron_door",
+        "numId": "404",
+        "hexId": "194"
+    },
+    {
+        "name": "红石粉",
+        "id": "redstone",
+        "numId": "405",
+        "hexId": "195"
+    },
+    {
+        "name": "雪球",
+        "id": "snowball",
+        "numId": "406",
+        "hexId": "196"
+    },
+    {
+        "name": "橡木船",
+        "id": "oak_boat",
+        "numId": "407",
+        "hexId": "197"
+    },
+    {
+        "name": "白桦木船",
+        "id": "birch_boat",
+        "numId": "408",
+        "hexId": "198"
+    },
+    {
+        "name": "丛林木船",
+        "id": "jungle_boat",
+        "numId": "409",
+        "hexId": "199"
+    },
+    {
+        "name": "云杉木船",
+        "id": "spruce_boat",
+        "numId": "410",
+        "hexId": "19A"
+    },
+    {
+        "name": "金合欢木船",
+        "id": "acacia_boat",
+        "numId": "411",
+        "hexId": "19B"
+    },
+    {
+        "name": "深色橡木船",
+        "id": "dark_oak_boat",
+        "numId": "412",
+        "hexId": "19C"
+    },
+    {
+        "name": "皮革",
+        "id": "leather",
+        "numId": "413",
+        "hexId": "19D"
+    },
+    {
+        "name": "海带",
+        "id": "kelp",
+        "numId": "414",
+        "hexId": "19E"
+    },
+    {
+        "name": "红砖",
+        "id": "brick",
+        "numId": "415",
+        "hexId": "19F"
+    },
+    {
+        "name": "黏土",
+        "id": "clay_ball",
+        "numId": "416",
+        "hexId": "1A0"
+    },
+    {
+        "name": "甘蔗",
+        "id": "sugar_cane",
+        "numId": "417",
+        "hexId": "1A1"
+    },
+    {
+        "name": "纸",
+        "id": "paper",
+        "numId": "418",
+        "hexId": "1A2"
+    },
+    {
+        "name": "书",
+        "id": "book",
+        "numId": "419",
+        "hexId": "1A3"
+    },
+    {
+        "name": "黏液球",
+        "id": "slime_ball",
+        "numId": "420",
+        "hexId": "1A4"
+    },
+    {
+        "name": "运输矿车",
+        "id": "chest_minecart",
+        "numId": "421",
+        "hexId": "1A5"
+    },
+    {
+        "name": "鸡蛋",
+        "id": "egg",
+        "numId": "422",
+        "hexId": "1A6"
+    },
+    {
+        "name": "指南针",
+        "id": "compass",
+        "numId": "423",
+        "hexId": "1A7"
+    },
+    {
+        "name": "钓鱼竿",
+        "id": "fishing_rod",
+        "numId": "424",
+        "hexId": "1A8"
+    },
+    {
+        "name": "时钟",
+        "id": "clock",
+        "numId": "425",
+        "hexId": "1A9"
+    },
+    {
+        "name": "荧石粉",
+        "id": "glowstone_dust",
+        "numId": "426",
+        "hexId": "1AA"
+    },
+    {
+        "name": "黑色染料",
+        "id": "black_dye",
+        "numId": "427",
+        "hexId": "1AB"
+    },
+    {
+        "name": "红色染料",
+        "id": "red_dye",
+        "numId": "428",
+        "hexId": "1AC"
+    },
+    {
+        "name": "绿色染料",
+        "id": "green_dye",
+        "numId": "429",
+        "hexId": "1AD"
+    },
+    {
+        "name": "棕色染料",
+        "id": "brown_dye",
+        "numId": "430",
+        "hexId": "1AE"
+    },
+    {
+        "name": "蓝色染料",
+        "id": "blue_dye",
+        "numId": "431",
+        "hexId": "1AF"
+    },
+    {
+        "name": "紫色染料",
+        "id": "purple_dye",
+        "numId": "432",
+        "hexId": "1B0"
+    },
+    {
+        "name": "青色染料",
+        "id": "cyan_dye",
+        "numId": "433",
+        "hexId": "1B1"
+    },
+    {
+        "name": "淡灰色染料",
+        "id": "light_gray_dye",
+        "numId": "434",
+        "hexId": "1B2"
+    },
+    {
+        "name": "灰色染料",
+        "id": "gray_dye",
+        "numId": "435",
+        "hexId": "1B3"
+    },
+    {
+        "name": "粉红色染料",
+        "id": "pink_dye",
+        "numId": "436",
+        "hexId": "1B4"
+    },
+    {
+        "name": "黄绿色染料",
+        "id": "lime_dye",
+        "numId": "437",
+        "hexId": "1B5"
+    },
+    {
+        "name": "黄色染料",
+        "id": "yellow_dye",
+        "numId": "438",
+        "hexId": "1B6"
+    },
+    {
+        "name": "淡蓝色染料",
+        "id": "light_blue_dye",
+        "numId": "439",
+        "hexId": "1B7"
+    },
+    {
+        "name": "品红色染料",
+        "id": "magenta_dye",
+        "numId": "440",
+        "hexId": "1B8"
+    },
+    {
+        "name": "橙色染料",
+        "id": "orange_dye",
+        "numId": "441",
+        "hexId": "1B9"
+    },
+    {
+        "name": "白色染料",
+        "id": "white_dye",
+        "numId": "442",
+        "hexId": "1BA"
+    },
+    {
+        "name": "骨粉",
+        "id": "bone_meal",
+        "numId": "443",
+        "hexId": "1BB"
+    },
+    {
+        "name": "可可豆",
+        "id": "cocoa_beans",
+        "numId": "444",
+        "hexId": "1BC"
+    },
+    {
+        "name": "墨囊",
+        "id": "ink_sac",
+        "numId": "445",
+        "hexId": "1BD"
+    },
+    {
+        "name": "青金石",
+        "id": "lapis_lazuli",
+        "numId": "446",
+        "hexId": "1BE"
+    },
+    {
+        "name": "骨头",
+        "id": "bone",
+        "numId": "447",
+        "hexId": "1BF"
+    },
+    {
+        "name": "糖",
+        "id": "sugar",
+        "numId": "448",
+        "hexId": "1C0"
+    },
+    {
+        "name": "蛋糕",
+        "id": "cake",
+        "numId": "449",
+        "hexId": "1C1"
+    },
+    {
+        "name": "床",
+        "id": "bed",
+        "numId": "450",
+        "hexId": "1C2"
+    },
+    {
+        "name": "红石中继器",
+        "id": "repeater",
+        "numId": "451",
+        "hexId": "1C3"
+    },
+    {
+        "name": "地图",
+        "id": "filled_map",
+        "numId": "452",
+        "hexId": "1C4"
+    },
+    {
+        "name": "剪刀",
+        "id": "shears",
+        "numId": "453",
+        "hexId": "1C5"
+    },
+    {
+        "name": "末影珍珠",
+        "id": "ender_pearl",
+        "numId": "454",
+        "hexId": "1C6"
+    },
+    {
+        "name": "烈焰棒",
+        "id": "blaze_rod",
+        "numId": "455",
+        "hexId": "1C7"
+    },
+    {
+        "name": "恶魂之泪",
+        "id": "ghast_tear",
+        "numId": "457",
+        "hexId": "1C9"
+    },
+    {
+        "name": "金粒",
+        "id": "gold_nugget",
+        "numId": "458",
+        "hexId": "1CA"
+    },
+    {
+        "name": "药水",
+        "id": "potion",
+        "numId": "459",
+        "hexId": "1CB"
+    },
+    {
+        "name": "玻璃瓶",
+        "id": "glass_bottle",
+        "numId": "460",
+        "hexId": "1CC"
+    },
+    {
+        "name": "发酵蛛眼",
+        "id": "fermented_spider_eye",
+        "numId": "461",
+        "hexId": "1CD"
+    },
+    {
+        "name": "烈焰粉",
+        "id": "blaze_powder",
+        "numId": "462",
+        "hexId": "1CE"
+    },
+    {
+        "name": "岩浆膏",
+        "id": "magma_cream",
+        "numId": "463",
+        "hexId": "1CF"
+    },
+    {
+        "name": "酿造台",
+        "id": "brewing_stand",
+        "numId": "464",
+        "hexId": "1D0"
+    },
+    {
+        "name": "炼药锅",
+        "id": "cauldron",
+        "numId": "465",
+        "hexId": "1D1"
+    },
+    {
+        "name": "末影之眼",
+        "id": "ender_eye",
+        "numId": "466",
+        "hexId": "1D2"
+    },
+    {
+        "name": "闪烁的西瓜片",
+        "id": "glistering_melon_slice",
+        "numId": "467",
+        "hexId": "1D3"
+    },
+    {
+        "name": "鸡刷怪蛋",
+        "id": "chicken_spawn_egg",
+        "numId": "468",
+        "hexId": "1D4"
+    },
+    {
+        "name": "牛刷怪蛋",
+        "id": "cow_spawn_egg",
+        "numId": "469",
+        "hexId": "1D5"
+    },
+    {
+        "name": "猪刷怪蛋",
+        "id": "pig_spawn_egg",
+        "numId": "470",
+        "hexId": "1D6"
+    },
+    {
+        "name": "绵羊刷怪蛋",
+        "id": "sheep_spawn_egg",
+        "numId": "471",
+        "hexId": "1D7"
+    },
+    {
+        "name": "狼刷怪蛋",
+        "id": "wolf_spawn_egg",
+        "numId": "472",
+        "hexId": "1D8"
+    },
+    {
+        "name": "哞菇刷怪蛋",
+        "id": "mooshroom_spawn_egg",
+        "numId": "473",
+        "hexId": "1D9"
+    },
+    {
+        "name": "苦力怕刷怪蛋",
+        "id": "creeper_spawn_egg",
+        "numId": "474",
+        "hexId": "1DA"
+    },
+    {
+        "name": "末影人刷怪蛋",
+        "id": "enderman_spawn_egg",
+        "numId": "475",
+        "hexId": "1DB"
+    },
+    {
+        "name": "蠹虫刷怪蛋",
+        "id": "silverfish_spawn_egg",
+        "numId": "476",
+        "hexId": "1DC"
+    },
+    {
+        "name": "骷髅刷怪蛋",
+        "id": "skeleton_spawn_egg",
+        "numId": "477",
+        "hexId": "1DD"
+    },
+    {
+        "name": "史莱姆刷怪蛋",
+        "id": "slime_spawn_egg",
+        "numId": "478",
+        "hexId": "1DE"
+    },
+    {
+        "name": "蜘蛛刷怪蛋",
+        "id": "spider_spawn_egg",
+        "numId": "479",
+        "hexId": "1DF"
+    },
+    {
+        "name": "僵尸刷怪蛋",
+        "id": "zombie_spawn_egg",
+        "numId": "480",
+        "hexId": "1E0"
+    },
+    {
+        "name": "僵尸猪灵刷怪蛋",
+        "id": "zombie_pigman_spawn_egg",
+        "numId": "481",
+        "hexId": "1E1"
+    },
+    {
+        "name": "村民刷怪蛋",
+        "id": "villager_spawn_egg",
+        "numId": "482",
+        "hexId": "1E2"
+    },
+    {
+        "name": "鱿鱼刷怪蛋",
+        "id": "squid_spawn_egg",
+        "numId": "483",
+        "hexId": "1E3"
+    },
+    {
+        "name": "豹猫刷怪蛋",
+        "id": "ocelot_spawn_egg",
+        "numId": "484",
+        "hexId": "1E4"
+    },
+    {
+        "name": "女巫刷怪蛋",
+        "id": "witch_spawn_egg",
+        "numId": "485",
+        "hexId": "1E5"
+    },
+    {
+        "name": "蝙蝠刷怪蛋",
+        "id": "bat_spawn_egg",
+        "numId": "486",
+        "hexId": "1E6"
+    },
+    {
+        "name": "恶魂刷怪蛋",
+        "id": "ghast_spawn_egg",
+        "numId": "487",
+        "hexId": "1E7"
+    },
+    {
+        "name": "岩浆怪刷怪蛋",
+        "id": "magma_cube_spawn_egg",
+        "numId": "488",
+        "hexId": "1E8"
+    },
+    {
+        "name": "烈焰人刷怪蛋",
+        "id": "blaze_spawn_egg",
+        "numId": "489",
+        "hexId": "1E9"
+    },
+    {
+        "name": "洞穴蜘蛛刷怪蛋",
+        "id": "cave_spider_spawn_egg",
+        "numId": "490",
+        "hexId": "1EA"
+    },
+    {
+        "name": "马刷怪蛋",
+        "id": "horse_spawn_egg",
+        "numId": "491",
+        "hexId": "1EB"
+    },
+    {
+        "name": "兔子刷怪蛋",
+        "id": "rabbit_spawn_egg",
+        "numId": "492",
+        "hexId": "1EC"
+    },
+    {
+        "name": "末影螨刷怪蛋",
+        "id": "endermite_spawn_egg",
+        "numId": "493",
+        "hexId": "1ED"
+    },
+    {
+        "name": "守卫者刷怪蛋",
+        "id": "guardian_spawn_egg",
+        "numId": "494",
+        "hexId": "1EE"
+    },
+    {
+        "name": "流浪者刷怪蛋",
+        "id": "stray_spawn_egg",
+        "numId": "495",
+        "hexId": "1EF"
+    },
+    {
+        "name": "沼骸刷怪蛋",
+        "id": "bogged_spawn_egg",
+        "numId": "496",
+        "hexId": "1F0"
+    },
+    {
+        "name": "尸壳刷怪蛋",
+        "id": "husk_spawn_egg",
+        "numId": "497",
+        "hexId": "1F1"
+    },
+    {
+        "name": "凋灵骷髅刷怪蛋",
+        "id": "wither_skeleton_spawn_egg",
+        "numId": "498",
+        "hexId": "1F2"
+    },
+    {
+        "name": "驴刷怪蛋",
+        "id": "donkey_spawn_egg",
+        "numId": "499",
+        "hexId": "1F3"
+    },
+    {
+        "name": "骡刷怪蛋",
+        "id": "mule_spawn_egg",
+        "numId": "500",
+        "hexId": "1F4"
+    },
+    {
+        "name": "骷髅马刷怪蛋",
+        "id": "skeleton_horse_spawn_egg",
+        "numId": "501",
+        "hexId": "1F5"
+    },
+    {
+        "name": "僵尸马刷怪蛋",
+        "id": "zombie_horse_spawn_egg",
+        "numId": "502",
+        "hexId": "1F6"
+    },
+    {
+        "name": "潜影贝刷怪蛋",
+        "id": "shulker_spawn_egg",
+        "numId": "503",
+        "hexId": "1F7"
+    },
+    {
+        "name": "NPC刷怪蛋",
+        "id": "npc_spawn_egg",
+        "numId": "504",
+        "hexId": "1F8"
+    },
+    {
+        "name": "远古守卫者刷怪蛋",
+        "id": "elder_guardian_spawn_egg",
+        "numId": "505",
+        "hexId": "1F9"
+    },
+    {
+        "name": "北极熊刷怪蛋",
+        "id": "polar_bear_spawn_egg",
+        "numId": "506",
+        "hexId": "1FA"
+    },
+    {
+        "name": "羊驼刷怪蛋",
+        "id": "llama_spawn_egg",
+        "numId": "507",
+        "hexId": "1FB"
+    },
+    {
+        "name": "卫道士刷怪蛋",
+        "id": "vindicator_spawn_egg",
+        "numId": "508",
+        "hexId": "1FC"
+    },
+    {
+        "name": "唤魔者刷怪蛋",
+        "id": "evoker_spawn_egg",
+        "numId": "509",
+        "hexId": "1FD"
+    },
+    {
+        "name": "恼鬼刷怪蛋",
+        "id": "vex_spawn_egg",
+        "numId": "510",
+        "hexId": "1FE"
+    },
+    {
+        "name": "僵尸村民刷怪蛋",
+        "id": "zombie_villager_spawn_egg",
+        "numId": "511",
+        "hexId": "1FF"
+    },
+    {
+        "name": "鹦鹉刷怪蛋",
+        "id": "parrot_spawn_egg",
+        "numId": "512",
+        "hexId": "200"
+    },
+    {
+        "name": "热带鱼刷怪蛋",
+        "id": "tropical_fish_spawn_egg",
+        "numId": "513",
+        "hexId": "201"
+    },
+    {
+        "name": "鳕鱼刷怪蛋",
+        "id": "cod_spawn_egg",
+        "numId": "514",
+        "hexId": "202"
+    },
+    {
+        "name": "河豚刷怪蛋",
+        "id": "pufferfish_spawn_egg",
+        "numId": "515",
+        "hexId": "203"
+    },
+    {
+        "name": "鲑鱼刷怪蛋",
+        "id": "salmon_spawn_egg",
+        "numId": "516",
+        "hexId": "204"
+    },
+    {
+        "name": "溺尸刷怪蛋",
+        "id": "drowned_spawn_egg",
+        "numId": "517",
+        "hexId": "205"
+    },
+    {
+        "name": "海豚刷怪蛋",
+        "id": "dolphin_spawn_egg",
+        "numId": "518",
+        "hexId": "206"
+    },
+    {
+        "name": "海龟刷怪蛋",
+        "id": "turtle_spawn_egg",
+        "numId": "519",
+        "hexId": "207"
+    },
+    {
+        "name": "幻翼刷怪蛋",
+        "id": "phantom_spawn_egg",
+        "numId": "520",
+        "hexId": "208"
+    },
+    {
+        "name": "智能体刷怪蛋",
+        "id": "agent_spawn_egg",
+        "numId": "521",
+        "hexId": "209"
+    },
+    {
+        "name": "猫刷怪蛋",
+        "id": "cat_spawn_egg",
+        "numId": "522",
+        "hexId": "20A"
+    },
+    {
+        "name": "熊猫刷怪蛋",
+        "id": "panda_spawn_egg",
+        "numId": "523",
+        "hexId": "20B"
+    },
+    {
+        "name": "狐狸刷怪蛋",
+        "id": "fox_spawn_egg",
+        "numId": "524",
+        "hexId": "20C"
+    },
+    {
+        "name": "掠夺者刷怪蛋",
+        "id": "pillager_spawn_egg",
+        "numId": "525",
+        "hexId": "20D"
+    },
+    {
+        "name": "流浪商人刷怪蛋",
+        "id": "wandering_trader_spawn_egg",
+        "numId": "526",
+        "hexId": "20E"
+    },
+    {
+        "name": "劫掠兽刷怪蛋",
+        "id": "ravager_spawn_egg",
+        "numId": "527",
+        "hexId": "20F"
+    },
+    {
+        "name": "蜜蜂刷怪蛋",
+        "id": "bee_spawn_egg",
+        "numId": "528",
+        "hexId": "210"
+    },
+    {
+        "name": "炽足兽刷怪蛋",
+        "id": "strider_spawn_egg",
+        "numId": "529",
+        "hexId": "211"
+    },
+    {
+        "name": "疣猪兽刷怪蛋",
+        "id": "hoglin_spawn_egg",
+        "numId": "530",
+        "hexId": "212"
+    },
+    {
+        "name": "猪灵刷怪蛋",
+        "id": "piglin_spawn_egg",
+        "numId": "531",
+        "hexId": "213"
+    },
+    {
+        "name": "僵尸疣猪兽刷怪蛋",
+        "id": "zoglin_spawn_egg",
+        "numId": "532",
+        "hexId": "214"
+    },
+    {
+        "name": "猪灵蛮兵刷怪蛋",
+        "id": "piglin_brute_spawn_egg",
+        "numId": "533",
+        "hexId": "215"
+    },
+    {
+        "name": "嗅探兽刷怪蛋",
+        "id": "sniffer_spawn_egg",
+        "numId": "534",
+        "hexId": "216"
+    },
+    {
+        "name": "旋风人刷怪蛋",
+        "id": "breeze_spawn_egg",
+        "numId": "535",
+        "hexId": "217"
+    },
+    {
+        "name": "美西螈刷怪蛋",
+        "id": "axolotl_spawn_egg",
+        "numId": "536",
+        "hexId": "218"
+    },
+    {
+        "name": "山羊刷怪蛋",
+        "id": "goat_spawn_egg",
+        "numId": "537",
+        "hexId": "219"
+    },
+    {
+        "name": "发光鱿鱼刷怪蛋",
+        "id": "glow_squid_spawn_egg",
+        "numId": "538",
+        "hexId": "21A"
+    },
+    {
+        "name": "铁傀儡刷怪蛋",
+        "id": "iron_golem_spawn_egg",
+        "numId": "539",
+        "hexId": "21B"
+    },
+    {
+        "name": "雪傀儡刷怪蛋",
+        "id": "snow_golem_spawn_egg",
+        "numId": "540",
+        "hexId": "21C"
+    },
+    {
+        "name": "末影龙刷怪蛋",
+        "id": "ender_dragon_spawn_egg",
+        "numId": "541",
+        "hexId": "21D"
+    },
+    {
+        "name": "凋灵刷怪蛋",
+        "id": "wither_spawn_egg",
+        "numId": "542",
+        "hexId": "21E"
+    },
+    {
+        "name": "荧光墨囊",
+        "id": "glow_ink_sac",
+        "numId": "543",
+        "hexId": "21F"
+    },
+    {
+        "name": "铜锭",
+        "id": "copper_ingot",
+        "numId": "544",
+        "hexId": "220"
+    },
+    {
+        "name": "粗铁",
+        "id": "raw_iron",
+        "numId": "545",
+        "hexId": "221"
+    },
+    {
+        "name": "粗金",
+        "id": "raw_gold",
+        "numId": "546",
+        "hexId": "222"
+    },
+    {
+        "name": "粗铜",
+        "id": "raw_copper",
+        "numId": "547",
+        "hexId": "223"
+    },
+    {
+        "name": "附魔之瓶",
+        "id": "experience_bottle",
+        "numId": "548",
+        "hexId": "224"
+    },
+    {
+        "name": "火焰弹",
+        "id": "fire_charge",
+        "numId": "549",
+        "hexId": "225"
+    },
+    {
+        "name": "书与笔",
+        "id": "writable_book",
+        "numId": "550",
+        "hexId": "226"
+    },
+    {
+        "name": "成书",
+        "id": "written_book",
+        "numId": "551",
+        "hexId": "227"
+    },
+    {
+        "name": "绿宝石",
+        "id": "emerald",
+        "numId": "552",
+        "hexId": "228"
+    },
+    {
+        "name": "物品展示框",
+        "id": "frame",
+        "numId": "553",
+        "hexId": "229"
+    },
+    {
+        "name": "花盆",
+        "id": "flower_pot",
+        "numId": "554",
+        "hexId": "22A"
+    },
+    {
+        "name": "空地图",
+        "id": "empty_map",
+        "numId": "555",
+        "hexId": "22B"
+    },
+    {
+        "name": "胡萝卜钓竿",
+        "id": "carrot_on_a_stick",
+        "numId": "556",
+        "hexId": "22C"
+    },
+    {
+        "name": "下界之星",
+        "id": "nether_star",
+        "numId": "557",
+        "hexId": "22D"
+    },
+    {
+        "name": "烟花火箭",
+        "id": "firework_rocket",
+        "numId": "558",
+        "hexId": "22E"
+    },
+    {
+        "name": "烟火之星",
+        "id": "firework_star",
+        "numId": "559",
+        "hexId": "22F"
+    },
+    {
+        "name": "附魔书",
+        "id": "enchanted_book",
+        "numId": "560",
+        "hexId": "230"
+    },
+    {
+        "name": "红石比较器",
+        "id": "comparator",
+        "numId": "561",
+        "hexId": "231"
+    },
+    {
+        "name": "下界砖",
+        "id": "netherbrick",
+        "numId": "562",
+        "hexId": "232"
+    },
+    {
+        "name": "下界石英",
+        "id": "quartz",
+        "numId": "563",
+        "hexId": "233"
+    },
+    {
+        "name": "TNT矿车",
+        "id": "tnt_minecart",
+        "numId": "564",
+        "hexId": "234"
+    },
+    {
+        "name": "漏斗矿车",
+        "id": "hopper_minecart",
+        "numId": "565",
+        "hexId": "235"
+    },
+    {
+        "name": "漏斗",
+        "id": "hopper",
+        "numId": "566",
+        "hexId": "236"
+    },
+    {
+        "name": "兔子脚",
+        "id": "rabbit_foot",
+        "numId": "567",
+        "hexId": "237"
+    },
+    {
+        "name": "兔子皮",
+        "id": "rabbit_hide",
+        "numId": "568",
+        "hexId": "238"
+    },
+    {
+        "name": "皮革马铠",
+        "id": "leather_horse_armor",
+        "numId": "569",
+        "hexId": "239"
+    },
+    {
+        "name": "铁马铠",
+        "id": "iron_horse_armor",
+        "numId": "570",
+        "hexId": "23A"
+    },
+    {
+        "name": "金马铠",
+        "id": "gold_horse_armor",
+        "numId": "571",
+        "hexId": "23B"
+    },
+    {
+        "name": "钻石马铠",
+        "id": "diamond_horse_armor",
+        "numId": "572",
+        "hexId": "23C"
+    },
+    {
+        "name": "音乐唱片13",
+        "id": "music_disc_13",
+        "numId": "573",
+        "hexId": "23D"
+    },
+    {
+        "name": "音乐唱片cat",
+        "id": "music_disc_cat",
+        "numId": "574",
+        "hexId": "23E"
+    },
+    {
+        "name": "音乐唱片blocks",
+        "id": "music_disc_blocks",
+        "numId": "575",
+        "hexId": "23F"
+    },
+    {
+        "name": "音乐唱片chirp",
+        "id": "music_disc_chirp",
+        "numId": "576",
+        "hexId": "240"
+    },
+    {
+        "name": "音乐唱片far",
+        "id": "music_disc_far",
+        "numId": "577",
+        "hexId": "241"
+    },
+    {
+        "name": "音乐唱片mall",
+        "id": "music_disc_mall",
+        "numId": "578",
+        "hexId": "242"
+    },
+    {
+        "name": "音乐唱片mellohi",
+        "id": "music_disc_mellohi",
+        "numId": "579",
+        "hexId": "243"
+    },
+    {
+        "name": "音乐唱片stal",
+        "id": "music_disc_stal",
+        "numId": "580",
+        "hexId": "244"
+    },
+    {
+        "name": "音乐唱片strad",
+        "id": "music_disc_strad",
+        "numId": "581",
+        "hexId": "245"
+    },
+    {
+        "name": "音乐唱片ward",
+        "id": "music_disc_ward",
+        "numId": "582",
+        "hexId": "246"
+    },
+    {
+        "name": "音乐唱片11",
+        "id": "music_disc_11",
+        "numId": "583",
+        "hexId": "247"
+    },
+    {
+        "name": "音乐唱片wait",
+        "id": "music_disc_wait",
+        "numId": "584",
+        "hexId": "248"
+    },
+    {
+        "name": "三叉戟",
+        "id": "trident",
+        "numId": "585",
+        "hexId": "249"
+    },
+    {
+        "name": "拴绳",
+        "id": "lead",
+        "numId": "586",
+        "hexId": "24A"
+    },
+    {
+        "name": "命名牌",
+        "id": "name_tag",
+        "numId": "587",
+        "hexId": "24B"
+    },
+    {
+        "name": "海晶砂粒",
+        "id": "prismarine_crystals",
+        "numId": "588",
+        "hexId": "24C"
+    },
+    {
+        "name": "生羊肉",
+        "id": "mutton",
+        "numId": "589",
+        "hexId": "24D"
+    },
+    {
+        "name": "熟羊肉",
+        "id": "cooked_mutton",
+        "numId": "590",
+        "hexId": "24E"
+    },
+    {
+        "name": "盔甲架",
+        "id": "armor_stand",
+        "numId": "591",
+        "hexId": "24F"
+    },
+    {
+        "name": "云杉木门",
+        "id": "spruce_door",
+        "numId": "592",
+        "hexId": "250"
+    },
+    {
+        "name": "白桦木门",
+        "id": "birch_door",
+        "numId": "593",
+        "hexId": "251"
+    },
+    {
+        "name": "丛林木门",
+        "id": "jungle_door",
+        "numId": "594",
+        "hexId": "252"
+    },
+    {
+        "name": "金合欢木门",
+        "id": "acacia_door",
+        "numId": "595",
+        "hexId": "253"
+    },
+    {
+        "name": "深色橡木门",
+        "id": "dark_oak_door",
+        "numId": "596",
+        "hexId": "254"
+    },
+    {
+        "name": "紫颂果",
+        "id": "chorus_fruit",
+        "numId": "597",
+        "hexId": "255"
+    },
+    {
+        "name": "爆裂紫颂果",
+        "id": "popped_chorus_fruit",
+        "numId": "598",
+        "hexId": "256"
+    },
+    {
+        "name": "龙息",
+        "id": "dragon_breath",
+        "numId": "599",
+        "hexId": "257"
+    },
+    {
+        "name": "喷溅药水",
+        "id": "splash_potion",
+        "numId": "600",
+        "hexId": "258"
+    },
+    {
+        "name": "滞留药水",
+        "id": "lingering_potion",
+        "numId": "601",
+        "hexId": "259"
+    },
+    {
+        "name": "命令方块矿车",
+        "id": "command_block_minecart",
+        "numId": "602",
+        "hexId": "25A"
+    },
+    {
+        "name": "鞘翅",
+        "id": "elytra",
+        "numId": "603",
+        "hexId": "25B"
+    },
+    {
+        "name": "海晶碎片",
+        "id": "prismarine_shard",
+        "numId": "604",
+        "hexId": "25C"
+    },
+    {
+        "name": "潜影壳",
+        "id": "shulker_shell",
+        "numId": "605",
+        "hexId": "25D"
+    },
+    {
+        "name": "旗帜",
+        "id": "banner",
+        "numId": "606",
+        "hexId": "25E"
+    },
+    {
+        "name": "不死图腾",
+        "id": "totem_of_undying",
+        "numId": "607",
+        "hexId": "25F"
+    },
+    {
+        "name": "铁粒",
+        "id": "iron_nugget",
+        "numId": "608",
+        "hexId": "260"
+    },
+    {
+        "name": "鹦鹉螺壳",
+        "id": "nautilus_shell",
+        "numId": "609",
+        "hexId": "261"
+    },
+    {
+        "name": "海洋之心",
+        "id": "heart_of_the_sea",
+        "numId": "610",
+        "hexId": "262"
+    },
+    {
+        "name": "海龟鳞甲",
+        "id": "scute",
+        "numId": "611",
+        "hexId": "263"
+    },
+    {
+        "name": "海龟壳",
+        "id": "turtle_helmet",
+        "numId": "612",
+        "hexId": "264"
+    },
+    {
+        "name": "幻翼膜",
+        "id": "phantom_membrane",
+        "numId": "613",
+        "hexId": "265"
+    },
+    {
+        "name": "弩",
+        "id": "crossbow",
+        "numId": "614",
+        "hexId": "266"
+    },
+    {
+        "name": "云杉木告示牌",
+        "id": "spruce_sign",
+        "numId": "615",
+        "hexId": "267"
+    },
+    {
+        "name": "白桦木告示牌",
+        "id": "birch_sign",
+        "numId": "616",
+        "hexId": "268"
+    },
+    {
+        "name": "丛林木告示牌",
+        "id": "jungle_sign",
+        "numId": "617",
+        "hexId": "269"
+    },
+    {
+        "name": "金合欢木告示牌",
+        "id": "acacia_sign",
+        "numId": "618",
+        "hexId": "26A"
+    },
+    {
+        "name": "深色橡木告示牌",
+        "id": "dark_oak_sign",
+        "numId": "619",
+        "hexId": "26B"
+    },
+    {
+        "name": "花朵盾徽旗帜图案",
+        "id": "flower_banner_pattern",
+        "numId": "620",
+        "hexId": "26C"
+    },
+    {
+        "name": "苦力怕盾徽旗帜图案",
+        "id": "creeper_banner_pattern",
+        "numId": "621",
+        "hexId": "26D"
+    },
+    {
+        "name": "头颅盾徽旗帜图案",
+        "id": "skull_banner_pattern",
+        "numId": "622",
+        "hexId": "26E"
+    },
+    {
+        "name": "Mojang徽标旗帜图案",
+        "id": "mojang_banner_pattern",
+        "numId": "623",
+        "hexId": "26F"
+    },
+    {
+        "name": "砖纹旗帜图案",
+        "id": "field_masoned_banner_pattern",
+        "numId": "624",
+        "hexId": "270"
+    },
+    {
+        "name": "波纹边旗帜图案",
+        "id": "bordure_indented_banner_pattern",
+        "numId": "625",
+        "hexId": "271"
+    },
+    {
+        "name": "猪鼻旗帜图案",
+        "id": "piglin_banner_pattern",
+        "numId": "626",
+        "hexId": "272"
+    },
+    {
+        "name": "地球旗帜图案",
+        "id": "globe_banner_pattern",
+        "numId": "627",
+        "hexId": "273"
+    },
+    {
+        "name": "涡流旗帜图案",
+        "id": "flow_banner_pattern",
+        "numId": "628",
+        "hexId": "274"
+    },
+    {
+        "name": "旋风旗帜图案",
+        "id": "guster_banner_pattern",
+        "numId": "629",
+        "hexId": "275"
+    },
+    {
+        "name": "营火",
+        "id": "campfire",
+        "numId": "630",
+        "hexId": "276"
+    },
+    {
+        "name": "谜之炖菜",
+        "id": "suspicious_stew",
+        "numId": "631",
+        "hexId": "277"
+    },
+    {
+        "name": "蜜脾",
+        "id": "honeycomb",
+        "numId": "632",
+        "hexId": "278"
+    },
+    {
+        "name": "蜂蜜瓶",
+        "id": "honey_bottle",
+        "numId": "633",
+        "hexId": "279"
+    },
+    {
+        "name": "不祥之瓶",
+        "id": "ominous_bottle",
+        "numId": "634",
+        "hexId": "27A"
+    },
+    {
+        "name": "黑板",
+        "id": "board",
+        "numId": "635",
+        "hexId": "27B"
+    },
+    {
+        "name": "摄像机",
+        "id": "camera",
+        "numId": "636",
+        "hexId": "27C"
+    },
+    {
+        "name": "化合物",
+        "id": "compound",
+        "numId": "637",
+        "hexId": "27D"
+    },
+    {
+        "name": "冰弹",
+        "id": "ice_bomb",
+        "numId": "638",
+        "hexId": "27E"
+    },
+    {
+        "name": "漂白剂",
+        "id": "bleach",
+        "numId": "639",
+        "hexId": "27F"
+    },
+    {
+        "name": "超级肥料",
+        "id": "rapid_fertilizer",
+        "numId": "640",
+        "hexId": "280"
+    },
+    {
+        "name": "气球",
+        "id": "balloon",
+        "numId": "641",
+        "hexId": "281"
+    },
+    {
+        "name": "药物",
+        "id": "medicine",
+        "numId": "642",
+        "hexId": "282"
+    },
+    {
+        "name": "烟花棒",
+        "id": "sparkler",
+        "numId": "643",
+        "hexId": "283"
+    },
+    {
+        "name": "荧光棒",
+        "id": "glow_stick",
+        "numId": "644",
+        "hexId": "284"
+    },
+    {
+        "name": "磁石指针",
+        "id": "lodestone_compass",
+        "numId": "645",
+        "hexId": "285"
+    },
+    {
+        "name": "下界合金剑",
+        "id": "netherite_sword",
+        "numId": "646",
+        "hexId": "286"
+    },
+    {
+        "name": "下界合金锹",
+        "id": "netherite_shovel",
+        "numId": "647",
+        "hexId": "287"
+    },
+    {
+        "name": "下界合金镐",
+        "id": "netherite_pickaxe",
+        "numId": "648",
+        "hexId": "288"
+    },
+    {
+        "name": "下界合金斧",
+        "id": "netherite_axe",
+        "numId": "649",
+        "hexId": "289"
+    },
+    {
+        "name": "下界合金锄",
+        "id": "netherite_hoe",
+        "numId": "650",
+        "hexId": "28A"
+    },
+    {
+        "name": "下界合金锭",
+        "id": "netherite_ingot",
+        "numId": "651",
+        "hexId": "28B"
+    },
+    {
+        "name": "下界合金头盔",
+        "id": "netherite_helmet",
+        "numId": "652",
+        "hexId": "28C"
+    },
+    {
+        "name": "下界合金胸甲",
+        "id": "netherite_chestplate",
+        "numId": "653",
+        "hexId": "28D"
+    },
+    {
+        "name": "下界合金护腿",
+        "id": "netherite_leggings",
+        "numId": "654",
+        "hexId": "28E"
+    },
+    {
+        "name": "下界合金靴子",
+        "id": "netherite_boots",
+        "numId": "655",
+        "hexId": "28F"
+    },
+    {
+        "name": "下界合金碎片",
+        "id": "netherite_scrap",
+        "numId": "656",
+        "hexId": "290"
+    },
+    {
+        "name": "绯红木告示牌",
+        "id": "crimson_sign",
+        "numId": "657",
+        "hexId": "291"
+    },
+    {
+        "name": "诡异木告示牌",
+        "id": "warped_sign",
+        "numId": "658",
+        "hexId": "292"
+    },
+    {
+        "name": "绯红木门",
+        "id": "crimson_door",
+        "numId": "659",
+        "hexId": "293"
+    },
+    {
+        "name": "诡异木门",
+        "id": "warped_door",
+        "numId": "660",
+        "hexId": "294"
+    },
+    {
+        "name": "诡异菌钓竿",
+        "id": "warped_fungus_on_a_stick",
+        "numId": "661",
+        "hexId": "295"
+    },
+    {
+        "name": "音乐唱片Pigstep",
+        "id": "music_disc_pigstep",
+        "numId": "662",
+        "hexId": "296"
+    },
+    {
+        "name": "下界苗",
+        "id": "nether_sprouts",
+        "numId": "663",
+        "hexId": "297"
+    },
+    {
+        "name": "灵魂营火",
+        "id": "soul_campfire",
+        "numId": "664",
+        "hexId": "298"
+    },
+    {
+        "name": "荧光物品展示框",
+        "id": "glow_frame",
+        "numId": "665",
+        "hexId": "299"
+    },
+    {
+        "name": "紫水晶碎片",
+        "id": "amethyst_shard",
+        "numId": "666",
+        "hexId": "29A"
+    },
+    {
+        "name": "望远镜",
+        "id": "spyglass",
+        "numId": "667",
+        "hexId": "29B"
+    },
+    {
+        "name": "音乐唱片otherside",
+        "id": "music_disc_otherside",
+        "numId": "668",
+        "hexId": "29C"
+    },
+    {
+        "name": "山羊角",
+        "id": "goat_horn",
+        "numId": "669",
+        "hexId": "29D"
+    },
+    {
+        "name": "青蛙刷怪蛋",
+        "id": "frog_spawn_egg",
+        "numId": "670",
+        "hexId": "29E"
+    },
+    {
+        "name": "蝌蚪刷怪蛋",
+        "id": "tadpole_spawn_egg",
+        "numId": "671",
+        "hexId": "29F"
+    },
+    {
+        "name": "蝌蚪桶",
+        "id": "tadpole_bucket",
+        "numId": "672",
+        "hexId": "2A0"
+    },
+    {
+        "name": "悦灵刷怪蛋",
+        "id": "allay_spawn_egg",
+        "numId": "673",
+        "hexId": "2A1"
+    },
+    {
+        "name": "监守者刷怪蛋",
+        "id": "warden_spawn_egg",
+        "numId": "674",
+        "hexId": "2A2"
+    },
+    {
+        "name": "红树木门",
+        "id": "mangrove_door",
+        "numId": "675",
+        "hexId": "2A3"
+    },
+    {
+        "name": "红树木告示牌",
+        "id": "mangrove_sign",
+        "numId": "676",
+        "hexId": "2A4"
+    },
+    {
+        "name": "红树木船",
+        "id": "mangrove_boat",
+        "numId": "677",
+        "hexId": "2A5"
+    },
+    {
+        "name": "音乐唱片5",
+        "id": "music_disc_5",
+        "numId": "678",
+        "hexId": "2A6"
+    },
+    {
+        "name": "唱片残片（5）",
+        "id": "disc_fragment_5",
+        "numId": "679",
+        "hexId": "2A7"
+    },
+    {
+        "name": "橡木运输船",
+        "id": "oak_chest_boat",
+        "numId": "680",
+        "hexId": "2A8"
+    },
+    {
+        "name": "白桦木运输船",
+        "id": "birch_chest_boat",
+        "numId": "681",
+        "hexId": "2A9"
+    },
+    {
+        "name": "丛林木运输船",
+        "id": "jungle_chest_boat",
+        "numId": "682",
+        "hexId": "2AA"
+    },
+    {
+        "name": "云杉木运输船",
+        "id": "spruce_chest_boat",
+        "numId": "683",
+        "hexId": "2AB"
+    },
+    {
+        "name": "金合欢木运输船",
+        "id": "acacia_chest_boat",
+        "numId": "684",
+        "hexId": "2AC"
+    },
+    {
+        "name": "深色橡木运输船",
+        "id": "dark_oak_chest_boat",
+        "numId": "685",
+        "hexId": "2AD"
+    },
+    {
+        "name": "红树木运输船",
+        "id": "mangrove_chest_boat",
+        "numId": "686",
+        "hexId": "2AE"
+    },
+    {
+        "name": "运输船",
+        "id": "chest_boat",
+        "numId": "687",
+        "hexId": "2AF"
+    },
+    {
+        "name": "追溯指针",
+        "id": "recovery_compass",
+        "numId": "688",
+        "hexId": "2B0"
+    },
+    {
+        "name": "回响碎片",
+        "id": "echo_shard",
+        "numId": "689",
+        "hexId": "2B1"
+    },
+    {
+        "name": "行商羊驼刷怪蛋",
+        "id": "trader_llama_spawn_egg",
+        "numId": "690",
+        "hexId": "2B2"
+    },
+    {
+        "name": "樱花木船",
+        "id": "cherry_boat",
+        "numId": "691",
+        "hexId": "2B3"
+    },
+    {
+        "name": "樱花木运输船",
+        "id": "cherry_chest_boat",
+        "numId": "692",
+        "hexId": "2B4"
+    },
+    {
+        "name": "樱花木告示牌",
+        "id": "cherry_sign",
+        "numId": "693",
+        "hexId": "2B5"
+    },
+    {
+        "name": "竹告示牌",
+        "id": "bamboo_sign",
+        "numId": "694",
+        "hexId": "2B6"
+    },
+    {
+        "name": "竹筏",
+        "id": "bamboo_raft",
+        "numId": "695",
+        "hexId": "2B7"
+    },
+    {
+        "name": "运输竹筏",
+        "id": "bamboo_chest_raft",
+        "numId": "696",
+        "hexId": "2B8"
+    },
+    {
+        "name": "骆驼刷怪蛋",
+        "id": "camel_spawn_egg",
+        "numId": "697",
+        "hexId": "2B9"
+    },
+    {
+        "name": "骆驼尸壳刷怪蛋",
+        "id": "camel_husk_spawn_egg",
+        "numId": "698",
+        "hexId": "2BA"
+    },
+    {
+        "name": "垂钓纹样陶片",
+        "id": "angler_pottery_sherd",
+        "numId": "699",
+        "hexId": "2BB"
+    },
+    {
+        "name": "弓箭纹样陶片",
+        "id": "archer_pottery_sherd",
+        "numId": "700",
+        "hexId": "2BC"
+    },
+    {
+        "name": "举臂纹样陶片",
+        "id": "arms_up_pottery_sherd",
+        "numId": "701",
+        "hexId": "2BD"
+    },
+    {
+        "name": "利刃纹样陶片",
+        "id": "blade_pottery_sherd",
+        "numId": "702",
+        "hexId": "2BE"
+    },
+    {
+        "name": "佳酿纹样陶片",
+        "id": "brewer_pottery_sherd",
+        "numId": "703",
+        "hexId": "2BF"
+    },
+    {
+        "name": "烈焰纹样陶片",
+        "id": "burn_pottery_sherd",
+        "numId": "704",
+        "hexId": "2C0"
+    },
+    {
+        "name": "危机纹样陶片",
+        "id": "danger_pottery_sherd",
+        "numId": "705",
+        "hexId": "2C1"
+    },
+    {
+        "name": "探险纹样陶片",
+        "id": "explorer_pottery_sherd",
+        "numId": "706",
+        "hexId": "2C2"
+    },
+    {
+        "name": "涡流纹样陶片",
+        "id": "flow_pottery_sherd",
+        "numId": "707",
+        "hexId": "2C3"
+    },
+    {
+        "name": "挚友纹样陶片",
+        "id": "friend_pottery_sherd",
+        "numId": "708",
+        "hexId": "2C4"
+    },
+    {
+        "name": "旋风纹样陶片",
+        "id": "guster_pottery_sherd",
+        "numId": "709",
+        "hexId": "2C5"
+    },
+    {
+        "name": "爱心纹样陶片",
+        "id": "heart_pottery_sherd",
+        "numId": "710",
+        "hexId": "2C6"
+    },
+    {
+        "name": "心碎纹样陶片",
+        "id": "heartbreak_pottery_sherd",
+        "numId": "711",
+        "hexId": "2C7"
+    },
+    {
+        "name": "狼嚎纹样陶片",
+        "id": "howl_pottery_sherd",
+        "numId": "712",
+        "hexId": "2C8"
+    },
+    {
+        "name": "采矿纹样陶片",
+        "id": "miner_pottery_sherd",
+        "numId": "713",
+        "hexId": "2C9"
+    },
+    {
+        "name": "悲恸纹样陶片",
+        "id": "mourner_pottery_sherd",
+        "numId": "714",
+        "hexId": "2CA"
+    },
+    {
+        "name": "富饶纹样陶片",
+        "id": "plenty_pottery_sherd",
+        "numId": "715",
+        "hexId": "2CB"
+    },
+    {
+        "name": "珍宝纹样陶片",
+        "id": "prize_pottery_sherd",
+        "numId": "716",
+        "hexId": "2CC"
+    },
+    {
+        "name": "刮削纹样陶片",
+        "id": "scrape_pottery_sherd",
+        "numId": "717",
+        "hexId": "2CD"
+    },
+    {
+        "name": "麦捆纹样陶片",
+        "id": "sheaf_pottery_sherd",
+        "numId": "718",
+        "hexId": "2CE"
+    },
+    {
+        "name": "树荫纹样陶片",
+        "id": "shelter_pottery_sherd",
+        "numId": "719",
+        "hexId": "2CF"
+    },
+    {
+        "name": "头颅纹样陶片",
+        "id": "skull_pottery_sherd",
+        "numId": "720",
+        "hexId": "2D0"
+    },
+    {
+        "name": "嗅探纹样陶片",
+        "id": "snort_pottery_sherd",
+        "numId": "721",
+        "hexId": "2D1"
+    },
+    {
+        "name": "刷子",
+        "id": "brush",
+        "numId": "722",
+        "hexId": "2D2"
+    },
+    {
+        "name": "下界合金升级",
+        "id": "netherite_upgrade_smithing_template",
+        "numId": "723",
+        "hexId": "2D3"
+    },
+    {
+        "name": "哨兵盔甲纹饰",
+        "id": "sentry_armor_trim_smithing_template",
+        "numId": "724",
+        "hexId": "2D4"
+    },
+    {
+        "name": "沙丘盔甲纹饰",
+        "id": "dune_armor_trim_smithing_template",
+        "numId": "725",
+        "hexId": "2D5"
+    },
+    {
+        "name": "海岸盔甲纹饰",
+        "id": "coast_armor_trim_smithing_template",
+        "numId": "726",
+        "hexId": "2D6"
+    },
+    {
+        "name": "荒野盔甲纹饰",
+        "id": "wild_armor_trim_smithing_template",
+        "numId": "727",
+        "hexId": "2D7"
+    },
+    {
+        "name": "监守盔甲纹饰",
+        "id": "ward_armor_trim_smithing_template",
+        "numId": "728",
+        "hexId": "2D8"
+    },
+    {
+        "name": "眼眸盔甲纹饰",
+        "id": "eye_armor_trim_smithing_template",
+        "numId": "729",
+        "hexId": "2D9"
+    },
+    {
+        "name": "恼鬼盔甲纹饰",
+        "id": "vex_armor_trim_smithing_template",
+        "numId": "730",
+        "hexId": "2DA"
+    },
+    {
+        "name": "潮汐盔甲纹饰",
+        "id": "tide_armor_trim_smithing_template",
+        "numId": "731",
+        "hexId": "2DB"
+    },
+    {
+        "name": "猪鼻盔甲纹饰",
+        "id": "snout_armor_trim_smithing_template",
+        "numId": "732",
+        "hexId": "2DC"
+    },
+    {
+        "name": "肋骨盔甲纹饰",
+        "id": "rib_armor_trim_smithing_template",
+        "numId": "733",
+        "hexId": "2DD"
+    },
+    {
+        "name": "尖塔盔甲纹饰",
+        "id": "spire_armor_trim_smithing_template",
+        "numId": "734",
+        "hexId": "2DE"
+    },
+    {
+        "name": "幽静盔甲纹饰",
+        "id": "silence_armor_trim_smithing_template",
+        "numId": "735",
+        "hexId": "2DF"
+    },
+    {
+        "name": "向导盔甲纹饰",
+        "id": "wayfinder_armor_trim_smithing_template",
+        "numId": "736",
+        "hexId": "2E0"
+    },
+    {
+        "name": "牧民盔甲纹饰",
+        "id": "raiser_armor_trim_smithing_template",
+        "numId": "737",
+        "hexId": "2E1"
+    },
+    {
+        "name": "塑造盔甲纹饰",
+        "id": "shaper_armor_trim_smithing_template",
+        "numId": "738",
+        "hexId": "2E2"
+    },
+    {
+        "name": "雇主盔甲纹饰",
+        "id": "host_armor_trim_smithing_template",
+        "numId": "739",
+        "hexId": "2E3"
+    },
+    {
+        "name": "涡流盔甲纹饰",
+        "id": "flow_armor_trim_smithing_template",
+        "numId": "740",
+        "hexId": "2E4"
+    },
+    {
+        "name": "镶铆盔甲纹饰",
+        "id": "bolt_armor_trim_smithing_template",
+        "numId": "741",
+        "hexId": "2E5"
+    },
+    {
+        "name": "音乐唱片Relic",
+        "id": "music_disc_relic",
+        "numId": "742",
+        "hexId": "2E6"
+    },
+    {
+        "name": "生物头颅",
+        "id": "skull",
+        "numId": "743",
+        "hexId": "2E7"
+    },
+    {
+        "name": "带釉陶瓦",
+        "id": "stained_hardened_clay",
+        "numId": "744",
+        "hexId": "2E8"
+    },
+    {
+        "name": "犰狳刷怪蛋",
+        "id": "armadillo_spawn_egg",
+        "numId": "745",
+        "hexId": "2E9"
+    },
+    {
+        "name": "犰狳鳞甲",
+        "id": "armadillo_scute",
+        "numId": "746",
+        "hexId": "2EA"
+    },
+    {
+        "name": "狼铠",
+        "id": "wolf_armor",
+        "numId": "747",
+        "hexId": "2EB"
+    },
+    {
+        "name": "苍白橡木船",
+        "id": "pale_oak_boat",
+        "numId": "748",
+        "hexId": "2EC"
+    },
+    {
+        "name": "苍白橡木运输船",
+        "id": "pale_oak_chest_boat",
+        "numId": "749",
+        "hexId": "2ED"
+    },
+    {
+        "name": "苍白橡木告示牌",
+        "id": "pale_oak_sign",
+        "numId": "750",
+        "hexId": "2EE"
+    },
+    {
+        "name": "嘎枝刷怪蛋",
+        "id": "creaking_spawn_egg",
+        "numId": "751",
+        "hexId": "2EF"
+    },
+    {
+        "name": "树脂砖",
+        "id": "resin_brick",
+        "numId": "752",
+        "hexId": "2F0"
+    },
+    {
+        "name": "蓝色鸡蛋",
+        "id": "blue_egg",
+        "numId": "753",
+        "hexId": "2F1"
+    },
+    {
+        "name": "棕色鸡蛋",
+        "id": "brown_egg",
+        "numId": "754",
+        "hexId": "2F2"
+    },
+    {
+        "name": "快乐恶魂刷怪蛋",
+        "id": "happy_ghast_spawn_egg",
+        "numId": "755",
+        "hexId": "2F3"
+    },
+    {
+        "name": "黑色挽具",
+        "id": "black_harness",
+        "numId": "756",
+        "hexId": "2F4"
+    },
+    {
+        "name": "蓝色挽具",
+        "id": "blue_harness",
+        "numId": "757",
+        "hexId": "2F5"
+    },
+    {
+        "name": "棕色挽具",
+        "id": "brown_harness",
+        "numId": "758",
+        "hexId": "2F6"
+    },
+    {
+        "name": "青色挽具",
+        "id": "cyan_harness",
+        "numId": "759",
+        "hexId": "2F7"
+    },
+    {
+        "name": "灰色挽具",
+        "id": "gray_harness",
+        "numId": "760",
+        "hexId": "2F8"
+    },
+    {
+        "name": "绿色挽具",
+        "id": "green_harness",
+        "numId": "761",
+        "hexId": "2F9"
+    },
+    {
+        "name": "淡蓝色挽具",
+        "id": "light_blue_harness",
+        "numId": "762",
+        "hexId": "2FA"
+    },
+    {
+        "name": "淡灰色挽具",
+        "id": "light_gray_harness",
+        "numId": "763",
+        "hexId": "2FB"
+    },
+    {
+        "name": "黄绿色挽具",
+        "id": "lime_harness",
+        "numId": "764",
+        "hexId": "2FC"
+    },
+    {
+        "name": "品红色挽具",
+        "id": "magenta_harness",
+        "numId": "765",
+        "hexId": "2FD"
+    },
+    {
+        "name": "橙色挽具",
+        "id": "orange_harness",
+        "numId": "766",
+        "hexId": "2FE"
+    },
+    {
+        "name": "粉红色挽具",
+        "id": "pink_harness",
+        "numId": "767",
+        "hexId": "2FF"
+    },
+    {
+        "name": "紫色挽具",
+        "id": "purple_harness",
+        "numId": "768",
+        "hexId": "300"
+    },
+    {
+        "name": "红色挽具",
+        "id": "red_harness",
+        "numId": "769",
+        "hexId": "301"
+    },
+    {
+        "name": "白色挽具",
+        "id": "white_harness",
+        "numId": "770",
+        "hexId": "302"
+    },
+    {
+        "name": "黄色挽具",
+        "id": "yellow_harness",
+        "numId": "771",
+        "hexId": "303"
+    },
+    {
+        "name": "铜傀儡刷怪蛋",
+        "id": "copper_golem_spawn_egg",
+        "numId": "772",
+        "hexId": "304"
+    },
+    {
+        "name": "铜剑",
+        "id": "copper_sword",
+        "numId": "773",
+        "hexId": "305"
+    },
+    {
+        "name": "铜锹",
+        "id": "copper_shovel",
+        "numId": "774",
+        "hexId": "306"
+    },
+    {
+        "name": "铜镐",
+        "id": "copper_pickaxe",
+        "numId": "775",
+        "hexId": "307"
+    },
+    {
+        "name": "铜斧",
+        "id": "copper_axe",
+        "numId": "776",
+        "hexId": "308"
+    },
+    {
+        "name": "铜锄",
+        "id": "copper_hoe",
+        "numId": "777",
+        "hexId": "309"
+    },
+    {
+        "name": "铜头盔",
+        "id": "copper_helmet",
+        "numId": "778",
+        "hexId": "30A"
+    },
+    {
+        "name": "铜胸甲",
+        "id": "copper_chestplate",
+        "numId": "779",
+        "hexId": "30B"
+    },
+    {
+        "name": "铜护腿",
+        "id": "copper_leggings",
+        "numId": "780",
+        "hexId": "30C"
+    },
+    {
+        "name": "铜靴子",
+        "id": "copper_boots",
+        "numId": "781",
+        "hexId": "30D"
+    },
+    {
+        "name": "铜粒",
+        "id": "copper_nugget",
+        "numId": "782",
+        "hexId": "30E"
+    },
+    {
+        "name": "铜马铠",
+        "id": "copper_horse_armor",
+        "numId": "783",
+        "hexId": "30F"
+    },
+    {
+        "name": "鹦鹉螺刷怪蛋",
+        "id": "nautilus_spawn_egg",
+        "numId": "784",
+        "hexId": "310"
+    },
+    {
+        "name": "僵尸鹦鹉螺刷怪蛋",
+        "id": "zombie_nautilus_spawn_egg",
+        "numId": "785",
+        "hexId": "311"
+    },
+    {
+        "name": "焦骸刷怪蛋",
+        "id": "parched_spawn_egg",
+        "numId": "786",
+        "hexId": "312"
+    },
+    {
+        "name": "铜鹦鹉螺铠",
+        "id": "copper_nautilus_armor",
+        "numId": "787",
+        "hexId": "313"
+    },
+    {
+        "name": "铁鹦鹉螺铠",
+        "id": "iron_nautilus_armor",
+        "numId": "788",
+        "hexId": "314"
+    },
+    {
+        "name": "金鹦鹉螺铠",
+        "id": "golden_nautilus_armor",
+        "numId": "789",
+        "hexId": "315"
+    },
+    {
+        "name": "钻石鹦鹉螺铠",
+        "id": "diamond_nautilus_armor",
+        "numId": "790",
+        "hexId": "316"
+    },
+    {
+        "name": "下界合金鹦鹉螺铠",
+        "id": "netherite_nautilus_armor",
+        "numId": "791",
+        "hexId": "317"
+    },
+    {
+        "name": "下界合金马铠",
+        "id": "netherite_horse_armor",
+        "numId": "792",
+        "hexId": "318"
+    },
+    {
+        "name": "硫方怪刷怪蛋",
+        "id": "sulfur_cube_spawn_egg",
+        "numId": "793",
+        "hexId": "319"
+    },
+    {
+        "name": "硫方怪桶",
+        "id": "sulfur_cube_bucket",
+        "numId": "794",
+        "hexId": "31A"
+    },
+    {
+        "name": "羊毛",
+        "id": "wool",
+        "numId": "795",
+        "hexId": "31B"
+    },
+    {
+        "name": "地毯",
+        "id": "carpet",
+        "numId": "796",
+        "hexId": "31C"
+    },
+    {
+        "name": "原木",
+        "id": "log",
+        "numId": "797",
+        "hexId": "31D"
+    },
+    {
+        "name": "栅栏",
+        "id": "fence",
+        "numId": "798",
+        "hexId": "31E"
+    },
+    {
+        "name": "石砖",
+        "id": "stonebrick",
+        "numId": "799",
+        "hexId": "31F"
+    },
+    {
+        "name": "珊瑚块",
+        "id": "coral_block",
+        "numId": "800",
+        "hexId": "320"
+    },
+    {
+        "name": "石台阶",
+        "id": "stone_block_slab",
+        "numId": "801",
+        "hexId": "321"
+    },
+    {
+        "name": "石台阶2",
+        "id": "stone_block_slab2",
+        "numId": "802",
+        "hexId": "322"
+    },
+    {
+        "name": "石台阶3",
+        "id": "stone_block_slab3",
+        "numId": "803",
+        "hexId": "323"
+    },
+    {
+        "name": "石台阶4",
+        "id": "stone_block_slab4",
+        "numId": "804",
+        "hexId": "324"
+    },
+    {
+        "name": "双石台阶",
+        "id": "double_stone_block_slab",
+        "numId": "805",
+        "hexId": "325"
+    },
+    {
+        "name": "双石台阶2",
+        "id": "double_stone_block_slab2",
+        "numId": "806",
+        "hexId": "326"
+    },
+    {
+        "name": "双石台阶3",
+        "id": "double_stone_block_slab3",
+        "numId": "807",
+        "hexId": "327"
+    },
+    {
+        "name": "双石台阶4",
+        "id": "double_stone_block_slab4",
+        "numId": "808",
+        "hexId": "328"
+    },
+    {
+        "name": "珊瑚扇",
+        "id": "coral_fan",
+        "numId": "809",
+        "hexId": "329"
+    },
+    {
+        "name": "失活的珊瑚扇",
+        "id": "coral_fan_dead",
+        "numId": "810",
+        "hexId": "32A"
+    },
+    {
+        "name": "树苗",
+        "id": "sapling",
+        "numId": "811",
+        "hexId": "32B"
+    },
+    {
+        "name": "树叶",
+        "id": "leaves",
+        "numId": "812",
+        "hexId": "32C"
+    },
+    {
+        "name": "树叶2",
+        "id": "leaves2",
+        "numId": "813",
+        "hexId": "32D"
+    },
+    {
+        "name": "木质台阶",
+        "id": "wooden_slab",
+        "numId": "814",
+        "hexId": "32E"
+    },
+    {
+        "name": "小型花",
+        "id": "red_flower",
+        "numId": "815",
+        "hexId": "32F"
+    },
+    {
+        "name": "大型花",
+        "id": "double_plant",
+        "numId": "816",
+        "hexId": "330"
+    },
+    {
+        "name": "木板",
+        "id": "planks",
+        "numId": "817",
+        "hexId": "331"
+    },
+    {
+        "name": "珊瑚",
+        "id": "coral",
+        "numId": "818",
+        "hexId": "332"
+    },
+    {
+        "name": "高草丛",
+        "id": "tallgrass",
+        "numId": "819",
+        "hexId": "333"
+    },
+    {
+        "name": "原木2",
+        "id": "log2",
+        "numId": "820",
+        "hexId": "334"
+    },
+    {
+        "name": "虫蚀方块",
+        "id": "monster_egg",
+        "numId": "821",
+        "hexId": "335"
+    },
+    {
+        "name": "混凝土",
+        "id": "concrete",
+        "numId": "822",
+        "hexId": "336"
+    },
+    {
+        "name": "混凝土粉末",
+        "id": "concrete_powder",
+        "numId": "823",
+        "hexId": "337"
+    },
+    {
+        "name": "染色玻璃",
+        "id": "stained_glass",
+        "numId": "824",
+        "hexId": "338"
+    },
+    {
+        "name": "染色玻璃板",
+        "id": "stained_glass_pane",
+        "numId": "825",
+        "hexId": "339"
+    },
+    {
+        "name": "染色的潜影盒",
+        "id": "shulker_box",
+        "numId": "826",
+        "hexId": "33A"
+    },
+    {
+        "name": "木头",
+        "id": "wood",
+        "numId": "827",
+        "hexId": "33B"
+    },
+    {
+        "name": "音乐唱片Creator",
+        "id": "music_disc_creator",
+        "numId": "828",
+        "hexId": "33C"
+    },
+    {
+        "name": "音乐唱片Creator（八音盒）",
+        "id": "music_disc_creator_music_box",
+        "numId": "829",
+        "hexId": "33D"
+    },
+    {
+        "name": "音乐唱片Precipice",
+        "id": "music_disc_precipice",
+        "numId": "830",
+        "hexId": "33E"
+    },
+    {
+        "name": "音乐唱片Tears",
+        "id": "music_disc_tears",
+        "numId": "831",
+        "hexId": "33F"
+    },
+    {
+        "name": "音乐唱片Lava Chicken",
+        "id": "music_disc_lava_chicken",
+        "numId": "832",
+        "hexId": "340"
+    },
+    {
+        "name": "音乐唱片Bounce",
+        "id": "music_disc_bounce",
+        "numId": "833",
+        "hexId": "341"
+    },
+    {
+        "name": "化学设备",
+        "id": "chemistry_table",
+        "numId": "834",
+        "hexId": "342"
+    },
+    {
+        "name": "染色强化玻璃",
+        "id": "hard_stained_glass",
+        "numId": "835",
+        "hexId": "343"
+    },
+    {
+        "name": "染色强化玻璃板",
+        "id": "hard_stained_glass_pane",
+        "numId": "836",
+        "hexId": "344"
+    },
+    {
+        "name": "红色和绿色火把",
+        "id": "colored_torch_rg",
+        "numId": "837",
+        "hexId": "345"
+    },
+    {
+        "name": "蓝色和紫色火把",
+        "id": "colored_torch_bp",
+        "numId": "838",
+        "hexId": "346"
+    },
+    {
+        "name": "光源方块",
+        "id": "light_block",
+        "numId": "839",
+        "hexId": "347"
+    },
+    {
+        "name": "船",
+        "id": "boat",
+        "numId": "840",
+        "hexId": "348"
+    },
+    {
+        "name": "染料",
+        "id": "dye",
+        "numId": "841",
+        "hexId": "349"
+    },
+    {
+        "name": "旗帜图案",
+        "id": "banner_pattern",
+        "numId": "842",
+        "hexId": "34A"
+    },
+    {
+        "name": "刷怪蛋",
+        "id": "spawn_egg",
+        "numId": "843",
+        "hexId": "34B"
+    },
+    {
+        "name": "末地水晶",
+        "id": "end_crystal",
+        "numId": "844",
+        "hexId": "34C"
+    },
+    {
+        "name": "发光浆果",
+        "id": "glow_berries",
+        "numId": "845",
+        "hexId": "34D"
+    }
+]
