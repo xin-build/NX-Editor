@@ -152,19 +152,25 @@ class _MapCanvasWidgetState extends State<MapCanvasWidget> {
                   final worldPos = widget.viewport.screenToWorld(details.localPosition);
                   _showContextMenu(context, details.globalPosition, worldPos.dx, worldPos.dy, dm);
                 },
-                child: CustomPaint(
-                  size: Size(constraints.maxWidth, constraints.maxHeight),
-                  painter: _MapCanvasPainter(
-                    viewport: widget.viewport,
-                    dataManager: dm,
-                    settings: settings,
-                    dimension: widget.dimension,
-                    layerMode: widget.layerMode,
-                    selection: widget.selection,
-                    isSelectionMode: widget.isSelectionMode,
-                    entities: _cachedEntities,
-                    blockEntities: _cachedBlockEntities,
-                    onRepaintRequest: () => setState(() {}),
+                child: RepaintBoundary(
+                  child: CustomPaint(
+                    size: Size(constraints.maxWidth, constraints.maxHeight),
+                    painter: _MapCanvasPainter(
+                      viewport: widget.viewport,
+                      dataManager: dm,
+                      settings: settings,
+                      dimension: widget.dimension,
+                      layerMode: widget.layerMode,
+                      selection: widget.selection,
+                      isSelectionMode: widget.isSelectionMode,
+                      entities: _cachedEntities,
+                      blockEntities: _cachedBlockEntities,
+                      onRepaintRequest: () {
+                        if (mounted) {
+                          setState(() {});
+                        }
+                      },
+                    ),
                   ),
                 ),
               ),

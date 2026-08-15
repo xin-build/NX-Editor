@@ -107,8 +107,28 @@ class EntityService {
   factory EntityService() => _instance;
   EntityService._internal();
 
-  /// 从当前已加载的 LevelDB 数据库解析所有生物与实体
+  // 内存缓存字典与标记
+  List<WorldEntity>? _cachedEntities;
+  List<WorldBlockEntity>? _cachedBlockEntities;
+  int _lastRawEntriesCount = -1;
+  String? _lastWorldPath;
+
+  /// 手动使实体与方块实体缓存失效
+  void invalidateCache() {
+    _cachedEntities = null;
+    _cachedBlockEntities = null;
+    _lastRawEntriesCount = -1;
+    _lastWorldPath = null;
+  }
+
+  /// 从当前已加载的 LevelDB 数据库解析所有生物与实体 (带内存缓存加速)
   List<WorldEntity> parseAllEntities(DataManager dm) {
+    if (_cachedEntities != null &&
+        _lastRawEntriesCount == dm.rawEntries.length &&
+        _lastWorldPath == dm.currentWorldPath) {
+      return _cachedEntities!;
+    }
+
     final entities = <WorldEntity>[];
     final parser = LittleEndianNbtParser();
 
@@ -191,11 +211,20 @@ class EntityService {
       }
     }
 
+    _cachedEntities = entities;
+    _lastRawEntriesCount = dm.rawEntries.length;
+    _lastWorldPath = dm.currentWorldPath;
     return entities;
   }
 
-  /// 从当前数据库解析所有方块实体 (Tag 49 或 Tag 46)
+  /// 从当前数据库解析所有方块实体 (Tag 49 或 Tag 46) (带内存缓存加速)
   List<WorldBlockEntity> parseAllBlockEntities(DataManager dm) {
+    if (_cachedBlockEntities != null &&
+        _lastRawEntriesCount == dm.rawEntries.length &&
+        _lastWorldPath == dm.currentWorldPath) {
+      return _cachedBlockEntities!;
+    }
+
     final blockEntities = <WorldBlockEntity>[];
     final parser = LittleEndianNbtParser();
 
@@ -236,6 +265,7 @@ class EntityService {
       }
     }
 
+    _cachedBlockEntities = blockEntities;
     return blockEntities;
   }
 
@@ -410,24 +440,26 @@ class EntityService {
 
   /// 删除指定实体
   void deleteEntity(DataManager dm, WorldEntity entity) {
+    invalidateCache();
     if (entity.isActorPrefix) {
       dm.rawEntries.remove(entity.key);
       dm.rawKeyMap.remove(entity.key);
       dm.executeTransaction(_SimpleCallbackTransaction(
-        onUndo: (d) {},
-        onRedo: (d) {},
+        onUndo: (d) => invalidateCache(),
+        onRedo: (d) => invalidateCache(),
       ));
     }
   }
 
   /// 更新实体 NBT 数据
   void saveEntityNbt(DataManager dm, WorldEntity entity, NbtCompound newNbt) {
+    invalidateCache();
     final writer = LittleEndianNbtWriter();
     final bytes = writer.writeRoot('', newNbt);
     dm.rawEntries[entity.key] = bytes;
     dm.executeTransaction(_SimpleCallbackTransaction(
-      onUndo: (d) {},
-      onRedo: (d) {},
+      onUndo: (d) => invalidateCache(),
+      onRedo: (d) => invalidateCache(),
     ));
   }
 }

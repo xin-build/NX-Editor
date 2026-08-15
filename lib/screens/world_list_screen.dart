@@ -424,19 +424,43 @@ class _WorldListScreenState extends State<WorldListScreen> {
 
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('正在解压导入 .mcworld...')),
+          const SnackBar(
+            content: Row(
+              children: [
+                SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.white)),
+                SizedBox(width: 12),
+                Text('正在后台解压并解析 .mcworld 存档...'),
+              ],
+            ),
+            duration: Duration(seconds: 4),
+          ),
         );
       }
 
-      final folderPath = await BackupService().importFromMcWorld(filePath, targetDir);
-      final info = await StorageService().parseWorldInfo(folderPath);
+      try {
+        final folderPath = await BackupService().importFromMcWorld(filePath, targetDir);
+        final info = await StorageService().parseWorldInfo(folderPath);
 
-      if (info != null && mounted) {
-        _loadAllWorlds();
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (_) => WorldDetailScreen(worldInfo: info)),
-        );
+        if (info != null && mounted) {
+          _loadAllWorlds();
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(content: Text('成功导入存档: ${info.displayName}')),
+          );
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (_) => WorldDetailScreen(worldInfo: info)),
+          );
+        } else if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('导入完成，但未能解析到有效的 level.dat 存档数据')),
+          );
+        }
+      } catch (e) {
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(content: Text('导入存档失败: $e'), backgroundColor: Colors.red[800]),
+          );
+        }
       }
     }
   }

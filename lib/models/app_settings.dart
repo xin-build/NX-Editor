@@ -73,7 +73,7 @@ class AppSettings extends ChangeNotifier {
 
   // ─── 4. GPU 硬件加速与性能 ───
   bool _gpuAcceleration = true; // 是否启用 GPU 纹理瓦片渲染
-  int _maxCachedTiles = 800; // 最大缓存瓦片数量 (LRU)
+  int _maxCachedTiles = 8000; // 最大缓存瓦片数量 (LRU)
   int _isolateWorkerThreads = 2; // 后台解析线程数
   bool _viewportCulling = true; // 视口外剔除
   bool _highDpiRendering = true; // 高 DPI 渲染支持

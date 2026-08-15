@@ -1,6 +1,13 @@
 import 'dart:io';
 import 'package:archive/archive_io.dart';
+import 'package:flutter/foundation.dart';
 import 'package:path/path.dart' as p;
+
+class _ExtractRequest {
+  final String zipPath;
+  final String targetDir;
+  _ExtractRequest(this.zipPath, this.targetDir);
+}
 
 /// 备份项信息
 class BackupItem {
@@ -100,11 +107,8 @@ class BackupService {
     return File(exportFilePath);
   }
 
-  /// 从 .mcworld 导入解压到目标目录
+  /// 从 .mcworld 导入解压到目标目录 (支持后台 Isolate 流式解压与子目录自适应展开)
   Future<String> importFromMcWorld(String mcWorldFilePath, String targetParentDir) async {
-    final bytes = await File(mcWorldFilePath).readAsBytes();
-    final archive = ZipDecoder().decodeBytes(bytes);
-
     final folderName = p.basenameWithoutExtension(mcWorldFilePath);
     var targetFolderPath = p.join(targetParentDir, folderName);
     var counter = 1;
@@ -116,19 +120,73 @@ class BackupService {
     final targetDir = Directory(targetFolderPath);
     targetDir.createSync(recursive: true);
 
-    for (final file in archive) {
-      final filename = file.name;
-      if (file.isFile) {
-        final data = file.content as List<int>;
-        final outFile = File(p.join(targetFolderPath, filename));
-        outFile.createSync(recursive: true);
-        outFile.writeAsBytesSync(data);
-      } else {
-        Directory(p.join(targetFolderPath, filename)).createSync(recursive: true);
+    // 1. 在后台 Isolate 中进行流式解压，绝不阻塞 UI 线程
+    await compute(_isolateExtractZip, _ExtractRequest(mcWorldFilePath, targetFolderPath));
+
+    // 2. 智能规范化世界目录层级：检测 level.dat 是否位于子文件夹中
+    final normalizedPath = _normalizeWorldDirectory(targetFolderPath);
+    return normalizedPath;
+  }
+
+  static void _isolateExtractZip(_ExtractRequest req) {
+    try {
+      extractFileToDisk(req.zipPath, req.targetDir);
+    } catch (_) {
+      // 备用纯 Dart 解码
+      final bytes = File(req.zipPath).readAsBytesSync();
+      final archive = ZipDecoder().decodeBytes(bytes);
+      for (final file in archive) {
+        final filename = file.name;
+        if (file.isFile) {
+          final data = file.content as List<int>;
+          final outFile = File(p.join(req.targetDir, filename));
+          outFile.createSync(recursive: true);
+          outFile.writeAsBytesSync(data);
+        } else {
+          Directory(p.join(req.targetDir, filename)).createSync(recursive: true);
+        }
       }
     }
+  }
 
-    return targetFolderPath;
+  /// 如果解压后 level.dat 在子文件夹内，将其文件提升到根目录以规范化
+  String _normalizeWorldDirectory(String worldDirPath) {
+    final rootLevelDat = File(p.join(worldDirPath, 'level.dat'));
+    if (rootLevelDat.existsSync()) {
+      return worldDirPath;
+    }
+
+    // 递归寻找 level.dat
+    final rootDir = Directory(worldDirPath);
+    for (final entity in rootDir.listSync(recursive: true)) {
+      if (entity is File && p.basename(entity.path).toLowerCase() == 'level.dat') {
+        final actualWorldDir = entity.parent;
+        // 如果就在根目录的下一层子文件夹，将子文件夹内的所有内容移到根目录
+        if (actualWorldDir.path != worldDirPath) {
+          try {
+            for (final subEntity in actualWorldDir.listSync(recursive: false)) {
+              final destPath = p.join(worldDirPath, p.basename(subEntity.path));
+              if (subEntity is File) {
+                subEntity.renameSync(destPath);
+              } else if (subEntity is Directory) {
+                if (Directory(destPath).existsSync()) {
+                  Directory(destPath).deleteSync(recursive: true);
+                }
+                subEntity.renameSync(destPath);
+              }
+            }
+            // 清理空的子文件夹
+            try {
+              actualWorldDir.deleteSync(recursive: true);
+            } catch (_) {}
+            return worldDirPath;
+          } catch (_) {
+            return actualWorldDir.path;
+          }
+        }
+      }
+    }
+    return worldDirPath;
   }
 
   /// 还原备份

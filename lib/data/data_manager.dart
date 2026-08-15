@@ -11,6 +11,7 @@ import '../models/world_info.dart';
 import '../nbt/nbt_parser.dart';
 import '../nbt/nbt_tags.dart';
 import '../services/backup_service.dart';
+import '../services/entity_service.dart';
 import '../services/storage_service.dart';
 import 'chunk_cache_manager.dart';
 
@@ -152,8 +153,9 @@ class _IsolateLoadRequest {
 class _IsolateLoadResponse {
   final Map<String, Uint8List> rawEntries;
   final Map<String, Uint8List> rawKeyMap;
+  final Set<String> existingChunks;
   final String? error;
-  _IsolateLoadResponse({required this.rawEntries, required this.rawKeyMap, this.error});
+  _IsolateLoadResponse({required this.rawEntries, required this.rawKeyMap, required this.existingChunks, this.error});
 }
 
 /// 存档核心数据管理器
@@ -213,6 +215,7 @@ class DataManager extends ChangeNotifier {
   /// 通知数据更新并标记未保存修改
   void notifyDataChanged() {
     _hasUnsavedChanges = true;
+    EntityService().invalidateCache();
     notifyListeners();
   }
 
@@ -296,15 +299,8 @@ class DataManager extends ChangeNotifier {
         } else {
           rawEntries.addAll(response.rawEntries);
           rawKeyMap.addAll(response.rawKeyMap);
-
-          // 建立已生成区块索引
           _existingChunks.clear();
-          for (final rawKey in rawKeyMap.values) {
-            final parsed = ParsedChunkKey.parse(rawKey);
-            if (parsed != null) {
-              _existingChunks.add('${parsed.dimension}:${parsed.chunkX},${parsed.chunkZ}');
-            }
-          }
+          _existingChunks.addAll(response.existingChunks);
         }
       }
 
@@ -332,7 +328,7 @@ class DataManager extends ChangeNotifier {
     }
   }
 
-  /// Isolate 后台加载 LevelDB 所有 .ldb 文件
+  /// Isolate 后台加载 LevelDB 所有 .ldb 文件 (并预建区块索引加速)
   static _IsolateLoadResponse _isolateLoadDb(_IsolateLoadRequest request) {
     try {
       final dbDir = Directory(request.dbPath);
@@ -340,6 +336,7 @@ class DataManager extends ChangeNotifier {
 
       final entries = <String, Uint8List>{};
       final keyMap = <String, Uint8List>{};
+      final existingChunks = <String>{};
 
       for (final file in ldbFiles) {
         try {
@@ -350,13 +347,18 @@ class DataManager extends ChangeNotifier {
             final base64Key = base64Encode(e.key);
             entries[base64Key] = e.value;
             keyMap[base64Key] = e.key;
+
+            final parsed = ParsedChunkKey.parse(e.key);
+            if (parsed != null) {
+              existingChunks.add('${parsed.dimension}:${parsed.chunkX},${parsed.chunkZ}');
+            }
           }
         } catch (_) {}
       }
 
-      return _IsolateLoadResponse(rawEntries: entries, rawKeyMap: keyMap);
+      return _IsolateLoadResponse(rawEntries: entries, rawKeyMap: keyMap, existingChunks: existingChunks);
     } catch (e) {
-      return _IsolateLoadResponse(rawEntries: {}, rawKeyMap: {}, error: e.toString());
+      return _IsolateLoadResponse(rawEntries: {}, rawKeyMap: {}, existingChunks: {}, error: e.toString());
     }
   }
 
@@ -877,6 +879,7 @@ class DataManager extends ChangeNotifier {
     _lastModifiedKey = null;
     _lastModifiedType = '';
     ChunkCacheManager().clearAll();
+    EntityService().invalidateCache();
     if (!preserveLoadingState) {
       notifyListeners();
     }

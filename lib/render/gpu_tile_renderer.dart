@@ -20,6 +20,24 @@ class GpuTileRenderer {
   GpuTileRenderer._internal();
 
   final Set<String> _pendingGenerations = {};
+  Timer? _batchNotifyTimer;
+  final Set<VoidCallback> _pendingCallbacks = {};
+
+  void _dispatchTileReady(VoidCallback? callback) {
+    if (callback == null) return;
+    _pendingCallbacks.add(callback);
+    if (_batchNotifyTimer == null || !_batchNotifyTimer!.isActive) {
+      _batchNotifyTimer = Timer(const Duration(milliseconds: 32), () {
+        final callbacks = List<VoidCallback>.from(_pendingCallbacks);
+        _pendingCallbacks.clear();
+        for (final cb in callbacks) {
+          try {
+            cb();
+          } catch (_) {}
+        }
+      });
+    }
+  }
 
   /// 绘制单个区块的 GPU 纹理瓦片
   void drawChunkTile({
@@ -85,7 +103,7 @@ class GpuTileRenderer {
         );
         final gpuImage = await completer.future;
         ChunkCacheManager().putGpuTile(chunkX, chunkZ, dimension, layerMode, gpuImage);
-        onTileReady?.call();
+        _dispatchTileReady(onTileReady);
       } catch (_) {
       } finally {
         _pendingGenerations.remove(key);
