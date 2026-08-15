@@ -61,11 +61,14 @@ jobs:
           channel: 'stable'
           cache: true
 
+      - name: Make Gradlew Executable
+        run: chmod +x android/gradlew
+
       - name: Install Dependencies
         run: flutter pub get
 
       - name: Build Android APK
-        run: flutter build apk --release --verbose --no-tree-shake-icons
+        run: flutter build apk --release --no-tree-shake-icons
 
       - name: Upload Android APK
         uses: actions/upload-artifact@v4
