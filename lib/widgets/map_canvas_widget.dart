@@ -534,54 +534,76 @@ class _MapCanvasPainter extends CustomPainter {
     final bgPaint = Paint()..color = const Color(0xFF14161D);
     canvas.drawRect(Offset.zero & size, bgPaint);
 
-    // 2. 视口裁剪计算 (仅绘制可见区块)
+    // 2. 视口裁剪与世界边界求交计算 (消灭远景数十万次空循环)
     final bounds = viewport.getVisibleChunkBounds();
-    final minCx = bounds['minCx']!;
-    final maxCx = bounds['maxCx']!;
-    final minCz = bounds['minCz']!;
-    final maxCz = bounds['maxCz']!;
+    final worldBounds = dataManager.getWorldBounds(dimension);
+
+    int minCx = bounds['minCx']!;
+    int maxCx = bounds['maxCx']!;
+    int minCz = bounds['minCz']!;
+    int maxCz = bounds['maxCz']!;
+
+    if (worldBounds != null) {
+      final wMinCx = worldBounds['minCx']!;
+      final wMaxCx = worldBounds['maxCx']!;
+      final wMinCz = worldBounds['minCz']!;
+      final wMaxCz = worldBounds['maxCz']!;
+
+      if (layerMode != MapLayerMode.slimeChunk) {
+        if (minCx < wMinCx) minCx = wMinCx;
+        if (maxCx > wMaxCx) maxCx = wMaxCx;
+        if (minCz < wMinCz) minCz = wMinCz;
+        if (maxCz > wMaxCz) maxCz = wMaxCz;
+      } else {
+        if (minCx < wMinCx - 16) minCx = wMinCx - 16;
+        if (maxCx > wMaxCx + 16) maxCx = wMaxCx + 16;
+        if (minCz < wMinCz - 16) minCz = wMinCz - 16;
+        if (maxCz > wMaxCz + 16) maxCz = wMaxCz + 16;
+      }
+    }
 
     final gpuRenderer = GpuTileRenderer();
-    // 缩放较小时采用双线性下采样降低锯齿并提升GPU吞吐，放大时保持像素点清晰
     final tilePaint = Paint()..filterQuality = viewport.scale < 0.5 ? FilterQuality.low : FilterQuality.none;
 
     // 3. 绘制 GPU 纹理瓦片 (含主世界未加载区块上的史莱姆区块渲染)
-    for (int cx = minCx; cx <= maxCx; cx++) {
-      for (int cz = minCz; cz <= maxCz; cz++) {
-        final tl = viewport.worldToScreen(Offset(cx * 16.0, cz * 16.0));
-        final br = viewport.worldToScreen(Offset((cx + 1) * 16.0, (cz + 1) * 16.0));
-        final destRect = Rect.fromPoints(tl, br);
+    if (minCx <= maxCx && minCz <= maxCz) {
+      for (int cx = minCx; cx <= maxCx; cx++) {
+        for (int cz = minCz; cz <= maxCz; cz++) {
+          final tl = viewport.worldToScreen(Offset(cx * 16.0, cz * 16.0));
+          final br = viewport.worldToScreen(Offset((cx + 1) * 16.0, (cz + 1) * 16.0));
+          final destRect = Rect.fromPoints(tl, br);
 
-        if (!dataManager.hasChunk(cx, cz, dimension)) {
-          // 仅主世界 (dimension == 0) 存在史莱姆区块，下界与末地不渲染
-          if (layerMode == MapLayerMode.slimeChunk && dimension == 0 && GpuTileRenderer.isSlimeChunk(cx, cz)) {
-            final slimeFillPaint = Paint()..color = const Color(0x444CAF50);
-            canvas.drawRect(destRect, slimeFillPaint);
-            final slimeBorderPaint = Paint()
-              ..color = const Color(0xCC4CAF50)
-              ..strokeWidth = 1.0
-              ..style = PaintingStyle.stroke;
-            canvas.drawRect(destRect, slimeBorderPaint);
+          if (!dataManager.hasChunk(cx, cz, dimension)) {
+            // 仅主世界 (dimension == 0) 存在史莱姆区块，下界与末地不渲染
+            if (layerMode == MapLayerMode.slimeChunk && dimension == 0 && GpuTileRenderer.isSlimeChunk(cx, cz)) {
+              final slimeFillPaint = Paint()..color = const Color(0x444CAF50);
+              canvas.drawRect(destRect, slimeFillPaint);
+              final slimeBorderPaint = Paint()
+                ..color = const Color(0xCC4CAF50)
+                ..strokeWidth = 1.0
+                ..style = PaintingStyle.stroke;
+              canvas.drawRect(destRect, slimeBorderPaint);
+            }
+            continue;
           }
-          continue;
-        }
 
-        gpuRenderer.drawChunkTile(
-          canvas: canvas,
-          chunkX: cx,
-          chunkZ: cz,
-          dimension: dimension,
-          layerMode: layerMode,
-          destRect: destRect,
-          dataManager: dataManager,
-          paint: tilePaint,
-          onTileReady: onRepaintRequest,
-        );
+          gpuRenderer.drawChunkTile(
+            canvas: canvas,
+            chunkX: cx,
+            chunkZ: cz,
+            dimension: dimension,
+            layerMode: layerMode,
+            destRect: destRect,
+            dataManager: dataManager,
+            paint: tilePaint,
+            onTileReady: onRepaintRequest,
+          );
+        }
       }
     }
 
     // 4. 绘制网格线 (缩放缩小时自动隐藏区块网格以极大提高渲染性能并消除密集黑线)
-    if (settings.showChunkGrid && viewport.scale >= 0.35) {
+    if (settings.showChunkGrid && viewport.scale >= 0.35 && minCx <= maxCx && minCz <= maxCz) {
       final gridPaint = Paint()
         ..color = settings.gridColor
         ..strokeWidth = settings.gridLineWidth
@@ -632,8 +654,8 @@ class _MapCanvasPainter extends CustomPainter {
     const iconSize = 22.0;
     final iconPaint = Paint()..filterQuality = FilterQuality.medium;
 
-    // 6. 绘制生物实体高清图标 (Direct Asset Icons)
-    if (settings.showEntityMarkers) {
+    // 6. 绘制生物实体高清图标 (大比例宏观视野 scale < 0.25 时剔除微小图标，防止数万图标堆叠造成卡顿)
+    if (settings.showEntityMarkers && viewport.scale >= 0.25) {
       for (final ent in entities) {
         if (ent.dimension == dimension) {
           final entScreenPos = viewport.worldToScreen(Offset(ent.x, ent.z));
@@ -681,8 +703,8 @@ class _MapCanvasPainter extends CustomPainter {
       }
     }
 
-    // 7. 绘制方块实体高清图标 (宝箱、刷怪笼、指令方块等)
-    if (settings.showTileEntityMarkers) {
+    // 7. 绘制方块实体高清图标 (宝箱、刷怪笼、指令方块等，大比例宏观视野 scale < 0.25 自动剔除)
+    if (settings.showTileEntityMarkers && viewport.scale >= 0.25) {
       for (final be in blockEntities) {
         if (be.dimension == dimension) {
           final beScreenPos = viewport.worldToScreen(Offset(be.x + 0.5, be.z + 0.5));

@@ -20,6 +20,8 @@ class GpuTileRenderer {
   GpuTileRenderer._internal();
 
   final Set<String> _pendingGenerations = {};
+  int _inFlightCount = 0;
+  static const int _maxInFlight = 16;
   Timer? _batchNotifyTimer;
   final Set<VoidCallback> _pendingCallbacks = {};
 
@@ -39,7 +41,7 @@ class GpuTileRenderer {
     }
   }
 
-  /// 绘制单个区块的 GPU 纹理瓦片
+  /// 绘制单个区块的 GPU 纹理瓦片 (含 LOD 极速宏观降级)
   void drawChunkTile({
     required Canvas canvas,
     required int chunkX,
@@ -64,15 +66,23 @@ class GpuTileRenderer {
       const srcRect = Rect.fromLTWH(0, 0, 16, 16);
       canvas.drawImageRect(tile.gpuImage, srcRect, destRect, paint);
     } else {
-      // 异步生成 GPU 纹理
-      _scheduleTileGeneration(
-        chunkX: chunkX,
-        chunkZ: chunkZ,
-        dimension: dimension,
-        layerMode: layerMode,
-        dataManager: dataManager,
-        onTileReady: onTileReady,
-      );
+      // LOD 宏观远景 (单区块屏幕尺寸 < 4px): 直接使用维度基础地形色直绘，杜绝远景瞬间并发创建数万个微型纹理卡死
+      final isMacroView = destRect.width < 4.0;
+      final fallbackColor = dimension == 1
+          ? const Color(0xFF6B1D1D)
+          : (dimension == 2 ? const Color(0xFFD6C896) : const Color(0xFF3B7A38));
+      canvas.drawRect(destRect, Paint()..color = fallbackColor);
+
+      if (!isMacroView && _inFlightCount < _maxInFlight && _pendingGenerations.length < 256) {
+        _scheduleTileGeneration(
+          chunkX: chunkX,
+          chunkZ: chunkZ,
+          dimension: dimension,
+          layerMode: layerMode,
+          dataManager: dataManager,
+          onTileReady: onTileReady,
+        );
+      }
     }
   }
 
@@ -89,6 +99,7 @@ class GpuTileRenderer {
     final key = '$dimension:${layerMode.name}:$chunkX,$chunkZ';
     if (_pendingGenerations.contains(key)) return;
     _pendingGenerations.add(key);
+    _inFlightCount++;
 
     Future(() async {
       try {
@@ -107,6 +118,7 @@ class GpuTileRenderer {
       } catch (_) {
       } finally {
         _pendingGenerations.remove(key);
+        _inFlightCount = (_inFlightCount - 1).clamp(0, 999);
       }
     });
   }
