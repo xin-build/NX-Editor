@@ -10,49 +10,7 @@ permissions:
   contents: write
 
 jobs:
-  # ─── 1. 构建 Android APK 与 AAB (App Bundle) ───
-  build-android:
-    name: Build Android (APK & AAB)
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: Setup Java 17
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'temurin'
-          java-version: '17'
-
-      - name: Setup Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          flutter-version: '3.29.x'
-          channel: 'stable'
-          cache: true
-
-      - name: Install Dependencies
-        run: flutter pub get
-
-      - name: Build Android APK
-        run: flutter build apk --release
-
-      - name: Build Android AppBundle
-        run: flutter build appbundle --release
-
-      - name: Upload Android APK Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: NX-Editor-Android-APK
-          path: build/app/outputs/flutter-apk/app-release.apk
-
-      - name: Upload Android AAB Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: NX-Editor-Android-AAB
-          path: build/app/outputs/bundle/release/app-release.aab
-
-  # ─── 2. 构建 Windows x64 二进制 ───
+  # ─── 1. 构建 Windows (x64) ───
   build-windows:
     name: Build Windows (x64)
     runs-on: windows-latest
@@ -63,7 +21,6 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.29.x'
           channel: 'stable'
           cache: true
 
@@ -84,7 +41,48 @@ jobs:
           name: NX-Editor-Windows-x64
           path: NX-Editor-Windows-x64.zip
 
-  # ─── 3. 构建 Linux 二进制 ───
+  # ─── 2. 构建 Android APK 与 AAB ───
+  build-android:
+    name: Build Android (APK & AAB)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+          cache: true
+
+      - name: Install Dependencies
+        run: flutter pub get
+
+      - name: Build Android APK
+        run: flutter build apk --release
+
+      - name: Build Android AppBundle
+        run: flutter build appbundle --release
+
+      - name: Upload Android APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: NX-Editor-Android-APK
+          path: build/app/outputs/flutter-apk/app-release.apk
+
+      - name: Upload Android AAB
+        uses: actions/upload-artifact@v4
+        with:
+          name: NX-Editor-Android-AAB
+          path: build/app/outputs/bundle/release/app-release.aab
+
+  # ─── 3. 构建 Linux (x64) ───
   build-linux:
     name: Build Linux (x64)
     runs-on: ubuntu-latest
@@ -92,7 +90,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Install Linux Build Dependencies
+      - name: Install Linux Dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev
@@ -100,7 +98,6 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.29.x'
           channel: 'stable'
           cache: true
 
@@ -116,7 +113,7 @@ jobs:
       - name: Package Linux Bundle
         run: |
           cd build/linux/x64/release/bundle
-          tar -czvf ../../../../../NX-Editor-Linux-x64.tar.gz .
+          tar -czvf ${{ github.workspace }}/NX-Editor-Linux-x64.tar.gz .
 
       - name: Upload Linux Artifact
         uses: actions/upload-artifact@v4
@@ -124,10 +121,11 @@ jobs:
           name: NX-Editor-Linux-x64
           path: NX-Editor-Linux-x64.tar.gz
 
-  # ─── 4. 构建 macOS 二进制 ───
+  # ─── 4. 构建 macOS ───
   build-macos:
     name: Build macOS
     runs-on: macos-latest
+    continue-on-error: true
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -135,7 +133,6 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.29.x'
           channel: 'stable'
           cache: true
 
@@ -148,7 +145,7 @@ jobs:
       - name: Package macOS App
         run: |
           cd build/macos/Build/Products/Release
-          zip -r -y ../../../../../NX-Editor-macOS.zip flutter_app.app
+          zip -r -y ${{ github.workspace }}/NX-Editor-macOS.zip flutter_app.app
 
       - name: Upload macOS Artifact
         uses: actions/upload-artifact@v4
@@ -156,10 +153,11 @@ jobs:
           name: NX-Editor-macOS
           path: NX-Editor-macOS.zip
 
-  # ─── 5. 构建 iOS (免签名发布包) ───
+  # ─── 5. 构建 iOS (免签名包) ───
   build-ios:
     name: Build iOS
     runs-on: macos-latest
+    continue-on-error: true
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -167,7 +165,6 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.29.x'
           channel: 'stable'
           cache: true
 
@@ -181,7 +178,7 @@ jobs:
         run: |
           mkdir -p Payload
           cp -r build/ios/iphoneos/Runner.app Payload/
-          zip -r -y NX-Editor-iOS.ipa Payload
+          zip -r -y ${{ github.workspace }}/NX-Editor-iOS.ipa Payload
 
       - name: Upload iOS Artifact
         uses: actions/upload-artifact@v4
@@ -189,25 +186,30 @@ jobs:
           name: NX-Editor-iOS-IPA
           path: NX-Editor-iOS.ipa
 
-  # ─── 6. 自动创建 GitHub Release ───
+  # ─── 6. 自动发布 GitHub Release ───
   release:
     name: Create GitHub Release
-    needs: [build-android, build-windows, build-linux, build-macos, build-ios]
-    if: startsWith(github.ref, 'refs/tags/')
+    needs: [build-windows, build-android, build-linux, build-macos, build-ios]
+    if: always() && startsWith(github.ref, 'refs/tags/')
     runs-on: ubuntu-latest
     steps:
       - name: Download all artifacts
         uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+
+      - name: Display downloaded artifacts
+        run: ls -R artifacts
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            NX-Editor-Android-APK/app-release.apk
-            NX-Editor-Android-AAB/app-release.aab
-            NX-Editor-Windows-x64/NX-Editor-Windows-x64.zip
-            NX-Editor-Linux-x64/NX-Editor-Linux-x64.tar.gz
-            NX-Editor-macOS/NX-Editor-macOS.zip
-            NX-Editor-iOS-IPA/NX-Editor-iOS.ipa
+            artifacts/NX-Editor-Windows-x64/NX-Editor-Windows-x64.zip
+            artifacts/NX-Editor-Android-APK/app-release.apk
+            artifacts/NX-Editor-Android-AAB/app-release.aab
+            artifacts/NX-Editor-Linux-x64/NX-Editor-Linux-x64.tar.gz
+            artifacts/NX-Editor-macOS/NX-Editor-macOS.zip
+            artifacts/NX-Editor-iOS-IPA/NX-Editor-iOS.ipa
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
