@@ -1,3 +1,4 @@
+import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'data/data_manager.dart';
@@ -5,6 +6,20 @@ import 'models/app_settings.dart';
 import 'screens/world_list_screen.dart';
 import 'services/storage_service.dart';
 import 'utils/game_data_service.dart';
+
+/// 全局滚动行为配置，支持在 PC/桌面端通过鼠标直接拖拽滑动横向/纵向列表
+class AppCustomScrollBehavior extends MaterialScrollBehavior {
+  const AppCustomScrollBehavior();
+
+  @override
+  Set<PointerDeviceKind> get dragDevices => {
+        PointerDeviceKind.touch,
+        PointerDeviceKind.mouse,
+        PointerDeviceKind.stylus,
+        PointerDeviceKind.invertedStylus,
+        PointerDeviceKind.trackpad,
+      };
+}
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -36,6 +51,7 @@ class MinecraftEditorApp extends StatelessWidget {
     return MaterialApp(
       title: 'Minecraft BE 存档编辑器',
       debugShowCheckedModeBanner: false,
+      scrollBehavior: const AppCustomScrollBehavior(),
       themeMode: settings.themeMode.mode,
       theme: ThemeData(
         useMaterial3: true,
