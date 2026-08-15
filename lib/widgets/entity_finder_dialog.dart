@@ -1,5 +1,4 @@
 import 'dart:math';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../data/data_manager.dart';
@@ -30,18 +29,10 @@ class _EntityFinderDialogState extends State<EntityFinderDialog> {
   List<WorldEntity> _allEntities = [];
   bool _loading = true;
 
-  final ScrollController _chipScrollController = ScrollController();
-
   @override
   void initState() {
     super.initState();
     _loadEntities();
-  }
-
-  @override
-  void dispose() {
-    _chipScrollController.dispose();
-    super.dispose();
   }
 
   void _loadEntities() {
@@ -125,43 +116,28 @@ class _EntityFinderDialogState extends State<EntityFinderDialog> {
             ),
             const SizedBox(height: 8),
 
-            // 分类过滤器 Chip 栏 (支持 PC 鼠标拖拽与滚轮横向滚动)
-            Listener(
-              onPointerSignal: (pointerSignal) {
-                if (pointerSignal is PointerScrollEvent) {
-                  if (_chipScrollController.hasClients) {
-                    final target = (_chipScrollController.offset + pointerSignal.scrollDelta.dy)
-                        .clamp(0.0, _chipScrollController.position.maxScrollExtent);
-                    _chipScrollController.jumpTo(target);
-                  }
-                }
-              },
-              child: SingleChildScrollView(
-                controller: _chipScrollController,
-                scrollDirection: Axis.horizontal,
-                physics: const BouncingScrollPhysics(parent: AlwaysScrollableScrollPhysics()),
-                child: Row(
-                  children: [
-                    ChoiceChip(
-                      label: const Text('全部'),
-                      selected: _selectedCategory == null,
-                      onSelected: (v) => setState(() => _selectedCategory = null),
-                    ),
-                    const SizedBox(width: 6),
-                    ...EntityCategory.values.where((c) => c != EntityCategory.tileEntity).map((cat) {
-                      final count = _allEntities.where((e) => e.dimension == widget.dimension && e.category == cat).length;
-                      return Padding(
-                        padding: const EdgeInsets.only(right: 6),
-                        child: ChoiceChip(
-                          avatar: Icon(cat.icon, size: 14, color: cat.color),
-                          label: Text('${cat.label} ($count)'),
-                          selected: _selectedCategory == cat,
-                          onSelected: (v) => setState(() => _selectedCategory = v ? cat : null),
-                        ),
-                      );
-                    }),
-                  ],
-                ),
+            // 分类过滤器 Chip 栏 (自适应折行展示，所有分类一览无余，完全无需左右滑动)
+            Align(
+              alignment: Alignment.centerLeft,
+              child: Wrap(
+                spacing: 6,
+                runSpacing: 6,
+                children: [
+                  ChoiceChip(
+                    label: const Text('全部'),
+                    selected: _selectedCategory == null,
+                    onSelected: (v) => setState(() => _selectedCategory = null),
+                  ),
+                  ...EntityCategory.values.where((c) => c != EntityCategory.tileEntity).map((cat) {
+                    final count = _allEntities.where((e) => e.dimension == widget.dimension && e.category == cat).length;
+                    return ChoiceChip(
+                      avatar: Icon(cat.icon, size: 14, color: cat.color),
+                      label: Text('${cat.label} ($count)'),
+                      selected: _selectedCategory == cat,
+                      onSelected: (v) => setState(() => _selectedCategory = v ? cat : null),
+                    );
+                  }),
+                ],
               ),
             ),
             const SizedBox(height: 12),
