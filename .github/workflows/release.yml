@@ -67,17 +67,19 @@ jobs:
       - name: Build Android APK
         run: flutter build apk --release
 
-      - name: Build Android AppBundle
-        run: flutter build appbundle --release
-
       - name: Upload Android APK
         uses: actions/upload-artifact@v4
         with:
           name: NX-Editor-Android-APK
           path: build/app/outputs/flutter-apk/app-release.apk
 
+      - name: Build Android AppBundle
+        run: flutter build appbundle --release
+        continue-on-error: true
+
       - name: Upload Android AAB
         uses: actions/upload-artifact@v4
+        continue-on-error: true
         with:
           name: NX-Editor-Android-AAB
           path: build/app/outputs/bundle/release/app-release.aab
