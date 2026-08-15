@@ -86,6 +86,10 @@ class MapViewportController extends ChangeNotifier {
     final delta = focalPoint - screenAfter;
     _mapOffset += delta;
 
+    _cursorWorldX = worldBefore.dx;
+    _cursorWorldZ = worldBefore.dy;
+    _isCursorInside = true;
+
     notifyListeners();
   }
 

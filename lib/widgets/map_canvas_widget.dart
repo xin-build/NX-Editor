@@ -82,6 +82,7 @@ class _MapCanvasWidgetState extends State<MapCanvasWidget> {
                       : (1.0 / settings.mouseWheelZoomSpeed);
                   final focal = settings.zoomToCursor ? event.localPosition : Offset(constraints.maxWidth / 2, constraints.maxHeight / 2);
                   widget.viewport.zoomAt(factor: zoomFactor, focalPoint: focal);
+                  widget.viewport.updateCursorPosition(event.localPosition);
                 }
               },
               onPointerHover: (event) {

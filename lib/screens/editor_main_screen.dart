@@ -1137,33 +1137,44 @@ class _EditorMainScreenState extends State<EditorMainScreen> {
   }
 
   Widget _buildDesktopStatusBar(DataManager dm) {
-    final bx = _viewport.cursorWorldX.floor();
-    final bz = _viewport.cursorWorldZ.floor();
-    final cx = (bx / 16).floor();
-    final cz = (bz / 16).floor();
+    return ListenableBuilder(
+      listenable: _viewport,
+      builder: (context, _) {
+        final bx = _viewport.isCursorInside ? _viewport.cursorWorldX.floor() : 0;
+        final bz = _viewport.isCursorInside ? _viewport.cursorWorldZ.floor() : 0;
+        final cx = (bx / 16).floor();
+        final cz = (bz / 16).floor();
+        final zoomPct = (_viewport.scale * 100).toStringAsFixed(0);
 
-    return Container(
-      height: 28,
-      padding: const EdgeInsets.symmetric(horizontal: 16),
-      color: const Color(0xFF14161D),
-      child: Row(
-        children: [
-          const Icon(Icons.mouse, size: 14, color: Colors.grey),
-          const SizedBox(width: 6),
-          Text('光标坐标: X: $bx, Z: $bz (区块: $cx, $cz)', style: const TextStyle(fontSize: 11, color: Colors.grey)),
-          const SizedBox(width: 20),
-          const Icon(Icons.zoom_in, size: 14, color: Colors.grey),
-          const SizedBox(width: 6),
-          Text('缩放率: ${(_viewport.scale * 100).toStringAsFixed(0)}%', style: const TextStyle(fontSize: 11, color: Colors.grey)),
-          const SizedBox(width: 20),
-          const Icon(Icons.dns, size: 14, color: Colors.grey),
-          const SizedBox(width: 6),
-          Text('已加载条目: ${dm.rawEntries.length} | 已生成区块: ${dm.existingChunks.length}', style: const TextStyle(fontSize: 11, color: Colors.grey)),
-          const Spacer(),
-          if (dm.lastModifiedKey != null)
-            Text('最后修改: ${dm.lastModifiedKey} (${dm.lastModifiedType})', style: const TextStyle(fontSize: 11, color: Colors.amberAccent)),
-        ],
-      ),
+        return Container(
+          height: 28,
+          padding: const EdgeInsets.symmetric(horizontal: 16),
+          color: const Color(0xFF14161D),
+          child: Row(
+            children: [
+              const Icon(Icons.mouse, size: 14, color: Colors.grey),
+              const SizedBox(width: 6),
+              Text(
+                _viewport.isCursorInside
+                    ? '光标坐标: X: $bx, Z: $bz (区块: $cx, $cz)'
+                    : '光标坐标: --',
+                style: const TextStyle(fontSize: 11, color: Colors.grey),
+              ),
+              const SizedBox(width: 20),
+              const Icon(Icons.zoom_in, size: 14, color: Colors.grey),
+              const SizedBox(width: 6),
+              Text('缩放率: $zoomPct%', style: const TextStyle(fontSize: 11, color: Colors.grey)),
+              const SizedBox(width: 20),
+              const Icon(Icons.dns, size: 14, color: Colors.grey),
+              const SizedBox(width: 6),
+              Text('已加载条目: ${dm.rawEntries.length} | 已生成区块: ${dm.existingChunks.length}', style: const TextStyle(fontSize: 11, color: Colors.grey)),
+              const Spacer(),
+              if (dm.lastModifiedKey != null)
+                Text('最后修改: ${dm.lastModifiedKey} (${dm.lastModifiedType})', style: const TextStyle(fontSize: 11, color: Colors.amberAccent)),
+            ],
+          ),
+        );
+      },
     );
   }
 
