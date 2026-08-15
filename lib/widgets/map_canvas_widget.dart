@@ -183,12 +183,105 @@ class _MapCanvasWidgetState extends State<MapCanvasWidget> {
                 left: 16,
                 child: _buildSelectionHud(widget.selection!),
               ),
+
+            // 地图悬浮快捷图层/标记过滤器 (1键开启/隐藏容器、生物、网格与玩家)
+            Positioned(
+              top: 12,
+              right: 16,
+              child: _buildFloatingFilterChips(settings),
+            ),
           ],
         );
       },
     ),
   );
 }
+
+  Widget _buildFloatingFilterChips(AppSettings settings) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 4),
+      decoration: BoxDecoration(
+        color: const Color(0xDD1E222B),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: Colors.white12),
+        boxShadow: const [
+          BoxShadow(color: Colors.black45, blurRadius: 8, offset: Offset(0, 2)),
+        ],
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          _buildFilterChip(
+            label: '玩家',
+            icon: Icons.person,
+            active: settings.showPlayerMarkers,
+            color: Colors.redAccent,
+            onTap: () => settings.setShowPlayerMarkers(!settings.showPlayerMarkers),
+          ),
+          const SizedBox(width: 4),
+          _buildFilterChip(
+            label: '生物',
+            icon: Icons.pets,
+            active: settings.showEntityMarkers,
+            color: Colors.greenAccent,
+            onTap: () => settings.setShowEntityMarkers(!settings.showEntityMarkers),
+          ),
+          const SizedBox(width: 4),
+          _buildFilterChip(
+            label: '容器',
+            icon: Icons.inventory_2,
+            active: settings.showTileEntityMarkers,
+            color: Colors.amberAccent,
+            onTap: () => settings.setShowTileEntityMarkers(!settings.showTileEntityMarkers),
+          ),
+          const SizedBox(width: 4),
+          _buildFilterChip(
+            label: '网格',
+            icon: Icons.grid_on,
+            active: settings.showChunkGrid,
+            color: Colors.cyanAccent,
+            onTap: () => settings.setShowChunkGrid(!settings.showChunkGrid),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildFilterChip({
+    required String label,
+    required IconData icon,
+    required bool active,
+    required Color color,
+    required VoidCallback onTap,
+  }) {
+    return InkWell(
+      onTap: onTap,
+      borderRadius: BorderRadius.circular(16),
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+        decoration: BoxDecoration(
+          color: active ? color.withValues(alpha: 0.2) : Colors.transparent,
+          borderRadius: BorderRadius.circular(16),
+          border: Border.all(color: active ? color : Colors.transparent, width: 0.8),
+        ),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(icon, size: 13, color: active ? color : Colors.grey),
+            const SizedBox(width: 4),
+            Text(
+              label,
+              style: TextStyle(
+                fontSize: 11,
+                color: active ? Colors.white : Colors.grey,
+                fontWeight: active ? FontWeight.bold : FontWeight.normal,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
 
   void _handleSelectionTap(double worldX, double worldZ, {required bool isCtrl}) {
     final sel = widget.selection ?? SelectionModel(dimension: widget.dimension);
@@ -667,94 +760,182 @@ class _MapCanvasPainter extends CustomPainter {
     const iconSize = 22.0;
     final iconPaint = Paint()..filterQuality = FilterQuality.medium;
 
-    // 6. 绘制生物实体高清图标 (大比例宏观视野 scale < 0.45 时彻底取消实体渲染，0.45~0.8 显示轻量圆点，>=0.8 显示高清图标与标注)
+    // 6. 绘制生物实体高清图标 (含同区块同类生物智能聚合 xN 徽章，大视野 scale < 0.45 自动剔除)
     if (settings.showEntityMarkers && viewport.scale >= 0.45) {
       final isHighResMode = viewport.scale >= 0.8;
+      // 按区块与生物类型进行智能聚合
+      final Map<String, List<WorldEntity>> entityClusters = {};
       for (final ent in entities) {
         if (ent.dimension == dimension) {
-          final entScreenPos = viewport.worldToScreen(Offset(ent.x, ent.z));
-          if (entScreenPos.dx >= -30 && entScreenPos.dx <= size.width + 30 &&
-              entScreenPos.dy >= -30 && entScreenPos.dy <= size.height + 30) {
+          final clusterKey = '${(ent.x / 16).floor()},${(ent.z / 16).floor()}:${ent.identifier}';
+          (entityClusters[clusterKey] ??= []).add(ent);
+        }
+      }
 
-            if (isHighResMode) {
-              final img = iconCache.getEntityIcon(ent.identifier, onReady: onRepaintRequest);
-              final destRect = Rect.fromCenter(center: entScreenPos, width: iconSize, height: iconSize);
+      for (final cluster in entityClusters.values) {
+        final firstEnt = cluster.first;
+        final entScreenPos = viewport.worldToScreen(Offset(firstEnt.x, firstEnt.z));
+        if (entScreenPos.dx < -30 || entScreenPos.dx > size.width + 30 ||
+            entScreenPos.dy < -30 || entScreenPos.dy > size.height + 30) {
+          continue;
+        }
 
-              if (img != null) {
-                // 绘制带淡灰色底板的高清素材图标
-                final bgPaint = Paint()..color = const Color(0xFFE2E8F0);
-                canvas.drawRRect(RRect.fromRectAndRadius(destRect.inflate(2), const Radius.circular(4)), bgPaint);
-                canvas.drawImageRect(img, Rect.fromLTWH(0, 0, img.width.toDouble(), img.height.toDouble()), destRect, iconPaint);
+        if (isHighResMode) {
+          final img = iconCache.getEntityIcon(firstEnt.identifier, onReady: onRepaintRequest);
+          final destRect = Rect.fromCenter(center: entScreenPos, width: iconSize, height: iconSize);
 
-                // 分类颜色指示环
-                final ringPaint = Paint()
-                  ..color = ent.category.color
-                  ..strokeWidth = 1.4
-                  ..style = PaintingStyle.stroke;
-                canvas.drawRRect(RRect.fromRectAndRadius(destRect.inflate(2), const Radius.circular(4)), ringPaint);
-              } else {
-                final dotPaint = Paint()..color = ent.category.color;
-                canvas.drawCircle(entScreenPos, 6.0, dotPaint);
-                final borderPaint = Paint()
-                  ..color = Colors.white
-                  ..strokeWidth = 1.5
-                  ..style = PaintingStyle.stroke;
-                canvas.drawCircle(entScreenPos, 6.0, borderPaint);
-              }
+          if (img != null) {
+            final bgPaint = Paint()..color = const Color(0xFFE2E8F0);
+            canvas.drawRRect(RRect.fromRectAndRadius(destRect.inflate(2), const Radius.circular(4)), bgPaint);
+            canvas.drawImageRect(img, Rect.fromLTWH(0, 0, img.width.toDouble(), img.height.toDouble()), destRect, iconPaint);
 
-              if (settings.showMarkerLabels) {
-                final textPainter = TextPainter(
-                  text: TextSpan(
-                    text: ent.name,
-                    style: const TextStyle(color: Colors.white, fontSize: 10, backgroundColor: Color(0xCC000000)),
-                  ),
-                  textDirection: TextDirection.ltr,
-                )..layout();
-                textPainter.paint(canvas, entScreenPos + const Offset(-12, iconSize / 2 + 2));
-              }
-            } else {
-              // 0.45 ~ 0.8 中视野：极速轻量圆点直绘，跳过纹理与文字排版
-              final dotPaint = Paint()..color = ent.category.color;
-              canvas.drawCircle(entScreenPos, 4.0, dotPaint);
-            }
+            final ringPaint = Paint()
+              ..color = firstEnt.category.color
+              ..strokeWidth = 1.4
+              ..style = PaintingStyle.stroke;
+            canvas.drawRRect(RRect.fromRectAndRadius(destRect.inflate(2), const Radius.circular(4)), ringPaint);
+          } else {
+            final dotPaint = Paint()..color = firstEnt.category.color;
+            canvas.drawCircle(entScreenPos, 6.0, dotPaint);
+            final borderPaint = Paint()
+              ..color = Colors.white
+              ..strokeWidth = 1.5
+              ..style = PaintingStyle.stroke;
+            canvas.drawCircle(entScreenPos, 6.0, borderPaint);
           }
+
+          // 如果同区域有多个同类生物，绘制 xN 聚合徽章
+          if (cluster.length > 1) {
+            final badgeBg = Paint()..color = const Color(0xDD000000);
+            final badgePos = entScreenPos + const Offset(7, -9);
+            final badgeRect = Rect.fromCenter(center: badgePos, width: 18, height: 12);
+            canvas.drawRRect(RRect.fromRectAndRadius(badgeRect, const Radius.circular(3)), badgeBg);
+            final textPainter = TextPainter(
+              text: TextSpan(
+                text: 'x${cluster.length}',
+                style: const TextStyle(color: Colors.amberAccent, fontSize: 9, fontWeight: FontWeight.bold),
+              ),
+              textDirection: TextDirection.ltr,
+            )..layout();
+            textPainter.paint(canvas, badgePos - Offset(textPainter.width / 2, textPainter.height / 2));
+          } else if (settings.showMarkerLabels) {
+            final textPainter = TextPainter(
+              text: TextSpan(
+                text: firstEnt.name,
+                style: const TextStyle(color: Colors.white, fontSize: 10, backgroundColor: Color(0xCC000000)),
+              ),
+              textDirection: TextDirection.ltr,
+            )..layout();
+            textPainter.paint(canvas, entScreenPos + const Offset(-12, iconSize / 2 + 2));
+          }
+        } else {
+          final dotPaint = Paint()..color = firstEnt.category.color;
+          canvas.drawCircle(entScreenPos, 4.0, dotPaint);
         }
       }
     }
 
-    // 7. 绘制方块实体高清图标 (宝箱、刷怪笼、指令方块等，scale < 0.45 时彻底取消显示)
+    // 7. 绘制方块实体 (刷怪笼等高价值目标优先，容器类按区块智能聚合并限制远景显示)
     if (settings.showTileEntityMarkers && viewport.scale >= 0.45) {
       final isHighResMode = viewport.scale >= 0.8;
+      final showCommonContainers = viewport.scale >= 1.0;
+
+      // 区分高价值方块实体与普通海量容器
+      final Map<String, List<WorldBlockEntity>> containerClusters = {};
+      final List<WorldBlockEntity> highValueEntities = [];
+
       for (final be in blockEntities) {
-        if (be.dimension == dimension) {
-          final beScreenPos = viewport.worldToScreen(Offset(be.x + 0.5, be.z + 0.5));
-          if (beScreenPos.dx >= -30 && beScreenPos.dx <= size.width + 30 &&
-              beScreenPos.dy >= -30 && beScreenPos.dy <= size.height + 30) {
+        if (be.dimension != dimension) continue;
+        final isHighValue = be.blockId.contains('spawner') ||
+            be.blockId.contains('command') ||
+            be.blockId.contains('portal') ||
+            be.blockId.contains('beacon');
 
-            if (isHighResMode) {
-              final img = iconCache.getBlockIcon(be.blockId, onReady: onRepaintRequest);
-              final destRect = Rect.fromCenter(center: beScreenPos, width: iconSize, height: iconSize);
+        if (isHighValue) {
+          highValueEntities.add(be);
+        } else if (showCommonContainers) {
+          final clusterKey = '${(be.x / 16).floor()},${(be.z / 16).floor()}:${be.blockId}';
+          (containerClusters[clusterKey] ??= []).add(be);
+        }
+      }
 
-              if (img != null) {
-                final bgPaint = Paint()..color = const Color(0xFFE2E8F0);
-                canvas.drawRRect(RRect.fromRectAndRadius(destRect.inflate(2), const Radius.circular(4)), bgPaint);
-                canvas.drawImageRect(img, Rect.fromLTWH(0, 0, img.width.toDouble(), img.height.toDouble()), destRect, iconPaint);
+      // 绘制高价值方块实体 (刷怪笼等)
+      for (final be in highValueEntities) {
+        final beScreenPos = viewport.worldToScreen(Offset(be.x + 0.5, be.z + 0.5));
+        if (beScreenPos.dx < -30 || beScreenPos.dx > size.width + 30 ||
+            beScreenPos.dy < -30 || beScreenPos.dy > size.height + 30) {
+          continue;
+        }
 
-                final borderPaint = Paint()
-                  ..color = Colors.amber[800]!
-                  ..strokeWidth = 1.2
-                  ..style = PaintingStyle.stroke;
-                canvas.drawRRect(RRect.fromRectAndRadius(destRect.inflate(2), const Radius.circular(4)), borderPaint);
-              } else {
-                final squarePaint = Paint()..color = Colors.amber;
-                canvas.drawRect(Rect.fromCenter(center: beScreenPos, width: 10, height: 10), squarePaint);
-              }
-            } else {
-              // 0.45 ~ 0.8 中视野：轻量方块指示点
-              final squarePaint = Paint()..color = Colors.amber;
-              canvas.drawRect(Rect.fromCenter(center: beScreenPos, width: 5, height: 5), squarePaint);
-            }
+        if (isHighResMode) {
+          final img = iconCache.getBlockIcon(be.blockId, onReady: onRepaintRequest);
+          final destRect = Rect.fromCenter(center: beScreenPos, width: iconSize, height: iconSize);
+
+          if (img != null) {
+            final bgPaint = Paint()..color = const Color(0xFFE2E8F0);
+            canvas.drawRRect(RRect.fromRectAndRadius(destRect.inflate(2), const Radius.circular(4)), bgPaint);
+            canvas.drawImageRect(img, Rect.fromLTWH(0, 0, img.width.toDouble(), img.height.toDouble()), destRect, iconPaint);
+
+            final borderPaint = Paint()
+              ..color = Colors.deepOrangeAccent
+              ..strokeWidth = 1.6
+              ..style = PaintingStyle.stroke;
+            canvas.drawRRect(RRect.fromRectAndRadius(destRect.inflate(2), const Radius.circular(4)), borderPaint);
+          } else {
+            final squarePaint = Paint()..color = Colors.deepOrange;
+            canvas.drawRect(Rect.fromCenter(center: beScreenPos, width: 10, height: 10), squarePaint);
           }
+        } else {
+          final squarePaint = Paint()..color = Colors.deepOrange;
+          canvas.drawRect(Rect.fromCenter(center: beScreenPos, width: 5, height: 5), squarePaint);
+        }
+      }
+
+      // 绘制聚合后的普通容器 (箱子、漏斗等，同区块同类型仅绘 1 个图标 + xN 徽章)
+      for (final cluster in containerClusters.values) {
+        final firstBe = cluster.first;
+        final beScreenPos = viewport.worldToScreen(Offset(firstBe.x + 0.5, firstBe.z + 0.5));
+        if (beScreenPos.dx < -30 || beScreenPos.dx > size.width + 30 ||
+            beScreenPos.dy < -30 || beScreenPos.dy > size.height + 30) {
+          continue;
+        }
+
+        if (isHighResMode) {
+          final img = iconCache.getBlockIcon(firstBe.blockId, onReady: onRepaintRequest);
+          final destRect = Rect.fromCenter(center: beScreenPos, width: iconSize, height: iconSize);
+
+          if (img != null) {
+            final bgPaint = Paint()..color = const Color(0xFFE2E8F0);
+            canvas.drawRRect(RRect.fromRectAndRadius(destRect.inflate(2), const Radius.circular(4)), bgPaint);
+            canvas.drawImageRect(img, Rect.fromLTWH(0, 0, img.width.toDouble(), img.height.toDouble()), destRect, iconPaint);
+
+            final borderPaint = Paint()
+              ..color = Colors.amber[800]!
+              ..strokeWidth = 1.2
+              ..style = PaintingStyle.stroke;
+            canvas.drawRRect(RRect.fromRectAndRadius(destRect.inflate(2), const Radius.circular(4)), borderPaint);
+          } else {
+            final squarePaint = Paint()..color = Colors.amber;
+            canvas.drawRect(Rect.fromCenter(center: beScreenPos, width: 10, height: 10), squarePaint);
+          }
+
+          if (cluster.length > 1) {
+            final badgeBg = Paint()..color = const Color(0xDD000000);
+            final badgePos = beScreenPos + const Offset(7, -9);
+            final badgeRect = Rect.fromCenter(center: badgePos, width: 18, height: 12);
+            canvas.drawRRect(RRect.fromRectAndRadius(badgeRect, const Radius.circular(3)), badgeBg);
+            final textPainter = TextPainter(
+              text: TextSpan(
+                text: 'x${cluster.length}',
+                style: const TextStyle(color: Colors.amberAccent, fontSize: 9, fontWeight: FontWeight.bold),
+              ),
+              textDirection: TextDirection.ltr,
+            )..layout();
+            textPainter.paint(canvas, badgePos - Offset(textPainter.width / 2, textPainter.height / 2));
+          }
+        } else {
+          final squarePaint = Paint()..color = Colors.amber;
+          canvas.drawRect(Rect.fromCenter(center: beScreenPos, width: 4, height: 4), squarePaint);
         }
       }
     }
